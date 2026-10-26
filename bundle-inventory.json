@@ -441,7 +441,7 @@
         "id": "preview-d",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-d.png",
-        "sha256": "2aecd4dcfbcffe40b7b123ba10bb783b1d867501f4fe2a2f8dce8ff220e5a77a",
+        "sha256": "f6b7c352ed511237fbb12d72f191eed772963add533e97c181ea22414ac02352",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
@@ -817,7 +817,7 @@
     }
   },
   "fileCount": 124,
-  "totalBytes": 184205395,
+  "totalBytes": 184190570,
   "unresolvedReferences": [],
   "files": [
     {
@@ -857,8 +857,8 @@
     },
     {
       "path": "combat-draft-assets/combat-draft-d.png",
-      "bytes": 1371575,
-      "sha256": "2aecd4dcfbcffe40b7b123ba10bb783b1d867501f4fe2a2f8dce8ff220e5a77a"
+      "bytes": 1356703,
+      "sha256": "f6b7c352ed511237fbb12d72f191eed772963add533e97c181ea22414ac02352"
     },
     {
       "path": "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
@@ -902,8 +902,8 @@
     },
     {
       "path": "combat.html",
-      "bytes": 56783,
-      "sha256": "cd4ad08b88a4ea55f915cc9c3d2fad039d0fecf4b0970e2131123cc8b02de55e"
+      "bytes": 56830,
+      "sha256": "8d0a330b27cd628d6557b6b934dfb9d2e180362a9ea6fa898ff3dca14bb2dfc1"
     },
     {
       "path": "enemies.html",
