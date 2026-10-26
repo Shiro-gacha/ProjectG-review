@@ -426,27 +426,27 @@
         "id": "preview-a",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-a.png",
-        "sha256": "191163477632ef119453fb5d585fc5a57d78daa9fd97879729853e49356bbdf6",
+        "sha256": "711066fe864dfe4f1da60d5c6fc597bf01f47e3129e8220adc49bf5a65adfe8c",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
         "id": "preview-b",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-b.png",
-        "sha256": "f64887eff15f94769dd61af88219cbf178c397bf1d74f207647721181f2f0f44",
+        "sha256": "52b5b36e571fbcd43a07b7db02b84f69e0802b83d9449eff79d8626bb908e58a",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
         "id": "preview-c",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-c.png",
-        "sha256": "c00b824b5d396faeaf10da832517ec4e53b2326d5c1992b759f191e78f6ec1f6",
+        "sha256": "de6a106a8aeeec24fedde691c7086b5aaa536b017627edf77fb29552a9df0d13",
         "reviewStatus": "visual-draft-awaiting-user-review"
       }
     ]
   },
   "fileCount": 82,
-  "totalBytes": 119302383,
+  "totalBytes": 119933965,
   "unresolvedReferences": [],
   "files": [
     {
@@ -471,18 +471,18 @@
     },
     {
       "path": "combat-draft-assets/combat-draft-a.png",
-      "bytes": 1096980,
-      "sha256": "191163477632ef119453fb5d585fc5a57d78daa9fd97879729853e49356bbdf6"
+      "bytes": 1316362,
+      "sha256": "711066fe864dfe4f1da60d5c6fc597bf01f47e3129e8220adc49bf5a65adfe8c"
     },
     {
       "path": "combat-draft-assets/combat-draft-b.png",
-      "bytes": 1158338,
-      "sha256": "f64887eff15f94769dd61af88219cbf178c397bf1d74f207647721181f2f0f44"
+      "bytes": 1352957,
+      "sha256": "52b5b36e571fbcd43a07b7db02b84f69e0802b83d9449eff79d8626bb908e58a"
     },
     {
       "path": "combat-draft-assets/combat-draft-c.png",
-      "bytes": 1108774,
-      "sha256": "c00b824b5d396faeaf10da832517ec4e53b2326d5c1992b759f191e78f6ec1f6"
+      "bytes": 1326107,
+      "sha256": "de6a106a8aeeec24fedde691c7086b5aaa536b017627edf77fb29552a9df0d13"
     },
     {
       "path": "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
@@ -526,8 +526,8 @@
     },
     {
       "path": "combat.html",
-      "bytes": 24305,
-      "sha256": "cd9dc4b6b4093aa7b17d92438b5210fdf155e63f066fb2a60597d550f0ded8ae"
+      "bytes": 24553,
+      "sha256": "9734ea05cb9ba28205385d328b2a7696e9523034a95440263122ca17b337366b"
     },
     {
       "path": "enemies.html",
