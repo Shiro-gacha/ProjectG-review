@@ -359,7 +359,24 @@
     "accepted": false,
     "presentationDirectionStatus": "accepted-for-now",
     "selectedLayout": "d",
-    "layoutReviewStatus": "requested-combination-awaiting-review",
+    "layoutReviewStatus": "accepted-combined-d-native-integration-authorized",
+    "formationIds": [
+      "2-1-2",
+      "1-2-2",
+      "2-2-1"
+    ],
+    "defaultFormation": "2-1-2",
+    "formationTeamOrder": [
+      "soryn-veilglass",
+      "roselle-vey",
+      "liora-fernveil",
+      "isavelle-frostmere",
+      "nerielle-wavecrest"
+    ],
+    "skillControlAcceptance": "crests-selected",
+    "nativePresentationIntegration": "authorized",
+    "draftKitAcceptance": false,
+    "newHeroPlayableIntegration": false,
     "skillStyleIds": [
       "crests",
       "glass",
@@ -817,7 +834,7 @@
     }
   },
   "fileCount": 124,
-  "totalBytes": 184183376,
+  "totalBytes": 184187062,
   "unresolvedReferences": [],
   "files": [
     {
@@ -902,8 +919,8 @@
     },
     {
       "path": "combat.html",
-      "bytes": 56830,
-      "sha256": "9eb1af74412d175fbd9264e0eea27b2f6417e296eb96cd6d3940d4173af48121"
+      "bytes": 60516,
+      "sha256": "1a65892c66d5c3092c9d72d6bbc44eb4c073cc10a8c78d6b11e80d3e42303325"
     },
     {
       "path": "enemies.html",
@@ -1787,7 +1804,7 @@
     "Current enemy PNGs match the unchanged passing 31-ID Core/runtime validation report, canonical hashes and local gallery copies",
     "Expansion PNGs match the separate visual-only twelve-ID canonical-and-gallery validation; no Core or Unity integration",
     "Four combat layouts retain the three earlier comparisons and the requested combined layout D, using eight selected sprite sources, one background and four actual current canvas exports; references/provenance remain private",
-    "Three new canvas-drawn skill-button/icon designs and the original comparison share the same page and assets; canonical exports use crests, and no option is marked accepted",
+    "Accepted combined D and emblem controls are defaults; three hero formation choices share native anchors without changing enemies, targeting rows or character-art acceptance",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
