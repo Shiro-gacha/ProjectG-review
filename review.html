@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProjectG · Character sprite review · 2026-10-25</title>
+  <style>
+    :root { color-scheme: light; --ink:#27272b; --muted:#68635b; --paper:#f4f0e7; --card:#fffdf8; --gold:#a98036; --line:#ded3bd; --radius:16px; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:#77551b; text-underline-offset:3px; }
+    a:hover { color:#49320d; }
+    a:focus-visible, summary:focus-visible, input:focus-visible + span { outline:3px solid var(--gold); outline-offset:4px; }
+    .wrap { width:min(1440px,100%); margin:auto; padding:34px clamp(16px,3vw,44px) 46px; }
+    .eyebrow { margin:0 0 8px; color:#866427; font-size:11px; font-weight:750; letter-spacing:.18em; text-transform:uppercase; }
+    h1 { margin:0; font:500 clamp(29px,4vw,44px)/1.15 Georgia,"Times New Roman",serif; }
+    .intro { max-width:820px; margin:14px 0 0; color:var(--muted); }
+    .notice { margin:20px 0; padding:12px 16px; border-left:3px solid var(--gold); background:#eae0ca; font-size:14px; }
+    .review-pass { margin:18px 0 0; padding:14px 16px; border:1px solid var(--line); border-radius:10px; background:#fffaf0; font-size:14px; }
+    .review-pass strong { display:block; margin-bottom:3px; }
+    .toolbar { display:flex; flex-wrap:wrap; gap:16px 28px; align-items:center; justify-content:space-between; margin:22px 0; }
+    fieldset { display:flex; flex-wrap:wrap; gap:8px; min-width:0; border:0; margin:0; padding:0; }
+    legend { float:left; margin-right:12px; padding:6px 0; color:var(--muted); font-size:13px; }
+    .choice { position:relative; cursor:pointer; }
+    .choice input { position:absolute; width:1px; height:1px; clip-path:inset(50%); overflow:hidden; }
+    .choice span { display:block; padding:5px 13px; border:1px solid var(--line); border-radius:99px; background:var(--card); font-size:13px; }
+    .choice input:checked + span { color:#fffdf8; border-color:#806025; background:#806025; }
+    .records { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:10px; font-size:13px; }
+    .global-records { max-width:100%; }
+    .global-records[open] { flex-basis:100%; }
+    .character-jumps { margin:0 0 22px; }
+    .jump-label { margin:0 0 7px; color:var(--muted); font-size:12px; font-weight:650; }
+    .jump-links { display:flex; flex-wrap:wrap; gap:6px; }
+    .jump-links a { padding:3px 9px; border:1px solid var(--line); border-radius:99px; background:var(--card); font-size:12px; text-decoration:none; }
+    .card { scroll-margin-top:16px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; align-items:start; }
+    .card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:var(--radius); background:var(--card); box-shadow:0 6px 22px #51442608; }
+    .card-head { padding:20px 20px 15px; }
+    .number { color:#927039; font-size:11px; font-weight:750; letter-spacing:.13em; text-transform:uppercase; }
+    h2 { margin:4px 0; font:500 26px/1.25 Georgia,"Times New Roman",serif; }
+    .subtitle { margin:0; color:var(--muted); font-size:13px; }
+    .stage, .thumb { background-color:#d8d6d1; background-image:linear-gradient(45deg,#bcbcb8 25%,transparent 25%),linear-gradient(-45deg,#bcbcb8 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#bcbcb8 75%),linear-gradient(-45deg,transparent 75%,#bcbcb8 75%); background-size:24px 24px; background-position:0 0,0 12px,12px -12px,-12px 0; }
+    body[data-background="light"] .stage, body[data-background="light"] .thumb { background:#faf7ef; }
+    body[data-background="dark"] .stage, body[data-background="dark"] .thumb { background:#22232d; }
+    .stage { display:block; aspect-ratio:2 / 3; width:100%; border-block:1px solid var(--line); }
+    .stage img { display:block; width:100%; height:100%; object-fit:contain; image-rendering:pixelated; }
+    .image-note { display:flex; flex-wrap:wrap; gap:8px 14px; justify-content:space-between; margin:0; padding:9px 18px; color:var(--muted); border-bottom:1px solid var(--line); font-size:12px; }
+    .details { padding:18px 20px 20px; }
+    .small-review { display:flex; align-items:center; gap:15px; margin:0 0 20px; }
+    .thumb { flex:0 0 128px; width:128px; height:192px; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    .thumb img { display:block; width:128px; height:192px; object-fit:contain; image-rendering:pixelated; }
+    .small-review figcaption { color:var(--muted); font-size:12px; }
+    .small-review strong { display:block; margin-bottom:4px; color:var(--ink); font-size:13px; }
+    h3 { margin:17px 0 5px; color:#725522; font-size:12px; font-weight:750; letter-spacing:.04em; }
+    .details p { margin:0; font-size:13px; }
+    .details ul { margin:5px 0 12px; padding-left:19px; font-size:13px; }
+    .details li + li { margin-top:5px; }
+    .details details { margin-top:15px; padding-top:12px; border-top:1px solid var(--line); }
+    summary { cursor:pointer; color:#725522; font-size:13px; font-weight:650; }
+    details[open] > summary { margin-bottom:8px; }
+    .source-title { margin:11px 0 2px !important; color:var(--muted); }
+    .drafts a { display:inline-block; margin:4px 10px 4px 0; }
+    .pending { margin-top:19px !important; padding:10px 12px; color:#72531d; border:1px solid #d9c69f; border-radius:8px; background:#f5eddb; }
+    .pending strong { display:block; }
+    footer { margin-top:26px; color:var(--muted); font-size:12px; }
+    @media (max-width:1100px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:720px) { .grid { grid-template-columns:1fr; } .wrap { padding-top:24px; } .stage { max-height:660px; } .card-head { padding-top:18px; } }
+    @media (max-width:360px) { .small-review { gap:10px; } .details { padding-inline:14px; } }
+
+  </style>
+</head>
+<body data-background="checker">
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">ProjectG · Character art review · 2026-10-25</p>
+      <h1>Character design review</h1>
+      <p class="intro">11 separate female pixel-art characters inspired by your references. Inspect the current full-body image and its smaller preview. Names are working labels.</p>
+      <p class="review-pass"><strong>Originality and gold-accent pass · All 11 characters reviewed</strong>Each character keeps her defining inspiration cues with original design details and restrained gold accents. Wavecrest’s legless water-spirit / undine revision is preserved.</p>
+      <p class="notice"><strong>All 11 current designs accepted · 25 October 2026.</strong> Five kit alternatives per unit are now available for your selection or mixing. Gameplay choices remain drafts.</p>
+      <p><a href="kits.html">Open kit workshop · 55 alternatives for 11 units →</a></p>
+    </header>
+    <div class="toolbar">
+      <fieldset aria-label="Sprite preview background">
+        <legend>Preview background</legend>
+        <label class="choice"><input type="radio" name="background" value="checker" checked><span>Checker</span></label>
+        <label class="choice"><input type="radio" name="background" value="light"><span>Light</span></label>
+        <label class="choice"><input type="radio" name="background" value="dark"><span>Dark</span></label>
+      </fieldset>
+      
+    </div>
+    <div class="character-jumps"><p class="jump-label">Jump to character</p><nav class="jump-links" aria-label="Jump to character"><a href="#roselle-vey">Roselle Vey</a><a href="#liora-fernveil">Liora Fernveil</a><a href="#nyssara-silksong">Nyssara Silksong</a><a href="#soryn-veilglass">Soryn Veilglass</a><a href="#seressa-valemire">Seressa Valemire</a><a href="#orivelle-starveil">Orivelle Starveil</a><a href="#elowyn-rosemere">Elowyn Rosemere</a><a href="#miravelle-vexwing">Miravelle Vexwing</a><a href="#isavelle-frostmere">Isavelle Frostmere</a><a href="#nerielle-wavecrest">Nerielle Wavecrest</a><a href="#valdra-rosethorn">Valdra Rosethorn</a></nav></div>
+    <main class="grid">
+      <article class="card" id="roselle-vey" aria-labelledby="roselle-vey-name">
+        <header class="card-head">
+          <span class="number">Design 01 · Working name</span>
+          <h2 id="roselle-vey-name">Roselle Vey</h2>
+          <p class="subtitle">Rose-pink slime queen with pink-tinted upper body, two slender gel legs and flat gel feet</p>
+        </header>
+        <a class="stage" href="sprites/candidate-roselle-vey-pixel-v5.png" aria-label="Open Roselle Vey full sprite"><img src="sprites/candidate-roselle-vey-pixel-v5.png" alt="Roselle Vey: Rose-pink slime queen with pink-tinted upper body, two slender gel legs and flat gel feet. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v5</span><a href="sprites/candidate-roselle-vey-pixel-v5.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-roselle-vey-pixel-v5.png" alt="Roselle Vey, v5 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Subtle pink upper-body tint, earlier elegant pose, exactly two slender slime legs and flat gel feet.</p><h3>Original design changes</h3><ul><li>Pearl/rose-quartz diadem and simplified asymmetric ivory gown</li><li>Faint rose tint on face, neck, shoulders, arms and hands</li><li>Two slender full gel legs with no leg-like side ornaments or heels</li></ul><h3>Gold treatment</h3><p>Gold borders replaced by pearl/rose-quartz fittings.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#roselle-vey">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="liora-fernveil" aria-labelledby="liora-fernveil-name">
+        <header class="card-head">
+          <span class="number">Design 02 · Working name</span>
+          <h2 id="liora-fernveil-name">Liora Fernveil</h2>
+          <p class="subtitle">Green-haired adult elf</p>
+        </header>
+        <a class="stage" href="sprites/candidate-liora-fernveil-pixel-v3.png" aria-label="Open Liora Fernveil full sprite"><img src="sprites/candidate-liora-fernveil-pixel-v3.png" alt="Liora Fernveil: Green-haired adult elf. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v3</span><a href="sprites/candidate-liora-fernveil-pixel-v3.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-liora-fernveil-pixel-v3.png" alt="Liora Fernveil, v3 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Loop-braided ponytail and an asymmetrical leaf-cut tabard give her a distinct woodland silhouette with less metal trim.</p><h3>Original design changes</h3><ul><li>Loop-braided section in high sage ponytail</li><li>One elongated leaf-cut ivory side-tabard</li><li>Green leather bracers and dark stitched boot seams</li></ul><h3>Gold treatment</h3><p>Removed gold cuffs, boot chevrons and broad edging; one small dull-silver leaf clasp.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#liora-fernveil">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="nyssara-silksong" aria-labelledby="nyssara-silksong-name">
+        <header class="card-head">
+          <span class="number">Design 03 · Working name</span>
+          <h2 id="nyssara-silksong-name">Nyssara Silksong</h2>
+          <p class="subtitle">Lavender-haired adult arachne with a full spider lower body</p>
+        </header>
+        <a class="stage" href="sprites/candidate-nyssara-silksong-pixel-v4.png" aria-label="Open Nyssara Silksong full sprite"><img src="sprites/candidate-nyssara-silksong-pixel-v4.png" alt="Nyssara Silksong: Lavender-haired adult arachne with a full spider lower body. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v4</span><a href="sprites/candidate-nyssara-silksong-pixel-v4.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-nyssara-silksong-pixel-v4.png" alt="Nyssara Silksong, v4 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Half-braided lavender hair, diagonal bodice panels and branching shell marks distinguish the arachne; gold joints become lilac-silver.</p><h3>Original design changes</h3><ul><li>Half-braided crown with one exposed eye</li><li>Diagonal pale-violet bodice panel</li><li>Original branching lavender shell markings</li></ul><h3>Gold treatment</h3><p>All gold spider joints and trim changed to subdued lilac-silver/obsidian.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#nyssara-silksong">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="soryn-veilglass" aria-labelledby="soryn-veilglass-name">
+        <header class="card-head">
+          <span class="number">Design 04 · Working name</span>
+          <h2 id="soryn-veilglass-name">Soryn Veilglass</h2>
+          <p class="subtitle">Adult foxlike woman with bare clawed hands, relaxed pose, visible bare calves and bare feet under ivory/crimson robes</p>
+        </header>
+        <a class="stage" href="sprites/candidate-soryn-veilglass-pixel-v6.png" aria-label="Open Soryn Veilglass full sprite"><img src="sprites/candidate-soryn-veilglass-pixel-v6.png" alt="Soryn Veilglass: Adult foxlike woman with bare clawed hands, relaxed pose, visible bare calves and bare feet under ivory/crimson robes. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v6</span><a href="sprites/candidate-soryn-veilglass-pixel-v6.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-soryn-veilglass-pixel-v6.png" alt="Soryn Veilglass, v6 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Relaxed stance and natural lowered arms, with bare clawed hands, visible calves and bare feet beneath robes.</p><h3>Original design changes</h3><ul><li>Relaxed balanced bare-foot stance with natural shoulders/elbows</li><li>Bare skin palms/knuckles/fingers with separate burgundy claw nails</li><li>Temple braid, silver glasses and simplified mid-calf-front wrap robe</li></ul><h3>Gold treatment</h3><p>One plain silver sash fastener; no gold trim.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#soryn-veilglass">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="seressa-valemire" aria-labelledby="seressa-valemire-name">
+        <header class="card-head">
+          <span class="number">Design 05 · Working name</span>
+          <h2 id="seressa-valemire-name">Seressa Valemire</h2>
+          <p class="subtitle">White-haired adult horned noblewoman in a charcoal and crimson gown</p>
+        </header>
+        <a class="stage" href="sprites/candidate-seressa-valemire-pixel-v4.png" aria-label="Open Seressa Valemire full sprite"><img src="sprites/candidate-seressa-valemire-pixel-v4.png" alt="Seressa Valemire: White-haired adult horned noblewoman in a charcoal and crimson gown. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v4</span><a href="sprites/candidate-seressa-valemire-pixel-v4.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-seressa-valemire-pixel-v4.png" alt="Seressa Valemire, v4 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Repaired the visible right-side hand with five natural fingers while retaining the reduced-gold original gown.</p><h3>Original design changes</h3><ul><li>Natural right-side hand with correct finger lengths and spacing</li><li>Asymmetric plum collar and offset crimson overskirt</li><li>Plain dark seams and one small silver ruby clasp</li></ul><h3>Gold treatment</h3><p>Gold gown/boot borders removed; silver clasp and a single small pewter chain.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#seressa-valemire">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="orivelle-starveil" aria-labelledby="orivelle-starveil-name">
+        <header class="card-head">
+          <span class="number">Design 06 · Working name</span>
+          <h2 id="orivelle-starveil-name">Orivelle Starveil</h2>
+          <p class="subtitle">Black-haired adult horned woman with a violet and teal cosmic palette</p>
+        </header>
+        <a class="stage" href="sprites/candidate-orivelle-starveil-pixel-v2.png" aria-label="Open Orivelle Starveil full sprite"><img src="sprites/candidate-orivelle-starveil-pixel-v2.png" alt="Orivelle Starveil: Black-haired adult horned woman with a violet and teal cosmic palette. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v2</span><a href="sprites/candidate-orivelle-starveil-pixel-v2.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-orivelle-starveil-pixel-v2.png" alt="Orivelle Starveil, v2 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>A broken side fringe, comet-cut cosmic panels and violet edging distinguish her star-horn design without gold ornament.</p><h3>Original design changes</h3><ul><li>Slightly parted swept fringe</li><li>Offset comet-cut cosmic drapes</li><li>Diagonal opaque plum sash and teal clasp</li></ul><h3>Gold treatment</h3><p>Gold circlet, boot stars and hem borders removed; dark amethyst/teal clasps only.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#orivelle-starveil">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="elowyn-rosemere" aria-labelledby="elowyn-rosemere-name">
+        <header class="card-head">
+          <span class="number">Design 07 · Working name</span>
+          <h2 id="elowyn-rosemere-name">Elowyn Rosemere</h2>
+          <p class="subtitle">Silver-white-haired adult woman in an ivory and crimson rose-accented dress</p>
+        </header>
+        <a class="stage" href="sprites/candidate-elowyn-rosemere-pixel-v3.png" aria-label="Open Elowyn Rosemere full sprite"><img src="sprites/candidate-elowyn-rosemere-pixel-v3.png" alt="Elowyn Rosemere: Silver-white-haired adult woman in an ivory and crimson rose-accented dress. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v3</span><a href="sprites/candidate-elowyn-rosemere-pixel-v3.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-elowyn-rosemere-pixel-v3.png" alt="Elowyn Rosemere, v3 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>One off-centre rose clasp, a diagonal collar fold and side braid make the ivory-and-rose dress more distinct.</p><h3>Original design changes</h3><ul><li>Single offset rose collar fastening</li><li>Loose side braid with a small back ribbon knot</li><li>Diagonal wrap seam in ivory skirt</li></ul><h3>Gold treatment</h3><p>No gold added; crimson fabric/rose fittings retained.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#elowyn-rosemere">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="miravelle-vexwing" aria-labelledby="miravelle-vexwing-name">
+        <header class="card-head">
+          <span class="number">Design 08 · Working name</span>
+          <h2 id="miravelle-vexwing-name">Miravelle Vexwing</h2>
+          <p class="subtitle">Pink-haired adult horned woman with cool-blue inner hair and bat wings</p>
+        </header>
+        <a class="stage" href="sprites/candidate-miravelle-vexwing-pixel-v2.png" aria-label="Open Miravelle Vexwing full sprite"><img src="sprites/candidate-miravelle-vexwing-pixel-v2.png" alt="Miravelle Vexwing: Pink-haired adult horned woman with cool-blue inner hair and bat wings. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v2</span><a href="sprites/candidate-miravelle-vexwing-pixel-v2.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-miravelle-vexwing-pixel-v2.png" alt="Miravelle Vexwing, v2 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>A short side twist, swept fringe and offset plum hip drape add a distinct variation to her winged silhouette.</p><h3>Original design changes</h3><ul><li>Swept asymmetric pink fringe and small side twist</li><li>Offset plum hip drape with silver stitching</li><li>Compact bat-wing anatomy and coiled whip retained</li></ul><h3>Gold treatment</h3><p>Dark steel/silver hardware only; no gold.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#miravelle-vexwing">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="isavelle-frostmere" aria-labelledby="isavelle-frostmere-name">
+        <header class="card-head">
+          <span class="number">Design 09 · Working name</span>
+          <h2 id="isavelle-frostmere-name">Isavelle Frostmere</h2>
+          <p class="subtitle">Silver-blue-haired adult ice queen with a crystal crown and a fur-trimmed blue gown</p>
+        </header>
+        <a class="stage" href="sprites/candidate-isavelle-frostmere-pixel-v2.png" aria-label="Open Isavelle Frostmere full sprite"><img src="sprites/candidate-isavelle-frostmere-pixel-v2.png" alt="Isavelle Frostmere: Silver-blue-haired adult ice queen with a crystal crown and a fur-trimmed blue gown. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v2</span><a href="sprites/candidate-isavelle-frostmere-pixel-v2.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-isavelle-frostmere-pixel-v2.png" alt="Isavelle Frostmere, v2 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Offset crescent ice crown and an asymmetrical fur mantle distinguish the blue royal design.</p><h3>Original design changes</h3><ul><li>Five main crown shards in an offset crescent cluster</li><li>Asymmetrical short fur mantle fastened to one side</li><li>Slate chevron seams instead of source-like chest embroidery</li></ul><h3>Gold treatment</h3><p>Ice/slate/silver details; no gold.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#isavelle-frostmere">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="nerielle-wavecrest" aria-labelledby="nerielle-wavecrest-name">
+        <header class="card-head">
+          <span class="number">Design 10 · Working name</span>
+          <h2 id="nerielle-wavecrest-name">Nerielle Wavecrest</h2>
+          <p class="subtitle">Adult female water spirit/undine with translucent water anatomy and a legless cascading lower body</p>
+        </header>
+        <a class="stage" href="sprites/candidate-nerielle-wavecrest-pixel-v2.png" aria-label="Open Nerielle Wavecrest full sprite"><img src="sprites/candidate-nerielle-wavecrest-pixel-v2.png" alt="Nerielle Wavecrest: Adult female water spirit/undine with translucent water anatomy and a legless cascading lower body. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v2</span><a href="sprites/candidate-nerielle-wavecrest-pixel-v2.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-nerielle-wavecrest-pixel-v2.png" alt="Nerielle Wavecrest, v2 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Legless undine revision retained: liquid hair and arms, cascading water body and foam details.</p><h3>Original design changes</h3><ul><li>Distinct nonhuman legless water anatomy</li><li>Original curling current silhouette and liquid braids</li></ul><h3>Gold treatment</h3><p>Cobalt, mint and water highlights; no gold trim.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#nerielle-wavecrest">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+
+      <article class="card" id="valdra-rosethorn" aria-labelledby="valdra-rosethorn-name">
+        <header class="card-head">
+          <span class="number">Design 11 · Working name</span>
+          <h2 id="valdra-rosethorn-name">Valdra Rosethorn</h2>
+          <p class="subtitle">Auburn-haired female spear warrior with smoky blue-grey chest panel, black corset and thigh-high boots</p>
+        </header>
+        <a class="stage" href="sprites/candidate-valdra-rosethorn-pixel-v3.png" aria-label="Open Valdra Rosethorn full sprite"><img src="sprites/candidate-valdra-rosethorn-pixel-v3.png" alt="Valdra Rosethorn: Auburn-haired female spear warrior with smoky blue-grey chest panel, black corset and thigh-high boots. Full-body pixel sprite candidate." loading="lazy" decoding="async"></a>
+        <p class="image-note"><span>Full-body inspection · v3</span><a href="sprites/candidate-valdra-rosethorn-pixel-v3.png">Open full sprite</a></p>
+        <div class="details">
+          <figure class="small-review"><div class="thumb"><img src="sprites/candidate-valdra-rosethorn-pixel-v3.png" alt="Valdra Rosethorn, v3 small-scale sprite preview." loading="lazy" decoding="async"></div><figcaption><strong>Small-scale check</strong>128 × 192 px window<br>Full body contained</figcaption></figure>
+          <h3>Latest revision</h3><p>Corset and thigh-high boots retained; smoky blue-grey chest panel and braided asymmetrical auburn hair distinguish the design.</p><h3>Original design changes</h3><ul><li>Smoky steel-blue chest panel instead of source white</li><li>Short swept layered auburn bob with one close temple braid</li><li>Original staggered crimson plate edges and steel hardware</li></ul><h3>Gold treatment</h3><p>Pewter/steel buckles and spear fittings; no gold.</p>
+          <p class="pending"><strong>Design accepted · 25 October 2026</strong>Current sprite accepted by you. Working name remains a label.</p>
+          <p style="margin-top:12px"><a href="kits.html#valdra-rosethorn">Compare 5 kit options and mix skills →</a></p>
+        </div>
+      </article>
+    </main>
+    <footer>Review scope: static 2D pixel-art sprites with normal adult proportions. Acceptance applies only to each recorded current image, not earlier drafts. No playable-roster integration is included. The ivory-and-gold gallery interface is separate from the character accent treatment.</footer>
+  </div>
+  <script>
+    document.querySelectorAll('input[name="background"]').forEach(function (input) {
+      input.addEventListener('change', function () {
+        document.body.dataset.background = input.value;
+      });
+    });
+  </script>
+</body>
+</html>

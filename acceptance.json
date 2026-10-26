@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-25",
+  "scope": "Eleven current visually accepted sprite designs. Gameplay kits remain proposals.",
+  "runtimeIntegration": false,
+  "characters": [
+    {
+      "candidateId": "roselle-vey",
+      "name": "Roselle Vey",
+      "output": "sprites/candidate-roselle-vey-pixel-v5.png",
+      "sha256": "7041281014c8905f05c6cc2b7314ccbb25503b02cc69395f521dc4dde4cd85ee",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "liora-fernveil",
+      "name": "Liora Fernveil",
+      "output": "sprites/candidate-liora-fernveil-pixel-v3.png",
+      "sha256": "18140c332a19c458ed47e183161bc2975fbf690459fe15c7d773779e2c801088",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "nyssara-silksong",
+      "name": "Nyssara Silksong",
+      "output": "sprites/candidate-nyssara-silksong-pixel-v4.png",
+      "sha256": "029c59b2fba1327af1b9a0515405e15a2bc46261615f1e964cdc4bd61b99d6f7",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "soryn-veilglass",
+      "name": "Soryn Veilglass",
+      "output": "sprites/candidate-soryn-veilglass-pixel-v6.png",
+      "sha256": "6dbb686eebe6218c797106daff15ffabdc38614ea1b96ae0fb91a08ab729a594",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "seressa-valemire",
+      "name": "Seressa Valemire",
+      "output": "sprites/candidate-seressa-valemire-pixel-v4.png",
+      "sha256": "b2d1dca1e49836433e4a354f780f376d72886a0324cbc2f38a180d2e309acd7d",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "orivelle-starveil",
+      "name": "Orivelle Starveil",
+      "output": "sprites/candidate-orivelle-starveil-pixel-v2.png",
+      "sha256": "7d08271cdfd1cb16891ead8445116fa1cba791dee194628bb34944e174988f57",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "elowyn-rosemere",
+      "name": "Elowyn Rosemere",
+      "output": "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+      "sha256": "8c175949152b6f911f06bdea5d212a51f7202061413562fcdc2194e89b701729",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "miravelle-vexwing",
+      "name": "Miravelle Vexwing",
+      "output": "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+      "sha256": "94ce774bd13162e184227074c8904c3ba7bbdb58399efb8a4a9f526cf2664e3d",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "isavelle-frostmere",
+      "name": "Isavelle Frostmere",
+      "output": "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+      "sha256": "0596b9d9dcaeb23cd3f767008fb553d1f72c04bbf2c02e0ef0c9c8386c5fe262",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "nerielle-wavecrest",
+      "name": "Nerielle Wavecrest",
+      "output": "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+      "sha256": "f3f56c6bf1d50896b40301a4a710f15a0f928082d3874ad1118beddac13072d7",
+      "reviewStatus": "visual-accepted"
+    },
+    {
+      "candidateId": "valdra-rosethorn",
+      "name": "Valdra Rosethorn",
+      "output": "sprites/candidate-valdra-rosethorn-pixel-v3.png",
+      "sha256": "eddbaa016ca04ac1807748721e4a3aa1e187d99a4a1f214936aa82b22b84af5f",
+      "reviewStatus": "visual-accepted"
+    }
+  ]
+}

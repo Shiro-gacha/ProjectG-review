@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-26",
+  "id": "roselle-vey-assembled-01",
+  "unitId": "roselle-vey",
+  "name": "Roseguard Sovereign",
+  "status": "requested-kit-proposal-awaiting-review",
+  "runtimeIntegration": false,
+  "sourceSkillIds": [
+    "roselle-vey-d-passive",
+    "roselle-vey-e-basic",
+    "roselle-vey-d-active1",
+    "roselle-vey-d-active2",
+    "roselle-vey-e-ultimate"
+  ],
+  "ultimateInterpretation": "any-source-shield-conversion",
+  "clarification": "User asked whether shields added by another unit could reach the 35% cap. Build the team-synergy version: accept shields on Roselle from any hero and remove the earlier 8% Max HP spend limit.",
+  "interpretationNote": "Convert 50% of shields consumed on Roselle into bonus damage per enemy, capped at 35% of Roselle's Max HP. Consume at most 70% Max HP worth of shields once for the entire cast; preserve any excess. The cap requires that much current shielding and is not guaranteed damage.",
+  "unitName": "Roselle Vey",
+  "type": "Tide",
+  "sprite": "sprites/candidate-roselle-vey-pixel-v5.png",
+  "role": "Support",
+  "position": "Back",
+  "complexity": "signature",
+  "mechanics": [
+    {
+      "id": "roselle-vey-shared-shield-conversion",
+      "name": "Shared shield conversion",
+      "rules": "For this proposal, distinct named HP shields on Roselle retain separate source/expiry layers and their remaining amounts form her shield pool. Reapplying the same named shield keeps the larger remaining/new amount; it does not add another layer. Each layer lasts its stated recipient turns. The Ultimate may consume any source's HP shield layers on Roselle only, up to 70% of her Max HP, and converts half into bonus damage per enemy capped at 35% Max HP. Consumption never triggers shield-break healing. Existing runtime uses one non-stacking Shield value; source-layer storage and consumption remain proposed implementation work.",
+      "newLogic": true
+    }
+  ],
+  "skills": [
+    {
+      "id": "roselle-vey-assembled-01-passive",
+      "slot": "Passive",
+      "name": "After the Bubble Breaks",
+      "target": "Living shielded allies, including Roselle; lowest HP percentage first when more than two qualify",
+      "cooldown": 0,
+      "charge": 0,
+      "description": "Increase Roselle's Max HP by 12%. When direct enemy damage depletes a temporary HP shield from any hero on a living ally, including Roselle, heal that ally for 4% of Roselle's Max HP after the enemy action resolves. Trigger once per recipient per enemy action and at most twice during each unit's turn. The shared allowance is available at wave entry and resets when any ally or enemy begins a scheduled turn; reactions do not create turns or refresh it. If more than two allies qualify, prioritize lowest remaining HP percentage, then formation slot. Roselle must be alive. Defeated recipients are not healed. Expiry, dispel, DoTs, friendly damage and voluntary shield consumption do not trigger it.",
+      "provides": [],
+      "requires": [],
+      "benefitsFrom": [],
+      "implementation": "Custom logic",
+      "mixNote": "Accepts any hero's HP shields. Two heals are shared across the team in each unit's turn, not two per ally or two per damage component.",
+      "summary": [
+        "Increase Roselle's Max HP by 12%.",
+        "When enemy damage breaks an ally's shield, heal that ally for 4% of Roselle's Max HP. Up to twice during each unit's turn."
+      ],
+      "targetLabel": "Self and shielded allies",
+      "sourceSkillId": "roselle-vey-d-passive"
+    },
+    {
+      "id": "roselle-vey-assembled-01-basic",
+      "slot": "Basic",
+      "name": "Droplet Knuckle",
+      "target": "One enemy; auto nearest legal enemy; ties use front-to-back formation slot, then roster ID",
+      "cooldown": 0,
+      "charge": 0,
+      "description": "Deal 90% of Roselle's ATK damage, then give Roselle a shield equal to 4% of Roselle's Max HP for 2 of her turns. A newly created shield cannot enable A Crown Under Pressure on this same action.",
+      "provides": [],
+      "requires": [],
+      "benefitsFrom": [],
+      "implementation": "Custom logic",
+      "mixNote": "Provides a personal HP shield without a resource passive.",
+      "summary": [
+        "Deal 90% ATK damage.",
+        "Shield Roselle for 4% of her Max HP for 2 turns."
+      ],
+      "targetLabel": "One enemy and self",
+      "sourceSkillId": "roselle-vey-e-basic"
+    },
+    {
+      "id": "roselle-vey-assembled-01-active1",
+      "slot": "Active1",
+      "name": "Shelter One Rose",
+      "target": "One living ally; auto lowest current HP percentage; ties use front-to-back formation slot, then roster ID",
+      "cooldown": 2,
+      "charge": 0,
+      "description": "Give the selected living ally a shield equal to 11% of Roselle's Max HP and 20% DEF for 2 recipient turns. The shield refreshes to the higher remaining/new value; generic DEF buffs use the strongest value rather than adding together.",
+      "provides": [],
+      "requires": [],
+      "benefitsFrom": [],
+      "implementation": "Core primitives",
+      "mixNote": "Focused shield and DEF increase; it does not directly heal.",
+      "summary": [
+        "Shield one ally for 11% of Roselle's Max HP for 2 turns.",
+        "Increase that ally's DEF by 20% for 2 turns."
+      ],
+      "targetLabel": "One ally",
+      "sourceSkillId": "roselle-vey-d-active1"
+    },
+    {
+      "id": "roselle-vey-assembled-01-active2",
+      "slot": "Active2",
+      "name": "Pearl-Lined Canopy",
+      "target": "All living allies, including Roselle; remove one debuff from each",
+      "cooldown": 3,
+      "charge": 0,
+      "description": "Give every living ally a shield equal to 6% of Roselle's Max HP for 2 recipient turns, then remove the oldest removable debuff from each of them. Each ally is checked independently. If an ally has no removable debuff, their shield still applies.",
+      "provides": [],
+      "requires": [],
+      "benefitsFrom": [],
+      "implementation": "Core primitives",
+      "mixNote": "Full-party protection and one cleanse per ally; independent of passive triggers.",
+      "summary": [
+        "Shield all allies for 6% of Roselle's Max HP for 2 turns.",
+        "Remove 1 debuff from every ally."
+      ],
+      "targetLabel": "All allies",
+      "sourceSkillId": "roselle-vey-d-active2"
+    },
+    {
+      "id": "roselle-vey-assembled-01-ultimate",
+      "slot": "Ultimate",
+      "name": "Crown in a Thousand Drops",
+      "target": "All living enemies; consume HP shields on Roselle only, then shield Roselle",
+      "cooldown": 5,
+      "charge": 100,
+      "description": "At cast start snapshot Roselle's current Max HP, including her passive. Consume temporary HP shields currently on Roselle from any hero, up to a total of 70% of that Max HP; preserve excess shielding. Consume layers with the earliest expiry first, then application order. Spend once for the whole cast, never once per enemy. For each enemy hit, deal 125% of Roselle's ATK plus 50% of the shield HP consumed, with the bonus capped at 35% of her snapshotted Max HP before standard DEF, type and critical modifiers. This is direct damage, not true damage. With no shield the base attack still works. Named guard charges such as Frostplate do not count as HP shields. After the attack, shield Roselle for 8% of her Max HP for 2 recipient turns; this new shield cannot fund the same cast. Voluntary consumption never triggers shield-break healing. The shared Ultimate Break budget applies only once per enemy hit. Distinct named shield layers can coexist; the same named shield refreshes to the larger remaining/new value rather than stacking. Existing runtime shields do not currently provide these source layers.",
+      "provides": [
+        "roselle-vey-shared-shield-conversion"
+      ],
+      "requires": [],
+      "benefitsFrom": [],
+      "implementation": "Custom logic",
+      "mixNote": "Allied shield providers can fuel this attack. Only shields on Roselle are spent; allies keep their own shields. A 70% Max HP shield pool is needed for the 35% bonus ceiling.",
+      "summary": [
+        "Deal 125% ATK damage to all enemies.",
+        "Consume shields on Roselle from any hero. Add 50% of the amount consumed as damage per enemy, capped at 35% of her Max HP.",
+        "Then shield Roselle for 8% of her Max HP for 2 turns."
+      ],
+      "targetLabel": "All enemies and self",
+      "sourceSkillId": "roselle-vey-e-ultimate"
+    }
+  ]
+}

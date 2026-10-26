@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Sanitized static ProjectG phone review; no repository source or private draft notes.",
+  "sourceVersion": "2026-10-26-v4",
+  "acceptedSpriteCount": 11,
+  "fileCount": 25,
+  "totalBytes": 21927728,
+  "unresolvedReferences": [],
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "abilities.html",
+      "bytes": 837613,
+      "sha256": "06111bc1dbb1914b7eaf7148f97b93c97ecae7673a01f43e481f4acff35fe32a"
+    },
+    {
+      "path": "acceptance.json",
+      "bytes": 3235,
+      "sha256": "5ec1d56facab170cb2703de2bbb9cf98bb8b1a7099ece5c507b7d20155970d6f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 590,
+      "sha256": "9bff0130ad7627bf4f9e3926f4e2c7471aea902ee9dae81e328296ab5a728f49"
+    },
+    {
+      "path": "kit-options/ABILITY_CATALOGUE.md",
+      "bytes": 53768,
+      "sha256": "f85f8de8562ad04b16238f7be29cfb3fa09f7defca924d1b762fa98b6264525a"
+    },
+    {
+      "path": "kit-options/ALL_KITS.md",
+      "bytes": 50280,
+      "sha256": "51d41a4576d1ab143e600bba11f1a244c6698f4d0606be1d6ed97d664d97ecfe"
+    },
+    {
+      "path": "kit-options/ability-catalogue.json",
+      "bytes": 517459,
+      "sha256": "10e168a024b76a654ab195d28bc68c8c482acd640c7dc06ac9e817f61fba9a0f"
+    },
+    {
+      "path": "kit-options/all-kits.json",
+      "bytes": 439874,
+      "sha256": "d3fd8ba7f098bbf5dda1c692025c2af4eb98dd4d72c2d0ee70b5ac4ce26c6d7a"
+    },
+    {
+      "path": "kit-options/roselle-assembled-kit.json",
+      "bytes": 8448,
+      "sha256": "f48afd2dd00932131dfe820449f28e407a25c40e90d5dbdb9cb2ad57e0fa6c33"
+    },
+    {
+      "path": "kit-options/workshop.css",
+      "bytes": 10294,
+      "sha256": "f6d845a3fdc414ecd167dbe2f140ab548427a96791a7297727fd38bc61e44de1"
+    },
+    {
+      "path": "kit-options/workshop.js",
+      "bytes": 16621,
+      "sha256": "df4449b2b50f0677524caa1c82c005c1f91978fa12ac672b355c79a93bd64aa5"
+    },
+    {
+      "path": "kits.html",
+      "bytes": 342202,
+      "sha256": "77987f76cf267c24aaa6484a9b3db571867d0e47a56e230aef7dc3d88dff1aa4"
+    },
+    {
+      "path": "review.html",
+      "bytes": 30670,
+      "sha256": "0bb8192f074fce0bfd45073dddeb4c4a92ca9d2be1bd688c65cfbf192ea39155"
+    },
+    {
+      "path": "roselle.html",
+      "bytes": 20186,
+      "sha256": "b6abfe520c2b7d4d567962c304b6a3beec1174ba6ca1720afa8739306c524b3b"
+    },
+    {
+      "path": "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+      "bytes": 1614378,
+      "sha256": "8c175949152b6f911f06bdea5d212a51f7202061413562fcdc2194e89b701729"
+    },
+    {
+      "path": "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+      "bytes": 1823812,
+      "sha256": "0596b9d9dcaeb23cd3f767008fb553d1f72c04bbf2c02e0ef0c9c8386c5fe262"
+    },
+    {
+      "path": "sprites/candidate-liora-fernveil-pixel-v3.png",
+      "bytes": 1598872,
+      "sha256": "18140c332a19c458ed47e183161bc2975fbf690459fe15c7d773779e2c801088"
+    },
+    {
+      "path": "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+      "bytes": 1887497,
+      "sha256": "94ce774bd13162e184227074c8904c3ba7bbdb58399efb8a4a9f526cf2664e3d"
+    },
+    {
+      "path": "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+      "bytes": 2212841,
+      "sha256": "f3f56c6bf1d50896b40301a4a710f15a0f928082d3874ad1118beddac13072d7"
+    },
+    {
+      "path": "sprites/candidate-nyssara-silksong-pixel-v4.png",
+      "bytes": 1705853,
+      "sha256": "029c59b2fba1327af1b9a0515405e15a2bc46261615f1e964cdc4bd61b99d6f7"
+    },
+    {
+      "path": "sprites/candidate-orivelle-starveil-pixel-v2.png",
+      "bytes": 1771340,
+      "sha256": "7d08271cdfd1cb16891ead8445116fa1cba791dee194628bb34944e174988f57"
+    },
+    {
+      "path": "sprites/candidate-roselle-vey-pixel-v5.png",
+      "bytes": 1814624,
+      "sha256": "7041281014c8905f05c6cc2b7314ccbb25503b02cc69395f521dc4dde4cd85ee"
+    },
+    {
+      "path": "sprites/candidate-seressa-valemire-pixel-v4.png",
+      "bytes": 1754932,
+      "sha256": "b2d1dca1e49836433e4a354f780f376d72886a0324cbc2f38a180d2e309acd7d"
+    },
+    {
+      "path": "sprites/candidate-soryn-veilglass-pixel-v6.png",
+      "bytes": 1917384,
+      "sha256": "6dbb686eebe6218c797106daff15ffabdc38614ea1b96ae0fb91a08ab729a594"
+    },
+    {
+      "path": "sprites/candidate-valdra-rosethorn-pixel-v3.png",
+      "bytes": 1494955,
+      "sha256": "eddbaa016ca04ac1807748721e4a3aa1e187d99a4a1f214936aa82b22b84af5f"
+    }
+  ],
+  "resourceGraph": {
+    "review.html": [
+      "kits.html",
+      "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+      "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+      "sprites/candidate-liora-fernveil-pixel-v3.png",
+      "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+      "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+      "sprites/candidate-nyssara-silksong-pixel-v4.png",
+      "sprites/candidate-orivelle-starveil-pixel-v2.png",
+      "sprites/candidate-roselle-vey-pixel-v5.png",
+      "sprites/candidate-seressa-valemire-pixel-v4.png",
+      "sprites/candidate-soryn-veilglass-pixel-v6.png",
+      "sprites/candidate-valdra-rosethorn-pixel-v3.png"
+    ],
+    "kits.html": [
+      "abilities.html",
+      "acceptance.json",
+      "kit-options/ALL_KITS.md",
+      "kit-options/all-kits.json",
+      "kit-options/workshop.css",
+      "kit-options/workshop.js",
+      "review.html",
+      "roselle.html",
+      "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+      "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+      "sprites/candidate-liora-fernveil-pixel-v3.png",
+      "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+      "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+      "sprites/candidate-nyssara-silksong-pixel-v4.png",
+      "sprites/candidate-orivelle-starveil-pixel-v2.png",
+      "sprites/candidate-roselle-vey-pixel-v5.png",
+      "sprites/candidate-seressa-valemire-pixel-v4.png",
+      "sprites/candidate-soryn-veilglass-pixel-v6.png",
+      "sprites/candidate-valdra-rosethorn-pixel-v3.png"
+    ],
+    "roselle.html": [
+      "abilities.html",
+      "kit-options/roselle-assembled-kit.json",
+      "kit-options/workshop.css",
+      "kits.html",
+      "sprites/candidate-roselle-vey-pixel-v5.png"
+    ],
+    "abilities.html": [
+      "kit-options/ABILITY_CATALOGUE.md",
+      "kit-options/ability-catalogue.json",
+      "kit-options/workshop.css",
+      "kits.html"
+    ],
+    "kit-options/workshop.css": [],
+    "kit-options/workshop.js": [],
+    "kit-options/ALL_KITS.md": [],
+    "kit-options/ABILITY_CATALOGUE.md": [],
+    "kit-options/all-kits.json": [],
+    "kit-options/roselle-assembled-kit.json": [],
+    "kit-options/ability-catalogue.json": [],
+    "acceptance.json": [],
+    "sprites/candidate-roselle-vey-pixel-v5.png": [],
+    "sprites/candidate-liora-fernveil-pixel-v3.png": [],
+    "sprites/candidate-nyssara-silksong-pixel-v4.png": [],
+    "sprites/candidate-soryn-veilglass-pixel-v6.png": [],
+    "sprites/candidate-seressa-valemire-pixel-v4.png": [],
+    "sprites/candidate-orivelle-starveil-pixel-v2.png": [],
+    "sprites/candidate-elowyn-rosemere-pixel-v3.png": [],
+    "sprites/candidate-miravelle-vexwing-pixel-v2.png": [],
+    "sprites/candidate-isavelle-frostmere-pixel-v2.png": [],
+    "sprites/candidate-nerielle-wavecrest-pixel-v2.png": [],
+    "sprites/candidate-valdra-rosethorn-pixel-v3.png": [],
+    "index.html": [
+      "abilities.html",
+      "kit-options/workshop.css",
+      "kits.html",
+      "review.html",
+      "roselle.html"
+    ],
+    ".nojekyll": []
+  },
+  "sanitization": [
+    "Only current accepted sprite hashes, no earlier/rejected sprites or reference photos",
+    "No prompts, intake, QA reports, authoring history files or repository source",
+    "No verbatim draft notes, local browser metadata or internal source anchors",
+    "Browser-only review selections are not uploaded by the site"
+  ]
+}
