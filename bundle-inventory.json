@@ -348,17 +348,28 @@
     }
   ],
   "combatDrafts": {
-    "layouts": 3,
+    "layouts": 4,
     "spriteSources": 8,
     "backgroundSources": 1,
-    "canvasPreviews": 3,
+    "canvasPreviews": 4,
     "canvas": {
       "width": 1280,
       "height": 720
     },
     "accepted": false,
     "presentationDirectionStatus": "accepted-for-now",
-    "selectedLayout": null,
+    "selectedLayout": "d",
+    "layoutReviewStatus": "requested-combination-awaiting-review",
+    "skillStyleIds": [
+      "crests",
+      "glass",
+      "ribbons",
+      "original"
+    ],
+    "defaultSkillStyle": "crests",
+    "skillStyleOptions": 4,
+    "newSkillStyleOptions": 3,
+    "legacySkillStyle": "original",
     "illustratedPortraitCount": 40,
     "portraitAcceptance": false,
     "gameplayIntegrated": false,
@@ -427,24 +438,31 @@
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
+        "id": "preview-d",
+        "role": "canvas-preview",
+        "file": "combat-draft-assets/combat-draft-d.png",
+        "sha256": "2aecd4dcfbcffe40b7b123ba10bb783b1d867501f4fe2a2f8dce8ff220e5a77a",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
         "id": "preview-a",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-a.png",
-        "sha256": "72ff71fd47d1c81fed88bc8c724be11a65c5f397f7067c395af39121550e870e",
+        "sha256": "1cf7e6ca9b215735927ed97927872acba824dae859736f5f35d28f700a2e8e38",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
         "id": "preview-b",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-b.png",
-        "sha256": "867983f756480c0c1920d620947f5513bf10edf48c7603b4a7d0bce29de40868",
+        "sha256": "9ca8516c410e87fc6692c34d607eee42cc46925c1ac5d125914c093df9fc2924",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
         "id": "preview-c",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-c.png",
-        "sha256": "08608c4b6c2eeb72025c972e9d61601d87f238f4a65cf2699b133f75d9e4f1c7",
+        "sha256": "ac0486500b935506e2520c53798ef6cca40a205a6a56ea156b53b377496babff",
         "reviewStatus": "visual-draft-awaiting-user-review"
       }
     ]
@@ -798,8 +816,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 123,
-  "totalBytes": 182787196,
+  "fileCount": 124,
+  "totalBytes": 184205395,
   "unresolvedReferences": [],
   "files": [
     {
@@ -824,18 +842,23 @@
     },
     {
       "path": "combat-draft-assets/combat-draft-a.png",
-      "bytes": 1334357,
-      "sha256": "72ff71fd47d1c81fed88bc8c724be11a65c5f397f7067c395af39121550e870e"
+      "bytes": 1345823,
+      "sha256": "1cf7e6ca9b215735927ed97927872acba824dae859736f5f35d28f700a2e8e38"
     },
     {
       "path": "combat-draft-assets/combat-draft-b.png",
-      "bytes": 1371435,
-      "sha256": "867983f756480c0c1920d620947f5513bf10edf48c7603b4a7d0bce29de40868"
+      "bytes": 1380061,
+      "sha256": "9ca8516c410e87fc6692c34d607eee42cc46925c1ac5d125914c093df9fc2924"
     },
     {
       "path": "combat-draft-assets/combat-draft-c.png",
-      "bytes": 1343494,
-      "sha256": "08608c4b6c2eeb72025c972e9d61601d87f238f4a65cf2699b133f75d9e4f1c7"
+      "bytes": 1355045,
+      "sha256": "ac0486500b935506e2520c53798ef6cca40a205a6a56ea156b53b377496babff"
+    },
+    {
+      "path": "combat-draft-assets/combat-draft-d.png",
+      "bytes": 1371575,
+      "sha256": "2aecd4dcfbcffe40b7b123ba10bb783b1d867501f4fe2a2f8dce8ff220e5a77a"
     },
     {
       "path": "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
@@ -879,8 +902,8 @@
     },
     {
       "path": "combat.html",
-      "bytes": 41729,
-      "sha256": "8befc002e8f6da66010bf0b66201243aea52590fee774f5213dceccae7f74e1b"
+      "bytes": 56783,
+      "sha256": "cd4ad08b88a4ea55f915cc9c3d2fad039d0fecf4b0970e2131123cc8b02de55e"
     },
     {
       "path": "enemies.html",
@@ -1104,8 +1127,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 747,
-      "sha256": "3943b0ee7de15469cdf8d6f7edee7c2ecd2162b7d060a831a09977e85bf34023"
+      "bytes": 750,
+      "sha256": "59e3f41c1944df0d6013f7bf6b79f702ef9cb66fbfe67c93faa0417afda66b29"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -1349,8 +1372,8 @@
     },
     {
       "path": "portraits.html",
-      "bytes": 38494,
-      "sha256": "d1e39a06c6ed246aaa9f031140821b54eca654f8b7ab9ae621eb8b010821ae42"
+      "bytes": 38418,
+      "sha256": "08dfa68d03f76e82c8cbd40d148d2673c0ecfc573467e15fee225934800bb0f6"
     },
     {
       "path": "review.html",
@@ -1531,6 +1554,7 @@
       "combat-draft-assets/combat-draft-a.png",
       "combat-draft-assets/combat-draft-b.png",
       "combat-draft-assets/combat-draft-c.png",
+      "combat-draft-assets/combat-draft-d.png",
       "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
       "combat-draft-assets/draft-isavelle-frostmere-coarse-v1.png",
       "combat-draft-assets/draft-liora-fernveil-coarse-v1.png",
@@ -1702,6 +1726,7 @@
     "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png": [],
     "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png": [],
     "combat-draft-assets/asterwatch-court-pixel-v1.png": [],
+    "combat-draft-assets/combat-draft-d.png": [],
     "combat-draft-assets/combat-draft-a.png": [],
     "combat-draft-assets/combat-draft-b.png": [],
     "combat-draft-assets/combat-draft-c.png": [],
@@ -1761,7 +1786,8 @@
     "Exactly eleven visually accepted hero designs and 43 enemy candidates awaiting visual acceptance: 31 current refreshes and 12 new concepts",
     "Current enemy PNGs match the unchanged passing 31-ID Core/runtime validation report, canonical hashes and local gallery copies",
     "Expansion PNGs match the separate visual-only twelve-ID canonical-and-gallery validation; no Core or Unity integration",
-    "Three combat visual drafts use eight selected generated sprite sources, one shared background and three actual current canvas exports; source references/provenance remain private",
+    "Four combat layouts retain the three earlier comparisons and the requested combined layout D, using eight selected sprite sources, one background and four actual current canvas exports; references/provenance remain private",
+    "Three new canvas-drawn skill-button/icon designs and the original comparison share the same page and assets; canonical exports use crests, and no option is marked accepted",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
