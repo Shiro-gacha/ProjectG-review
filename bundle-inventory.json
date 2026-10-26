@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "purpose": "Sanitized static ProjectG phone review; no repository source or private draft notes.",
   "sourceVersion": "2026-10-26-v4",
   "acceptedSpriteCount": 11,
@@ -357,6 +357,10 @@
       "height": 720
     },
     "accepted": false,
+    "presentationDirectionStatus": "accepted-for-now",
+    "selectedLayout": null,
+    "illustratedPortraitCount": 40,
+    "portraitAcceptance": false,
     "gameplayIntegrated": false,
     "assets": [
       {
@@ -426,27 +430,357 @@
         "id": "preview-a",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-a.png",
-        "sha256": "711066fe864dfe4f1da60d5c6fc597bf01f47e3129e8220adc49bf5a65adfe8c",
+        "sha256": "f2b74e512e26e8a2f9c5ce1b6cd43ee06ac506193e4c9556dad2b70e9a2b2806",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
         "id": "preview-b",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-b.png",
-        "sha256": "52b5b36e571fbcd43a07b7db02b84f69e0802b83d9449eff79d8626bb908e58a",
+        "sha256": "b2f52da3791c4a8129ad738001344899c6250e9c97bdaed16e040ff8be1cec83",
         "reviewStatus": "visual-draft-awaiting-user-review"
       },
       {
         "id": "preview-c",
         "role": "canvas-preview",
         "file": "combat-draft-assets/combat-draft-c.png",
-        "sha256": "de6a106a8aeeec24fedde691c7086b5aaa536b017627edf77fb29552a9df0d13",
+        "sha256": "0536603efe87ad8ac93b27cf50c15bb3c73cb18921abc24a54d91474e92cfa0e",
         "reviewStatus": "visual-draft-awaiting-user-review"
       }
     ]
   },
-  "fileCount": 82,
-  "totalBytes": 119933965,
+  "illustratedPortraits": {
+    "heroCount": 40,
+    "existingIdentityCount": 29,
+    "newIdentityCount": 11,
+    "style": "illustrated-transparent-bust",
+    "accepted": false,
+    "runtimeIntegrated": false,
+    "assets": [
+      {
+        "id": "adela",
+        "name": "Adela Karst",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-adela-illustrated-v1.png",
+        "sha256": "173a168e91b9097ced2249339fb7dd3ec02001131a7ba27b7ed2349710d5f7ab",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "astra",
+        "name": "Astra Vale",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-astra-illustrated-v1.png",
+        "sha256": "b47803ae1bfd14757cefbad674d85c0e7c84b53631944f01944e87010eb128f8",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "aveline",
+        "name": "Aveline Rusk",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-aveline-illustrated-v1.png",
+        "sha256": "50aa2b1b3c1f3e839db1b483a8b9602b0b26f6443feb6fca603bfcb92c78eab7",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "brann",
+        "name": "Brann Oath",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-brann-illustrated-v1.png",
+        "sha256": "3e6e6b3d8987f60fdfefebd1d04baf6c9f94ab63334c6bf5b430436f1e5c5e76",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "caelia",
+        "name": "Caelia Aurix",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-caelia-illustrated-v1.png",
+        "sha256": "536ba8a71e8c2ca4816448de3501fdfeac0bb3529ee5b8852a65b7737a29eeae",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "cerys",
+        "name": "Cerys Ashwake",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-cerys-illustrated-v1.png",
+        "sha256": "215f6f1a46e77b4a1c49da91fda9abd4944e4483e80e24993a6c43d916948793",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "dax",
+        "name": "Dax Meridian",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-dax-illustrated-v1.png",
+        "sha256": "75f37a36bdd96ed8d64c4b4c2a314f0f8722c8d53862e6148ab3e7286857ebc5",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "elowyn-rosemere",
+        "name": "Elowyn Rosemere",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-elowyn-rosemere-illustrated-v1.png",
+        "sha256": "03120fe0c9a914aacd5e3041ea02708b5d0a85bdba753aeda62ad5842abe003d",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "iori",
+        "name": "Iori Finch",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-iori-illustrated-v1.png",
+        "sha256": "2e2a832c60fcc49f124dfabb9d6aa6c5e10a40293bb6cc9aed053b2336592644",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "isavelle-frostmere",
+        "name": "Isavelle Frostmere",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png",
+        "sha256": "dd5ea7b40330aacb05f4f9aa40117bd63bc9736ed8b65e3b466aa0bc5402d3ae",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "jianne",
+        "name": "Jianne Reed",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-jianne-illustrated-v1.png",
+        "sha256": "bdcbe95bcfc227091e4d2d21c0e93809138396bd8106d59554e730abeb74cae6",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "kael",
+        "name": "Kael Voss",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-kael-illustrated-v1.png",
+        "sha256": "fb32fde5eb30f4e88387b22643c1182bb304f8df3708e79e8dd5191e27531c53",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "liora-fernveil",
+        "name": "Liora Fernveil",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-liora-fernveil-illustrated-v1.png",
+        "sha256": "d4ae2aa139e7d96fb8cb8e5ab50bf1743c1112fd846a03f79cc9c901670ac84d",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "luna",
+        "name": "Luna Myr",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-luna-illustrated-v1.png",
+        "sha256": "96c1fa3e88290c4f33c766ea2655d76926d71b47f16f435d9da6b990792f10e8",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "maelin",
+        "name": "Maelin Soreth",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-maelin-illustrated-v1.png",
+        "sha256": "e38a02bda9a751e1b51861334ddd0e484c68754bedb7fb4ededb9bc2d1d2963f",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "maelis",
+        "name": "Maelis Vireo",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-maelis-illustrated-v1.png",
+        "sha256": "2dc47149e6fc4c72ebbf1c4a981eb6718afe7fc3390b5a2fc918121058b8997f",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "mika",
+        "name": "Mika Sable",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-mika-illustrated-v1.png",
+        "sha256": "23f2b519200082104e83360d1701eab299fa789e5042fce18fc1f8156036ea40",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "miravelle-vexwing",
+        "name": "Miravelle Vexwing",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png",
+        "sha256": "afc39e79c71cb4eb4c068ffa8937477137da7d8ef7f93e8663fd3e9ae94d1cef",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "nemea",
+        "name": "Nemea Veil",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-nemea-illustrated-v1.png",
+        "sha256": "3c37e3de10d956063b470891ef79cc5c50b0d61974878ca19622da6c43dafb55",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "nerielle-wavecrest",
+        "name": "Nerielle Wavecrest",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
+        "sha256": "fb8f02648b586708f9bff11d403de153b24ccba1cc344a2f0a7469ce73018c6c",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "nerisse",
+        "name": "Nerisse Veldt",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-nerisse-illustrated-v1.png",
+        "sha256": "cfb4b8a7350c56702614d6554b1c3fcb1ee8862034d9040b6377259e4db8865f",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "nyssara-silksong",
+        "name": "Nyssara Silksong",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
+        "sha256": "c3398f765e37d6751a0b795bfb191f0d59b713f0d737926809b4e01f446eef4b",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "nyx",
+        "name": "Nyx Ardent",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-nyx-illustrated-v1.png",
+        "sha256": "9e84d492d18996edb7bc47722050f98286ac1d1886721daa4ff99f59b9ea6367",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "orivelle-starveil",
+        "name": "Orivelle Starveil",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png",
+        "sha256": "7f3704d53cc30ceb7e1baf788286115b36285b8a4975e9565021f25c7d18e310",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "rhea",
+        "name": "Rhea Coil",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-rhea-illustrated-v1.png",
+        "sha256": "8ca9725922a1c0952f2ca31a913c618145fb2450dce4a86e8ce10869824459e6",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "roselle-vey",
+        "name": "Roselle Vey",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-roselle-vey-illustrated-v1.png",
+        "sha256": "8556eec70e10fabad4e1a0715dcf665f2bbf3b5a2c59eb0aa69f0bccc45b8805",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "selene",
+        "name": "Selene Ward",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-selene-illustrated-v1.png",
+        "sha256": "7347e7d398f23e39ff5662e0ff1b00aacb4bf2db60c22ec48b52498eab4392c0",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "seressa-valemire",
+        "name": "Seressa Valemire",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-seressa-valemire-illustrated-v1.png",
+        "sha256": "0eb6b0a2e30d90eff53548a277998c5309b01bcd78633934a1eb7fd63d6de21e",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "sevrin",
+        "name": "Sevrin Knox",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-sevrin-illustrated-v1.png",
+        "sha256": "045b43405b8e478187e7171e2823b5d37e378a4ca84207ccba88b58ec9a13447",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "sivra",
+        "name": "Sivra Halden",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-sivra-illustrated-v1.png",
+        "sha256": "c8300145fb7fd248200eb3479083f0cde1b253bd18968a18d855d33e20a258c3",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "soryn",
+        "name": "Soryn Caldris",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-soryn-illustrated-v1.png",
+        "sha256": "12d2651b9f23c5c4b9deb9236c022819586c0a84e40620ae74eadf6ee15cdafd",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "soryn-veilglass",
+        "name": "Soryn Veilglass",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-soryn-veilglass-illustrated-v1.png",
+        "sha256": "418653f6718bfee7012dc298fd0efd6d651213c24cd3a3e5df3f73eaff13157e",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "tamsin",
+        "name": "Tamsin Quill",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-tamsin-illustrated-v1.png",
+        "sha256": "49c21376ac94cad2c5f10195a5f0a8ad4968349796632fe9194b9eb7735d840b",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "thessa",
+        "name": "Thessa Cairn",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-thessa-illustrated-v1.png",
+        "sha256": "2b0b9b254cf9532554434eaf3910930be67964763c4e9267612aa0cb0df06947",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "valdra-rosethorn",
+        "name": "Valdra Rosethorn",
+        "rosterScope": "accepted-new-identity-11-not-runtime-integrated",
+        "file": "portrait-assets/portrait-valdra-rosethorn-illustrated-v1.png",
+        "sha256": "9319fe02c25e6878e47b56b00205bd6e27f791953bbfd23475381f341e648e56",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "veloura",
+        "name": "Veloura Serein",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-veloura-illustrated-v1.png",
+        "sha256": "2fd9376389ebc6d0704fe0fed3134e872bd51ac6481153339e3ea7fca2888a01",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "veyra",
+        "name": "Veyra Dusk",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-veyra-illustrated-v1.png",
+        "sha256": "0f24c91ec0d89b715e7e112774b393a8289f1d41d807c08a81a42553f2ccef3f",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "veyra-wick",
+        "name": "Veyra Wick",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-veyra-wick-illustrated-v1.png",
+        "sha256": "508b5e050fc18cd342c2edcf1f5c66d825e42d15e57ddd5db2f06d4957418418",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "yselle",
+        "name": "Yselle Rimeward",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-yselle-illustrated-v1.png",
+        "sha256": "cd87b47102407ac6412e5e4d9f0fd3a7e13c42df8d9b8d5b9b5ac14fe85bfd3a",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      },
+      {
+        "id": "zahra",
+        "name": "Zahra Oseth",
+        "rosterScope": "existing-runtime-29",
+        "file": "portrait-assets/portrait-zahra-illustrated-v1.png",
+        "sha256": "5d21dee244bc8b069de6e8fabe1d1a1b79f7176fac4a88fc0a8bb0de8aaaa776",
+        "reviewStatus": "illustrated-portrait-awaiting-user-review"
+      }
+    ]
+  },
+  "fileCount": 123,
+  "totalBytes": 182609822,
   "unresolvedReferences": [],
   "files": [
     {
@@ -471,18 +805,18 @@
     },
     {
       "path": "combat-draft-assets/combat-draft-a.png",
-      "bytes": 1316362,
-      "sha256": "711066fe864dfe4f1da60d5c6fc597bf01f47e3129e8220adc49bf5a65adfe8c"
+      "bytes": 1331668,
+      "sha256": "f2b74e512e26e8a2f9c5ce1b6cd43ee06ac506193e4c9556dad2b70e9a2b2806"
     },
     {
       "path": "combat-draft-assets/combat-draft-b.png",
-      "bytes": 1352957,
-      "sha256": "52b5b36e571fbcd43a07b7db02b84f69e0802b83d9449eff79d8626bb908e58a"
+      "bytes": 1369766,
+      "sha256": "b2f52da3791c4a8129ad738001344899c6250e9c97bdaed16e040ff8be1cec83"
     },
     {
       "path": "combat-draft-assets/combat-draft-c.png",
-      "bytes": 1326107,
-      "sha256": "de6a106a8aeeec24fedde691c7086b5aaa536b017627edf77fb29552a9df0d13"
+      "bytes": 1341049,
+      "sha256": "0536603efe87ad8ac93b27cf50c15bb3c73cb18921abc24a54d91474e92cfa0e"
     },
     {
       "path": "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
@@ -526,8 +860,8 @@
     },
     {
       "path": "combat.html",
-      "bytes": 24553,
-      "sha256": "9734ea05cb9ba28205385d328b2a7696e9523034a95440263122ca17b337366b"
+      "bytes": 38768,
+      "sha256": "8fc5d92b5f196c01261a12b214c3c08f46d24b080601f02851a0c4655363ec6e"
     },
     {
       "path": "enemies.html",
@@ -751,8 +1085,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 693,
-      "sha256": "83ee4f46e85ceca51006cd5d654a603cc26227c22efcecfd3b8f3f49c60bfac5"
+      "bytes": 747,
+      "sha256": "3943b0ee7de15469cdf8d6f7edee7c2ecd2162b7d060a831a09977e85bf34023"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -793,6 +1127,211 @@
       "path": "kits.html",
       "bytes": 342285,
       "sha256": "94795a1732c7e51215d6e8a6176e2627e20df1c0bb965b993c18c075764941d2"
+    },
+    {
+      "path": "portrait-assets/portrait-adela-illustrated-v1.png",
+      "bytes": 1772741,
+      "sha256": "173a168e91b9097ced2249339fb7dd3ec02001131a7ba27b7ed2349710d5f7ab"
+    },
+    {
+      "path": "portrait-assets/portrait-astra-illustrated-v1.png",
+      "bytes": 1565678,
+      "sha256": "b47803ae1bfd14757cefbad674d85c0e7c84b53631944f01944e87010eb128f8"
+    },
+    {
+      "path": "portrait-assets/portrait-aveline-illustrated-v1.png",
+      "bytes": 1596602,
+      "sha256": "50aa2b1b3c1f3e839db1b483a8b9602b0b26f6443feb6fca603bfcb92c78eab7"
+    },
+    {
+      "path": "portrait-assets/portrait-brann-illustrated-v1.png",
+      "bytes": 1532291,
+      "sha256": "3e6e6b3d8987f60fdfefebd1d04baf6c9f94ab63334c6bf5b430436f1e5c5e76"
+    },
+    {
+      "path": "portrait-assets/portrait-caelia-illustrated-v1.png",
+      "bytes": 1530735,
+      "sha256": "536ba8a71e8c2ca4816448de3501fdfeac0bb3529ee5b8852a65b7737a29eeae"
+    },
+    {
+      "path": "portrait-assets/portrait-cerys-illustrated-v1.png",
+      "bytes": 1456285,
+      "sha256": "215f6f1a46e77b4a1c49da91fda9abd4944e4483e80e24993a6c43d916948793"
+    },
+    {
+      "path": "portrait-assets/portrait-dax-illustrated-v1.png",
+      "bytes": 1461419,
+      "sha256": "75f37a36bdd96ed8d64c4b4c2a314f0f8722c8d53862e6148ab3e7286857ebc5"
+    },
+    {
+      "path": "portrait-assets/portrait-elowyn-rosemere-illustrated-v1.png",
+      "bytes": 1951908,
+      "sha256": "03120fe0c9a914aacd5e3041ea02708b5d0a85bdba753aeda62ad5842abe003d"
+    },
+    {
+      "path": "portrait-assets/portrait-iori-illustrated-v1.png",
+      "bytes": 1465295,
+      "sha256": "2e2a832c60fcc49f124dfabb9d6aa6c5e10a40293bb6cc9aed053b2336592644"
+    },
+    {
+      "path": "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png",
+      "bytes": 1761782,
+      "sha256": "dd5ea7b40330aacb05f4f9aa40117bd63bc9736ed8b65e3b466aa0bc5402d3ae"
+    },
+    {
+      "path": "portrait-assets/portrait-jianne-illustrated-v1.png",
+      "bytes": 1293161,
+      "sha256": "bdcbe95bcfc227091e4d2d21c0e93809138396bd8106d59554e730abeb74cae6"
+    },
+    {
+      "path": "portrait-assets/portrait-kael-illustrated-v1.png",
+      "bytes": 1280912,
+      "sha256": "fb32fde5eb30f4e88387b22643c1182bb304f8df3708e79e8dd5191e27531c53"
+    },
+    {
+      "path": "portrait-assets/portrait-liora-fernveil-illustrated-v1.png",
+      "bytes": 1766410,
+      "sha256": "d4ae2aa139e7d96fb8cb8e5ab50bf1743c1112fd846a03f79cc9c901670ac84d"
+    },
+    {
+      "path": "portrait-assets/portrait-luna-illustrated-v1.png",
+      "bytes": 1123057,
+      "sha256": "96c1fa3e88290c4f33c766ea2655d76926d71b47f16f435d9da6b990792f10e8"
+    },
+    {
+      "path": "portrait-assets/portrait-maelin-illustrated-v1.png",
+      "bytes": 1857117,
+      "sha256": "e38a02bda9a751e1b51861334ddd0e484c68754bedb7fb4ededb9bc2d1d2963f"
+    },
+    {
+      "path": "portrait-assets/portrait-maelis-illustrated-v1.png",
+      "bytes": 1648653,
+      "sha256": "2dc47149e6fc4c72ebbf1c4a981eb6718afe7fc3390b5a2fc918121058b8997f"
+    },
+    {
+      "path": "portrait-assets/portrait-mika-illustrated-v1.png",
+      "bytes": 959615,
+      "sha256": "23f2b519200082104e83360d1701eab299fa789e5042fce18fc1f8156036ea40"
+    },
+    {
+      "path": "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png",
+      "bytes": 2141231,
+      "sha256": "afc39e79c71cb4eb4c068ffa8937477137da7d8ef7f93e8663fd3e9ae94d1cef"
+    },
+    {
+      "path": "portrait-assets/portrait-nemea-illustrated-v1.png",
+      "bytes": 1067657,
+      "sha256": "3c37e3de10d956063b470891ef79cc5c50b0d61974878ca19622da6c43dafb55"
+    },
+    {
+      "path": "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
+      "bytes": 1745677,
+      "sha256": "fb8f02648b586708f9bff11d403de153b24ccba1cc344a2f0a7469ce73018c6c"
+    },
+    {
+      "path": "portrait-assets/portrait-nerisse-illustrated-v1.png",
+      "bytes": 1338321,
+      "sha256": "cfb4b8a7350c56702614d6554b1c3fcb1ee8862034d9040b6377259e4db8865f"
+    },
+    {
+      "path": "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
+      "bytes": 2003399,
+      "sha256": "c3398f765e37d6751a0b795bfb191f0d59b713f0d737926809b4e01f446eef4b"
+    },
+    {
+      "path": "portrait-assets/portrait-nyx-illustrated-v1.png",
+      "bytes": 1252565,
+      "sha256": "9e84d492d18996edb7bc47722050f98286ac1d1886721daa4ff99f59b9ea6367"
+    },
+    {
+      "path": "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png",
+      "bytes": 1910873,
+      "sha256": "7f3704d53cc30ceb7e1baf788286115b36285b8a4975e9565021f25c7d18e310"
+    },
+    {
+      "path": "portrait-assets/portrait-rhea-illustrated-v1.png",
+      "bytes": 1559562,
+      "sha256": "8ca9725922a1c0952f2ca31a913c618145fb2450dce4a86e8ce10869824459e6"
+    },
+    {
+      "path": "portrait-assets/portrait-roselle-vey-illustrated-v1.png",
+      "bytes": 1611692,
+      "sha256": "8556eec70e10fabad4e1a0715dcf665f2bbf3b5a2c59eb0aa69f0bccc45b8805"
+    },
+    {
+      "path": "portrait-assets/portrait-selene-illustrated-v1.png",
+      "bytes": 1688013,
+      "sha256": "7347e7d398f23e39ff5662e0ff1b00aacb4bf2db60c22ec48b52498eab4392c0"
+    },
+    {
+      "path": "portrait-assets/portrait-seressa-valemire-illustrated-v1.png",
+      "bytes": 1866228,
+      "sha256": "0eb6b0a2e30d90eff53548a277998c5309b01bcd78633934a1eb7fd63d6de21e"
+    },
+    {
+      "path": "portrait-assets/portrait-sevrin-illustrated-v1.png",
+      "bytes": 1553748,
+      "sha256": "045b43405b8e478187e7171e2823b5d37e378a4ca84207ccba88b58ec9a13447"
+    },
+    {
+      "path": "portrait-assets/portrait-sivra-illustrated-v1.png",
+      "bytes": 1828721,
+      "sha256": "c8300145fb7fd248200eb3479083f0cde1b253bd18968a18d855d33e20a258c3"
+    },
+    {
+      "path": "portrait-assets/portrait-soryn-illustrated-v1.png",
+      "bytes": 1138306,
+      "sha256": "12d2651b9f23c5c4b9deb9236c022819586c0a84e40620ae74eadf6ee15cdafd"
+    },
+    {
+      "path": "portrait-assets/portrait-soryn-veilglass-illustrated-v1.png",
+      "bytes": 1731765,
+      "sha256": "418653f6718bfee7012dc298fd0efd6d651213c24cd3a3e5df3f73eaff13157e"
+    },
+    {
+      "path": "portrait-assets/portrait-tamsin-illustrated-v1.png",
+      "bytes": 1177955,
+      "sha256": "49c21376ac94cad2c5f10195a5f0a8ad4968349796632fe9194b9eb7735d840b"
+    },
+    {
+      "path": "portrait-assets/portrait-thessa-illustrated-v1.png",
+      "bytes": 1345157,
+      "sha256": "2b0b9b254cf9532554434eaf3910930be67964763c4e9267612aa0cb0df06947"
+    },
+    {
+      "path": "portrait-assets/portrait-valdra-rosethorn-illustrated-v1.png",
+      "bytes": 1637337,
+      "sha256": "9319fe02c25e6878e47b56b00205bd6e27f791953bbfd23475381f341e648e56"
+    },
+    {
+      "path": "portrait-assets/portrait-veloura-illustrated-v1.png",
+      "bytes": 1798824,
+      "sha256": "2fd9376389ebc6d0704fe0fed3134e872bd51ac6481153339e3ea7fca2888a01"
+    },
+    {
+      "path": "portrait-assets/portrait-veyra-illustrated-v1.png",
+      "bytes": 1783441,
+      "sha256": "0f24c91ec0d89b715e7e112774b393a8289f1d41d807c08a81a42553f2ccef3f"
+    },
+    {
+      "path": "portrait-assets/portrait-veyra-wick-illustrated-v1.png",
+      "bytes": 1236882,
+      "sha256": "508b5e050fc18cd342c2edcf1f5c66d825e42d15e57ddd5db2f06d4957418418"
+    },
+    {
+      "path": "portrait-assets/portrait-yselle-illustrated-v1.png",
+      "bytes": 1729163,
+      "sha256": "cd87b47102407ac6412e5e4d9f0fd3a7e13c42df8d9b8d5b9b5ac14fe85bfd3a"
+    },
+    {
+      "path": "portrait-assets/portrait-zahra-illustrated-v1.png",
+      "bytes": 1408959,
+      "sha256": "5d21dee244bc8b069de6e8fabe1d1a1b79f7176fac4a88fc0a8bb0de8aaaa776"
+    },
+    {
+      "path": "portraits.html",
+      "bytes": 35394,
+      "sha256": "94460a9e7b7786e0bfbea15ca8e711dc034afa4627e962679dc43b7618b60fc2"
     },
     {
       "path": "review.html",
@@ -983,8 +1522,95 @@
       "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png",
       "enemies.html",
       "kits.html",
+      "portrait-assets/portrait-adela-illustrated-v1.png",
+      "portrait-assets/portrait-astra-illustrated-v1.png",
+      "portrait-assets/portrait-aveline-illustrated-v1.png",
+      "portrait-assets/portrait-brann-illustrated-v1.png",
+      "portrait-assets/portrait-caelia-illustrated-v1.png",
+      "portrait-assets/portrait-cerys-illustrated-v1.png",
+      "portrait-assets/portrait-dax-illustrated-v1.png",
+      "portrait-assets/portrait-elowyn-rosemere-illustrated-v1.png",
+      "portrait-assets/portrait-iori-illustrated-v1.png",
+      "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png",
+      "portrait-assets/portrait-jianne-illustrated-v1.png",
+      "portrait-assets/portrait-kael-illustrated-v1.png",
+      "portrait-assets/portrait-liora-fernveil-illustrated-v1.png",
+      "portrait-assets/portrait-luna-illustrated-v1.png",
+      "portrait-assets/portrait-maelin-illustrated-v1.png",
+      "portrait-assets/portrait-maelis-illustrated-v1.png",
+      "portrait-assets/portrait-mika-illustrated-v1.png",
+      "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png",
+      "portrait-assets/portrait-nemea-illustrated-v1.png",
+      "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
+      "portrait-assets/portrait-nerisse-illustrated-v1.png",
+      "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
+      "portrait-assets/portrait-nyx-illustrated-v1.png",
+      "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png",
+      "portrait-assets/portrait-rhea-illustrated-v1.png",
+      "portrait-assets/portrait-roselle-vey-illustrated-v1.png",
+      "portrait-assets/portrait-selene-illustrated-v1.png",
+      "portrait-assets/portrait-seressa-valemire-illustrated-v1.png",
+      "portrait-assets/portrait-sevrin-illustrated-v1.png",
+      "portrait-assets/portrait-sivra-illustrated-v1.png",
+      "portrait-assets/portrait-soryn-illustrated-v1.png",
+      "portrait-assets/portrait-soryn-veilglass-illustrated-v1.png",
+      "portrait-assets/portrait-tamsin-illustrated-v1.png",
+      "portrait-assets/portrait-thessa-illustrated-v1.png",
+      "portrait-assets/portrait-valdra-rosethorn-illustrated-v1.png",
+      "portrait-assets/portrait-veloura-illustrated-v1.png",
+      "portrait-assets/portrait-veyra-illustrated-v1.png",
+      "portrait-assets/portrait-veyra-wick-illustrated-v1.png",
+      "portrait-assets/portrait-yselle-illustrated-v1.png",
+      "portrait-assets/portrait-zahra-illustrated-v1.png",
+      "portraits.html",
       "review.html",
       "roselle.html"
+    ],
+    "portraits.html": [
+      "combat.html",
+      "enemies.html",
+      "kits.html",
+      "portrait-assets/portrait-adela-illustrated-v1.png",
+      "portrait-assets/portrait-astra-illustrated-v1.png",
+      "portrait-assets/portrait-aveline-illustrated-v1.png",
+      "portrait-assets/portrait-brann-illustrated-v1.png",
+      "portrait-assets/portrait-caelia-illustrated-v1.png",
+      "portrait-assets/portrait-cerys-illustrated-v1.png",
+      "portrait-assets/portrait-dax-illustrated-v1.png",
+      "portrait-assets/portrait-elowyn-rosemere-illustrated-v1.png",
+      "portrait-assets/portrait-iori-illustrated-v1.png",
+      "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png",
+      "portrait-assets/portrait-jianne-illustrated-v1.png",
+      "portrait-assets/portrait-kael-illustrated-v1.png",
+      "portrait-assets/portrait-liora-fernveil-illustrated-v1.png",
+      "portrait-assets/portrait-luna-illustrated-v1.png",
+      "portrait-assets/portrait-maelin-illustrated-v1.png",
+      "portrait-assets/portrait-maelis-illustrated-v1.png",
+      "portrait-assets/portrait-mika-illustrated-v1.png",
+      "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png",
+      "portrait-assets/portrait-nemea-illustrated-v1.png",
+      "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
+      "portrait-assets/portrait-nerisse-illustrated-v1.png",
+      "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
+      "portrait-assets/portrait-nyx-illustrated-v1.png",
+      "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png",
+      "portrait-assets/portrait-rhea-illustrated-v1.png",
+      "portrait-assets/portrait-roselle-vey-illustrated-v1.png",
+      "portrait-assets/portrait-selene-illustrated-v1.png",
+      "portrait-assets/portrait-seressa-valemire-illustrated-v1.png",
+      "portrait-assets/portrait-sevrin-illustrated-v1.png",
+      "portrait-assets/portrait-sivra-illustrated-v1.png",
+      "portrait-assets/portrait-soryn-illustrated-v1.png",
+      "portrait-assets/portrait-soryn-veilglass-illustrated-v1.png",
+      "portrait-assets/portrait-tamsin-illustrated-v1.png",
+      "portrait-assets/portrait-thessa-illustrated-v1.png",
+      "portrait-assets/portrait-valdra-rosethorn-illustrated-v1.png",
+      "portrait-assets/portrait-veloura-illustrated-v1.png",
+      "portrait-assets/portrait-veyra-illustrated-v1.png",
+      "portrait-assets/portrait-veyra-wick-illustrated-v1.png",
+      "portrait-assets/portrait-yselle-illustrated-v1.png",
+      "portrait-assets/portrait-zahra-illustrated-v1.png",
+      "review.html"
     ],
     "kit-options/workshop.css": [],
     "kit-options/workshop.js": [],
@@ -1060,12 +1686,53 @@
     "combat-draft-assets/combat-draft-a.png": [],
     "combat-draft-assets/combat-draft-b.png": [],
     "combat-draft-assets/combat-draft-c.png": [],
+    "portrait-assets/portrait-adela-illustrated-v1.png": [],
+    "portrait-assets/portrait-astra-illustrated-v1.png": [],
+    "portrait-assets/portrait-aveline-illustrated-v1.png": [],
+    "portrait-assets/portrait-brann-illustrated-v1.png": [],
+    "portrait-assets/portrait-caelia-illustrated-v1.png": [],
+    "portrait-assets/portrait-cerys-illustrated-v1.png": [],
+    "portrait-assets/portrait-dax-illustrated-v1.png": [],
+    "portrait-assets/portrait-elowyn-rosemere-illustrated-v1.png": [],
+    "portrait-assets/portrait-iori-illustrated-v1.png": [],
+    "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png": [],
+    "portrait-assets/portrait-jianne-illustrated-v1.png": [],
+    "portrait-assets/portrait-kael-illustrated-v1.png": [],
+    "portrait-assets/portrait-liora-fernveil-illustrated-v1.png": [],
+    "portrait-assets/portrait-luna-illustrated-v1.png": [],
+    "portrait-assets/portrait-maelin-illustrated-v1.png": [],
+    "portrait-assets/portrait-maelis-illustrated-v1.png": [],
+    "portrait-assets/portrait-mika-illustrated-v1.png": [],
+    "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png": [],
+    "portrait-assets/portrait-nemea-illustrated-v1.png": [],
+    "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png": [],
+    "portrait-assets/portrait-nerisse-illustrated-v1.png": [],
+    "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png": [],
+    "portrait-assets/portrait-nyx-illustrated-v1.png": [],
+    "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png": [],
+    "portrait-assets/portrait-rhea-illustrated-v1.png": [],
+    "portrait-assets/portrait-roselle-vey-illustrated-v1.png": [],
+    "portrait-assets/portrait-selene-illustrated-v1.png": [],
+    "portrait-assets/portrait-seressa-valemire-illustrated-v1.png": [],
+    "portrait-assets/portrait-sevrin-illustrated-v1.png": [],
+    "portrait-assets/portrait-sivra-illustrated-v1.png": [],
+    "portrait-assets/portrait-soryn-illustrated-v1.png": [],
+    "portrait-assets/portrait-soryn-veilglass-illustrated-v1.png": [],
+    "portrait-assets/portrait-tamsin-illustrated-v1.png": [],
+    "portrait-assets/portrait-thessa-illustrated-v1.png": [],
+    "portrait-assets/portrait-valdra-rosethorn-illustrated-v1.png": [],
+    "portrait-assets/portrait-veloura-illustrated-v1.png": [],
+    "portrait-assets/portrait-veyra-illustrated-v1.png": [],
+    "portrait-assets/portrait-veyra-wick-illustrated-v1.png": [],
+    "portrait-assets/portrait-yselle-illustrated-v1.png": [],
+    "portrait-assets/portrait-zahra-illustrated-v1.png": [],
     "index.html": [
       "abilities.html",
       "combat.html",
       "enemies.html",
       "kit-options/workshop.css",
       "kits.html",
+      "portraits.html",
       "review.html",
       "roselle.html"
     ],
@@ -1076,6 +1743,7 @@
     "Current enemy PNGs match the unchanged passing 31-ID Core/runtime validation report, canonical hashes and local gallery copies",
     "Expansion PNGs match the separate visual-only twelve-ID canonical-and-gallery validation; no Core or Unity integration",
     "Three combat visual drafts use eight selected generated sprite sources, one shared background and three actual current canvas exports; source references/provenance remain private",
+    "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "No earlier/rejected sprites, reference photos or archived candidate images",
     "No prompts, intake, QA reports, authoring history files or repository source",
     "No verbatim draft notes, local browser metadata or internal source anchors",
