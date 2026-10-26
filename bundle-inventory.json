@@ -621,8 +621,8 @@
         "id": "nerisse",
         "name": "Nerisse Veldt",
         "rosterScope": "existing-runtime-29",
-        "file": "portrait-assets/portrait-nerisse-illustrated-v1.png",
-        "sha256": "cfb4b8a7350c56702614d6554b1c3fcb1ee8862034d9040b6377259e4db8865f",
+        "file": "portrait-assets/portrait-nerisse-illustrated-v2.png",
+        "sha256": "5c90b066abf9738e26980d18947cd66771f31f26ddec6d47e9429127ef7e9d27",
         "reviewStatus": "illustrated-portrait-awaiting-user-review"
       },
       {
@@ -799,7 +799,7 @@
     }
   },
   "fileCount": 123,
-  "totalBytes": 182622686,
+  "totalBytes": 182787196,
   "unresolvedReferences": [],
   "files": [
     {
@@ -880,7 +880,7 @@
     {
       "path": "combat.html",
       "bytes": 41729,
-      "sha256": "9e6f78d1f04ad130f3f3a0c17cdd585b9601243227199f1e703b94c6e13079e8"
+      "sha256": "8befc002e8f6da66010bf0b66201243aea52590fee774f5213dceccae7f74e1b"
     },
     {
       "path": "enemies.html",
@@ -1248,9 +1248,9 @@
       "sha256": "fb8f02648b586708f9bff11d403de153b24ccba1cc344a2f0a7469ce73018c6c"
     },
     {
-      "path": "portrait-assets/portrait-nerisse-illustrated-v1.png",
-      "bytes": 1338321,
-      "sha256": "cfb4b8a7350c56702614d6554b1c3fcb1ee8862034d9040b6377259e4db8865f"
+      "path": "portrait-assets/portrait-nerisse-illustrated-v2.png",
+      "bytes": 1502831,
+      "sha256": "5c90b066abf9738e26980d18947cd66771f31f26ddec6d47e9429127ef7e9d27"
     },
     {
       "path": "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
@@ -1350,7 +1350,7 @@
     {
       "path": "portraits.html",
       "bytes": 38494,
-      "sha256": "9e6a054f54491b3b59c935a727322f266e26b3b287b6e2857705b94558cd035d"
+      "sha256": "d1e39a06c6ed246aaa9f031140821b54eca654f8b7ab9ae621eb8b010821ae42"
     },
     {
       "path": "review.html",
@@ -1561,7 +1561,7 @@
       "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png",
       "portrait-assets/portrait-nemea-illustrated-v1.png",
       "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
-      "portrait-assets/portrait-nerisse-illustrated-v1.png",
+      "portrait-assets/portrait-nerisse-illustrated-v2.png",
       "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
       "portrait-assets/portrait-nyx-illustrated-v1.png",
       "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png",
@@ -1609,7 +1609,7 @@
       "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png",
       "portrait-assets/portrait-nemea-illustrated-v1.png",
       "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
-      "portrait-assets/portrait-nerisse-illustrated-v1.png",
+      "portrait-assets/portrait-nerisse-illustrated-v2.png",
       "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png",
       "portrait-assets/portrait-nyx-illustrated-v1.png",
       "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png",
@@ -1725,7 +1725,7 @@
     "portrait-assets/portrait-miravelle-vexwing-illustrated-v1.png": [],
     "portrait-assets/portrait-nemea-illustrated-v1.png": [],
     "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png": [],
-    "portrait-assets/portrait-nerisse-illustrated-v1.png": [],
+    "portrait-assets/portrait-nerisse-illustrated-v2.png": [],
     "portrait-assets/portrait-nyssara-silksong-illustrated-v1.png": [],
     "portrait-assets/portrait-nyx-illustrated-v1.png": [],
     "portrait-assets/portrait-orivelle-starveil-illustrated-v1.png": [],
