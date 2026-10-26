@@ -1,200 +1,354 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "purpose": "Sanitized static ProjectG phone review; no repository source or private draft notes.",
   "sourceVersion": "2026-10-26-v4",
   "acceptedSpriteCount": 11,
   "acceptedHeroDesignCount": 11,
-  "enemyCandidateCount": 31,
+  "enemyCandidateCount": 43,
+  "currentEnemyCandidateCount": 31,
+  "expansionEnemyCandidateCount": 12,
+  "expansionAdultFemaleBossCount": 8,
   "enemyCandidates": [
     {
       "id": "rift_drone",
       "file": "enemy-sprites/enemy-rift-drone-pixel-v1.png",
       "sha256": "1b670412598e22b25f0ccc65ed090888be601daabc1e9894bcb5fdb8faf9e8e8",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "aegis_construct",
       "file": "enemy-sprites/enemy-aegis-construct-pixel-v1.png",
       "sha256": "6bd168c71df9234c65eb6065b7107f059814d485e77473fb1b09a9c237466cf7",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "ember_beast",
       "file": "enemy-sprites/enemy-ember-beast-pixel-v1.png",
       "sha256": "0efc66dd6441f6d55809b4832c6ce222193f47943bf90cd955e0cf4894be2bce",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "tide_wraith",
       "file": "enemy-sprites/enemy-tide-wraith-pixel-v1.png",
       "sha256": "a3b32ae17ea24794cc3ea587b65be5c453dce01239753d059acedc17359f1324",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "verdant_brute",
       "file": "enemy-sprites/enemy-verdant-brute-pixel-v1.png",
       "sha256": "8c6bc6c17ad13721acae79190cc2cc932bbe674e541e4a4782c8dd4e225704bb",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "shade_reaper",
       "file": "enemy-sprites/enemy-shade-reaper-pixel-v1.png",
       "sha256": "5fb5171656c76dbcd79d9516b2425b8df2ad1e60a714991d7db2a123ec852e4a",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "lumen_guardian",
       "file": "enemy-sprites/enemy-lumen-guardian-pixel-v1.png",
       "sha256": "ac405d26ced3e94adbaed9bdfb7b70b2e1dbe9de5ab7e7f2366bbd4b48cbb431",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "crystal_core",
       "file": "enemy-sprites/enemy-crystal-core-pixel-v1.png",
       "sha256": "5a7fad3927baf868227e4aa2e6d91d94992e4b74c7854989561693bd0b9b69ed",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "warden_kaelos",
       "file": "enemy-sprites/enemy-warden-kaelos-pixel-v1.png",
       "sha256": "3f7057a3e95fc23d421a954aa0cdb6bff484d48d9f80abadfdb4caf270981a56",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "oracle_myr",
       "file": "enemy-sprites/enemy-oracle-myr-pixel-v1.png",
       "sha256": "649a39612a309bdd54f67da4306df66d7d81ef3b24622eaeefe885a13d3498cd",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "thorn_duchess",
       "file": "enemy-sprites/enemy-thorn-duchess-pixel-v1.png",
       "sha256": "5598c0a4ef3a6e50e80bd70d3112ddd03706c3e9e03aaf5e1357e55e9d8f978f",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "umbra_legate",
       "file": "enemy-sprites/enemy-umbra-legate-pixel-v1.png",
       "sha256": "6a0f15eaf02fafd01a7faa2a3c940b9738e6f7d29d0ec7fdaa4ef74716beb12e",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "seraph_engine",
       "file": "enemy-sprites/enemy-seraph-engine-pixel-v1.png",
       "sha256": "d3eaffd2d323f71e6f7ccf9f8fab71453159b2087c82ecd613e1a71795b6b6c2",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "void_archon",
       "file": "enemy-sprites/enemy-void-archon-pixel-v1.png",
       "sha256": "0dd94db8bc41371ae4f38e8056793e81ecd84a29b1c73312a5440d3974aafd91",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "ashfang_stalker",
       "file": "enemy-sprites/enemy-ashfang-stalker-pixel-v1.png",
       "sha256": "6382752909c1f7aa48d363f90083286b23c2ae8d49230961efb7917b88b937bf",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "chrome_scout",
       "file": "enemy-sprites/enemy-chrome-scout-pixel-v1.png",
       "sha256": "1c50888bbd68126d7d3e8b38791bbbd7b5bccd02cf9b9e45aa563c732c6feb6d",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "helix_lancer",
       "file": "enemy-sprites/enemy-helix-lancer-pixel-v1.png",
       "sha256": "8678e22ec052f525757e5a7e11c295ca6064564f014e482ac75080d2453de6d0",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "thornmaw_matriarch",
       "file": "enemy-sprites/enemy-thornmaw-matriarch-pixel-v1.png",
       "sha256": "af17430ff42819217f3696fb63efe18ebf2c19ea0ad636867f2e59b4770db82c",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "exarch_vesper",
       "file": "enemy-sprites/enemy-exarch-vesper-pixel-v1.png",
       "sha256": "9eb5f804e18161a38786e330db6275b65db44f7adea27faba2818149e632825c",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "legate_orrix",
       "file": "enemy-sprites/enemy-legate-orrix-pixel-v1.png",
       "sha256": "da52e092000f7ff6e69ede286d99c083caa5d342ad8349fc86e5f422360455ae",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "gale_harpy",
       "file": "enemy-sprites/enemy-gale-harpy-pixel-v1.png",
       "sha256": "bdf33226600344a1c5844857f28ac0e5a97069dad9592afcc374165520d8b3c3",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "skyfang_drake",
       "file": "enemy-sprites/enemy-skyfang-drake-pixel-v1.png",
       "sha256": "8bb5255880771e0fe15552695c01c425af3289322de1a956df1130a7e23cfeeb",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "galeclaw_matriarch",
       "file": "enemy-sprites/enemy-galeclaw-matriarch-pixel-v1.png",
       "sha256": "28c232c3d1a2ecd6cedc16c62c17b1a5f5261dc1c2d40462327c88d6040271f3",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "bastion_kheiron",
       "file": "enemy-sprites/enemy-bastion-kheiron-pixel-v1.png",
       "sha256": "7fa9658412f428001d5ee4a9be836e94784274190dcbfb3c0a8dd0e460c75f6c",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "prefect_caelus",
       "file": "enemy-sprites/enemy-prefect-caelus-pixel-v1.png",
       "sha256": "bbb39c17181d522809571dcd5aef6cd92a754e0613318dc260c0385766364e95",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "brine_slime",
       "file": "enemy-sprites/enemy-brine-slime-pixel-v1.png",
       "sha256": "9b96b5608fa90729b795260f07d32d2b8bfcbb36d0bb27644c0a4c0b95bcae65",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "drowned_sentinel",
       "file": "enemy-sprites/enemy-drowned-sentinel-pixel-v1.png",
       "sha256": "e4d8b0e449d7aeba28344813df654835c4fac6dbe9aa91721163a654b9fee100",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "null_diver",
       "file": "enemy-sprites/enemy-null-diver-pixel-v1.png",
       "sha256": "f871d68b3336b2c47a41b24cb65f681b0ebbc9e3591e695309eaa770493428a2",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "drowned_regent",
       "file": "enemy-sprites/enemy-drowned-regent-pixel-v1.png",
       "sha256": "aef2e5a088fddd95d4acf8d731c32f338eda6eac6e8875886412409021e20065",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "nul_diver_leviathan",
       "file": "enemy-sprites/enemy-nul-diver-leviathan-pixel-v1.png",
       "sha256": "e8e8945c42878e83e4186e59fd960e6d8d03c62b58d8c06161f1b4a6c650aa11",
+      "scope": "current",
       "reviewStatus": "awaiting-user-visual-acceptance"
     },
     {
       "id": "archivist_nul",
       "file": "enemy-sprites/enemy-archivist-nul-pixel-v1.png",
       "sha256": "8f4cffec967b3b0ad0e19c923f7ed48f26234ece834825d2f33526d64e75027c",
+      "scope": "current",
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "velkara_moonfang",
+      "file": "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
+      "sha256": "7397b7cd89e58a624b96b9cb68cf087824589e18f211aaddcfd65b86cde95615",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "seraxis_chrome_empress",
+      "file": "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png",
+      "sha256": "085d05a9262204190a170a0920d1075f123574ab8e67fe8352a5a0f90b56e8d9",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "naevra_fallen_seraph",
+      "file": "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png",
+      "sha256": "ac1cc3b5b92f9a51332f446c3ffa7ffebd0373de07dc8c4d0ed9acab6e7ed18c",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "isshara_coilqueen",
+      "file": "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
+      "sha256": "b51428384a96a017b46695e9532459d64ead9a6fe85cd0c9c1a1ee3416de9f05",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "morvella_gravebloom",
+      "file": "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png",
+      "sha256": "35cb1d4692c2518619f222880d340adf747b5ac8e82f503877c67adcd5c2f5ac",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "vespyria_moonweaver",
+      "file": "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
+      "sha256": "63d290858cc13c5c0cffc257754a35ef2e800b19b08d31e9cbeb35c8c2d973ab",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "kaelyra_cinderwing",
+      "file": "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png",
+      "sha256": "cc79ee3f0280cf96a484b8482f81a912be89cde7cd2a0fb6305dc308060c6eb9",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "thalorya_abyss_siren",
+      "file": "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png",
+      "sha256": "bec04cf6a6b9ba519b9647d4e27d1e0345875337a9f26df4e85df8f6857c7393",
+      "scope": "expansion",
+      "isBoss": true,
+      "adultFemaleBoss": true,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "frostglass_scorpion",
+      "file": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
+      "sha256": "67cc70b7da9dafe48328ee36867f8f8a66396dfbc4908e0bdb4460cdb1032a17",
+      "scope": "expansion",
+      "isBoss": false,
+      "adultFemaleBoss": false,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "riftjaw_mimic",
+      "file": "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png",
+      "sha256": "f7d5b50c6f705c155bbfa89f4a9f79d27637d279c62e0e3d0f1229773747ae7d",
+      "scope": "expansion",
+      "isBoss": false,
+      "adultFemaleBoss": false,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "ironstep_reclaimer",
+      "file": "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
+      "sha256": "4a0a77064dc4f7950a732743b6d1cfede91740179cade86b655ae8dcd8e976ae",
+      "scope": "expansion",
+      "isBoss": false,
+      "adultFemaleBoss": false,
+      "gameplayIntegrated": false,
+      "reviewStatus": "awaiting-user-visual-acceptance"
+    },
+    {
+      "id": "veilfin_ray",
+      "file": "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png",
+      "sha256": "926f268038ead170b68a601f8f2c4488bb489ad5616807156ac50d899e1596d4",
+      "scope": "expansion",
+      "isBoss": false,
+      "adultFemaleBoss": false,
+      "gameplayIntegrated": false,
       "reviewStatus": "awaiting-user-visual-acceptance"
     }
   ],
-  "fileCount": 57,
-  "totalBytes": 83641414,
+  "fileCount": 69,
+  "totalBytes": 102423647,
   "unresolvedReferences": [],
   "files": [
     {
@@ -209,13 +363,73 @@
     },
     {
       "path": "acceptance.json",
-      "bytes": 3318,
-      "sha256": "bb3fb7a8cfcbe1999afddc077a5ca6329e8110005c8b6cdc1da2f77ec89cf4c4"
+      "bytes": 3386,
+      "sha256": "b654881df0790e817654895ad6f1d5fd9995c129fe20f9467c64574231c8169b"
     },
     {
       "path": "enemies.html",
-      "bytes": 46047,
-      "sha256": "792285346c4117460d66fb97dd802d0637f26c5b859bfff20e943d8dee4e0b5f"
+      "bytes": 76134,
+      "sha256": "f59ad7618177c16a97c67d395dfb8097d063e9ed2d846625fe5ffe1efad69c66"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
+      "bytes": 1851467,
+      "sha256": "67cc70b7da9dafe48328ee36867f8f8a66396dfbc4908e0bdb4460cdb1032a17"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
+      "bytes": 1297948,
+      "sha256": "4a0a77064dc4f7950a732743b6d1cfede91740179cade86b655ae8dcd8e976ae"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
+      "bytes": 1655337,
+      "sha256": "b51428384a96a017b46695e9532459d64ead9a6fe85cd0c9c1a1ee3416de9f05"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png",
+      "bytes": 1583508,
+      "sha256": "cc79ee3f0280cf96a484b8482f81a912be89cde7cd2a0fb6305dc308060c6eb9"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png",
+      "bytes": 1543710,
+      "sha256": "35cb1d4692c2518619f222880d340adf747b5ac8e82f503877c67adcd5c2f5ac"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png",
+      "bytes": 1578897,
+      "sha256": "ac1cc3b5b92f9a51332f446c3ffa7ffebd0373de07dc8c4d0ed9acab6e7ed18c"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png",
+      "bytes": 1749817,
+      "sha256": "f7d5b50c6f705c155bbfa89f4a9f79d27637d279c62e0e3d0f1229773747ae7d"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png",
+      "bytes": 949909,
+      "sha256": "085d05a9262204190a170a0920d1075f123574ab8e67fe8352a5a0f90b56e8d9"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png",
+      "bytes": 1944689,
+      "sha256": "bec04cf6a6b9ba519b9647d4e27d1e0345875337a9f26df4e85df8f6857c7393"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png",
+      "bytes": 1570541,
+      "sha256": "926f268038ead170b68a601f8f2c4488bb489ad5616807156ac50d899e1596d4"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
+      "bytes": 1087422,
+      "sha256": "7397b7cd89e58a624b96b9cb68cf087824589e18f211aaddcfd65b86cde95615"
+    },
+    {
+      "path": "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
+      "bytes": 1938828,
+      "sha256": "63d290858cc13c5c0cffc257754a35ef2e800b19b08d31e9cbeb35c8c2d973ab"
     },
     {
       "path": "enemy-sprites/enemy-aegis-construct-pixel-v1.png",
@@ -419,8 +633,8 @@
     },
     {
       "path": "review.html",
-      "bytes": 31032,
-      "sha256": "d033dd6d6b5115fa46dd39204ad7f7185d6f259e67c42f3e05ee863921f7b96c"
+      "bytes": 31037,
+      "sha256": "7c0c430218abc15e05fd7b561d5b71993745289a009f117343a315e8860255e7"
     },
     {
       "path": "roselle.html",
@@ -538,6 +752,18 @@
     ],
     "enemies.html": [
       "abilities.html",
+      "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
       "enemy-sprites/enemy-aegis-construct-pixel-v1.png",
       "enemy-sprites/enemy-archivist-nul-pixel-v1.png",
       "enemy-sprites/enemy-ashfang-stalker-pixel-v1.png",
@@ -623,6 +849,18 @@
     "enemy-sprites/enemy-drowned-regent-pixel-v1.png": [],
     "enemy-sprites/enemy-nul-diver-leviathan-pixel-v1.png": [],
     "enemy-sprites/enemy-archivist-nul-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png": [],
+    "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png": [],
     "index.html": [
       "abilities.html",
       "enemies.html",
@@ -634,8 +872,9 @@
     ".nojekyll": []
   },
   "sanitization": [
-    "Exactly eleven visually accepted hero designs and 31 current enemy candidates awaiting visual acceptance",
-    "Enemy PNGs match the passing 31-ID validation report, current canonical hashes and local gallery copies",
+    "Exactly eleven visually accepted hero designs and 43 enemy candidates awaiting visual acceptance: 31 current refreshes and 12 new concepts",
+    "Current enemy PNGs match the unchanged passing 31-ID Core/runtime validation report, canonical hashes and local gallery copies",
+    "Expansion PNGs match the separate visual-only twelve-ID canonical-and-gallery validation; no Core or Unity integration",
     "No earlier/rejected sprites, reference photos or archived candidate images",
     "No prompts, intake, QA reports, authoring history files or repository source",
     "No verbatim draft notes, local browser metadata or internal source anchors",
