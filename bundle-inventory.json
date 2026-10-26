@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "purpose": "Sanitized static ProjectG phone review; no repository source or private draft notes.",
   "sourceVersion": "2026-10-26-v4",
   "acceptedSpriteCount": 11,
@@ -347,8 +347,106 @@
       "reviewStatus": "awaiting-user-visual-acceptance"
     }
   ],
-  "fileCount": 69,
-  "totalBytes": 102423647,
+  "combatDrafts": {
+    "layouts": 3,
+    "spriteSources": 8,
+    "backgroundSources": 1,
+    "canvasPreviews": 3,
+    "canvas": {
+      "width": 1280,
+      "height": 720
+    },
+    "accepted": false,
+    "gameplayIntegrated": false,
+    "assets": [
+      {
+        "id": "roselle-vey",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-roselle-vey-coarse-v1.png",
+        "sha256": "6b44a368b4d18dd642bde960317903d9e860b72fd83ddec1c8b6178d98b98e5f",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "liora-fernveil",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-liora-fernveil-coarse-v1.png",
+        "sha256": "89835c34413d5a7fdce5db17df4c2a28daa4b5629ea3c00c9628570b8250edf9",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "soryn-veilglass",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-soryn-veilglass-coarse-v1.png",
+        "sha256": "f38d53ae96cf4a58b3c60ec39f4de122a11a2d07c3a317d97ab252e47a24a56d",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "isavelle-frostmere",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-isavelle-frostmere-coarse-v1.png",
+        "sha256": "51f6bb53da899b8cc86d37a626110f40eb5c383de80a0692ef4678c8a0dda08d",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "nerielle-wavecrest",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-nerielle-wavecrest-coarse-v1.png",
+        "sha256": "f038d623b5cf51b27427fdd08c2cbe51e835aad0d9a7f9ce696e40d026ef08ac",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "seraxis-chrome-empress",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png",
+        "sha256": "9fe3afc759cda1f8ff766b80be5ec928613dbf78f11f71d095525301e0a1208a",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "velkara-moonfang",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png",
+        "sha256": "c4a8e13eae06d048633a1054217e84b3f8b07bf7beb6449771bde010bf8de652",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "frostglass-scorpion",
+        "role": "coarse-sprite-source",
+        "file": "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
+        "sha256": "cd8ccf2f63684bf58e358bbd57b0c9ec29e722cc302e4da17797babfa76053fa",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "background",
+        "role": "background-source",
+        "file": "combat-draft-assets/asterwatch-court-pixel-v1.png",
+        "sha256": "c9c2f0505c7456f3900e1b95544aa0793cecfc14ee3df48afe18c8158c5e4702",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "preview-a",
+        "role": "canvas-preview",
+        "file": "combat-draft-assets/combat-draft-a.png",
+        "sha256": "191163477632ef119453fb5d585fc5a57d78daa9fd97879729853e49356bbdf6",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "preview-b",
+        "role": "canvas-preview",
+        "file": "combat-draft-assets/combat-draft-b.png",
+        "sha256": "f64887eff15f94769dd61af88219cbf178c397bf1d74f207647721181f2f0f44",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      },
+      {
+        "id": "preview-c",
+        "role": "canvas-preview",
+        "file": "combat-draft-assets/combat-draft-c.png",
+        "sha256": "c00b824b5d396faeaf10da832517ec4e53b2326d5c1992b759f191e78f6ec1f6",
+        "reviewStatus": "visual-draft-awaiting-user-review"
+      }
+    ]
+  },
+  "fileCount": 82,
+  "totalBytes": 119302383,
   "unresolvedReferences": [],
   "files": [
     {
@@ -358,8 +456,8 @@
     },
     {
       "path": "abilities.html",
-      "bytes": 837657,
-      "sha256": "ee99b9006acaf40249590ee387e078b5cdc24f443d9219b9dfee197f70e0603c"
+      "bytes": 837700,
+      "sha256": "7223d931e585d11aca8713ff10caf470a8ce9adea5139c09cda818897285ef1f"
     },
     {
       "path": "acceptance.json",
@@ -367,9 +465,74 @@
       "sha256": "b654881df0790e817654895ad6f1d5fd9995c129fe20f9467c64574231c8169b"
     },
     {
+      "path": "combat-draft-assets/asterwatch-court-pixel-v1.png",
+      "bytes": 2935476,
+      "sha256": "c9c2f0505c7456f3900e1b95544aa0793cecfc14ee3df48afe18c8158c5e4702"
+    },
+    {
+      "path": "combat-draft-assets/combat-draft-a.png",
+      "bytes": 1096980,
+      "sha256": "191163477632ef119453fb5d585fc5a57d78daa9fd97879729853e49356bbdf6"
+    },
+    {
+      "path": "combat-draft-assets/combat-draft-b.png",
+      "bytes": 1158338,
+      "sha256": "f64887eff15f94769dd61af88219cbf178c397bf1d74f207647721181f2f0f44"
+    },
+    {
+      "path": "combat-draft-assets/combat-draft-c.png",
+      "bytes": 1108774,
+      "sha256": "c00b824b5d396faeaf10da832517ec4e53b2326d5c1992b759f191e78f6ec1f6"
+    },
+    {
+      "path": "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
+      "bytes": 1542992,
+      "sha256": "cd8ccf2f63684bf58e358bbd57b0c9ec29e722cc302e4da17797babfa76053fa"
+    },
+    {
+      "path": "combat-draft-assets/draft-isavelle-frostmere-coarse-v1.png",
+      "bytes": 1630956,
+      "sha256": "51f6bb53da899b8cc86d37a626110f40eb5c383de80a0692ef4678c8a0dda08d"
+    },
+    {
+      "path": "combat-draft-assets/draft-liora-fernveil-coarse-v1.png",
+      "bytes": 853003,
+      "sha256": "89835c34413d5a7fdce5db17df4c2a28daa4b5629ea3c00c9628570b8250edf9"
+    },
+    {
+      "path": "combat-draft-assets/draft-nerielle-wavecrest-coarse-v1.png",
+      "bytes": 1850313,
+      "sha256": "f038d623b5cf51b27427fdd08c2cbe51e835aad0d9a7f9ce696e40d026ef08ac"
+    },
+    {
+      "path": "combat-draft-assets/draft-roselle-vey-coarse-v1.png",
+      "bytes": 1756762,
+      "sha256": "6b44a368b4d18dd642bde960317903d9e860b72fd83ddec1c8b6178d98b98e5f"
+    },
+    {
+      "path": "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png",
+      "bytes": 829764,
+      "sha256": "9fe3afc759cda1f8ff766b80be5ec928613dbf78f11f71d095525301e0a1208a"
+    },
+    {
+      "path": "combat-draft-assets/draft-soryn-veilglass-coarse-v1.png",
+      "bytes": 970830,
+      "sha256": "f38d53ae96cf4a58b3c60ec39f4de122a11a2d07c3a317d97ab252e47a24a56d"
+    },
+    {
+      "path": "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png",
+      "bytes": 1119954,
+      "sha256": "c4a8e13eae06d048633a1054217e84b3f8b07bf7beb6449771bde010bf8de652"
+    },
+    {
+      "path": "combat.html",
+      "bytes": 24305,
+      "sha256": "cd9dc4b6b4093aa7b17d92438b5210fdf155e63f066fb2a60597d550f0ded8ae"
+    },
+    {
       "path": "enemies.html",
-      "bytes": 76134,
-      "sha256": "f59ad7618177c16a97c67d395dfb8097d063e9ed2d846625fe5ffe1efad69c66"
+      "bytes": 76173,
+      "sha256": "7d192adaa2f885dd719cc5d5ab06052e6ee01814c9c56e3ed0b6fddae96406b1"
     },
     {
       "path": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -588,8 +751,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 644,
-      "sha256": "a4324ec6c2f1ff2d8b2e4de7798592b9ff9496eadf35917f04bbdd376c8c9852"
+      "bytes": 693,
+      "sha256": "83ee4f46e85ceca51006cd5d654a603cc26227c22efcecfd3b8f3f49c60bfac5"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -628,18 +791,18 @@
     },
     {
       "path": "kits.html",
-      "bytes": 342242,
-      "sha256": "b2c914199d001d30978320b4ce47cd825a1d8bcbda1c3e73eb789dbf6fbac2a4"
+      "bytes": 342285,
+      "sha256": "94795a1732c7e51215d6e8a6176e2627e20df1c0bb965b993c18c075764941d2"
     },
     {
       "path": "review.html",
-      "bytes": 31037,
-      "sha256": "7c0c430218abc15e05fd7b561d5b71993745289a009f117343a315e8860255e7"
+      "bytes": 31109,
+      "sha256": "b43af1949453a7a9252f982390fe58bd541e3829a0f82a8113a99bc1d2fe4d83"
     },
     {
       "path": "roselle.html",
-      "bytes": 20230,
-      "sha256": "ab80f0d54144b55122e56c3346c1582064ee0be250fe5de7b3624c656e75f4d5"
+      "bytes": 20273,
+      "sha256": "73103d9058358f38cf4eec88e497df767aa860f1df9abb52f5f7779059cbbd64"
     },
     {
       "path": "sprites/candidate-elowyn-rosemere-pixel-v3.png",
@@ -699,6 +862,7 @@
   ],
   "resourceGraph": {
     "review.html": [
+      "combat.html",
       "enemies.html",
       "kits.html",
       "sprites/candidate-elowyn-rosemere-pixel-v3.png",
@@ -716,6 +880,7 @@
     "kits.html": [
       "abilities.html",
       "acceptance.json",
+      "combat.html",
       "enemies.html",
       "kit-options/ALL_KITS.md",
       "kit-options/all-kits.json",
@@ -737,6 +902,7 @@
     ],
     "roselle.html": [
       "abilities.html",
+      "combat.html",
       "enemies.html",
       "kit-options/roselle-assembled-kit.json",
       "kit-options/workshop.css",
@@ -744,6 +910,7 @@
       "sprites/candidate-roselle-vey-pixel-v5.png"
     ],
     "abilities.html": [
+      "combat.html",
       "enemies.html",
       "kit-options/ABILITY_CATALOGUE.md",
       "kit-options/ability-catalogue.json",
@@ -752,6 +919,7 @@
     ],
     "enemies.html": [
       "abilities.html",
+      "combat.html",
       "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
       "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
       "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
@@ -795,6 +963,25 @@
       "enemy-sprites/enemy-verdant-brute-pixel-v1.png",
       "enemy-sprites/enemy-void-archon-pixel-v1.png",
       "enemy-sprites/enemy-warden-kaelos-pixel-v1.png",
+      "kits.html",
+      "review.html",
+      "roselle.html"
+    ],
+    "combat.html": [
+      "abilities.html",
+      "combat-draft-assets/asterwatch-court-pixel-v1.png",
+      "combat-draft-assets/combat-draft-a.png",
+      "combat-draft-assets/combat-draft-b.png",
+      "combat-draft-assets/combat-draft-c.png",
+      "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png",
+      "combat-draft-assets/draft-isavelle-frostmere-coarse-v1.png",
+      "combat-draft-assets/draft-liora-fernveil-coarse-v1.png",
+      "combat-draft-assets/draft-nerielle-wavecrest-coarse-v1.png",
+      "combat-draft-assets/draft-roselle-vey-coarse-v1.png",
+      "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png",
+      "combat-draft-assets/draft-soryn-veilglass-coarse-v1.png",
+      "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png",
+      "enemies.html",
       "kits.html",
       "review.html",
       "roselle.html"
@@ -861,8 +1048,21 @@
     "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png": [],
     "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png": [],
     "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png": [],
+    "combat-draft-assets/draft-roselle-vey-coarse-v1.png": [],
+    "combat-draft-assets/draft-liora-fernveil-coarse-v1.png": [],
+    "combat-draft-assets/draft-soryn-veilglass-coarse-v1.png": [],
+    "combat-draft-assets/draft-isavelle-frostmere-coarse-v1.png": [],
+    "combat-draft-assets/draft-nerielle-wavecrest-coarse-v1.png": [],
+    "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png": [],
+    "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png": [],
+    "combat-draft-assets/draft-frostglass-scorpion-coarse-v1.png": [],
+    "combat-draft-assets/asterwatch-court-pixel-v1.png": [],
+    "combat-draft-assets/combat-draft-a.png": [],
+    "combat-draft-assets/combat-draft-b.png": [],
+    "combat-draft-assets/combat-draft-c.png": [],
     "index.html": [
       "abilities.html",
+      "combat.html",
       "enemies.html",
       "kit-options/workshop.css",
       "kits.html",
@@ -875,6 +1075,7 @@
     "Exactly eleven visually accepted hero designs and 43 enemy candidates awaiting visual acceptance: 31 current refreshes and 12 new concepts",
     "Current enemy PNGs match the unchanged passing 31-ID Core/runtime validation report, canonical hashes and local gallery copies",
     "Expansion PNGs match the separate visual-only twelve-ID canonical-and-gallery validation; no Core or Unity integration",
+    "Three combat visual drafts use eight selected generated sprite sources, one shared background and three actual current canvas exports; source references/provenance remain private",
     "No earlier/rejected sprites, reference photos or archived candidate images",
     "No prompts, intake, QA reports, authoring history files or repository source",
     "No verbatim draft notes, local browser metadata or internal source anchors",
