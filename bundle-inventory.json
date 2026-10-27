@@ -742,6 +742,13 @@
     "readOnly": true,
     "draftStorageChanged": false,
     "artAcceptanceChanged": false,
+    "measuredExistingRoster": {
+      "runCount": 1800,
+      "heroCount": 29,
+      "exampleRows": 7,
+      "draftKitsMeasured": 0,
+      "globalTierRanking": false
+    },
     "assets": [
       {
         "id": "roselle-vey",
@@ -1210,7 +1217,7 @@
     }
   },
   "fileCount": 128,
-  "totalBytes": 185749527,
+  "totalBytes": 185761537,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1300,13 +1307,13 @@
     },
     {
       "path": "content-balance.html",
-      "bytes": 80638,
-      "sha256": "c8775d4622af7666dbe119cccb13adff2a18a694ed4a74ff6d4515c9b87c2ac6"
+      "bytes": 84871,
+      "sha256": "03dd5dc2a2a5976bf684f1b6962ae6db1f9413c22acb9140a9501060e2da588a"
     },
     {
       "path": "content-balance/review-data.json",
-      "bytes": 68060,
-      "sha256": "62d8a961c67156bc9e8c2d3fb34678e6ae7ed8955ad9915b4f2b37ed7fd1dd14"
+      "bytes": 75837,
+      "sha256": "7631c475e751dcd67af564f6a9169e6a6aadeac57f9e9fb0ae79312fd71bd8fe"
     },
     {
       "path": "enemies.html",

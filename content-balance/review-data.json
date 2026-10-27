@@ -1546,6 +1546,277 @@
     "powerPolicy": "resolvedCombatPower means the final CombatSkillDefinition.Power before damage mitigation, area scale or other runtime modifiers; it is not a direct EnemySkillDefinition.Power assignment. Existing EnemyCombatSkills adds 70 for bosses or 52 for other enemies. Dedicated typed definitions must avoid applying this bonus twice.",
     "telegraphPolicy": "Heavy actions must be visible before commitment and allow at least one living hero action before resolving. No new bonus turns, custom meters or hidden phase stats are proposed."
   },
+  "runtimeTestScope": "The false runtime-test flag applies to the proposed kits and encounters; measured existing-roster results are separate.",
+  "existingRosterBenchmark": {
+    "status": "measured-existing-roster-team-outcomes",
+    "runCount": 1800,
+    "existingHeroCount": 29,
+    "draftKitsMeasured": 0,
+    "candidateCohortCombinations": 30,
+    "encounterCount": 3,
+    "seedsPerCase": 20,
+    "playerActionCap": 200,
+    "cappedRuns": 152,
+    "characterStatsChanged": false,
+    "globalTierRanking": false,
+    "profile": {
+      "level": 20,
+      "stars": 3,
+      "skillLevel": 1,
+      "gear": "none",
+      "memory": "none",
+      "imprint": "none",
+      "training": "none",
+      "advancedGrowth": "none",
+      "familiar": "none",
+      "borrowedSupport": "none",
+      "gridCells": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "gameplayRows": [
+        "Front",
+        "Front",
+        "Back",
+        "Back",
+        "Back"
+      ]
+    },
+    "cohorts": [
+      {
+        "id": "A",
+        "anchors": [
+          "Astra",
+          "Brann",
+          "Luna",
+          "Mika"
+        ]
+      },
+      {
+        "id": "B",
+        "anchors": [
+          "Sevrin",
+          "Iori",
+          "Rhea",
+          "Tamsin"
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "heroId": "sevrin",
+        "heroName": "Sevrin Knox",
+        "cohort": "A",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 5,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      },
+      {
+        "heroId": "cerys",
+        "heroName": "Cerys Ashwake",
+        "cohort": "A",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 20,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 2,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 20,
+            "actionCaps": 0,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      },
+      {
+        "heroId": "adela",
+        "heroName": "Adela Karst",
+        "cohort": "A",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 20,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 12,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 20,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      },
+      {
+        "heroId": "nerisse",
+        "heroName": "Nerisse Veldt",
+        "cohort": "A",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 20,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 17,
+            "actionCaps": 0,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      },
+      {
+        "heroId": "selene",
+        "heroName": "Selene Ward",
+        "cohort": "A",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 20,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 19,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      },
+      {
+        "heroId": "selene",
+        "heroName": "Selene Ward",
+        "cohort": "B",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      },
+      {
+        "heroId": "luna",
+        "heroName": "Luna Myr",
+        "cohort": "B",
+        "results": [
+          {
+            "scenarioId": "campaign-12-24",
+            "runs": 20,
+            "wins": 20,
+            "actionCaps": 0,
+            "scenarioName": "Normal 12-24"
+          },
+          {
+            "scenarioId": "hard-1-24",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 0,
+            "scenarioName": "Hard 1-24"
+          },
+          {
+            "scenarioId": "tower-30",
+            "runs": 20,
+            "wins": 0,
+            "actionCaps": 5,
+            "scenarioName": "Tower 30"
+          }
+        ]
+      }
+    ],
+    "stallExample": "In Tower 30, Adela / A kept five survivors and mean 93.99% team HP but reached the cap in all 20 runs. Cerys / A won all 20 with mean 4.85 survivors and 70.91% team HP. Sustaining a stall is different from clearing.",
+    "limitations": [
+      "These are conditional team outcomes for the existing 29 heroes, not a global hero ranking or results for the eleven proposed kits.",
+      "Compare within a cohort. Four anchors stay fixed and only the fifth Back-row seat changes; the anchor teams differ between A and B.",
+      "All three final bosses are Radiant, with varying approach mobs. Cross-element strength has not been established.",
+      "Encounters were fixed after a five-seed pilot; those pilot seeds are also in the full run. This is not held-out prediction.",
+      "Twenty seeds leave wide uncertainty: even 20/20 wins has a Wilson 95% interval of about 84–100%.",
+      "The actual auto AI ran complete encounters or the 200-player-action cap. This does not measure individual DPS, healing or prevention across six hero turns.",
+      "Displayed enemy levels 120/74/43 use different formulas from hero level 20. Late-Campaign wins flag progression scaling for review rather than approving it.",
+      "Remaining HP is team HP divided by starting team Max HP; it excludes shields and does not measure total healing.",
+      "Action-cap runs remain incomplete, not wins or defeats. These results make no manual-targeting, online/PvP or Android-performance claim."
+    ],
+    "nextChecks": "Investigate Tower guard/recovery stalls, Hard boss lethality and progression scaling. Repeat with non-Radiant encounters and more anchor teams before changing stats."
+  },
   "testPlan": {
     "status": "test-plan-not-playtest-results",
     "currentPlayableHeroCount": 29,
