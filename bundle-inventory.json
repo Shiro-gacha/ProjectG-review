@@ -700,6 +700,166 @@
       }
     ]
   },
+  "contentBalanceReview": {
+    "page": "content-balance.html",
+    "data": "content-balance/review-data.json",
+    "heroIds": [
+      "roselle-vey",
+      "liora-fernveil",
+      "nyssara-silksong",
+      "soryn-veilglass",
+      "seressa-valemire",
+      "orivelle-starveil",
+      "elowyn-rosemere",
+      "miravelle-vexwing",
+      "isavelle-frostmere",
+      "nerielle-wavecrest",
+      "valdra-rosethorn"
+    ],
+    "enemyIds": [
+      "velkara_moonfang",
+      "seraxis_chrome_empress",
+      "naevra_fallen_seraph",
+      "isshara_coilqueen",
+      "morvella_gravebloom",
+      "vespyria_moonweaver",
+      "kaelyra_cinderwing",
+      "thalorya_abyss_siren",
+      "frostglass_scorpion",
+      "riftjaw_mimic",
+      "ironstep_reclaimer",
+      "veilfin_ray"
+    ],
+    "heroCount": 11,
+    "encounterCount": 12,
+    "simpleHeroCount": 9,
+    "signatureHeroCount": 2,
+    "adultFemaleBossCount": 8,
+    "accepted": false,
+    "runtimeIntegrated": false,
+    "balanceValidated": false,
+    "runtimeTestsExecuted": false,
+    "readOnly": true,
+    "draftStorageChanged": false,
+    "artAcceptanceChanged": false,
+    "assets": [
+      {
+        "id": "roselle-vey",
+        "file": "sprites/candidate-roselle-vey-pixel-v5.png",
+        "sha256": "7041281014c8905f05c6cc2b7314ccbb25503b02cc69395f521dc4dde4cd85ee"
+      },
+      {
+        "id": "liora-fernveil",
+        "file": "sprites/candidate-liora-fernveil-pixel-v3.png",
+        "sha256": "18140c332a19c458ed47e183161bc2975fbf690459fe15c7d773779e2c801088"
+      },
+      {
+        "id": "nyssara-silksong",
+        "file": "sprites/candidate-nyssara-silksong-pixel-v4.png",
+        "sha256": "029c59b2fba1327af1b9a0515405e15a2bc46261615f1e964cdc4bd61b99d6f7"
+      },
+      {
+        "id": "soryn-veilglass",
+        "file": "sprites/candidate-soryn-veilglass-pixel-v6.png",
+        "sha256": "6dbb686eebe6218c797106daff15ffabdc38614ea1b96ae0fb91a08ab729a594"
+      },
+      {
+        "id": "seressa-valemire",
+        "file": "sprites/candidate-seressa-valemire-pixel-v4.png",
+        "sha256": "b2d1dca1e49836433e4a354f780f376d72886a0324cbc2f38a180d2e309acd7d"
+      },
+      {
+        "id": "orivelle-starveil",
+        "file": "sprites/candidate-orivelle-starveil-pixel-v2.png",
+        "sha256": "7d08271cdfd1cb16891ead8445116fa1cba791dee194628bb34944e174988f57"
+      },
+      {
+        "id": "elowyn-rosemere",
+        "file": "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+        "sha256": "8c175949152b6f911f06bdea5d212a51f7202061413562fcdc2194e89b701729"
+      },
+      {
+        "id": "miravelle-vexwing",
+        "file": "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+        "sha256": "94ce774bd13162e184227074c8904c3ba7bbdb58399efb8a4a9f526cf2664e3d"
+      },
+      {
+        "id": "isavelle-frostmere",
+        "file": "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+        "sha256": "0596b9d9dcaeb23cd3f767008fb553d1f72c04bbf2c02e0ef0c9c8386c5fe262"
+      },
+      {
+        "id": "nerielle-wavecrest",
+        "file": "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+        "sha256": "f3f56c6bf1d50896b40301a4a710f15a0f928082d3874ad1118beddac13072d7"
+      },
+      {
+        "id": "valdra-rosethorn",
+        "file": "sprites/candidate-valdra-rosethorn-pixel-v3.png",
+        "sha256": "eddbaa016ca04ac1807748721e4a3aa1e187d99a4a1f214936aa82b22b84af5f"
+      },
+      {
+        "id": "velkara_moonfang",
+        "file": "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
+        "sha256": "7397b7cd89e58a624b96b9cb68cf087824589e18f211aaddcfd65b86cde95615"
+      },
+      {
+        "id": "seraxis_chrome_empress",
+        "file": "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png",
+        "sha256": "085d05a9262204190a170a0920d1075f123574ab8e67fe8352a5a0f90b56e8d9"
+      },
+      {
+        "id": "naevra_fallen_seraph",
+        "file": "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png",
+        "sha256": "ac1cc3b5b92f9a51332f446c3ffa7ffebd0373de07dc8c4d0ed9acab6e7ed18c"
+      },
+      {
+        "id": "isshara_coilqueen",
+        "file": "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
+        "sha256": "b51428384a96a017b46695e9532459d64ead9a6fe85cd0c9c1a1ee3416de9f05"
+      },
+      {
+        "id": "morvella_gravebloom",
+        "file": "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png",
+        "sha256": "35cb1d4692c2518619f222880d340adf747b5ac8e82f503877c67adcd5c2f5ac"
+      },
+      {
+        "id": "vespyria_moonweaver",
+        "file": "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
+        "sha256": "63d290858cc13c5c0cffc257754a35ef2e800b19b08d31e9cbeb35c8c2d973ab"
+      },
+      {
+        "id": "kaelyra_cinderwing",
+        "file": "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png",
+        "sha256": "cc79ee3f0280cf96a484b8482f81a912be89cde7cd2a0fb6305dc308060c6eb9"
+      },
+      {
+        "id": "thalorya_abyss_siren",
+        "file": "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png",
+        "sha256": "bec04cf6a6b9ba519b9647d4e27d1e0345875337a9f26df4e85df8f6857c7393"
+      },
+      {
+        "id": "frostglass_scorpion",
+        "file": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
+        "sha256": "67cc70b7da9dafe48328ee36867f8f8a66396dfbc4908e0bdb4460cdb1032a17"
+      },
+      {
+        "id": "riftjaw_mimic",
+        "file": "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png",
+        "sha256": "f7d5b50c6f705c155bbfa89f4a9f79d27637d279c62e0e3d0f1229773747ae7d"
+      },
+      {
+        "id": "ironstep_reclaimer",
+        "file": "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
+        "sha256": "4a0a77064dc4f7950a732743b6d1cfede91740179cade86b655ae8dcd8e976ae"
+      },
+      {
+        "id": "veilfin_ray",
+        "file": "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png",
+        "sha256": "926f268038ead170b68a601f8f2c4488bb489ad5616807156ac50d899e1596d4"
+      }
+    ]
+  },
   "illustratedPortraits": {
     "heroCount": 40,
     "existingIdentityCount": 29,
@@ -1049,8 +1209,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 126,
-  "totalBytes": 185600647,
+  "fileCount": 128,
+  "totalBytes": 185749527,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1139,9 +1299,19 @@
       "sha256": "88080e460e07eff9ba6c9fdaba7b552bb3b511fc3cfd1bec3ce6a3668d3354cc"
     },
     {
+      "path": "content-balance.html",
+      "bytes": 80638,
+      "sha256": "c8775d4622af7666dbe119cccb13adff2a18a694ed4a74ff6d4515c9b87c2ac6"
+    },
+    {
+      "path": "content-balance/review-data.json",
+      "bytes": 68060,
+      "sha256": "62d8a961c67156bc9e8c2d3fb34678e6ae7ed8955ad9915b4f2b37ed7fd1dd14"
+    },
+    {
       "path": "enemies.html",
-      "bytes": 76173,
-      "sha256": "7d192adaa2f885dd719cc5d5ab06052e6ee01814c9c56e3ed0b6fddae96406b1"
+      "bytes": 76229,
+      "sha256": "b2757aa2291d6b5069ba9eea70816648b7b98b03221e17ade549eaf90f3d5088"
     },
     {
       "path": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -1370,8 +1540,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 812,
-      "sha256": "d78c1fd3d073384c78194b954e0ff96922105f5f1dc13cec73537fc0df7c82b0"
+      "bytes": 882,
+      "sha256": "03c03b5707b85e5af89aa971f438ad4cea584fb48c9459e9a412f4cb937257fd"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -1410,8 +1580,8 @@
     },
     {
       "path": "kits.html",
-      "bytes": 342285,
-      "sha256": "94795a1732c7e51215d6e8a6176e2627e20df1c0bb965b993c18c075764941d2"
+      "bytes": 342341,
+      "sha256": "1f44e2e7712666647b094bfaea31ec8eb93a4b0ff9a9017fcae6b9b0aa676345"
     },
     {
       "path": "portrait-assets/portrait-adela-illustrated-v1.png",
@@ -1705,6 +1875,7 @@
       "abilities.html",
       "acceptance.json",
       "combat.html",
+      "content-balance.html",
       "enemies.html",
       "kit-options/ALL_KITS.md",
       "kit-options/all-kits.json",
@@ -1744,6 +1915,7 @@
     "enemies.html": [
       "abilities.html",
       "combat.html",
+      "content-balance.html",
       "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
       "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
       "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
@@ -1920,6 +2092,38 @@
       "portraits.html",
       "review.html"
     ],
+    "content-balance.html": [
+      "abilities.html",
+      "content-balance/review-data.json",
+      "enemies.html",
+      "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
+      "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
+      "formation-grids.html",
+      "kits.html",
+      "review.html",
+      "roselle.html",
+      "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+      "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+      "sprites/candidate-liora-fernveil-pixel-v3.png",
+      "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+      "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+      "sprites/candidate-nyssara-silksong-pixel-v4.png",
+      "sprites/candidate-orivelle-starveil-pixel-v2.png",
+      "sprites/candidate-roselle-vey-pixel-v5.png",
+      "sprites/candidate-seressa-valemire-pixel-v4.png",
+      "sprites/candidate-soryn-veilglass-pixel-v6.png",
+      "sprites/candidate-valdra-rosethorn-pixel-v3.png"
+    ],
     "kit-options/workshop.css": [],
     "kit-options/workshop.js": [],
     "kit-options/ALL_KITS.md": [],
@@ -1928,6 +2132,7 @@
     "kit-options/roselle-assembled-kit.json": [],
     "kit-options/ability-catalogue.json": [],
     "acceptance.json": [],
+    "content-balance/review-data.json": [],
     "sprites/candidate-roselle-vey-pixel-v5.png": [],
     "sprites/candidate-liora-fernveil-pixel-v3.png": [],
     "sprites/candidate-nyssara-silksong-pixel-v4.png": [],
@@ -2039,6 +2244,7 @@
     "index.html": [
       "abilities.html",
       "combat.html",
+      "content-balance.html",
       "enemies.html",
       "formation-grids.html",
       "kit-options/workshop.css",
@@ -2056,6 +2262,7 @@
     "Four combat layouts retain the three earlier comparisons and the requested combined layout D, using eight selected sprite sources, one background and four actual current canvas exports; references/provenance remain private",
     "Accepted combined D and emblem controls are defaults; three hero formation choices share native anchors without changing enemies, targeting rows or character-art acceptance",
     "The selected 3x3 Cartesian grid has nine fixed slots for five heroes; 3x2 is excluded, and prebattle-only editing preserves the selected HUD and crest controls",
+    "Content and balance review contains eleven unselected hero recommendations, twelve unintegrated encounter proposals and a future test plan; explicit public fields only, no source hashes or authoring records",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",

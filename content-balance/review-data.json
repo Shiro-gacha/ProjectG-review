@@ -1,0 +1,1671 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-27",
+  "status": "draft-proposals-awaiting-user-review",
+  "accepted": false,
+  "runtimeIntegrated": false,
+  "balanceValidated": false,
+  "runtimeTestsExecuted": false,
+  "selectionPolicy": "The user will review later. No browser draft, accepted kit or playable roster is changed by this shortlist.",
+  "heroes": [
+    {
+      "unitId": "roselle-vey",
+      "unitName": "Roselle Vey",
+      "type": "Tide",
+      "kitId": "roselle-vey-assembled-01",
+      "optionLabel": "User draft D/E/D/D/E",
+      "kitName": "Roseguard Sovereign",
+      "complexity": "signature",
+      "role": "Support",
+      "headline": "Keep the user's assembled draft as the review baseline.",
+      "reason": "HP-based shields, cleansing and conditional recovery give a clear defensive identity. Shield conversion is the signature exception in this group.",
+      "tradeoff": "Her two support Actives add no Break. Conversion spends her own protection and needs source-layer shields that the current runtime does not support.",
+      "mixNote": "Do not replace the saved D/E/D/D/E draft with a pure option. Review the assembled Ultimate's ceiling after the base shield rules are implemented.",
+      "qualitativeComparison": "Defense plus prepared burst; no defensible numeric rank before a stat line, layered shields and encounter tests exist.",
+      "reviewHref": "roselle.html",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-roselle-vey-pixel-v5.png",
+      "artHref": "review.html#roselle-vey",
+      "skills": [
+        {
+          "id": "roselle-vey-assembled-01-passive",
+          "slot": "Passive",
+          "name": "After the Bubble Breaks",
+          "summary": [
+            "Increase Roselle's Max HP by 12%.",
+            "When enemy damage breaks an ally's shield, heal that ally for 4% of Roselle's Max HP. Up to twice during each unit's turn."
+          ]
+        },
+        {
+          "id": "roselle-vey-assembled-01-basic",
+          "slot": "Basic",
+          "name": "Droplet Knuckle",
+          "summary": [
+            "Deal 90% ATK damage.",
+            "Shield Roselle for 4% of her Max HP for 2 turns."
+          ]
+        },
+        {
+          "id": "roselle-vey-assembled-01-active1",
+          "slot": "Active1",
+          "name": "Shelter One Rose",
+          "summary": [
+            "Shield one ally for 11% of Roselle's Max HP for 2 turns.",
+            "Increase that ally's DEF by 20% for 2 turns."
+          ]
+        },
+        {
+          "id": "roselle-vey-assembled-01-active2",
+          "slot": "Active2",
+          "name": "Pearl-Lined Canopy",
+          "summary": [
+            "Shield all allies for 6% of Roselle's Max HP for 2 turns.",
+            "Remove 1 debuff from every ally."
+          ]
+        },
+        {
+          "id": "roselle-vey-assembled-01-ultimate",
+          "slot": "Ultimate",
+          "name": "Crown in a Thousand Drops",
+          "summary": [
+            "Deal 125% ATK damage to all enemies.",
+            "Consume shields on Roselle from any hero. Add 50% of the amount consumed as damage per enemy, capped at 35% of her Max HP.",
+            "Then shield Roselle for 8% of her Max HP for 2 turns."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "liora-fernveil",
+      "unitName": "Liora Fernveil",
+      "type": "Verdant",
+      "kitId": "liora-fernveil-d",
+      "optionLabel": "D",
+      "kitName": "Briarline Duelist",
+      "complexity": "simple",
+      "role": "Vanguard",
+      "headline": "A simple counter duelist.",
+      "reason": "Self-healing, Provoke and one capped counter make a durable swordfighter without a private resource.",
+      "tradeoff": "Needs to take HP damage for the counter, and most bosses ignore Provoke. Her party support is a DEF buff rather than broad shielding.",
+      "mixNote": "C Active1 is a clean emergency ally-heal swap, but it replaces the Provoke attack. Keep the D Passive for the counter identity.",
+      "qualitativeComparison": "More self-sufficient than the recommended damage dealers; lower burst and weaker control against bosses.",
+      "reviewHref": "kits.html#liora-fernveil",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-liora-fernveil-pixel-v3.png",
+      "artHref": "review.html#liora-fernveil",
+      "skills": [
+        {
+          "id": "liora-fernveil-d-passive",
+          "slot": "Passive",
+          "name": "No Step Back",
+          "summary": [
+            "Increase Liora's DEF by 15%.",
+            "When an enemy attack damages her HP, counter for 55% ATK damage. Once per Liora turn."
+          ]
+        },
+        {
+          "id": "liora-fernveil-d-basic",
+          "slot": "Basic",
+          "name": "Hilt and Leaf",
+          "summary": [
+            "Deal 90% ATK damage.",
+            "Heal Liora for 2% of her Max HP."
+          ]
+        },
+        {
+          "id": "liora-fernveil-d-active1",
+          "slot": "Active1",
+          "name": "Briar Challenge",
+          "summary": [
+            "Deal 125% ATK damage.",
+            "Provoke the target for 1 turn."
+          ]
+        },
+        {
+          "id": "liora-fernveil-d-active2",
+          "slot": "Active2",
+          "name": "Hold the Green Line",
+          "summary": [
+            "Remove 1 debuff from Liora and heal her for 10% of her Max HP."
+          ]
+        },
+        {
+          "id": "liora-fernveil-d-ultimate",
+          "slot": "Ultimate",
+          "name": "Fern Against the Storm",
+          "summary": [
+            "Deal 195% ATK damage to one enemy.",
+            "Increase all allies' DEF by 20% for 2 turns."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "nyssara-silksong",
+      "unitName": "Nyssara Silksong",
+      "type": "Umbra",
+      "kitId": "nyssara-silksong-a",
+      "optionLabel": "A",
+      "kitName": "Mistress of the Lattice",
+      "complexity": "simple",
+      "role": "Disruptor",
+      "headline": "A simple web controller.",
+      "reason": "Speed down, one-target Root, area dispel and ATK down deliver the spider fantasy using familiar effects.",
+      "tradeoff": "Root is not a boss solution. Accuracy checks and modest damage keep this a specialist rather than a universal answer.",
+      "mixNote": "B Active1 swaps Root for an ally shield when a boss ignores control. It works without the Broodlet Passive, with a lower ceiling.",
+      "qualitativeComparison": "Best into fast or buffed groups; less useful than a striker in a plain damage race.",
+      "reviewHref": "kits.html#nyssara-silksong",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-nyssara-silksong-pixel-v4.png",
+      "artHref": "review.html#nyssara-silksong",
+      "skills": [
+        {
+          "id": "nyssara-silksong-a-passive",
+          "slot": "Passive",
+          "name": "Listening Threads",
+          "summary": [
+            "Increase Nyssara's Effect Accuracy by 15%.",
+            "Take 10% less direct damage from enemies affected by Speed down."
+          ]
+        },
+        {
+          "id": "nyssara-silksong-a-basic",
+          "slot": "Basic",
+          "name": "Silk Dart",
+          "summary": [
+            "Deal 90% ATK damage.",
+            "Reduce the target's Speed by 10% for 2 turns."
+          ]
+        },
+        {
+          "id": "nyssara-silksong-a-active1",
+          "slot": "Active1",
+          "name": "Binding Weave",
+          "summary": [
+            "Deal 130% ATK damage.",
+            "Root the target, preventing its next action."
+          ]
+        },
+        {
+          "id": "nyssara-silksong-a-active2",
+          "slot": "Active2",
+          "name": "Cut the Supporting Thread",
+          "summary": [
+            "Deal 90% ATK damage to all enemies.",
+            "Remove 1 buff from each enemy."
+          ]
+        },
+        {
+          "id": "nyssara-silksong-a-ultimate",
+          "slot": "Ultimate",
+          "name": "Grand Lattice",
+          "summary": [
+            "Deal 120% ATK damage to all enemies.",
+            "Reduce their ATK by 20% for 2 turns."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "soryn-veilglass",
+      "unitName": "Soryn Veilglass",
+      "type": "Radiant",
+      "kitId": "soryn-veilglass-d",
+      "optionLabel": "D",
+      "kitName": "Shrinebreaker Claws",
+      "complexity": "simple",
+      "role": "Striker",
+      "headline": "A direct claw striker with one team hook.",
+      "reason": "Four direct attacks and a once-per-turn follow-up when an ally causes a real Break keep the kit easy to read.",
+      "tradeoff": "Her kit does not add exceptional Break. With 20–40+ boss gauges, the follow-up is occasional and adds no Break or charge itself.",
+      "mixNote": "C Active2 can replace an attack with party protection. The follow-up still works with ordinary attacks and needs no Foxfire engine.",
+      "qualitativeComparison": "Consistent single-target offense; lower immediate ceiling than a resource spender, with less setup risk.",
+      "reviewHref": "kits.html#soryn-veilglass",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-soryn-veilglass-pixel-v6.png",
+      "artHref": "review.html#soryn-veilglass",
+      "skills": [
+        {
+          "id": "soryn-veilglass-d-passive",
+          "slot": "Passive",
+          "name": "A Crack in the Veil",
+          "summary": [
+            "Increase Soryn's ATK by 10%.",
+            "When an ally breaks a surviving enemy, follow up for 55% ATK damage. Once per Soryn turn."
+          ]
+        },
+        {
+          "id": "soryn-veilglass-d-basic",
+          "slot": "Basic",
+          "name": "Knock at the Shrine",
+          "summary": [
+            "Deal 95% ATK damage."
+          ]
+        },
+        {
+          "id": "soryn-veilglass-d-active1",
+          "slot": "Active1",
+          "name": "Find the Seam",
+          "summary": [
+            "Deal 125% ATK damage."
+          ]
+        },
+        {
+          "id": "soryn-veilglass-d-active2",
+          "slot": "Active2",
+          "name": "Claw Through the Seal",
+          "summary": [
+            "Remove 1 buff from one enemy, then deal 130% ATK damage."
+          ]
+        },
+        {
+          "id": "soryn-veilglass-d-ultimate",
+          "slot": "Ultimate",
+          "name": "The Opened Gate",
+          "summary": [
+            "Deal 205% ATK damage to one enemy."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "seressa-valemire",
+      "unitName": "Seressa Valemire",
+      "type": "Ember",
+      "kitId": "seressa-valemire-b",
+      "optionLabel": "B",
+      "kitName": "Scarlet Requisition",
+      "complexity": "simple",
+      "role": "Tactician",
+      "headline": "A simple anti-buff court tactician.",
+      "reason": "Dispels reward the team with one small shield per action. Party shielding and Accuracy support give useful fallback actions.",
+      "tradeoff": "The Passive loses its trigger against enemies with no removable buffs. An area dispel still grants only one Passive shield.",
+      "mixNote": "Keep at least one B dispel with the Passive. A Active2 adds Burn but replaces the party shield and never counts as a dispel.",
+      "qualitativeComparison": "More reliable protection than a pure damage dealer; her best value is tied to buff-heavy encounters.",
+      "reviewHref": "kits.html#seressa-valemire",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-seressa-valemire-pixel-v4.png",
+      "artHref": "review.html#seressa-valemire",
+      "skills": [
+        {
+          "id": "seressa-valemire-b-passive",
+          "slot": "Passive",
+          "name": "Sovereign Requisition",
+          "summary": [
+            "When Seressa removes an enemy buff, shield the lowest-HP ally for 8% of that ally's Max HP for 2 turns.",
+            "Triggers once per skill, regardless of buffs removed."
+          ]
+        },
+        {
+          "id": "seressa-valemire-b-basic",
+          "slot": "Basic",
+          "name": "Measured Rebuke",
+          "summary": [
+            "Deal 100% ATK to one enemy.",
+            "Reduce its ATK by 10% for 1 turn."
+          ]
+        },
+        {
+          "id": "seressa-valemire-b-active1",
+          "slot": "Active1",
+          "name": "Regal Censure",
+          "summary": [
+            "Deal 140% ATK to one enemy.",
+            "Remove 1 removable buff from it."
+          ]
+        },
+        {
+          "id": "seressa-valemire-b-active2",
+          "slot": "Active2",
+          "name": "Shelter of the Court",
+          "summary": [
+            "Shield all allies for 7% of their own Max HP for 2 turns.",
+            "Increase their Effect Accuracy by 10% for 2 turns."
+          ]
+        },
+        {
+          "id": "seressa-valemire-b-ultimate",
+          "slot": "Ultimate",
+          "name": "No Privilege",
+          "summary": [
+            "Deal 110% ATK to all enemies.",
+            "Remove 1 removable buff from each and reduce their ATK by 15% for 2 turns."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "orivelle-starveil",
+      "unitName": "Orivelle Starveil",
+      "type": "Umbra",
+      "kitId": "orivelle-starveil-a",
+      "optionLabel": "A",
+      "kitName": "Astral Convergence",
+      "complexity": "signature",
+      "role": "Striker",
+      "headline": "One signature star-mark attacker.",
+      "reason": "A single owned Startrace connects the horned astral design to a focused area finisher without adding a stack meter.",
+      "tradeoff": "Only one target is marked. Defeat, cleanse or replacing that target wastes setup, and no ally may borrow or consume her private mark.",
+      "mixNote": "Retain the Passive and at least one attacking Active. C Basic is a standalone support swap; replacing both attacking Actives disables mark setup.",
+      "qualitativeComparison": "Stronger planned wave pressure than a single-target finisher; less immediate boss damage and little team defense.",
+      "reviewHref": "kits.html#orivelle-starveil",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-orivelle-starveil-pixel-v2.png",
+      "artHref": "review.html#orivelle-starveil",
+      "skills": [
+        {
+          "id": "orivelle-starveil-a-passive",
+          "slot": "Passive",
+          "name": "Astral Survey",
+          "summary": [
+            "After an attacking Active, try to mark its main target with Startrace for 2 turns.",
+            "Only one enemy can be marked; a new mark replaces the previous one."
+          ]
+        },
+        {
+          "id": "orivelle-starveil-a-basic",
+          "slot": "Basic",
+          "name": "Needle of Night",
+          "summary": [
+            "Deal 95% ATK to one enemy.",
+            "Deal 110% ATK instead if it has Orivelle's Startrace; the mark remains."
+          ]
+        },
+        {
+          "id": "orivelle-starveil-a-active1",
+          "slot": "Active1",
+          "name": "Comet Measure",
+          "summary": [
+            "Deal 155% ATK to one enemy."
+          ]
+        },
+        {
+          "id": "orivelle-starveil-a-active2",
+          "slot": "Active2",
+          "name": "Nebula Aperture",
+          "summary": [
+            "Deal 90% ATK to all enemies.",
+            "Increase Orivelle's ATK by 15% for 2 turns."
+          ]
+        },
+        {
+          "id": "orivelle-starveil-a-ultimate",
+          "slot": "Ultimate",
+          "name": "Falling Horizon",
+          "summary": [
+            "Deal 140% ATK to all enemies.",
+            "An enemy carrying Orivelle's Startrace takes 180% ATK instead, then loses the mark."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "elowyn-rosemere",
+      "unitName": "Elowyn Rosemere",
+      "type": "Radiant",
+      "kitId": "elowyn-rosemere-c",
+      "optionLabel": "C",
+      "kitName": "Quiet Conservatory",
+      "complexity": "simple",
+      "role": "Support",
+      "headline": "A simple dedicated cleanser.",
+      "reason": "Resistance, repeated removable-debuff cleansing and recipient-HP shields distinguish her from Nerielle's direct healing.",
+      "tradeoff": "Resistance is not immunity. Low damage and moderate recovery mean clean damage-only encounters can leave much of her value unused.",
+      "mixNote": "A Active1 is a direct stronger-heal swap when fewer debuffs are expected. All C skills are standalone; no private engine must stay attached.",
+      "qualitativeComparison": "The preferred proposed specialist for debuff-heavy fights, not a flat upgrade over a dedicated healer.",
+      "reviewHref": "kits.html#elowyn-rosemere",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-elowyn-rosemere-pixel-v3.png",
+      "artHref": "review.html#elowyn-rosemere",
+      "skills": [
+        {
+          "id": "elowyn-rosemere-c-passive",
+          "slot": "Passive",
+          "name": "Quiet Conservatory",
+          "summary": [
+            "Increase all allies' Effect Resistance by 15%.",
+            "At the start of Elowyn's turn, heal the lowest-HP ally with a removable debuff for 3% of its Max HP."
+          ]
+        },
+        {
+          "id": "elowyn-rosemere-c-basic",
+          "slot": "Basic",
+          "name": "Ribbon of Respite",
+          "summary": [
+            "Deal 90% ATK to one enemy.",
+            "Increase the lowest-HP ally's Effect Resistance by 20% for 1 turn."
+          ]
+        },
+        {
+          "id": "elowyn-rosemere-c-active1",
+          "slot": "Active1",
+          "name": "Untangle the Ribbon",
+          "summary": [
+            "Remove up to 2 removable debuffs from one ally.",
+            "Heal that ally for 12% of its Max HP."
+          ]
+        },
+        {
+          "id": "elowyn-rosemere-c-active2",
+          "slot": "Active2",
+          "name": "Shelter in Bloom",
+          "summary": [
+            "Remove 1 removable debuff from each ally.",
+            "Shield all allies for 7% of their own Max HP for 2 turns."
+          ]
+        },
+        {
+          "id": "elowyn-rosemere-c-ultimate",
+          "slot": "Ultimate",
+          "name": "Glasshouse Sanctuary",
+          "summary": [
+            "Remove up to 2 removable debuffs from each ally.",
+            "Shield all allies for 14% of their own Max HP for 2 turns."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "miravelle-vexwing",
+      "unitName": "Miravelle Vexwing",
+      "type": "Umbra",
+      "kitId": "miravelle-vexwing-a",
+      "optionLabel": "A",
+      "kitName": "Lash Pursuit",
+      "complexity": "simple",
+      "role": "Striker",
+      "headline": "A simple back-line finisher.",
+      "reason": "Direct lash attacks, DEF down and buff removal create a clear damage role. One follow-up rewards targets already below half HP.",
+      "tradeoff": "The enemy must start the attack below 50% HP and survive it. Row access never overrides Provoke or untargetability; she brings no party sustain.",
+      "mixNote": "C Active1 trades offense for an ally shield. Keep damaging actions if the goal is reliable finisher opportunities.",
+      "qualitativeComparison": "Higher priority-target burst than the control kits; less wave coverage and less safety than the guardians.",
+      "reviewHref": "kits.html#miravelle-vexwing",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-miravelle-vexwing-pixel-v2.png",
+      "artHref": "review.html#miravelle-vexwing",
+      "skills": [
+        {
+          "id": "miravelle-vexwing-a-passive",
+          "slot": "Passive",
+          "name": "Scent the Opening",
+          "summary": [
+            "When Miravelle attacks an enemy already below 50% HP, strike it again for 35% ATK if it survives.",
+            "Triggers once per skill, even when several enemies qualify."
+          ]
+        },
+        {
+          "id": "miravelle-vexwing-a-basic",
+          "slot": "Basic",
+          "name": "Quick Lash",
+          "summary": [
+            "Deal 100% ATK to one enemy."
+          ]
+        },
+        {
+          "id": "miravelle-vexwing-a-active1",
+          "slot": "Active1",
+          "name": "Hook Behind the Line",
+          "summary": [
+            "Deal 145% ATK to one enemy in either row.",
+            "Reduce its DEF by 15% for 2 turns."
+          ]
+        },
+        {
+          "id": "miravelle-vexwing-a-active2",
+          "slot": "Active2",
+          "name": "Snap and Rise",
+          "summary": [
+            "Deal 135% ATK to one enemy.",
+            "Remove 1 removable buff from it."
+          ]
+        },
+        {
+          "id": "miravelle-vexwing-a-ultimate",
+          "slot": "Ultimate",
+          "name": "Vexwing Pursuit",
+          "summary": [
+            "Deal 230% ATK to one enemy.",
+            "May target an enemy in either row."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "isavelle-frostmere",
+      "unitName": "Isavelle Frostmere",
+      "type": "Tide",
+      "kitId": "isavelle-frostmere-b",
+      "optionLabel": "B",
+      "kitName": "Glacier Citadel",
+      "complexity": "simple",
+      "role": "Vanguard",
+      "headline": "A simple party shield guardian.",
+      "reason": "Caster-HP shields and 10% direct reduction while shielded make a sturdy ice-queen identity with no Facet resource.",
+      "tradeoff": "No healing or cleanse. Direct reduction requires an existing shield, and shield-bypassing effects remain a real weakness.",
+      "mixNote": "A Active1 can trade the self-shield/Provoke strike for control in non-boss fights. Preserve enough shield sources to keep the Passive relevant.",
+      "qualitativeComparison": "The most prevention-focused recommended kit; Roselle offers cleansing and conversion, Nerielle offers recovery.",
+      "reviewHref": "kits.html#isavelle-frostmere",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-isavelle-frostmere-pixel-v2.png",
+      "artHref": "review.html#isavelle-frostmere",
+      "skills": [
+        {
+          "id": "isavelle-frostmere-b-passive",
+          "slot": "Passive",
+          "name": "First Layer of Ice",
+          "summary": [
+            "While Isavelle is alive, allies with a shield take 10% less direct damage from enemy attacks.",
+            "The protection ends when their shield is gone."
+          ]
+        },
+        {
+          "id": "isavelle-frostmere-b-basic",
+          "slot": "Basic",
+          "name": "Ice-Rimmed Scepter",
+          "summary": [
+            "Deal 90% ATK damage to one enemy.",
+            "Give Isavelle a shield equal to 4% of her Max HP for 2 turns."
+          ]
+        },
+        {
+          "id": "isavelle-frostmere-b-active1",
+          "slot": "Active1",
+          "name": "Icicle Challenge",
+          "summary": [
+            "Deal 105% ATK damage to one enemy and Provoke them for 1 turn.",
+            "Give Isavelle a shield equal to 12% of her Max HP for 2 turns."
+          ]
+        },
+        {
+          "id": "isavelle-frostmere-b-active2",
+          "slot": "Active2",
+          "name": "Mantle of the North",
+          "summary": [
+            "Give every ally a shield equal to 8% of Isavelle's Max HP for 2 turns.",
+            "Increase their DEF by 15% for 2 turns."
+          ]
+        },
+        {
+          "id": "isavelle-frostmere-b-ultimate",
+          "slot": "Ultimate",
+          "name": "Palace of Glass",
+          "summary": [
+            "Deal 100% ATK damage to all enemies.",
+            "Give every ally a shield equal to 15% of Isavelle's Max HP for 2 turns."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "nerielle-wavecrest",
+      "unitName": "Nerielle Wavecrest",
+      "type": "Tide",
+      "kitId": "nerielle-wavecrest-a",
+      "optionLabel": "A",
+      "kitName": "Living Spring",
+      "complexity": "simple",
+      "role": "Support",
+      "headline": "A simple water-spirit healer.",
+      "reason": "Basic healing, targeted cleanse and party Regeneration keep the undine fantasy clear through familiar effects.",
+      "tradeoff": "Only the Basic damages enemies. Healing cannot prevent lethal hits, and this kit offers no shields or control.",
+      "mixNote": "B Active1 adds utility at the cost of targeted healing/cleanse. Do not remove both healing Actives unless accepting dependence on the Ultimate.",
+      "qualitativeComparison": "The recommended sustained-recovery baseline; Elowyn C handles heavier debuff pressure and Isavelle B prevents bursts.",
+      "reviewHref": "kits.html#nerielle-wavecrest",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-nerielle-wavecrest-pixel-v2.png",
+      "artHref": "review.html#nerielle-wavecrest",
+      "skills": [
+        {
+          "id": "nerielle-wavecrest-a-passive",
+          "slot": "Passive",
+          "name": "Unending Source",
+          "summary": [
+            "Increase healing from Nerielle's skills by 10%.",
+            "This also increases the regeneration she applies."
+          ]
+        },
+        {
+          "id": "nerielle-wavecrest-a-basic",
+          "slot": "Basic",
+          "name": "Droplet's Return",
+          "summary": [
+            "Deal 90% ATK damage to one enemy.",
+            "Heal the ally with the lowest HP percentage for 3% of that ally's Max HP."
+          ]
+        },
+        {
+          "id": "nerielle-wavecrest-a-active1",
+          "slot": "Active1",
+          "name": "Springwater Touch",
+          "summary": [
+            "Heal one ally for 18% of their own Max HP.",
+            "Remove up to 2 debuffs from that ally."
+          ]
+        },
+        {
+          "id": "nerielle-wavecrest-a-active2",
+          "slot": "Active2",
+          "name": "Restoring Rain",
+          "summary": [
+            "Heal all allies for 8% of their own Max HP.",
+            "Give each regeneration that restores 4% of their own Max HP at the start of their next 2 turns."
+          ]
+        },
+        {
+          "id": "nerielle-wavecrest-a-ultimate",
+          "slot": "Ultimate",
+          "name": "Wellspring Incarnate",
+          "summary": [
+            "Remove 1 debuff from every ally, then heal each for 18% of its own Max HP."
+          ]
+        }
+      ]
+    },
+    {
+      "unitId": "valdra-rosethorn",
+      "unitName": "Valdra Rosethorn",
+      "type": "Ember",
+      "kitId": "valdra-rosethorn-a",
+      "optionLabel": "A",
+      "kitName": "Rosethorn Piercer",
+      "complexity": "simple",
+      "role": "Striker",
+      "headline": "A simple spear attacker for planned Broken windows.",
+      "reason": "Straight damage skills and 15% extra damage during a genuine Broken window are easy to understand and mix.",
+      "tradeoff": "Her Passive does not create Break. Enemies with no gauge are not Broken; her front-line position needs outside protection.",
+      "mixNote": "B Active1 is a safety swap, while C Active2 trades a damage action for team offense/shields. Existing attacks still work without the damage Passive.",
+      "qualitativeComparison": "A clean boss-window benchmark; Miravelle has a more general low-HP trigger, while Valdra depends on the team's Break timing.",
+      "reviewHref": "kits.html#valdra-rosethorn",
+      "selected": false,
+      "runtimeIntegrated": false,
+      "sprite": "sprites/candidate-valdra-rosethorn-pixel-v3.png",
+      "artHref": "review.html#valdra-rosethorn",
+      "skills": [
+        {
+          "id": "valdra-rosethorn-a-passive",
+          "slot": "Passive",
+          "name": "Crack the Guard",
+          "summary": [
+            "Valdra's attacks deal 15% more damage to enemies whose Break gauge is already depleted.",
+            "Enemies with no Break gauge do not count as broken."
+          ]
+        },
+        {
+          "id": "valdra-rosethorn-a-basic",
+          "slot": "Basic",
+          "name": "Testing Thrust",
+          "summary": [
+            "Deal 100% ATK damage to one enemy."
+          ]
+        },
+        {
+          "id": "valdra-rosethorn-a-active1",
+          "slot": "Active1",
+          "name": "Guard-Splitting Lunge",
+          "summary": [
+            "Deal 150% ATK damage to one enemy."
+          ]
+        },
+        {
+          "id": "valdra-rosethorn-a-active2",
+          "slot": "Active2",
+          "name": "Cleaving Sweep",
+          "summary": [
+            "Deal 90% ATK damage to all enemies."
+          ]
+        },
+        {
+          "id": "valdra-rosethorn-a-ultimate",
+          "slot": "Ultimate",
+          "name": "Redline Impalement",
+          "summary": [
+            "Deal 220% ATK damage to one enemy."
+          ]
+        }
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "id": "velkara_moonfang",
+      "name": "Velkara Moonfang",
+      "family": "Beastwoman",
+      "type": "Verdant",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A fast duelist who exposes one defender before a readable sweeping attack.",
+      "relativeStats": {
+        "hp": 0.95,
+        "atk": 0.92,
+        "def": 0.9,
+        "speed": 1.05
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Telegraph Crescent Test on one living Front hero. Use an ordinary attack between the test and Moonfang Sweep; do not retarget a defeated hero.",
+      "playerAnswer": "Cleanse Exposed, shield the threatened hero, or use the visible wind-up to push the boss into Broken.",
+      "balanceRisk": "Fast piercing hits can punish fragile fronts. Keep Speed at the stated relative budget and do not chain two heavy actions without a hero opportunity.",
+      "existingCatalogueReferences": [
+        "runtime-exposed",
+        "runtime-guard"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
+      "artHref": "enemies.html#velkara_moonfang",
+      "basic": {
+        "name": "Beastwoman Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Crescent Test",
+          "slot": "Active1",
+          "effect": "pierce",
+          "resolvedCombatPower": 125,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Hunter's Brace",
+          "slot": "Active2",
+          "effect": "guard",
+          "resolvedCombatPower": 105,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Moonfang Sweep",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 150,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "seraxis_chrome_empress",
+      "name": "Seraxis, Chrome Empress",
+      "family": "Cyborg",
+      "type": "Radiant",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A chrome fencer who alternates defense with a piercing rapier commitment.",
+      "relativeStats": {
+        "hp": 1.05,
+        "atk": 0.9,
+        "def": 1.05,
+        "speed": 0.98
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Declare the guard first, then one rapier target. The area finish is announced before its action and never gains a bonus turn.",
+      "playerAnswer": "Use dispel where the implemented shield/buff is removable; cleansing Exposed and saving burst for a real Broken window stay useful alternatives.",
+      "balanceRisk": "Current Guard adds a numeric Shield rather than a removable status. A dispel counter must not be advertised until shield-removal rules are implemented explicitly.",
+      "existingCatalogueReferences": [
+        "runtime-guard",
+        "runtime-exposed"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-seraxis-chrome-empress-pixel-v1.png",
+      "artHref": "enemies.html#seraxis_chrome_empress",
+      "basic": {
+        "name": "Cyborg Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Chrome Guard",
+          "slot": "Active1",
+          "effect": "guard",
+          "resolvedCombatPower": 105,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Redline Thrust",
+          "slot": "Active2",
+          "effect": "pierce",
+          "resolvedCombatPower": 145,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Imperial Vector",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 145,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "naevra_fallen_seraph",
+      "name": "Naevra, Fallen Seraph",
+      "family": "Fallen Angel",
+      "type": "Umbra",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A fallen angel who weakens the party before committing to a broad spear strike.",
+      "relativeStats": {
+        "hp": 1.0,
+        "atk": 0.88,
+        "def": 0.95,
+        "speed": 1.0
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Cast Ashen Benediction before the announced Descent, with at least one hero action between them. Never add a second control effect.",
+      "playerAnswer": "Cleanse Weakened or use Resistance support; the tell gives time to choose recovery instead of spending every turn on damage.",
+      "balanceRisk": "The existing charm_aoe effect actually applies Weakened, not Charm action redirection. Display the actual status and bind typed effects deliberately rather than inferring from the name.",
+      "existingCatalogueReferences": [
+        "runtime-weakened",
+        "runtime-cleanse"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-naevra-fallen-seraph-pixel-v1.png",
+      "artHref": "enemies.html#naevra_fallen_seraph",
+      "basic": {
+        "name": "Fallen Angel Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Ashen Benediction",
+          "slot": "Active1",
+          "effect": "charm_aoe",
+          "resolvedCombatPower": 105,
+          "cooldown": 3,
+          "note": "Reuse the existing Weakened rider; despite this legacy effect key, it does not redirect ally actions."
+        },
+        {
+          "name": "Broken Halo",
+          "slot": "Active2",
+          "effect": "damage",
+          "resolvedCombatPower": 140,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Duskfall Descent",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 155,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "isshara_coilqueen",
+      "name": "Isshara Coilqueen",
+      "family": "Lamia",
+      "type": "Verdant",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A lamia attrition fight with one clearly telegraphed Root target.",
+      "relativeStats": {
+        "hp": 1.0,
+        "atk": 0.86,
+        "def": 1.0,
+        "speed": 0.96
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Announce a single Root target; no party Root and no application through the target's shared control-immunity window. A normal attack separates control attempts.",
+      "playerAnswer": "Cleanse or resist the Root, and protect a threatened support. There is no unlimited summon or private venom meter.",
+      "balanceRisk": "Root exists for current heroes but the generic enemy text mapper cannot apply it. Enemy rider binding and anti-chain immunity tests are required before integration.",
+      "existingCatalogueReferences": [
+        "runtime-root",
+        "runtime-guard",
+        "runtime-cleanse"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-isshara-coilqueen-pixel-v1.png",
+      "artHref": "enemies.html#isshara_coilqueen",
+      "basic": {
+        "name": "Lamia Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Fang's Courtesy",
+          "slot": "Active1",
+          "effect": "damage",
+          "resolvedCombatPower": 115,
+          "cooldown": 2,
+          "note": "Planned rider: existing Root for one action on one target; explicit enemy binding required."
+        },
+        {
+          "name": "Coiled Shelter",
+          "slot": "Active2",
+          "effect": "guard",
+          "resolvedCombatPower": 110,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Jade Fan Sweep",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 145,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "morvella_gravebloom",
+      "name": "Morvella Gravebloom",
+      "family": "Undead",
+      "type": "Umbra",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "An undead sorceress whose recovery creates a target-priority decision.",
+      "relativeStats": {
+        "hp": 0.92,
+        "atk": 0.86,
+        "def": 0.92,
+        "speed": 0.97
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Announce Funeral Light before its opportunity; use at most one heal per cooldown cycle. No resurrection or repeated threshold revival.",
+      "playerAnswer": "Concentrate damage or Break before the heal. Proposed healing-reduction heroes would become an additional future answer, not an already shipped interaction.",
+      "balanceRisk": "Healing uses the current ATK/Power formula, not a free percent-HP refill. Track effective healing and require a full-party damage team to make steady progress.",
+      "existingCatalogueReferences": [
+        "runtime-exposed",
+        "runtime-cleanse"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-morvella-gravebloom-pixel-v1.png",
+      "artHref": "enemies.html#morvella_gravebloom",
+      "basic": {
+        "name": "Undead Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Funeral Light",
+          "slot": "Active1",
+          "effect": "heal",
+          "resolvedCombatPower": 80,
+          "cooldown": 3,
+          "note": "Target self; cap useful recovery to actual missing HP and record it in test metrics."
+        },
+        {
+          "name": "Lantern Needle",
+          "slot": "Active2",
+          "effect": "pierce",
+          "resolvedCombatPower": 135,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Gravebloom Requiem",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 145,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "vespyria_moonweaver",
+      "name": "Vespyria Moonweaver",
+      "family": "Mothkin",
+      "type": "Tide",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A moth queen who slows one target and signals a wide wing beat.",
+      "relativeStats": {
+        "hp": 0.95,
+        "atk": 0.88,
+        "def": 0.88,
+        "speed": 1.04
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Slow a single hero, then declare Lunar Wingbeat. No Freeze, team action-gauge theft or repeat action.",
+      "playerAnswer": "Cleanse the slow, keep the healer protected, and reserve area recovery for the wing beat.",
+      "balanceRisk": "A Speed debuff can reduce player opportunities. Bound the slow to the existing status and keep the shared immunity rules unchanged.",
+      "existingCatalogueReferences": [
+        "runtime-chill",
+        "runtime-cleanse",
+        "runtime-guard"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
+      "artHref": "enemies.html#vespyria_moonweaver",
+      "basic": {
+        "name": "Mothkin Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Moonthread Needle",
+          "slot": "Active1",
+          "effect": "damage",
+          "resolvedCombatPower": 115,
+          "cooldown": 2,
+          "note": "Planned rider: existing Chill/Speed reduction on the main target for two turns; explicit enemy binding required."
+        },
+        {
+          "name": "Silk Cocoon",
+          "slot": "Active2",
+          "effect": "guard",
+          "resolvedCombatPower": 100,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Lunar Wingbeat",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 150,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "kaelyra_cinderwing",
+      "name": "Kaelyra Cinderwing",
+      "family": "Dragonkin",
+      "type": "Ember",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A dragonkin boss who applies ordinary Burn before a heavy axe strike.",
+      "relativeStats": {
+        "hp": 1.0,
+        "atk": 0.9,
+        "def": 1.0,
+        "speed": 0.94
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Burn a single target and declare the next heavy axe action. Do not consume allied Burn or create a new Cinder resource.",
+      "playerAnswer": "Cleanse Burn or heal directly; current Burn ticks HP through shields, so shielding alone is deliberately incomplete protection.",
+      "balanceRisk": "The generic EnemyEffect mapper does not recognize burn. Typed binding is required. Never alias this to Shadowfire or add Break on DoT ticks.",
+      "existingCatalogueReferences": [
+        "runtime-burn",
+        "runtime-cleanse"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-kaelyra-cinderwing-pixel-v1.png",
+      "artHref": "enemies.html#kaelyra_cinderwing",
+      "basic": {
+        "name": "Dragonkin Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Cinder Rake",
+          "slot": "Active1",
+          "effect": "burn",
+          "resolvedCombatPower": 115,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Obsidian Hew",
+          "slot": "Active2",
+          "effect": "damage",
+          "resolvedCombatPower": 150,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Cinderwing Descent",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 150,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "thalorya_abyss_siren",
+      "name": "Thalorya, Abyssal Siren",
+      "family": "Abyssal",
+      "type": "Tide",
+      "tier": "Boss",
+      "adultFemaleBoss": true,
+      "headline": "A water-body siren who drains one hero before a wide tidal attack.",
+      "relativeStats": {
+        "hp": 0.92,
+        "atk": 0.88,
+        "def": 0.92,
+        "speed": 1.0
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 32,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Target one hero with the drain, then announce the tide. No Charm, forced friendly attack or repeat drain between cooldowns.",
+      "playerAnswer": "Protect the announced target, cleanse Exposed, and burst during Broken. Healing reduction is a proposed-kit future answer only.",
+      "balanceRisk": "Unmodified runtime Drain would recover 18% boss HP and is not approved for this design. Use the proposed capped enemy rider or replace it with a plain attack before testing.",
+      "existingCatalogueReferences": [
+        "runtime-drain",
+        "runtime-exposed"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-thalorya-abyss-siren-pixel-v1.png",
+      "artHref": "enemies.html#thalorya_abyss_siren",
+      "basic": {
+        "name": "Abyssal Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Undertow Kiss",
+          "slot": "Active1",
+          "effect": "drain",
+          "resolvedCombatPower": 110,
+          "cooldown": 3,
+          "note": "Existing Drain heals the caster for 18% Max HP; the dedicated enemy version should cap this at 6% and requires an explicit implementation change."
+        },
+        {
+          "name": "Blackcoral Thrust",
+          "slot": "Active2",
+          "effect": "pierce",
+          "resolvedCombatPower": 135,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Abyssal Tide",
+          "slot": "Ultimate",
+          "effect": "aoe",
+          "resolvedCombatPower": 145,
+          "cooldown": 5,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "frostglass_scorpion",
+      "name": "Frostglass Scorpion",
+      "family": "Arthropod",
+      "type": "Tide",
+      "tier": "Elite",
+      "adultFemaleBoss": false,
+      "headline": "A low crystal elite that tests one defender rather than sweeping the whole party.",
+      "relativeStats": {
+        "hp": 0.9,
+        "atk": 0.88,
+        "def": 1.05,
+        "speed": 0.9
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 3,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Use the visible tail tell for the next piercing target; no hidden third strike or full-party Freeze.",
+      "playerAnswer": "Break its small Elite gauge, cleanse Exposed or focus it before the wind-up.",
+      "balanceRisk": "Defensive elite packs should not contain multiple simultaneous guard loops.",
+      "existingCatalogueReferences": [
+        "runtime-exposed",
+        "runtime-guard"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
+      "artHref": "enemies.html#frostglass_scorpion",
+      "basic": {
+        "name": "Arthropod Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Glass Pincer",
+          "slot": "Active1",
+          "effect": "pierce",
+          "resolvedCombatPower": 115,
+          "cooldown": 2,
+          "note": ""
+        },
+        {
+          "name": "Crystal Brace",
+          "slot": "Active2",
+          "effect": "guard",
+          "resolvedCombatPower": 100,
+          "cooldown": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "riftjaw_mimic",
+      "name": "Riftjaw Mimic",
+      "family": "Mimic",
+      "type": "Umbra",
+      "tier": "Elite",
+      "adultFemaleBoss": false,
+      "headline": "A compact ambusher with a strong, announced bite and a normal recovery gap.",
+      "relativeStats": {
+        "hp": 0.88,
+        "atk": 0.94,
+        "def": 0.88,
+        "speed": 0.94
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 3,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "A visible open-lid tell precedes Lid Slam. A normal attack follows; no scripted free opening attack and no hidden execution threshold.",
+      "playerAnswer": "Shield the marked defender or Break the Elite before its bite.",
+      "balanceRisk": "Do not multiply the opener through surprise, first-turn and low-HP bonuses.",
+      "existingCatalogueReferences": [
+        "runtime-exposed"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-riftjaw-mimic-pixel-v1.png",
+      "artHref": "enemies.html#riftjaw_mimic",
+      "basic": {
+        "name": "Mimic Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Lid Slam",
+          "slot": "Active1",
+          "effect": "damage",
+          "resolvedCombatPower": 130,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Chain Snap",
+          "slot": "Active2",
+          "effect": "pierce",
+          "resolvedCombatPower": 110,
+          "cooldown": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ironstep_reclaimer",
+      "name": "Ironstep Reclaimer",
+      "family": "Cyborg",
+      "type": "Radiant",
+      "tier": "Elite",
+      "adultFemaleBoss": false,
+      "headline": "A salvage walker that braces and protects its own reactor while allies attack.",
+      "relativeStats": {
+        "hp": 1.0,
+        "atk": 0.78,
+        "def": 1.08,
+        "speed": 0.86
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 3,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "Show a reactor-brace tell, then return to normal pulse attacks. First pass has no ally resurrection or endless drone spawning.",
+      "playerAnswer": "Focus dangerous offensive partners first or Break the walker before repeated bracing extends the fight.",
+      "balanceRisk": "Guard supplies self-healing as well as Shield. Measure the added effective HP; do not grant unadvertised ally barriers.",
+      "existingCatalogueReferences": [
+        "runtime-guard"
+      ],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-ironstep-reclaimer-pixel-v1.png",
+      "artHref": "enemies.html#ironstep_reclaimer",
+      "basic": {
+        "name": "Cyborg Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Reactor Brace",
+          "slot": "Active1",
+          "effect": "guard",
+          "resolvedCombatPower": 95,
+          "cooldown": 3,
+          "note": ""
+        },
+        {
+          "name": "Salvage Pulse",
+          "slot": "Active2",
+          "effect": "aoe",
+          "resolvedCombatPower": 105,
+          "cooldown": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "veilfin_ray",
+      "name": "Veilfin Ray",
+      "family": "Abyssal",
+      "type": "Umbra",
+      "tier": "Common",
+      "adultFemaleBoss": false,
+      "headline": "A fast, fragile common enemy whose silhouette contrasts with ground beasts.",
+      "relativeStats": {
+        "hp": 0.75,
+        "atk": 0.8,
+        "def": 0.78,
+        "speed": 1.08
+      },
+      "relativeStatsBasis": "Multipliers against an existing same-mode, same-level, same-tier encounter budget, not additions to current stage stats.",
+      "prototypeBreakGauge": 0,
+      "gaugePolicy": "32 is an Event prototype fixture only; Campaign, Hard, Tower, Raid and Labyrinth must resolve their existing content formula instead of copying this number.",
+      "pattern": "One readable sweeping action, then ordinary single-target attacks. No invulnerability because it floats and no automatic evasion bonus.",
+      "playerAnswer": "Area attacks remove the low-HP ray; a defensive Basic is enough to absorb its modest pressure.",
+      "balanceRisk": "Large ray packs multiply area damage. Use at most two per first-pass pack.",
+      "existingCatalogueReferences": [],
+      "implementationRequired": [
+        "Register an explicit enemy definition and approved sprite mapping.",
+        "Bind typed effects instead of relying on the current natural-language EnemyEffect mapper.",
+        "Implement and test the proposed intent/AI order; current ordinary cooldown priority does not establish this pattern."
+      ],
+      "selected": false,
+      "runtimeIntegrated": false,
+      "visualAccepted": false,
+      "sprite": "enemy-expansion-sprites/enemy-veilfin-ray-pixel-v1.png",
+      "artHref": "enemies.html#veilfin_ray",
+      "basic": {
+        "name": "Abyssal Strike",
+        "slot": "Basic",
+        "effect": "damage",
+        "resolvedCombatPower": 88,
+        "cooldown": 0,
+        "note": ""
+      },
+      "actions": [
+        {
+          "name": "Veilfin Sweep",
+          "slot": "Active1",
+          "effect": "aoe",
+          "resolvedCombatPower": 90,
+          "cooldown": 3,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "numericalNotes": [
+    {
+      "unitId": "nerielle-wavecrest",
+      "example": "A Passive multiplies her proposed 18% recipient-HP heal to 19.8%. Her A2 gives 8.8% immediately plus two 4.4% Regeneration ticks, totaling 17.6% if both ticks occur.",
+      "status": "proposal-arithmetic-not-runtime-output"
+    },
+    {
+      "unitId": "roselle-vey",
+      "example": "Her Ultimate's extra 35% Max-HP damage per enemy needs 70% of her Max HP in shields actually consumed on Roselle. Five party shields are not pooled across five recipients. The 8% post-cast self-shield cannot fund the same cast.",
+      "status": "proposal-arithmetic-not-runtime-output"
+    },
+    {
+      "unitId": "isavelle-frostmere",
+      "example": "B Ultimate grants each of five allies 15% of Isavelle's Max HP in separate recipient shields: 75% distributed coverage, not one 75% shield or an automatic Roselle cap.",
+      "status": "proposal-arithmetic-not-runtime-output"
+    }
+  ],
+  "rankingNote": "No exact strength ranking is assigned: final stats, Speed, source-layer shield rules and implemented draft skills do not yet exist.",
+  "encounterNotes": {
+    "scope": "Eight adult female boss encounter proposals and four varied ordinary/elite silhouettes.",
+    "artAcceptancePolicy": "Encounter design work does not accept the sprite or add it to native content.",
+    "powerPolicy": "resolvedCombatPower means the final CombatSkillDefinition.Power before damage mitigation, area scale or other runtime modifiers; it is not a direct EnemySkillDefinition.Power assignment. Existing EnemyCombatSkills adds 70 for bosses or 52 for other enemies. Dedicated typed definitions must avoid applying this bonus twice.",
+    "telegraphPolicy": "Heavy actions must be visible before commitment and allow at least one living hero action before resolving. No new bonus turns, custom meters or hidden phase stats are proposed."
+  },
+  "testPlan": {
+    "status": "test-plan-not-playtest-results",
+    "currentPlayableHeroCount": 29,
+    "newHeroProposalCount": 11,
+    "newEnemyProposalCount": 12,
+    "firstPassGoals": [
+      "Keep familiar kits useful; two signature engines among eleven recommendations.",
+      "Measure single-target damage, wave damage, prevention and recovery separately instead of assigning one unexplained score.",
+      "Exercise at least one straightforward team and one mechanic-focused team against each integrated encounter."
+    ],
+    "comparisonSetup": {
+      "level": 20,
+      "stars": 3,
+      "skillLevel": 1,
+      "gear": "none",
+      "memories": "none",
+      "imprints": "none",
+      "training": "none",
+      "otherGrowth": "none",
+      "positions": "fixed saved 3x3 cells; preserve existing Front/Back rules",
+      "duration": "six scheduled turns per hero, or encounter completion",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "note": "This equal-investment setup is for future reproducible comparison, not a claim that a player's account has these stats."
+    },
+    "existingRuntimeBenchmarks": [
+      {
+        "axis": "Single-target offense",
+        "heroIds": [
+          "mika",
+          "yselle",
+          "nemea"
+        ],
+        "measure": "Damage per scheduled hero turn, useful damage without overkill, enemy actions before victory."
+      },
+      {
+        "axis": "Area and Burn pressure",
+        "heroIds": [
+          "cerys",
+          "soryn",
+          "veyra-wick"
+        ],
+        "measure": "Direct and DoT damage separately; Burn versus Shadowfire remains separate."
+      },
+      {
+        "axis": "Recovery and cleansing",
+        "heroIds": [
+          "luna",
+          "maelin"
+        ],
+        "measure": "Useful HP restored, overheal, removable debuffs cleared, ally deaths before the healer's turn."
+      },
+      {
+        "axis": "Prevention",
+        "heroIds": [
+          "caelia",
+          "adela",
+          "sivra"
+        ],
+        "measure": "Shield absorbed, actual damage prevented, interception and Frostplate uses as separate metrics."
+      },
+      {
+        "axis": "Control and uptime",
+        "heroIds": [
+          "veloura",
+          "thessa",
+          "nerisse"
+        ],
+        "measure": "Hostile application attempts/successes, control-immune failures, boss value when action denial is unavailable."
+      }
+    ],
+    "encounterGates": [
+      "No first-pass generic boss action may remove a full-HP same-investment support in one noncritical neutral hit; if it does, reduce ATK or power before testing combinations.",
+      "A telegraphed heavy strike must allow one hero opportunity; do not use Speed or AI sequencing to skip the advertised answer.",
+      "Track effective HP, including actual healing and shielding. If recovery exceeds 20% of starting boss HP per three boss turns in the baseline test, lower the heal/guard budget before judging team DPS.",
+      "Start with one boss and zero adds; add up to two creatures only by reallocating the same total enemy HP/attack budget, never multiplying the baseline encounter by three.",
+      "Break remains Basic0/Active1/Ultimate2 plus advantage1 once per successful target/action. No reaction, multi-hit or DoT Break, and no exceptional bonus is selected here.",
+      "Require at least one successful clear by the straightforward baseline and one specialist alternative after integration; publish failures, median turns and worst-seed survival rather than a guaranteed success claim."
+    ],
+    "waveQuestions": [
+      "Run current Core multiwave validation separately; this notebook does not establish it passed.",
+      "Check that HP, shields, charge, cooldowns and ordinary status duration carry without an extra tick. Private draft resources follow their expressly selected reset rule after those kits are implemented.",
+      "Do not replay battle-start passives, farm rewards per wave or copy defeated enemies into the next-wave queue."
+    ],
+    "synergies": {
+      "existing": [
+        "Any current Burn source may support current runtime Burn readers. Shadowfire is a separate key.",
+        "Current Exposed can support existing Nemea. The exact runtime consumer rules remain authoritative.",
+        "Current shared Shield refresh behavior does not establish source-layer stacking."
+      ],
+      "proposedKit": [
+        "Roselle's draft shield-break recovery accepts qualifying temporary HP shields from allies.",
+        "Isavelle B's proposed reduction reads any HP shield, but only while that shield remains.",
+        "Soryn D's proposed capped follow-up reads a real ally-caused Break; it supplies no extra Break itself."
+      ],
+      "futureIdea": [
+        "The proposed Morvella and Thalorya recovery patterns could provide a future reason to pick the existing Seressa D or Nerielle E anti-heal proposals, once both sides are implemented.",
+        "Enemy rider reuse needs a deliberate typed binding; a matching skill name or fantasy does not establish compatibility."
+      ]
+    },
+    "cataloguePolicy": "No new named resources, marks or status definitions were added. Existing catalogue references are preserved in the encounter records. When an encounter ability is registered in runtime or its mechanics change, refresh the runtime ability index and catalogue/history before publication."
+  }
+}
