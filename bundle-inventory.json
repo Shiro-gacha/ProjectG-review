@@ -809,25 +809,32 @@
       "width": 1280,
       "height": 720
     },
-    "rendererSha256": "75d8b5bff9c817ddd6cff00d72d67df370cada52518aaeb02ee3ec4b2590c9d4",
+    "rendererSha256": "015fd81b41cdd05a66d34139f41ef0898d2a5193ff8f6396eb4c8564117cbcf8",
     "accepted": false,
     "nativeIntegrated": false,
     "skillStyle": "crests",
     "heroLogicalHeight": 192,
     "placementRule": "fixed-Cartesian-slot-centers",
     "supersedesPreviousFormationPlacements": true,
+    "flow": {
+      "initialPhase": "setup",
+      "editingAllowedPhase": "setup",
+      "lockedPhase": "battle",
+      "battleEditorVisible": false,
+      "battleGridVisible": false
+    },
     "assets": [
       {
         "id": "3x3",
         "file": "formation-grid-assets/design-a-3x3.png",
-        "sha256": "4e9d9040e328f4f8c26359d57c3ef1a0f21a78609cb5d99b96a061901dd5595d",
+        "sha256": "c1ecd5834829861e9c1aaf2abee3a7e9c77ad429cd9e2259cb07c954a91cd737",
         "role": "canvas-preview",
         "reviewStatus": "unaccepted-grid-design-draft"
       },
       {
         "id": "3x2",
         "file": "formation-grid-assets/design-b-3x2.png",
-        "sha256": "38c4d3234e08acf45a78058bfbbf005f80bd293d0913e76fb4eca5f181ee36a4",
+        "sha256": "2bf7e8542c7da714a220f24dbb7276c430f29c660978b4948fb515870a47f9d8",
         "role": "canvas-preview",
         "reviewStatus": "unaccepted-grid-design-draft"
       }
@@ -1183,7 +1190,7 @@
     }
   },
   "fileCount": 127,
-  "totalBytes": 186970824,
+  "totalBytes": 186963801,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1493,18 +1500,18 @@
     },
     {
       "path": "formation-grid-assets/design-a-3x3.png",
-      "bytes": 1367945,
-      "sha256": "4e9d9040e328f4f8c26359d57c3ef1a0f21a78609cb5d99b96a061901dd5595d"
+      "bytes": 1360728,
+      "sha256": "c1ecd5834829861e9c1aaf2abee3a7e9c77ad429cd9e2259cb07c954a91cd737"
     },
     {
       "path": "formation-grid-assets/design-b-3x2.png",
-      "bytes": 1363939,
-      "sha256": "38c4d3234e08acf45a78058bfbbf005f80bd293d0913e76fb4eca5f181ee36a4"
+      "bytes": 1361023,
+      "sha256": "2bf7e8542c7da714a220f24dbb7276c430f29c660978b4948fb515870a47f9d8"
     },
     {
       "path": "formation-grids.html",
-      "bytes": 51712,
-      "sha256": "69e15d3ce02bc91934b1e219b67e9888872c69237202d2171b89c8c8984fa95b"
+      "bytes": 54822,
+      "sha256": "e341fb2e89aa2c6cea777ed90b62602394b3de797f3d6868da535de7cc4e493c"
     },
     {
       "path": "index.html",
