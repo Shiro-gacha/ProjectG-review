@@ -668,140 +668,6 @@
             "label": "R3"
           }
         ]
-      },
-      {
-        "id": "3x2",
-        "label": "B",
-        "name": "3 × 2 grid",
-        "inspiration": "Lost Sword-style",
-        "description": "Three ranks, two lanes. Five heroes occupy six fixed slots.",
-        "columns": [
-          195,
-          365,
-          535
-        ],
-        "rows": [
-          375,
-          590
-        ],
-        "enemyColumns": [
-          805,
-          975,
-          1145
-        ],
-        "initialAssignments": [
-          0,
-          1,
-          2,
-          3,
-          5
-        ],
-        "enemyAssignments": [
-          0,
-          2,
-          5
-        ],
-        "preview": "formation-grid-assets/design-b-3x2.png",
-        "slots": [
-          {
-            "index": 0,
-            "column": 0,
-            "row": 0,
-            "x": 195,
-            "y": 375,
-            "label": "R1"
-          },
-          {
-            "index": 1,
-            "column": 1,
-            "row": 0,
-            "x": 365,
-            "y": 375,
-            "label": "C1"
-          },
-          {
-            "index": 2,
-            "column": 2,
-            "row": 0,
-            "x": 535,
-            "y": 375,
-            "label": "F1"
-          },
-          {
-            "index": 3,
-            "column": 0,
-            "row": 1,
-            "x": 195,
-            "y": 590,
-            "label": "R2"
-          },
-          {
-            "index": 4,
-            "column": 1,
-            "row": 1,
-            "x": 365,
-            "y": 590,
-            "label": "C2"
-          },
-          {
-            "index": 5,
-            "column": 2,
-            "row": 1,
-            "x": 535,
-            "y": 590,
-            "label": "F2"
-          }
-        ],
-        "enemySlots": [
-          {
-            "index": 0,
-            "column": 0,
-            "row": 0,
-            "x": 805,
-            "y": 375,
-            "label": "F1"
-          },
-          {
-            "index": 1,
-            "column": 1,
-            "row": 0,
-            "x": 975,
-            "y": 375,
-            "label": "C1"
-          },
-          {
-            "index": 2,
-            "column": 2,
-            "row": 0,
-            "x": 1145,
-            "y": 375,
-            "label": "R1"
-          },
-          {
-            "index": 3,
-            "column": 0,
-            "row": 1,
-            "x": 805,
-            "y": 590,
-            "label": "F2"
-          },
-          {
-            "index": 4,
-            "column": 1,
-            "row": 1,
-            "x": 975,
-            "y": 590,
-            "label": "C2"
-          },
-          {
-            "index": 5,
-            "column": 2,
-            "row": 1,
-            "x": 1145,
-            "y": 590,
-            "label": "R2"
-          }
-        ]
       }
     ],
     "defaultDesign": "3x3",
@@ -809,8 +675,9 @@
       "width": 1280,
       "height": 720
     },
-    "rendererSha256": "015fd81b41cdd05a66d34139f41ef0898d2a5193ff8f6396eb4c8564117cbcf8",
-    "accepted": false,
+    "rendererSha256": "7cd85aa77f1de96a6f67b36bf2e23530d39928859aaad7ea9c3b2cc72cb38c22",
+    "accepted": true,
+    "selectedGrid": "3x3",
     "nativeIntegrated": false,
     "skillStyle": "crests",
     "heroLogicalHeight": 192,
@@ -829,14 +696,7 @@
         "file": "formation-grid-assets/design-a-3x3.png",
         "sha256": "c1ecd5834829861e9c1aaf2abee3a7e9c77ad429cd9e2259cb07c954a91cd737",
         "role": "canvas-preview",
-        "reviewStatus": "unaccepted-grid-design-draft"
-      },
-      {
-        "id": "3x2",
-        "file": "formation-grid-assets/design-b-3x2.png",
-        "sha256": "2bf7e8542c7da714a220f24dbb7276c430f29c660978b4948fb515870a47f9d8",
-        "role": "canvas-preview",
-        "reviewStatus": "unaccepted-grid-design-draft"
+        "reviewStatus": "selected-3x3-grid-direction"
       }
     ]
   },
@@ -1189,8 +1049,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 127,
-  "totalBytes": 186963801,
+  "fileCount": 126,
+  "totalBytes": 185600647,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1275,8 +1135,8 @@
     },
     {
       "path": "combat.html",
-      "bytes": 60610,
-      "sha256": "bd024b6d319c788316c4ce22bd14bcd3ceb3e1c72c05091f8257062a0d239f2f"
+      "bytes": 60602,
+      "sha256": "88080e460e07eff9ba6c9fdaba7b552bb3b511fc3cfd1bec3ce6a3668d3354cc"
     },
     {
       "path": "enemies.html",
@@ -1504,19 +1364,14 @@
       "sha256": "c1ecd5834829861e9c1aaf2abee3a7e9c77ad429cd9e2259cb07c954a91cd737"
     },
     {
-      "path": "formation-grid-assets/design-b-3x2.png",
-      "bytes": 1361023,
-      "sha256": "2bf7e8542c7da714a220f24dbb7276c430f29c660978b4948fb515870a47f9d8"
-    },
-    {
       "path": "formation-grids.html",
-      "bytes": 54822,
-      "sha256": "e341fb2e89aa2c6cea777ed90b62602394b3de797f3d6868da535de7cc4e493c"
+      "bytes": 52709,
+      "sha256": "e16fcb627b84280ed7baa2699c08fed675c9d2b18c08cc17f5dee051fdb7d760"
     },
     {
       "path": "index.html",
-      "bytes": 822,
-      "sha256": "d9159bfcb02634e13a11687c3b60411c6ae53b55d17e6bca6095725dee343fea"
+      "bytes": 812,
+      "sha256": "d78c1fd3d073384c78194b954e0ff96922105f5f1dc13cec73537fc0df7c82b0"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -2057,7 +1912,6 @@
       "combat.html",
       "enemies.html",
       "formation-grid-assets/design-a-3x3.png",
-      "formation-grid-assets/design-b-3x2.png",
       "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png",
       "portrait-assets/portrait-liora-fernveil-illustrated-v1.png",
       "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
@@ -2182,7 +2036,6 @@
     "portrait-assets/portrait-yselle-illustrated-v1.png": [],
     "portrait-assets/portrait-zahra-illustrated-v1.png": [],
     "formation-grid-assets/design-a-3x3.png": [],
-    "formation-grid-assets/design-b-3x2.png": [],
     "index.html": [
       "abilities.html",
       "combat.html",
@@ -2202,7 +2055,7 @@
     "Expansion PNGs match the separate visual-only twelve-ID canonical-and-gallery validation; no Core or Unity integration",
     "Four combat layouts retain the three earlier comparisons and the requested combined layout D, using eight selected sprite sources, one background and four actual current canvas exports; references/provenance remain private",
     "Accepted combined D and emblem controls are defaults; three hero formation choices share native anchors without changing enemies, targeting rows or character-art acceptance",
-    "Two newer unaccepted fixed Cartesian grid drafts compare3x3 and3x2 slots; prior staggered formation placements are superseded, while selected HUD and crest controls remain",
+    "The selected 3x3 Cartesian grid has nine fixed slots for five heroes; 3x2 is excluded, and prebattle-only editing preserves the selected HUD and crest controls",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
