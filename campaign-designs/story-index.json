@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "storyStageIds": [
+    1,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    25,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    145,
+    148,
+    152,
+    156,
+    160,
+    164,
+    168
+  ],
+  "scenes": [
+    {
+      "id": "ironfall_ch01_opening",
+      "stageId": 1,
+      "title": "When the Sky Broke",
+      "trigger": "ChapterIntro"
+    },
+    {
+      "id": "ironfall_ch01_first_sortie",
+      "stageId": 1,
+      "title": "Five Against the Morning",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch01_silver_tracks",
+      "stageId": 4,
+      "title": "Tracks That Do Not Sink",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch01_thornmaw_pre",
+      "stageId": 8,
+      "title": "The Beast at Briar Gate",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch01_thornmaw_post",
+      "stageId": 8,
+      "title": "Not Their Monster",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch01_first_captive",
+      "stageId": 12,
+      "title": "A Person Inside",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch01_vesper_pre",
+      "stageId": 16,
+      "title": "The Adaptive Knight",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch01_vesper_post",
+      "stageId": 16,
+      "title": "Conductor Candidate",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch01_nexaris",
+      "stageId": 20,
+      "title": "Aether Reserve E-7",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch01_orrix_pre",
+      "stageId": 24,
+      "title": "The Offer at Crownward Gate",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch01_clear",
+      "stageId": 24,
+      "title": "Ironfall",
+      "trigger": "ChapterClear"
+    },
+    {
+      "id": "ironfall_ch02_opening",
+      "stageId": 25,
+      "title": "The Glassway Siege",
+      "trigger": "ChapterIntro"
+    },
+    {
+      "id": "ironfall_ch02_first_sortie",
+      "stageId": 25,
+      "title": "Road Above the Clouds",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch02_missing_caravan",
+      "stageId": 28,
+      "title": "The Absent Caravan",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch02_galeclaw_pre",
+      "stageId": 32,
+      "title": "Splinters in the Storm",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch02_galeclaw_post",
+      "stageId": 32,
+      "title": "The Flock Chooses",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch02_prisoners",
+      "stageId": 36,
+      "title": "Compatibility",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch02_kheiron_pre",
+      "stageId": 40,
+      "title": "The Knight in the Machine",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch02_kheiron_post",
+      "stageId": 40,
+      "title": "The Last Oath",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch02_offer",
+      "stageId": 44,
+      "title": "A Price for Mercy",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "ironfall_ch02_caelus_pre",
+      "stageId": 48,
+      "title": "The Falling Road",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "ironfall_ch02_clear",
+      "stageId": 48,
+      "title": "The Road Holds",
+      "trigger": "ChapterClear"
+    },
+    {
+      "id": "campaign_ch07_intro",
+      "stageId": 145,
+      "title": "The Road Removed",
+      "trigger": "ChapterIntro"
+    },
+    {
+      "id": "campaign_ch07_four",
+      "stageId": 148,
+      "title": "A Sensible Reason",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "campaign_ch07_eight",
+      "stageId": 152,
+      "title": "The Second Signature",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "campaign_ch07_twelve",
+      "stageId": 156,
+      "title": "A Witness with No Medal",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "campaign_ch07_sixteen",
+      "stageId": 160,
+      "title": "What We Can Publish",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "campaign_ch07_twenty",
+      "stageId": 164,
+      "title": "A Voice between Orders",
+      "trigger": "PostBattle"
+    },
+    {
+      "id": "campaign_ch07_pre",
+      "stageId": 168,
+      "title": "The Last Registered Gate",
+      "trigger": "PreBattle"
+    },
+    {
+      "id": "campaign_ch07_clear",
+      "stageId": 168,
+      "title": "The Untidy Record",
+      "trigger": "ChapterClear"
+    }
+  ]
+}

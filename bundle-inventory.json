@@ -890,6 +890,20 @@
     "accepted": false,
     "runtimeIntegrated": false,
     "accountMutation": false,
+    "expandedFlow": {
+      "views": [
+        "b",
+        "c"
+      ],
+      "defaultView": "b",
+      "routePreservesSelection": true,
+      "prebattleOnlyFormation": true,
+      "storyIndex": "campaign-designs/story-index.json",
+      "storyStageCount": 21,
+      "storySceneCount": 30,
+      "reviewOnly": true,
+      "nativeIntegrated": false
+    },
     "assets": [
       {
         "file": "campaign-assets/regalia-day.png",
@@ -1257,8 +1271,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 145,
-  "totalBytes": 190428035,
+  "fileCount": 146,
+  "totalBytes": 190505823,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1293,18 +1307,18 @@
     },
     {
       "path": "campaign-designs.html",
-      "bytes": 4703,
-      "sha256": "815894ceb087bba16eb8b16da89c3f0cb07ec2d6e612c81006da0a8b55c7ed80"
+      "bytes": 5336,
+      "sha256": "d117533fa237434f11ff021e1d5d73951afbf4b7eb74260c18a97796a1d45fb6"
     },
     {
       "path": "campaign-designs/app.js",
-      "bytes": 20454,
-      "sha256": "9fa9c02993b71e8f7b9b1809003b4438b10b63c15a4ca65b40ff5b984f17ea2f"
+      "bytes": 26301,
+      "sha256": "ae31db049b378b752b9f5ec0e3dba22a90e81528ff74cbbb4c45a83603b2fa49"
     },
     {
       "path": "campaign-designs/common.css",
-      "bytes": 15644,
-      "sha256": "134120a0b25766f3dcaa4bf12d0cb7d6ee8adab14cafc49ba3e10f787f098af5"
+      "bytes": 19737,
+      "sha256": "6d647317ab97a787e2dbd729453d87ff982d753fd9668260674e8502de03c3fc"
     },
     {
       "path": "campaign-designs/data.json",
@@ -1323,23 +1337,23 @@
     },
     {
       "path": "campaign-designs/layout-b.css",
-      "bytes": 18193,
-      "sha256": "6db6fc23944515a57c6169104d269f1d13e4495d857407ef6be750da57510f40"
+      "bytes": 45617,
+      "sha256": "3f5d77c0fb584f758f2d066eed8d12b4967f96b9637c0e38840c43ef9859426f"
     },
     {
       "path": "campaign-designs/layout-b.js",
-      "bytes": 5598,
-      "sha256": "3104b9b8c19920c5da4182d6873c538f7a546e94d14e0e686553298874d6cfba"
+      "bytes": 12379,
+      "sha256": "85665bbecc3029fc4bdc129bd55166cf1aeb911806447369bf6494db3a3277da"
     },
     {
       "path": "campaign-designs/layout-c.css",
-      "bytes": 15828,
-      "sha256": "3f6e5d608b2b4a2d5c3ae013df071f55ee15f6293bc2e80b8c6338b528ec751e"
+      "bytes": 37653,
+      "sha256": "953c2431d4b900d593c11f117130e2e16218118397c2855f5f56025052ac378c"
     },
     {
       "path": "campaign-designs/layout-c.js",
-      "bytes": 5300,
-      "sha256": "1ef84c72cb917d61cd74c145c1ccdbf85dcb3f13127c9955c458e2d48ddc934c"
+      "bytes": 12028,
+      "sha256": "2948f2063b7a3987599c627b4271873fe6d6c4194dc48c1cd0728b283fd97391"
     },
     {
       "path": "campaign-designs/layout-d.css",
@@ -1360,6 +1374,11 @@
       "path": "campaign-designs/layout-e.js",
       "bytes": 3090,
       "sha256": "38c2f908c97a4f59dee64415d2aa88594717ab4f77cfc935935c4355ef91069d"
+    },
+    {
+      "path": "campaign-designs/story-index.json",
+      "bytes": 4457,
+      "sha256": "3a3bbf49e9c65b3bfb794fad898764211cc07b50b83bc8b743502926bf557ad8"
     },
     {
       "path": "combat-draft-assets/asterwatch-court-pixel-v1.png",
@@ -2277,6 +2296,7 @@
       "campaign-designs/layout-d.js",
       "campaign-designs/layout-e.css",
       "campaign-designs/layout-e.js",
+      "campaign-designs/story-index.json",
       "combat.html",
       "enemies.html",
       "formation-grids.html",
@@ -2299,6 +2319,7 @@
       "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png"
     ],
     "campaign-designs/data.json": [],
+    "campaign-designs/story-index.json": [],
     "campaign-designs/layout-a.js": [],
     "campaign-designs/layout-a.css": [
       "campaign-assets/regalia-day.png",
@@ -2453,7 +2474,7 @@
     "Accepted combined D and emblem controls are defaults; three hero formation choices share native anchors without changing enemies, targeting rows or character-art acceptance",
     "The selected 3x3 Cartesian grid has nine fixed slots for five heroes; 3x2 is excluded, and prebattle-only editing preserves the selected HUD and crest controls",
     "Content and balance review contains eleven unselected hero recommendations, twelve unintegrated encounter proposals and a future test plan; explicit public fields only, no source hashes or authoring records",
-    "Five campaign layout candidates share three sample chapters and72 public stage records; review-only navigation preserves account data and uses exact existing Regalia backgrounds plus an original ProjectG atlas",
+    "Five campaign layout candidates share three sample chapters and72 public stage records; expanded B/C navigation preserves selection and prebattle-only formation, with 21 story-bearing stages and30 exact authored scene metadata records but no dialogue, source files or private receipt data",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
