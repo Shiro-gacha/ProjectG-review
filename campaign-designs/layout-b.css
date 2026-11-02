@@ -126,8 +126,6 @@
 .design-b .b-reward-shelf .reward-list svg { width: 19px; height: 19px; color: #e4c681; }
 .design-b .b-deployment { display: grid; grid-template-columns: 82px minmax(0,1fr); align-items: end; gap: 9px; padding-top: 12px; border-top: 1px solid #ddc68f39; }
 .design-b .b-story-button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; min-height: 58px; padding: 7px 5px; color: #e7d8b5; background: #f6e9ca08; border: 1px solid #e9d4a145; border-radius: 4px; font-size: 10px; }
-.design-b .b-energy-cost { display: flex; align-items: center; justify-content: center; gap: 4px; color: #d9d9bd; font-size: 9px; margin-bottom: 6px; }
-.design-b .b-energy-cost svg { width: 12px; height: 12px; color: #acd7c4; }
 .design-b .b-deploy-button { display: flex; justify-content: center; align-items: center; gap: 8px; width: 100%; min-height: 58px; padding: 9px 10px; border: 1px solid #f8e0a5; border-radius: 4px; color: #2e352f; background: linear-gradient(#f8ecd0,#dbc18a); box-shadow: inset 0 1px #fff9e6,0 3px 0 #796945; font-size: 12px; line-height: 1.2; font-weight: 800; }
 .design-b .b-deploy-button > svg:first-child { width: 18px; height: 18px; }
 .design-b .b-deploy-button > svg:last-child { width: 13px; height: 13px; }
@@ -210,7 +208,6 @@
   .design-b .b-deployment { grid-template-columns: 90px minmax(0,1fr); gap: 11px; padding-top: 17px; }
   .design-b .b-story-button { min-height: 62px; font-size: 11px; }
   .design-b .b-deploy-button { min-height: 62px; font-size: 14px; }
-  .design-b .b-energy-cost { font-size: 11px; }
 }
 
 /* Expanded B: the stage list and the route are two views of one expedition. */

@@ -41,7 +41,7 @@ window.CampaignLayouts.a = function (ctx) {
         </div>
         <div class="a-stage-actions">
           <button class="a-details" data-action="brief">Details ${icon('chevron')}</button>
-          <button class="a-deploy" data-action="deploy" ${locked ? 'disabled' : ''}><span>${icon(locked ? 'lock' : 'sword')} ${locked ? 'Stage locked' : 'Prepare battle'}</span><small>${icon('energy')} ${h(stage.cost)} stamina</small></button>
+          <button class="a-deploy" data-action="deploy" ${locked ? 'disabled' : ''}><span>${icon(locked ? 'lock' : 'sword')} ${locked ? 'Stage locked' : 'Prepare battle'}</span></button>
         </div>
       </div>
     </div>

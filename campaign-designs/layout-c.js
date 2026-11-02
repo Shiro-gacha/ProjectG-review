@@ -47,7 +47,7 @@
         '<div class="c-stage-summary"><div><span class="c-selected-kicker">' + h(currentLabel) + '</span><strong>' + h(stage.code) + ' <span>' + h(stage.title) + '</span></strong>' +
           '<span class="c-selected-meta">' + h(stage.waves) + ' waves <span>·</span> Recommended ' + h(Number(stage.power).toLocaleString('en-US')) + '</span></div>' +
           '<button class="c-brief-button" data-action="brief" aria-label="Read stage ' + h(stage.code) + ' briefing">Briefing ' + ctx.icon('story') + '</button></div>' +
-        '<button class="game-button primary c-enter" data-action="deploy"' + (locked ? ' disabled' : '') + '><span>' + (locked ? ctx.icon('lock') + ' Stage locked' : 'Enter stage ' + ctx.icon('arrow')) + '</span><small>' + ctx.icon('energy') + h(stage.cost) + ' energy</small></button>' +
+        '<button class="game-button primary c-enter" data-action="deploy"' + (locked ? ' disabled' : '') + '><span>' + (locked ? ctx.icon('lock') + ' Stage locked' : 'Enter stage ' + ctx.icon('arrow')) + '</span></button>' +
       '</footer></div>';
   };
 }());
@@ -102,7 +102,7 @@
       '<div class="cx-company"><div class="cx-ground" aria-hidden="true"></div>' + ctx.party('full') + '<span class="cx-company-label">DAWNWARD COMPANY <i>·</i> FIVE HEROES</span></div>' +
       '<footer class="cx-dock"><div class="cx-stage-crest' + (isBoss(selected) ? ' boss' : '') + '" aria-hidden="true">' + icon(locked ? 'lock' : isBoss(selected) ? 'crown' : isStory(selected) ? 'story' : 'sword') + '</div>' +
         '<div class="cx-selected-copy"><span class="cx-selected-state">' + h(stateLabel(selected)) + ' <i>·</i> ' + h(selectedKind) + '</span><h3><span>' + h(selected.code) + '</span> ' + h(selected.title) + '</h3><p>' + h(selected.waves) + ' waves <i>·</i> Rec. power ' + h(Number(selected.power).toLocaleString('en-US')) + '</p></div>' +
-        '<div class="cx-dock-actions"><button class="cx-mission-button" data-action="brief">' + icon('story') + '<span>Mission details</span></button><button class="cx-deploy" data-action="deploy"' + (locked ? ' disabled' : '') + '><span>' + (locked ? icon('lock') + ' Stage locked' : 'Prepare party ' + icon('arrow')) + '</span><small>' + icon('energy') + h(selected.cost) + ' stamina</small></button></div></footer>' +
+        '<div class="cx-dock-actions"><button class="cx-mission-button" data-action="brief">' + icon('story') + '<span>Mission details</span></button><button class="cx-deploy" data-action="deploy"' + (locked ? ' disabled' : '') + '><span>' + (locked ? icon('lock') + ' Stage locked' : 'Prepare party ' + icon('arrow')) + '</span></button></div></footer>' +
       '<div class="cx-chapter-progress"><span>CHAPTER PROGRESS</span>' + ctx.progress() + '<span>Formation is set before entering battle.</span></div>' +
     '</div>';
   };

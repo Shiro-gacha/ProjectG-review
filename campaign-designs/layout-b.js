@@ -83,7 +83,6 @@ window.CampaignLayouts.b = ctx => {
         <footer class="b-deployment">
           <button class="b-story-button" data-action="story">${icon('story')} Read story</button>
           <div class="b-deploy-wrap">
-            <span class="b-energy-cost">${icon('energy')} ${h(stage.cost)} stamina</span>
             <button class="b-deploy-button" data-action="deploy" ${locked ? 'disabled aria-disabled="true"' : ''}>${icon(locked ? 'lock' : 'sword')}<span>${locked ? 'Stage locked' : 'Prepare for battle'}</span>${locked ? '' : icon('arrow')}</button>
           </div>
         </footer>
@@ -137,7 +136,7 @@ window.CampaignLayouts.b = ctx => {
           <section class="bx-reward-section" aria-label="First-clear reward preview"><div class="bx-section-heading"><h3>FIRST-CLEAR REWARDS</h3>${stage.status === 'cleared' ? `<span>${icon('check')} Claimed</span>` : ''}</div>${ctx.rewards()}<p class="bx-reward-note">${stage.status === 'cleared' ? 'Regular clear rewards already claimed. Revisit does not grant them again.' : 'Clear rewards are granted once. All three objectives award 10 gems once.'}</p></section>
           ${locked ? `<p class="bx-locked-note">${icon('lock')} Clear the preceding encounters to unlock this stage.</p>` : ''}
         </div>
-        <footer class="bx-deployment"><div class="bx-deployment-summary"><span>${locked ? 'ENCOUNTER LOCKED' : stage.status === 'cleared' ? 'REVISIT STAGE' : 'READY WHEN YOU ARE'}</span><strong>${icon('energy')}${stage.cost}<small>stamina</small></strong></div><button class="bx-deploy-button" data-action="deploy" ${locked ? 'disabled aria-disabled="true"' : ''}>${icon(locked ? 'lock' : 'formation')}<span>${locked ? 'Stage locked' : 'Prepare Battle'}</span>${!locked ? icon('arrow') : ''}</button><small class="bx-placement-note">Set your formation before entering battle.</small></footer>
+        <footer class="bx-deployment"><div class="bx-deployment-summary"><span>${locked ? 'ENCOUNTER LOCKED' : stage.status === 'cleared' ? 'REVISIT STAGE' : 'READY WHEN YOU ARE'}</span></div><button class="bx-deploy-button" data-action="deploy" ${locked ? 'disabled aria-disabled="true"' : ''}>${icon(locked ? 'lock' : 'formation')}<span>${locked ? 'Stage locked' : 'Prepare Battle'}</span>${!locked ? icon('arrow') : ''}</button><small class="bx-placement-note">Set your formation before entering battle.</small></footer>
       </aside>
     </div>`;
   };

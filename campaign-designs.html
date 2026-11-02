@@ -4,18 +4,18 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#15252d">
   <title>ProjectG · Expanded campaign flow</title>
-  <link rel="stylesheet" href="campaign-designs/common.css?v=expanded-2">
+  <link rel="stylesheet" href="campaign-designs/common.css?v=campaign-free-3">
   <link rel="stylesheet" href="campaign-designs/layout-a.css">
-  <link rel="stylesheet" href="campaign-designs/layout-b.css?v=expanded-2">
-  <link rel="stylesheet" href="campaign-designs/layout-c.css?v=expanded-2">
+  <link rel="stylesheet" href="campaign-designs/layout-b.css?v=campaign-free-3">
+  <link rel="stylesheet" href="campaign-designs/layout-c.css?v=campaign-free-3">
   <link rel="stylesheet" href="campaign-designs/layout-d.css">
   <link rel="stylesheet" href="campaign-designs/layout-e.css">
-  <script defer src="campaign-designs/layout-a.js"></script>
-  <script defer src="campaign-designs/layout-b.js?v=expanded-2"></script>
-  <script defer src="campaign-designs/layout-c.js?v=expanded-2"></script>
-  <script defer src="campaign-designs/layout-d.js"></script>
-  <script defer src="campaign-designs/layout-e.js"></script>
-  <script defer src="campaign-designs/app.js?v=expanded-2"></script>
+  <script defer src="campaign-designs/layout-a.js?v=campaign-free-3"></script>
+  <script defer src="campaign-designs/layout-b.js?v=campaign-free-3"></script>
+  <script defer src="campaign-designs/layout-c.js?v=campaign-free-3"></script>
+  <script defer src="campaign-designs/layout-d.js?v=campaign-free-3"></script>
+  <script defer src="campaign-designs/layout-e.js?v=campaign-free-3"></script>
+  <script defer src="campaign-designs/app.js?v=campaign-free-3"></script>
 </head>
 <body>
 <header class="review-header">
@@ -30,12 +30,12 @@
     <div class="review-options"><label>Sample progress<select id="sample-progress"><option value="8">Early · Chapter 1</option><option value="32">Mid · Chapter 2</option><option value="168">Late · Chapter 7</option></select></label><button class="review-button" data-action="favorite" id="favorite-button">Save preference</button><button class="review-button" data-action="study-mode" id="study-mode">Initial five studies</button></div>
   </section>
   <section id="campaign-screen" class="game-shell" aria-label="Interactive campaign candidate">
-    <header class="game-hud"><button class="icon-button" data-action="home" aria-label="Open design overview"><svg viewbox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7M7 12h14"></path></svg></button><div class="hud-title"><span>ASTERRA</span><strong>Campaign</strong></div><span class="hud-divider"></span><span class="hud-chapter" id="hud-chapter"></span><div class="currencies"><span title="Sample stamina"><b>ϟ</b> 96 <small>/ 120</small></span><span title="Sample gold"><b>◈</b> 248,600</span><span title="Sample gems"><b>◇</b> 1,240</span></div></header>
+    <header class="game-hud"><button class="icon-button" data-action="home" aria-label="Open design overview"><svg viewbox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7M7 12h14"></path></svg></button><div class="hud-title"><span>ASTERRA</span><strong>Campaign</strong></div><span class="hud-divider"></span><span class="hud-chapter" id="hud-chapter"></span><div class="currencies"><span title="Sample gold"><b>◈</b> 248,600</span><span title="Sample gems"><b>◇</b> 1,240</span></div></header>
     <div id="campaign-root" class="campaign-surface" aria-live="polite"><p class="loading">Preparing your expedition…</p></div>
   </section>
   <div id="mobile-deploy" class="mobile-deploy" data-visible="false" aria-label="Selected stage battle entry"></div>
   <section class="design-caption"><div><span id="caption-id" class="caption-letter">A</span><div><h2 id="caption-title"></h2><p id="caption-copy"></p></div></div><span id="saved-status" role="status"></span></section>
-  <details class="scope-note"><summary>About this interactive study</summary><p>The expanded B campaign and C chapter route share selection, difficulty, sample progress and the prebattle party. The initial five studies remain available for comparison. Story markers identify actual authored scenes; scene names are shown without playing native dialogue. Boss markers come from the existing stage type.</p><p>The three sample chapters use ProjectG stage names, briefing text and Normal-mode numbers. Hard is a visual state preview. Battles, cache claims and formation changes here are demonstrations and do not affect a game account. A cleared stage remains a revisit; its first-clear rewards are not granted again.</p><p>The full campaign currently contains 15 chapters and 360 stages. These concepts show chapters 1, 2 and 7. The shared prebattle preview uses the approved 3×3 formation, with five heroes; entering its battle preview freezes placement and removes formation controls. <a href="campaign-designs/data.json">Sample stage data</a> · <a href="campaign-designs/story-index.json">Authored story index</a>.</p></details>
+  <details class="scope-note"><summary>About this interactive study</summary><p>The expanded B campaign and C chapter route share selection, difficulty, sample progress and the prebattle party. The initial five studies remain available for comparison. Story markers identify actual authored scenes; scene names are shown without playing native dialogue. Boss markers come from the existing stage type.</p><p>The three sample chapters use ProjectG stage names, briefing text and Normal-mode numbers. Hard is a visual state preview. Normal and Hard Campaign have no energy entry cost. Account energy is reserved for designated farming stages, such as gear farming. Battles, cache claims and formation changes here are demonstrations and do not affect a game account. A cleared stage remains a revisit; its first-clear rewards are not granted again.</p><p>The full campaign currently contains 15 chapters and 360 stages. These concepts show chapters 1, 2 and 7. The shared prebattle preview uses the approved 3×3 formation, with five heroes; entering its battle preview freezes placement and removes formation controls. <a href="campaign-designs/data.json">Sample stage data</a> · <a href="campaign-designs/story-index.json">Authored story index</a>.</p></details>
 </main>
 <dialog id="study-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><span class="eyebrow" id="dialog-kicker">ASTERRA</span><h2 id="dialog-title"></h2></div><button class="icon-button" data-action="close" aria-label="Close dialog">✕</button></div><div id="dialog-content"></div></dialog>
 <div id="toast" role="status" class="toast" hidden></div>

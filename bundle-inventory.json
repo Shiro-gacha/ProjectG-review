@@ -890,6 +890,11 @@
     "accepted": false,
     "runtimeIntegrated": false,
     "accountMutation": false,
+    "campaignEntry": {
+      "normalEnergyCost": 0,
+      "hardEnergyCost": 0,
+      "requiresEnergy": false
+    },
     "expandedFlow": {
       "views": [
         "b",
@@ -1272,7 +1277,7 @@
     }
   },
   "fileCount": 146,
-  "totalBytes": 190505823,
+  "totalBytes": 190505582,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1307,23 +1312,23 @@
     },
     {
       "path": "campaign-designs.html",
-      "bytes": 5336,
-      "sha256": "d117533fa237434f11ff021e1d5d73951afbf4b7eb74260c18a97796a1d45fb6"
+      "bytes": 5483,
+      "sha256": "a63730c2c8b53fc4ab951980deb0c09efe7d3642b7e2450678c4da0598bd7377"
     },
     {
       "path": "campaign-designs/app.js",
-      "bytes": 26301,
-      "sha256": "ae31db049b378b752b9f5ec0e3dba22a90e81528ff74cbbb4c45a83603b2fa49"
+      "bytes": 26172,
+      "sha256": "09ec49af9d3d80eb3f0f06e0e8f3b5b77739d70fdb7ebd2c207a8ed38833f7f3"
     },
     {
       "path": "campaign-designs/common.css",
-      "bytes": 19737,
-      "sha256": "6d647317ab97a787e2dbd729453d87ff982d753fd9668260674e8502de03c3fc"
+      "bytes": 19995,
+      "sha256": "169bc42baa4d4d30095968953befd27960a9fa24db5e1033d26d237e90f335a4"
     },
     {
       "path": "campaign-designs/data.json",
-      "bytes": 31402,
-      "sha256": "398eca59ba8d09f769a87bec72b53dfad7214694d1a2ccd0a1f50772e87fa8a0"
+      "bytes": 31388,
+      "sha256": "21aac2e1f0286d1ab16b1cf7353ecdcebbedd680e867a225d47b12c32608b2d9"
     },
     {
       "path": "campaign-designs/layout-a.css",
@@ -1332,18 +1337,18 @@
     },
     {
       "path": "campaign-designs/layout-a.js",
-      "bytes": 4229,
-      "sha256": "699d5a2f3d902b3aec72a4abf37fdfb5d717f56b286c06b7061b6719f46390f5"
+      "bytes": 4233,
+      "sha256": "944faf3f9a72f3c5d04d792033f6f7b2b857c7956163d45645d7cc4a6421b5f6"
     },
     {
       "path": "campaign-designs/layout-b.css",
-      "bytes": 45617,
-      "sha256": "3f5d77c0fb584f758f2d066eed8d12b4967f96b9637c0e38840c43ef9859426f"
+      "bytes": 45338,
+      "sha256": "eed36a26320aa7535bc64286d0f2f80aef8b4d152b2de99f1368a4b750f8357c"
     },
     {
       "path": "campaign-designs/layout-b.js",
-      "bytes": 12379,
-      "sha256": "85665bbecc3029fc4bdc129bd55166cf1aeb911806447369bf6494db3a3277da"
+      "bytes": 12363,
+      "sha256": "0c558298d584be420bd341f5c2facc7611fc54931c1895e9d727ab83c592f2d3"
     },
     {
       "path": "campaign-designs/layout-c.css",
@@ -1352,8 +1357,8 @@
     },
     {
       "path": "campaign-designs/layout-c.js",
-      "bytes": 12028,
-      "sha256": "2948f2063b7a3987599c627b4271873fe6d6c4194dc48c1cd0728b283fd97391"
+      "bytes": 11900,
+      "sha256": "2474d4951c4cc2e73a75144d0d97321fb9a6caade7f57395fa409532a7fe1b6d"
     },
     {
       "path": "campaign-designs/layout-d.css",
@@ -1362,8 +1367,8 @@
     },
     {
       "path": "campaign-designs/layout-d.js",
-      "bytes": 2474,
-      "sha256": "20e328ce7677bec5e5af5bfef2774eb133a3db2a74a757200317a96f48accfbf"
+      "bytes": 2429,
+      "sha256": "a6995700d78078158bacb5a42158a9c5c026f38daf150edadeb4167fb1e09e4a"
     },
     {
       "path": "campaign-designs/layout-e.css",
@@ -1372,8 +1377,8 @@
     },
     {
       "path": "campaign-designs/layout-e.js",
-      "bytes": 3090,
-      "sha256": "38c2f908c97a4f59dee64415d2aa88594717ab4f77cfc935935c4355ef91069d"
+      "bytes": 3051,
+      "sha256": "2a8905272287306008fa517c5cad3e3c552a90f0612c6fa7d358cb5a04aa305b"
     },
     {
       "path": "campaign-designs/story-index.json",

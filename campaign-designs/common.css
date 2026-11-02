@@ -51,3 +51,6 @@
 @media(max-width:760px){.expanded-review .design-b.is-expanded .bx-mission-traits>button{min-height:44px;font-size:10px}.expanded-review .design-b.is-expanded .bx-mission-traits{font-size:9px}.expanded-review .design-b.is-expanded .bx-stage-row .stage-title{font-size:10px}}
 
 @media(max-width:760px){.expanded-review .toast{bottom:max(115px,calc(env(safe-area-inset-bottom) + 105px))}}
+
+/* Campaign entry is free; the compact bar contains mission identity and action only. */
+@media(max-width:760px){.expanded-review .mobile-deploy strong{margin:5px 0 0}.currencies>span:first-child{display:none}.currencies>span:nth-child(2){display:flex}}
