@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "purpose": "Sanitized static ProjectG phone review; no repository source or private draft notes.",
   "sourceVersion": "2026-10-26-v4",
   "acceptedSpriteCount": 11,
@@ -867,6 +867,47 @@
       }
     ]
   },
+  "campaignDesignStudy": {
+    "page": "campaign-designs.html",
+    "data": "campaign-designs/data.json",
+    "candidateIds": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "candidateCount": 5,
+    "sampleChapterIds": [
+      1,
+      2,
+      7
+    ],
+    "sampleChapterCount": 3,
+    "sampleStageCount": 72,
+    "stagesPerChapter": 24,
+    "reviewOnly": true,
+    "accepted": false,
+    "runtimeIntegrated": false,
+    "accountMutation": false,
+    "assets": [
+      {
+        "file": "campaign-assets/regalia-day.png",
+        "sha256": "b303cd7f1c93746e4e9e5c57be02df8b4f820a49bda923b28e3a15a3ffce8ed0",
+        "role": "existing-regalia-day-background"
+      },
+      {
+        "file": "campaign-assets/regalia-night.png",
+        "sha256": "2fad3e11d648caf5dfdde3170ba11cadda2724658924b753af8b2880a65ec267",
+        "role": "existing-regalia-night-background"
+      },
+      {
+        "file": "campaign-assets/asterra-atlas.svg",
+        "sha256": "d4a895c63d9f8b4f19b4747e389f630947bdf4f4298ae95cbccc782c44cb7aec",
+        "role": "original-projectg-atlas"
+      }
+    ]
+  },
   "illustratedPortraits": {
     "heroCount": 40,
     "existingIdentityCount": 29,
@@ -1216,8 +1257,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 128,
-  "totalBytes": 185761537,
+  "fileCount": 145,
+  "totalBytes": 190428035,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1234,6 +1275,91 @@
       "path": "acceptance.json",
       "bytes": 3386,
       "sha256": "b654881df0790e817654895ad6f1d5fd9995c129fe20f9467c64574231c8169b"
+    },
+    {
+      "path": "campaign-assets/asterra-atlas.svg",
+      "bytes": 5527,
+      "sha256": "d4a895c63d9f8b4f19b4747e389f630947bdf4f4298ae95cbccc782c44cb7aec"
+    },
+    {
+      "path": "campaign-assets/regalia-day.png",
+      "bytes": 2346852,
+      "sha256": "b303cd7f1c93746e4e9e5c57be02df8b4f820a49bda923b28e3a15a3ffce8ed0"
+    },
+    {
+      "path": "campaign-assets/regalia-night.png",
+      "bytes": 2154879,
+      "sha256": "2fad3e11d648caf5dfdde3170ba11cadda2724658924b753af8b2880a65ec267"
+    },
+    {
+      "path": "campaign-designs.html",
+      "bytes": 4703,
+      "sha256": "815894ceb087bba16eb8b16da89c3f0cb07ec2d6e612c81006da0a8b55c7ed80"
+    },
+    {
+      "path": "campaign-designs/app.js",
+      "bytes": 20454,
+      "sha256": "9fa9c02993b71e8f7b9b1809003b4438b10b63c15a4ca65b40ff5b984f17ea2f"
+    },
+    {
+      "path": "campaign-designs/common.css",
+      "bytes": 15644,
+      "sha256": "134120a0b25766f3dcaa4bf12d0cb7d6ee8adab14cafc49ba3e10f787f098af5"
+    },
+    {
+      "path": "campaign-designs/data.json",
+      "bytes": 31402,
+      "sha256": "398eca59ba8d09f769a87bec72b53dfad7214694d1a2ccd0a1f50772e87fa8a0"
+    },
+    {
+      "path": "campaign-designs/layout-a.css",
+      "bytes": 18674,
+      "sha256": "d59630ef089669ba1a1ed5f49caf119ed64f1e44a138aa7e0faa05474bc7add7"
+    },
+    {
+      "path": "campaign-designs/layout-a.js",
+      "bytes": 4229,
+      "sha256": "699d5a2f3d902b3aec72a4abf37fdfb5d717f56b286c06b7061b6719f46390f5"
+    },
+    {
+      "path": "campaign-designs/layout-b.css",
+      "bytes": 18193,
+      "sha256": "6db6fc23944515a57c6169104d269f1d13e4495d857407ef6be750da57510f40"
+    },
+    {
+      "path": "campaign-designs/layout-b.js",
+      "bytes": 5598,
+      "sha256": "3104b9b8c19920c5da4182d6873c538f7a546e94d14e0e686553298874d6cfba"
+    },
+    {
+      "path": "campaign-designs/layout-c.css",
+      "bytes": 15828,
+      "sha256": "3f6e5d608b2b4a2d5c3ae013df071f55ee15f6293bc2e80b8c6338b528ec751e"
+    },
+    {
+      "path": "campaign-designs/layout-c.js",
+      "bytes": 5300,
+      "sha256": "1ef84c72cb917d61cd74c145c1ccdbf85dcb3f13127c9955c458e2d48ddc934c"
+    },
+    {
+      "path": "campaign-designs/layout-d.css",
+      "bytes": 5482,
+      "sha256": "ec0a788ce6a3b36b52b80ce4b29d1ed880fbf639639ffadfe1c3f86c939e5756"
+    },
+    {
+      "path": "campaign-designs/layout-d.js",
+      "bytes": 2474,
+      "sha256": "20e328ce7677bec5e5af5bfef2774eb133a3db2a74a757200317a96f48accfbf"
+    },
+    {
+      "path": "campaign-designs/layout-e.css",
+      "bytes": 7853,
+      "sha256": "17c609799c599cc3a20bfe9ada369f6a8e0d9c5b0bfb0083ac9b9648f1950927"
+    },
+    {
+      "path": "campaign-designs/layout-e.js",
+      "bytes": 3090,
+      "sha256": "38c2f908c97a4f59dee64415d2aa88594717ab4f77cfc935935c4355ef91069d"
     },
     {
       "path": "combat-draft-assets/asterwatch-court-pixel-v1.png",
@@ -1302,13 +1428,13 @@
     },
     {
       "path": "combat.html",
-      "bytes": 60602,
-      "sha256": "88080e460e07eff9ba6c9fdaba7b552bb3b511fc3cfd1bec3ce6a3668d3354cc"
+      "bytes": 60654,
+      "sha256": "3a22c739981eb3eb5f3de8fe9abb67323274273ec4563a9b2902e0ad125fa471"
     },
     {
       "path": "content-balance.html",
-      "bytes": 84871,
-      "sha256": "03dd5dc2a2a5976bf684f1b6962ae6db1f9413c22acb9140a9501060e2da588a"
+      "bytes": 84923,
+      "sha256": "356a8ef6144c3e6829d2c0cdb88cdc244e69abad4c75e3b571bd14f82fb3f43c"
     },
     {
       "path": "content-balance/review-data.json",
@@ -1317,8 +1443,8 @@
     },
     {
       "path": "enemies.html",
-      "bytes": 76229,
-      "sha256": "b2757aa2291d6b5069ba9eea70816648b7b98b03221e17ade549eaf90f3d5088"
+      "bytes": 76281,
+      "sha256": "1dec5a984bd5c64fdb75df79abf1321bf9b56f55d1fd5f16751f32432b08bbd1"
     },
     {
       "path": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -1547,8 +1673,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 882,
-      "sha256": "03c03b5707b85e5af89aa971f438ad4cea584fb48c9459e9a412f4cb937257fd"
+      "bytes": 938,
+      "sha256": "324598e493d1c2cb03a26ac33b1049593a69865fa31f3ec1999482e24fed9af6"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -1587,8 +1713,8 @@
     },
     {
       "path": "kits.html",
-      "bytes": 342341,
-      "sha256": "1f44e2e7712666647b094bfaea31ec8eb93a4b0ff9a9017fcae6b9b0aa676345"
+      "bytes": 342393,
+      "sha256": "00e342e8a734d39f8b2a8050f786ee799ec304b95a69da9d4793ad5c8c8a380c"
     },
     {
       "path": "portrait-assets/portrait-adela-illustrated-v1.png",
@@ -1792,8 +1918,8 @@
     },
     {
       "path": "portraits.html",
-      "bytes": 38418,
-      "sha256": "08dfa68d03f76e82c8cbd40d148d2673c0ecfc573467e15fee225934800bb0f6"
+      "bytes": 38470,
+      "sha256": "61c940a9138bf6dc7d7effada53585ebcd2955cd4ab92d612428d83c3280feb4"
     },
     {
       "path": "review.html",
@@ -1881,6 +2007,7 @@
     "kits.html": [
       "abilities.html",
       "acceptance.json",
+      "campaign-designs.html",
       "combat.html",
       "content-balance.html",
       "enemies.html",
@@ -1921,6 +2048,7 @@
     ],
     "enemies.html": [
       "abilities.html",
+      "campaign-designs.html",
       "combat.html",
       "content-balance.html",
       "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -1972,6 +2100,7 @@
     ],
     "combat.html": [
       "abilities.html",
+      "campaign-designs.html",
       "combat-draft-assets/asterwatch-court-pixel-v1.png",
       "combat-draft-assets/combat-draft-a.png",
       "combat-draft-assets/combat-draft-b.png",
@@ -2033,6 +2162,7 @@
       "roselle.html"
     ],
     "portraits.html": [
+      "campaign-designs.html",
       "combat.html",
       "enemies.html",
       "kits.html",
@@ -2101,6 +2231,7 @@
     ],
     "content-balance.html": [
       "abilities.html",
+      "campaign-designs.html",
       "content-balance/review-data.json",
       "enemies.html",
       "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -2131,6 +2262,26 @@
       "sprites/candidate-soryn-veilglass-pixel-v6.png",
       "sprites/candidate-valdra-rosethorn-pixel-v3.png"
     ],
+    "campaign-designs.html": [
+      "campaign-designs.html",
+      "campaign-designs/app.js",
+      "campaign-designs/common.css",
+      "campaign-designs/data.json",
+      "campaign-designs/layout-a.css",
+      "campaign-designs/layout-a.js",
+      "campaign-designs/layout-b.css",
+      "campaign-designs/layout-b.js",
+      "campaign-designs/layout-c.css",
+      "campaign-designs/layout-c.js",
+      "campaign-designs/layout-d.css",
+      "campaign-designs/layout-d.js",
+      "campaign-designs/layout-e.css",
+      "campaign-designs/layout-e.js",
+      "combat.html",
+      "enemies.html",
+      "formation-grids.html",
+      "review.html"
+    ],
     "kit-options/workshop.css": [],
     "kit-options/workshop.js": [],
     "kit-options/ALL_KITS.md": [],
@@ -2140,6 +2291,34 @@
     "kit-options/ability-catalogue.json": [],
     "acceptance.json": [],
     "content-balance/review-data.json": [],
+    "campaign-designs/common.css": [
+      "campaign-assets/regalia-day.png",
+      "combat-draft-assets/asterwatch-court-pixel-v1.png"
+    ],
+    "campaign-designs/app.js": [
+      "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png"
+    ],
+    "campaign-designs/data.json": [],
+    "campaign-designs/layout-a.js": [],
+    "campaign-designs/layout-a.css": [
+      "campaign-assets/regalia-day.png",
+      "campaign-assets/regalia-night.png"
+    ],
+    "campaign-designs/layout-b.js": [],
+    "campaign-designs/layout-b.css": [
+      "combat-draft-assets/asterwatch-court-pixel-v1.png"
+    ],
+    "campaign-designs/layout-c.js": [],
+    "campaign-designs/layout-c.css": [
+      "campaign-assets/regalia-day.png",
+      "campaign-assets/regalia-night.png"
+    ],
+    "campaign-designs/layout-d.js": [],
+    "campaign-designs/layout-d.css": [
+      "campaign-assets/asterra-atlas.svg"
+    ],
+    "campaign-designs/layout-e.js": [],
+    "campaign-designs/layout-e.css": [],
     "sprites/candidate-roselle-vey-pixel-v5.png": [],
     "sprites/candidate-liora-fernveil-pixel-v3.png": [],
     "sprites/candidate-nyssara-silksong-pixel-v4.png": [],
@@ -2248,8 +2427,12 @@
     "portrait-assets/portrait-yselle-illustrated-v1.png": [],
     "portrait-assets/portrait-zahra-illustrated-v1.png": [],
     "formation-grid-assets/design-a-3x3.png": [],
+    "campaign-assets/regalia-day.png": [],
+    "campaign-assets/regalia-night.png": [],
+    "campaign-assets/asterra-atlas.svg": [],
     "index.html": [
       "abilities.html",
+      "campaign-designs.html",
       "combat.html",
       "content-balance.html",
       "enemies.html",
@@ -2270,6 +2453,7 @@
     "Accepted combined D and emblem controls are defaults; three hero formation choices share native anchors without changing enemies, targeting rows or character-art acceptance",
     "The selected 3x3 Cartesian grid has nine fixed slots for five heroes; 3x2 is excluded, and prebattle-only editing preserves the selected HUD and crest controls",
     "Content and balance review contains eleven unselected hero recommendations, twelve unintegrated encounter proposals and a future test plan; explicit public fields only, no source hashes or authoring records",
+    "Five campaign layout candidates share three sample chapters and72 public stage records; review-only navigation preserves account data and uses exact existing Regalia backgrounds plus an original ProjectG atlas",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",

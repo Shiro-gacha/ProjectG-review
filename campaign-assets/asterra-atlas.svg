@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<defs>
+ <linearGradient id="sea" x2="1" y2="1"><stop stop-color="#365d67"/><stop offset="1" stop-color="#8ba89d"/></linearGradient>
+ <linearGradient id="land" x2="0.8" y2="1"><stop stop-color="#ecdfb5"/><stop offset=".5" stop-color="#bec8a0"/><stop offset="1" stop-color="#d9c396"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#fff7d0" stop-opacity=".25"/><stop offset="1" stop-color="#142c34" stop-opacity=".35"/></radialGradient>
+ <pattern id="water" width="110" height="80" patternUnits="userSpaceOnUse"><path d="M10 20q15-7 30 0m10 25q15-7 30 0m-55 20q15-7 30 0" stroke="#e6e5bf" stroke-opacity=".15" fill="none"/></pattern>
+ <filter id="shadow"><feDropShadow dx="2" dy="8" stdDeviation="7" flood-color="#123744" flood-opacity=".38"/></filter>
+ <g id="pine"><path d="m0-34-17 29h9L-22 9h16l-1 12H7L6 9h16L8-5h9Z" fill="#466950" stroke="#8d9e6b" stroke-width="1"/><path d="M0 4v24" stroke="#53664b" stroke-width="3"/></g>
+ <g id="mountain"><path d="m-43 30 41-75 49 75-25-7-20 9-16-10Z" fill="#929e88" stroke="#6a8174" stroke-width="2"/><path d="m-15-16 13-29 20 30-11-5-7 11-6-8Z" fill="#f2eed0"/><path d="M-2-40 0 26l20-3" fill="none" stroke="#bac0a2" stroke-width="2"/></g>
+ <g id="castle"><path d="M-30 17v-42h13v8h12v-28H8v27h14v-9h12v45Z" fill="#ebe4c9" stroke="#797b6b" stroke-width="2"/><path d="m-34-26 11-18 11 18m-1-20L1-68l14 22m2 18 11-19 12 19" fill="#637e7b" stroke="#66756c" stroke-width="2"/><path d="M-4 17V3a7 7 0 0 1 14 0v14M0-39v8m-24 17v8m51-6v8" fill="#465f60" stroke="#a3a28b" stroke-width="2"/></g>
+ <g id="ruin"><path d="m-25 19 2-44h10l3 15h20l3-16h11l2 45Z" fill="#c9bb94" stroke="#827e65" stroke-width="2"/><path d="M-9 19V0H9v19M-20-13l8 7m24-6 10 6" stroke="#6f7965" fill="none" stroke-width="2"/></g>
+ <g id="tower"><path d="m-16 23 5-62h22l5 62Z" fill="#d9c9a5" stroke="#827b66" stroke-width="2"/><path d="m-18-37 18-31 18 31Z" fill="#796c78"/><path d="M-3-24h6v11h-6Zm0 25h6v15h-6Z" fill="#51656c"/></g>
+</defs>
+<path fill="url(#sea)" d="M0 0h1400v760H0z"/><path fill="url(#water)" d="M0 0h1400v760H0z"/>
+<g fill="none" stroke="#d8dcb1" stroke-opacity=".27"><path d="M55 608C164 501 117 312 287 167S716 66 905 162s358 267 384 435"/><path d="M32 620C143 508 99 300 270 145S717 45 926 141s363 279 388 467"/></g>
+<path d="m68 443 39-93 48-42-8-81 96-44 18-67 104-32 83 24 79-24 100 24 39 50 124-5 82 47 31-25 100 53 59-17 103 62 39 94-12 62-45 21-13 73-82 38-37-18-95 37-91-13-60 43-61-16-57 35-96-19-73 29-87-37-23-62-100-8-33-64Z" fill="url(#land)" stroke="#7e9a8c" stroke-width="7" filter="url(#shadow)"/>
+<path d="m68 443 39-93 48-42-8-81 96-44 18-67 104-32 83 24 79-24 100 24 39 50 124-5 82 47 31-25 100 53 59-17 103 62 39 94-12 62-45 21-13 73-82 38-37-18-95 37-91-13-60 43-61-16-57 35-96-19-73 29-87-37-23-62-100-8-33-64Z" fill="none" stroke="#e9e7bc" stroke-width="2"/>
+<path d="M599 148c-19 53-59 72-48 126s59 57 50 104-68 68-59 120 46 59 47 114" fill="none" stroke="#6b9c9a" stroke-width="17"/><path d="M599 148c-19 53-59 72-48 126s59 57 50 104-68 68-59 120 46 59 47 114" fill="none" stroke="#b2d3ba" stroke-width="6"/>
+<path d="M201 430c94-37 86-161 203-141S577 415 702 369 900 215 1080 352" fill="none" stroke="#c2ac78" stroke-width="24" opacity=".35"/>
+<path d="M303 106c15 47 54 85 91 105m288-53c26 89 19 97 92 111m213-5c-62 114-58 141-96 204m-166 42c-8-72-41-75-75-117m-281-28c-32 66-19 96-67 148" fill="none" stroke="#7c9d77" stroke-width="2" stroke-dasharray="5 10" opacity=".6"/>
+<g opacity=".8"><use href="#pine" x="268" y="234"/><use href="#pine" x="300" y="218"/><use href="#pine" x="327" y="244"/><use href="#pine" x="292" y="265"/><use href="#pine" x="326" y="286"/><use href="#pine" x="236" y="269"/><use href="#pine" x="765" y="430"/><use href="#pine" x="799" y="445"/><use href="#pine" x="830" y="416"/><use href="#pine" x="859" y="452"/><use href="#pine" x="807" y="482"/><use href="#pine" x="397" y="482"/><use href="#pine" x="428" y="511"/><use href="#pine" x="455" y="481"/></g>
+<g><use href="#mountain" x="433" y="170"/><use href="#mountain" x="482" y="190"/><use href="#mountain" x="524" y="154"/><use href="#mountain" x="944" y="300"/><use href="#mountain" x="998" y="291"/><use href="#mountain" x="1042" y="321"/></g>
+<g><use href="#castle" x="210" y="402"/><use href="#tower" x="460" y="302"/><use href="#ruin" x="693" y="337"/><use href="#castle" x="866" y="265"/><use href="#tower" x="1082" y="411"/></g>
+<g fill="#566f66" opacity=".7"><ellipse cx="1005" cy="572" rx="29" ry="9"/><ellipse cx="1054" cy="558" rx="17" ry="7"/><ellipse cx="184" cy="582" rx="25" ry="8"/></g>
+<path fill="url(#light)" d="M0 0h1400v760H0z"/>
+<g fill="none" stroke="#f0dfb0" stroke-opacity=".65"><path d="M36 36h1328v688H36z"/><path d="M43 43h1314v674H43z" stroke-opacity=".25"/><path d="m36 70 34-34m1260 0 34 34M36 690l34 34m1260 0 34-34"/></g>
+<g transform="translate(1256 134)" fill="#ded9ae" stroke="#ded9ae"><path d="M0-52 8-8 0 52-8 8Zm-52 52 44-8 60 8-44 8Z" fill="none"/><circle r="25" fill="none"/><path d="m0-46 7 39-7 7-7-7Z"/><text y="-65" text-anchor="middle" fill="#e9ddb3" stroke="none" font-family="Georgia,serif" font-size="16">N</text></g>
+<g fill="#e8ddb8" font-family="Georgia,serif" text-anchor="middle" letter-spacing="5"><text x="698" y="704" font-size="11" letter-spacing="3">THE DAWNWARD CHARTS</text><text x="114" y="651" font-size="12" transform="rotate(-18 114 651)" opacity=".7">THE SILVER SEA</text></g>
+</svg>
