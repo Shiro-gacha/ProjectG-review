@@ -1,0 +1,5335 @@
+[
+  {
+    "id": "shared-foundation",
+    "title": "Asterra Regalia · navigation foundation",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "shared-foundation",
+    "kind": "foundation",
+    "parent": null,
+    "assessment": "retain",
+    "nativeSupport": "native",
+    "summary": "Stable destinations, legible feedback and a consistent sense of place across the game.",
+    "coverageIds": [
+      "shared-foundation"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ]
+  },
+  {
+    "id": "operation-picker",
+    "title": "Choose an operation",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "operation-picker",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Group Campaign, Tower, trials, Labyrinth and Reminiscence without obscuring their different entry rules.",
+    "coverageIds": [
+      "operation-picker"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ]
+  },
+  {
+    "id": "navigation-drawer",
+    "title": "Company destination menu",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "navigation-drawer",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Give every current destination a clear name and predictable home.",
+    "coverageIds": [
+      "navigation-drawer"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ]
+  },
+  {
+    "id": "feature-lock",
+    "title": "Feature requirement & next step",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "feature-lock",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Show both current native unlock requirements and an immediate way to keep progressing.",
+    "coverageIds": [
+      "feature-lock"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ]
+  },
+  {
+    "id": "unlock-roadmap",
+    "title": "Unlock roadmap",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "unlock-roadmap",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Show when the company gains each system, with level and clear requirements together.",
+    "coverageIds": [
+      "unlock-roadmap"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ]
+  },
+  {
+    "id": "save-feedback",
+    "title": "Saving, saved & attention states",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "save-feedback",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Make local save status readable and route problems toward the actual recovery flow.",
+    "coverageIds": [
+      "save-feedback"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "saved",
+        "label": "Saved",
+        "action": "home-combat:save-state"
+      },
+      {
+        "id": "pending",
+        "label": "Saving",
+        "action": "home-combat:save-state"
+      },
+      {
+        "id": "error",
+        "label": "Needs attention",
+        "action": "home-combat:save-state"
+      }
+    ]
+  },
+  {
+    "id": "empty-locked-feedback",
+    "title": "Empty, locked & material shortage",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "empty-locked-feedback",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Pair each state with a concrete reason and useful next destination.",
+    "coverageIds": [
+      "empty-locked-feedback"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "empty",
+        "label": "Empty",
+        "action": "home-combat:feedback-state"
+      },
+      {
+        "id": "locked",
+        "label": "Locked",
+        "action": "home-combat:feedback-state"
+      },
+      {
+        "id": "shortage",
+        "label": "Material shortage",
+        "action": "home-combat:feedback-state"
+      }
+    ]
+  },
+  {
+    "id": "free-recovery-info",
+    "title": "Free recovery & farming resources",
+    "domain": "foundation",
+    "module": "home-combat",
+    "view": "free-recovery-info",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Explain offline farm-energy and key recovery while keeping Campaign free.",
+    "coverageIds": [
+      "free-recovery-info"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Context dock",
+        "why": "Keep the current activity visible around a compact decision.",
+        "tradeoff": "Quick to understand; a dense destination list may need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Activity context",
+        "why": "Place a contextual summary beside the decision rather than beneath it.",
+        "tradeoff": "More orientation; supporting context uses additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Task workbench",
+        "why": "Give the decision the primary column and retain a compact return context.",
+        "tradeoff": "Efficient comparison; less of the scene remains visible."
+      }
+    ]
+  },
+  {
+    "id": "home",
+    "title": "Company lobby",
+    "domain": "lobby",
+    "module": "home-combat",
+    "view": "home",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep the hero and next activity prominent, with a quieter supply cache and short destination list.",
+    "coverageIds": [
+      "home"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero stage",
+        "why": "A full-height hero sits between named quick actions and the next chapter.",
+        "tradeoff": "Strong character presence; some secondary modes need the Operations sheet."
+      },
+      {
+        "id": "journey",
+        "title": "Company board",
+        "why": "Show the five-person company together and group progress alongside it.",
+        "tradeoff": "Stronger squad identity; each individual illustration receives less room."
+      },
+      {
+        "id": "focus",
+        "title": "Chapter desk",
+        "why": "Lead with the current chapter and give recurring activities their own organized rail.",
+        "tradeoff": "Fast return to play; the solo hero becomes supporting context."
+      }
+    ]
+  },
+  {
+    "id": "idle-loot-claim",
+    "title": "Idle cache preview & claim",
+    "domain": "lobby",
+    "module": "home-combat",
+    "view": "idle-loot-claim",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Lead with accumulated supplies, the 36-hour cap and one clear claim action.",
+    "coverageIds": [
+      "idle-loot-claim"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero stage",
+        "why": "A full-height hero sits between named quick actions and the next chapter.",
+        "tradeoff": "Strong character presence; some secondary modes need the Operations sheet."
+      },
+      {
+        "id": "journey",
+        "title": "Company board",
+        "why": "Show the five-person company together and group progress alongside it.",
+        "tradeoff": "Stronger squad identity; each individual illustration receives less room."
+      },
+      {
+        "id": "focus",
+        "title": "Chapter desk",
+        "why": "Lead with the current chapter and give recurring activities their own organized rail.",
+        "tradeoff": "Fast return to play; the solo hero becomes supporting context."
+      }
+    ],
+    "scope": "The example cache contains 24 authored reward ticks at stage 8 (6 minutes): 2,304 Gold, 24 XP crystals and 72 Account XP. Random drops are omitted from this fixture. Claiming changes only the isolated review example."
+  },
+  {
+    "id": "tester-grant",
+    "title": "Prototype tester kit",
+    "domain": "lobby",
+    "module": "home-combat",
+    "view": "tester-grant",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep prototype resource grants distinct from ordinary progression and all real payments.",
+    "coverageIds": [
+      "tester-grant"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero stage",
+        "why": "A full-height hero sits between named quick actions and the next chapter.",
+        "tradeoff": "Strong character presence; some secondary modes need the Operations sheet."
+      },
+      {
+        "id": "journey",
+        "title": "Company board",
+        "why": "Show the five-person company together and group progress alongside it.",
+        "tradeoff": "Stronger squad identity; each individual illustration receives less room."
+      },
+      {
+        "id": "focus",
+        "title": "Chapter desk",
+        "why": "Lead with the current chapter and give recurring activities their own organized rail.",
+        "tradeoff": "Fast return to play; the solo hero becomes supporting context."
+      }
+    ],
+    "scope": "Current developer/tester grant, shown once per example reset. It grants the actual native tester resources and opens no payment. No account is changed."
+  },
+  {
+    "id": "lobby-character-select",
+    "title": "Choose the lobby hero",
+    "domain": "lobby",
+    "module": "home-combat",
+    "view": "lobby-character-select",
+    "kind": "interaction",
+    "parent": "home",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep adult portraits consistently framed while choosing the company’s featured hero.",
+    "coverageIds": [
+      "lobby-character-select"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero stage",
+        "why": "A full-height hero sits between named quick actions and the next chapter.",
+        "tradeoff": "Strong character presence; some secondary modes need the Operations sheet."
+      },
+      {
+        "id": "journey",
+        "title": "Company board",
+        "why": "Show the five-person company together and group progress alongside it.",
+        "tradeoff": "Stronger squad identity; each individual illustration receives less room."
+      },
+      {
+        "id": "focus",
+        "title": "Chapter desk",
+        "why": "Lead with the current chapter and give recurring activities their own organized rail.",
+        "tradeoff": "Fast return to play; the solo hero becomes supporting context."
+      }
+    ]
+  },
+  {
+    "id": "campaign-normal",
+    "title": "Campaign · Normal",
+    "domain": "campaign",
+    "module": "home-combat",
+    "view": "campaign-normal",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Expand the chapter-and-dossier direction with ordered episodes, context and clear replay status.",
+    "coverageIds": [
+      "campaign-normal"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Chapter dossier",
+        "why": "Ordered stage list and persistent encounter dossier share the canvas.",
+        "tradeoff": "Quick stage comparison; less of the setting dominates the screen."
+      },
+      {
+        "id": "journey",
+        "title": "Illustrated route",
+        "why": "A connected, ordered chapter route leads into an encounter companion panel.",
+        "tradeoff": "Stronger journey feeling; scanning all episode titles takes more scrolling."
+      },
+      {
+        "id": "focus",
+        "title": "Episode board",
+        "why": "Group stages into six-episode arcs with a focused selected-encounter panel.",
+        "tradeoff": "More context for a chapter; grouped cards occupy more vertical space."
+      }
+    ]
+  },
+  {
+    "id": "campaign-hard",
+    "title": "Campaign · Hard",
+    "domain": "campaign",
+    "module": "home-combat",
+    "view": "campaign-hard",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Use the same chapter grammar while exposing the real 7-24 unlock and stronger encounter recommendations.",
+    "coverageIds": [
+      "campaign-hard"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Chapter dossier",
+        "why": "Ordered stage list and persistent encounter dossier share the canvas.",
+        "tradeoff": "Quick stage comparison; less of the setting dominates the screen."
+      },
+      {
+        "id": "journey",
+        "title": "Illustrated route",
+        "why": "A connected, ordered chapter route leads into an encounter companion panel.",
+        "tradeoff": "Stronger journey feeling; scanning all episode titles takes more scrolling."
+      },
+      {
+        "id": "focus",
+        "title": "Episode board",
+        "why": "Group stages into six-episode arcs with a focused selected-encounter panel.",
+        "tradeoff": "More context for a chapter; grouped cards occupy more vertical space."
+      }
+    ],
+    "scope": "The Hard presentation can be inspected while locked. Entry still requires clearing Normal 7-24. Authored .45 Hard recommendations are used; Campaign has no account-energy cost.",
+    "previewStates": [
+      {
+        "id": "hard-locked",
+        "label": "Hard locked",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "hard-open",
+        "label": "Hard unlocked example",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "stage-intel-deploy",
+    "title": "Encounter intelligence & preparation",
+    "domain": "campaign",
+    "module": "home-combat",
+    "view": "stage-intel-deploy",
+    "kind": "interaction",
+    "parent": "campaign-normal",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Read authored threats, waves, objectives and recommendation before choosing formation.",
+    "coverageIds": [
+      "stage-intel-deploy"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Chapter dossier",
+        "why": "Ordered stage list and persistent encounter dossier share the canvas.",
+        "tradeoff": "Quick stage comparison; less of the setting dominates the screen."
+      },
+      {
+        "id": "journey",
+        "title": "Illustrated route",
+        "why": "A connected, ordered chapter route leads into an encounter companion panel.",
+        "tradeoff": "Stronger journey feeling; scanning all episode titles takes more scrolling."
+      },
+      {
+        "id": "focus",
+        "title": "Episode board",
+        "why": "Group stages into six-episode arcs with a focused selected-encounter panel.",
+        "tradeoff": "More context for a chapter; grouped cards occupy more vertical space."
+      }
+    ]
+  },
+  {
+    "id": "campaign-difficulty-switch",
+    "title": "Campaign difficulty selection",
+    "domain": "campaign",
+    "module": "home-combat",
+    "view": "campaign-difficulty-switch",
+    "kind": "interaction",
+    "parent": "campaign-normal",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Separate a harder progression track from ordinary chapter selection.",
+    "coverageIds": [
+      "campaign-difficulty-switch"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Chapter dossier",
+        "why": "Ordered stage list and persistent encounter dossier share the canvas.",
+        "tradeoff": "Quick stage comparison; less of the setting dominates the screen."
+      },
+      {
+        "id": "journey",
+        "title": "Illustrated route",
+        "why": "A connected, ordered chapter route leads into an encounter companion panel.",
+        "tradeoff": "Stronger journey feeling; scanning all episode titles takes more scrolling."
+      },
+      {
+        "id": "focus",
+        "title": "Episode board",
+        "why": "Group stages into six-episode arcs with a focused selected-encounter panel.",
+        "tradeoff": "More context for a chapter; grouped cards occupy more vertical space."
+      }
+    ]
+  },
+  {
+    "id": "story-reader",
+    "title": "Opening story reader",
+    "domain": "story",
+    "module": "home-combat",
+    "view": "story-reader",
+    "kind": "interaction",
+    "parent": "campaign-normal",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Read the actual authored opening through cinematic, transcript-first or beat-oriented presentation.",
+    "coverageIds": [
+      "story-reader"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Cinematic reader",
+        "why": "Speaker art and a bottom dialogue panel preserve the scene’s atmosphere.",
+        "tradeoff": "Strongest presence; less previous text stays on screen."
+      },
+      {
+        "id": "journey",
+        "title": "Reading room",
+        "why": "Let a portrait-led transcript carry the authored scene.",
+        "tradeoff": "Best for reading or catching up; less cinematic staging."
+      },
+      {
+        "id": "focus",
+        "title": "Beat companion",
+        "why": "Show the scene beats beside the current speaker and passage.",
+        "tradeoff": "Easy revisiting within a scene; a narrower main reading pane."
+      }
+    ]
+  },
+  {
+    "id": "prebattle-formation",
+    "title": "Prebattle · fixed 3×3 grid",
+    "domain": "formation",
+    "module": "home-combat",
+    "view": "prebattle-formation",
+    "kind": "interaction",
+    "parent": "campaign-normal",
+    "assessment": "retain",
+    "nativeSupport": "native",
+    "summary": "Preserve the accepted nine cells for five heroes; compare preparation hierarchy around the fixed grid.",
+    "coverageIds": [
+      "prebattle-formation"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Grid & hero rail",
+        "why": "Keep the accepted 3×3 grid between a selectable party and encounter summary.",
+        "tradeoff": "Everything is visible; narrow screens stack preparation panels."
+      },
+      {
+        "id": "journey",
+        "title": "Encounter briefing",
+        "why": "Pair the grid with threats, then place the party rail below.",
+        "tradeoff": "Clearer encounter context; changing heroes requires a lower rail."
+      },
+      {
+        "id": "focus",
+        "title": "Full preparation",
+        "why": "Let the grid dominate while encounter intelligence expands separately.",
+        "tradeoff": "Largest cells and clearest placement; details require an extra expansion."
+      }
+    ]
+  },
+  {
+    "id": "combat",
+    "title": "Battlefield & emblem skills",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat",
+    "kind": "page",
+    "parent": null,
+    "assessment": "retain",
+    "nativeSupport": "native",
+    "summary": "Keep accepted formation anchors, boss and wave HUD, framed portrait HP and emblem skill buttons.",
+    "coverageIds": [
+      "combat"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "advance",
+        "label": "Play next wave / result",
+        "action": "home-combat:advance"
+      },
+      {
+        "id": "wave-one",
+        "label": "First wave",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "wave-last",
+        "label": "Boss wave",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-skill-select",
+    "title": "Battle skill selection",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-skill-select",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Give the chosen action its own readable summary before committing to a target.",
+    "coverageIds": [
+      "combat-skill-select"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-targeting",
+    "title": "Battle target selection",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-targeting",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep target selection distinct from actor inspection, with clear confirmation.",
+    "coverageIds": [
+      "combat-targeting"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-auto-toggle",
+    "title": "Manual & auto battle",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-auto-toggle",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Show current control mode and its consequence in a small contextual choice.",
+    "coverageIds": [
+      "combat-auto-toggle"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-retreat",
+    "title": "Retreat confirmation",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-retreat",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Explain leaving an encounter and losing victory rewards before exit.",
+    "coverageIds": [
+      "combat-retreat"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "skill-splash",
+    "title": "Simple 2D skill presentation",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "skill-splash",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "retain",
+    "nativeSupport": "native",
+    "summary": "Retain 2D action presentation and compare context around a lightweight illustrated splash.",
+    "coverageIds": [
+      "skill-splash"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "ultimate-cutin",
+    "title": "Illustrated ultimate presentation",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "ultimate-cutin",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "retain",
+    "nativeSupport": "native",
+    "summary": "Give ultimates a richer 2D moment while keeping the battle easy to resume.",
+    "coverageIds": [
+      "ultimate-cutin"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-unit-inspector",
+    "title": "Battle hero & status inspector",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-unit-inspector",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Inspect the current actor, authored skills and status without losing battlefield context.",
+    "coverageIds": [
+      "combat-unit-inspector"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-skill-inspector",
+    "title": "Battle skill detail",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-skill-inspector",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep the short skill summary readable and the target decision one step away.",
+    "coverageIds": [
+      "combat-skill-inspector"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-log-reader",
+    "title": "Ordered battle journal",
+    "domain": "combat",
+    "module": "home-combat",
+    "view": "combat-log-reader",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Read actions in their actual sequence instead of relying only on floating feedback.",
+    "coverageIds": [
+      "combat-log-reader"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Approved HUD",
+        "why": "Retain accepted placement and give inspections a compact foreground.",
+        "tradeoff": "Familiar battlefield; more details require a separate inspector."
+      },
+      {
+        "id": "journey",
+        "title": "Journal companion",
+        "why": "Keep the battlefield and group context into a nearby journal-style presentation.",
+        "tradeoff": "More context for action decisions; supporting panes use additional space."
+      },
+      {
+        "id": "focus",
+        "title": "Action sequence",
+        "why": "Keep the same field and surface the most recent action before the full journal.",
+        "tradeoff": "Faster effect reading; another small HUD element is present."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "ready",
+        "label": "All skills ready",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "cooldown",
+        "label": "Active cooling down",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "uncharged",
+        "label": "Ultimate uncharged",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "ally",
+        "label": "Ally healing target",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "fallen",
+        "label": "Fallen ally / revive",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "battle-result",
+    "title": "Encounter result & return",
+    "domain": "battle-flow",
+    "module": "home-combat",
+    "view": "battle-result",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Distinguish victory, retreat and defeat, explain the earned rewards and return to the right activity.",
+    "coverageIds": [
+      "battle-result"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Summary first",
+        "why": "Outcome, company and clear rewards lead into one Continue action.",
+        "tradeoff": "Fast completion; wave history stays secondary."
+      },
+      {
+        "id": "journey",
+        "title": "Encounter timeline",
+        "why": "Make wave continuity and the final-only reward point visible in sequence.",
+        "tradeoff": "Better encounter context; result information needs more room."
+      },
+      {
+        "id": "focus",
+        "title": "Return card",
+        "why": "Put the outcome and return action together, with reward details alongside.",
+        "tradeoff": "Strong next-step clarity; less celebratory full-screen presentation."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "victory",
+        "label": "Victory",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "defeat",
+        "label": "Defeat",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "retreated",
+        "label": "Retreated",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "combat-wave-transition",
+    "title": "Wave continuity",
+    "domain": "battle-flow",
+    "module": "home-combat",
+    "view": "combat-wave-transition",
+    "kind": "interaction",
+    "parent": "combat",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Show remaining waves and retained party resources; grant encounter rewards only after the final wave.",
+    "coverageIds": [
+      "combat-wave-transition"
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Summary first",
+        "why": "Outcome, company and clear rewards lead into one Continue action.",
+        "tradeoff": "Fast completion; wave history stays secondary."
+      },
+      {
+        "id": "journey",
+        "title": "Encounter timeline",
+        "why": "Make wave continuity and the final-only reward point visible in sequence.",
+        "tradeoff": "Better encounter context; result information needs more room."
+      },
+      {
+        "id": "focus",
+        "title": "Return card",
+        "why": "Put the outcome and return action together, with reward details alongside.",
+        "tradeoff": "Strong next-step clarity; less celebratory full-screen presentation."
+      }
+    ],
+    "scope": "Current native flow, alternate presentation. Combat actions/outcomes are scripted design examples, not a native engine or balance test. Campaign/Tower/Challenge enemies, waves and gauges use authored .45 definitions; Labyrinth HP uses a percentage fixture. Accepted field anchors and emblem skills remain.",
+    "previewStates": [
+      {
+        "id": "wave-one",
+        "label": "First wave",
+        "action": "home-combat:fixture"
+      },
+      {
+        "id": "wave-last",
+        "label": "Final wave",
+        "action": "home-combat:fixture"
+      }
+    ]
+  },
+  {
+    "id": "roster-growth",
+    "title": "Hero collection & growth",
+    "domain": "collection",
+    "module": "collection",
+    "view": "roster-growth",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Browse all 29 current native heroes, keep ownership visible and inspect all five authored skills.",
+    "coverageIds": [
+      "roster-growth"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero showcase",
+        "why": "Portrait collection, full illustration and action dossier share the canvas.",
+        "tradeoff": "Strong identity; requires scrolling the action dossier on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Progression journey",
+        "why": "Hero milestones lead into paired growth/skill columns; roster is an adjacent rail.",
+        "tradeoff": "More context; art and roster take a smaller supporting role."
+      },
+      {
+        "id": "focus",
+        "title": "Command workbench",
+        "why": "Compact hero rail and identity header free space for upgrades and skill comparison.",
+        "tradeoff": "Efficient management; less full-height character presence."
+      }
+    ],
+    "states": [
+      "owned/unowned",
+      "search/aspect filter",
+      "shortfall",
+      "level/ascend/transcend cap"
+    ]
+  },
+  {
+    "id": "roster-gear",
+    "title": "Hero equipment",
+    "domain": "equipment",
+    "module": "collection",
+    "view": "roster-gear",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Seven native equipment slots, current set effects and eligible sample stock.",
+    "coverageIds": [
+      "roster-gear"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Character & equipment",
+        "why": "Hero stage and seven slots sit beside stock and item detail.",
+        "tradeoff": "Clear ownership; lower information density."
+      },
+      {
+        "id": "journey",
+        "title": "Loadout-led workbench",
+        "why": "Global presets and set effects lead; slot stock follows the selected setup.",
+        "tradeoff": "Supports repeated builds; a longer initial scan."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory & comparison",
+        "why": "Stock leads and a sticky inspector compares selected and equipped records.",
+        "tradeoff": "Fast management; comparison is proposed presentation polish."
+      }
+    ],
+    "states": [
+      "empty/equipped",
+      "available gear",
+      "enhance/refine cap",
+      "presets"
+    ]
+  },
+  {
+    "id": "roster-memory",
+    "title": "Memories & Imprints",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "roster-memory",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "One saved Memory and up to two activated-skill Imprints; passive remains unchanged.",
+    "coverageIds": [
+      "roster-memory"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "Memory absent/equipped",
+      "Imprint locked/free/equipped",
+      "two equipped cap",
+      "passive excluded"
+    ]
+  },
+  {
+    "id": "storage-resources",
+    "title": "Resources & wallet",
+    "domain": "supplies",
+    "module": "collection",
+    "view": "storage-resources",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Company resources, useful earning destinations and separate expedition keys.",
+    "coverageIds": [
+      "storage-resources"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Featured supply",
+        "why": "Selected resource/item is featured beside the collection.",
+        "tradeoff": "Clear selected focus; fewer records visible."
+      },
+      {
+        "id": "journey",
+        "title": "Source-to-use journey",
+        "why": "Resource purpose or acquisition context leads into grouped stock.",
+        "tradeoff": "Explains next destination; longer page."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory ledger",
+        "why": "Dense stock/ledger first with a contextual detail pane.",
+        "tradeoff": "Efficient repeat use; less decorative space."
+      }
+    ],
+    "states": [
+      "wallet totals",
+      "free recovery timers/caps",
+      "item stacks"
+    ]
+  },
+  {
+    "id": "storage-equipment",
+    "title": "Equipment stock",
+    "domain": "supplies",
+    "module": "collection",
+    "view": "storage-equipment",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Review sample equipment, inspect ownership and enter the native SR crafting flow.",
+    "coverageIds": [
+      "storage-equipment"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Featured supply",
+        "why": "Selected resource/item is featured beside the collection.",
+        "tradeoff": "Clear selected focus; fewer records visible."
+      },
+      {
+        "id": "journey",
+        "title": "Source-to-use journey",
+        "why": "Resource purpose or acquisition context leads into grouped stock.",
+        "tradeoff": "Explains next destination; longer page."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory ledger",
+        "why": "Dense stock/ledger first with a contextual detail pane.",
+        "tradeoff": "Efficient repeat use; less decorative space."
+      }
+    ],
+    "states": [
+      "empty",
+      "craft SR affordability",
+      "owned equipment"
+    ]
+  },
+  {
+    "id": "storage-memories",
+    "title": "Memory archive",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "storage-memories",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Saved Reminiscence archives and their current example owners.",
+    "coverageIds": [
+      "storage-memories"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "empty",
+      "Memories",
+      "equipped ownership"
+    ]
+  },
+  {
+    "id": "storage-imprints",
+    "title": "Imprint archive",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "storage-imprints",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Portable skill rewards, twelve-record capacity and protected library management.",
+    "coverageIds": [
+      "storage-imprints"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "empty",
+      "capacity",
+      "protected/favorite/equipped",
+      "open library"
+    ]
+  },
+  {
+    "id": "storage-support",
+    "title": "Support card collection",
+    "domain": "supplies",
+    "module": "collection",
+    "view": "storage-support",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Six authored support definitions with exact Reminiscence bonuses and ownership examples.",
+    "coverageIds": [
+      "storage-support"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Featured supply",
+        "why": "Selected resource/item is featured beside the collection.",
+        "tradeoff": "Clear selected focus; fewer records visible."
+      },
+      {
+        "id": "journey",
+        "title": "Source-to-use journey",
+        "why": "Resource purpose or acquisition context leads into grouped stock.",
+        "tradeoff": "Explains next destination; longer page."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory ledger",
+        "why": "Dense stock/ledger first with a contextual detail pane.",
+        "tradeoff": "Efficient repeat use; less decorative space."
+      }
+    ],
+    "states": [
+      "empty",
+      "owned cards",
+      "duplicates/bond"
+    ]
+  },
+  {
+    "id": "storage-transactions",
+    "title": "Local exchange record",
+    "domain": "supplies",
+    "module": "collection",
+    "view": "storage-transactions",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Itemized preview exchanges from growth, equipment upgrades and crafting.",
+    "coverageIds": [
+      "storage-transactions"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Featured supply",
+        "why": "Selected resource/item is featured beside the collection.",
+        "tradeoff": "Clear selected focus; fewer records visible."
+      },
+      {
+        "id": "journey",
+        "title": "Source-to-use journey",
+        "why": "Resource purpose or acquisition context leads into grouped stock.",
+        "tradeoff": "Explains next destination; longer page."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory ledger",
+        "why": "Dense stock/ledger first with a contextual detail pane.",
+        "tradeoff": "Efficient repeat use; less decorative space."
+      }
+    ],
+    "states": [
+      "empty",
+      "recent wallet entries"
+    ]
+  },
+  {
+    "id": "character-growth",
+    "title": "Improve a hero",
+    "domain": "growth",
+    "module": "collection",
+    "view": "character-growth",
+    "kind": "interaction",
+    "parent": "roster-growth",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Native level, skill, awakening, board, transcendence, specialty and resonance actions.",
+    "coverageIds": [
+      "character-growth"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Focused improvement",
+        "why": "Selected hero and a clear next-level/upgrade ledger lead.",
+        "tradeoff": "Easy immediate action; advanced systems follow below."
+      },
+      {
+        "id": "journey",
+        "title": "Milestone sequence",
+        "why": "Growth milestones and skill levels explain the next useful step.",
+        "tradeoff": "More context; requires more reading."
+      },
+      {
+        "id": "focus",
+        "title": "Upgrade comparison",
+        "why": "Current levels, costs and cap reasons form a management-first pane.",
+        "tradeoff": "Precise; less visual hero presence."
+      }
+    ],
+    "states": [
+      "can afford",
+      "resource shortfall",
+      "cap reached",
+      "3-star transcendence prerequisite",
+      "unowned"
+    ]
+  },
+  {
+    "id": "gear-equip",
+    "title": "Choose equipment",
+    "domain": "equipment",
+    "module": "collection",
+    "view": "gear-equip",
+    "kind": "interaction",
+    "parent": "roster-gear",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Choose a slot, inspect a free piece and equip it to the selected hero.",
+    "coverageIds": [
+      "gear-equip"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Character & equipment",
+        "why": "Hero stage and seven slots sit beside stock and item detail.",
+        "tradeoff": "Clear ownership; lower information density."
+      },
+      {
+        "id": "journey",
+        "title": "Loadout-led workbench",
+        "why": "Global presets and set effects lead; slot stock follows the selected setup.",
+        "tradeoff": "Supports repeated builds; a longer initial scan."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory & comparison",
+        "why": "Stock leads and a sticky inspector compares selected and equipped records.",
+        "tradeoff": "Fast management; comparison is proposed presentation polish."
+      }
+    ],
+    "states": [
+      "empty slot with free item",
+      "empty slot no free item",
+      "equipped",
+      "unique gear",
+      "set effect"
+    ]
+  },
+  {
+    "id": "gear-upgrade",
+    "title": "Enhance & refine",
+    "domain": "equipment",
+    "module": "collection",
+    "view": "gear-upgrade",
+    "kind": "interaction",
+    "parent": "roster-gear",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Current rarity caps, enhancement and refinement cost formulas; itemized review-only spending.",
+    "coverageIds": [
+      "gear-upgrade"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Character & equipment",
+        "why": "Hero stage and seven slots sit beside stock and item detail.",
+        "tradeoff": "Clear ownership; lower information density."
+      },
+      {
+        "id": "journey",
+        "title": "Loadout-led workbench",
+        "why": "Global presets and set effects lead; slot stock follows the selected setup.",
+        "tradeoff": "Supports repeated builds; a longer initial scan."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory & comparison",
+        "why": "Stock leads and a sticky inspector compares selected and equipped records.",
+        "tradeoff": "Fast management; comparison is proposed presentation polish."
+      }
+    ],
+    "states": [
+      "can afford",
+      "not enough gold",
+      "not enough refine cores",
+      "enhancement cap",
+      "refinement cap"
+    ]
+  },
+  {
+    "id": "gear-crafting",
+    "title": "Company forge",
+    "domain": "equipment",
+    "module": "collection",
+    "view": "gear-crafting",
+    "kind": "interaction",
+    "parent": "storage-equipment",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current native SR Gloves/Chest crafting: six crafting cores and 4,200 Gold.",
+    "coverageIds": [
+      "gear-crafting"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Character & equipment",
+        "why": "Hero stage and seven slots sit beside stock and item detail.",
+        "tradeoff": "Clear ownership; lower information density."
+      },
+      {
+        "id": "journey",
+        "title": "Loadout-led workbench",
+        "why": "Global presets and set effects lead; slot stock follows the selected setup.",
+        "tradeoff": "Supports repeated builds; a longer initial scan."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory & comparison",
+        "why": "Stock leads and a sticky inspector compares selected and equipped records.",
+        "tradeoff": "Fast management; comparison is proposed presentation polish."
+      }
+    ],
+    "states": [
+      "can afford",
+      "missing cores",
+      "missing gold",
+      "crafted"
+    ]
+  },
+  {
+    "id": "gear-presets",
+    "title": "Global equipment loadouts",
+    "domain": "equipment",
+    "module": "collection",
+    "view": "gear-presets",
+    "kind": "interaction",
+    "parent": "roster-gear",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Three global presets, each storing actual equipment IDs across seven slots.",
+    "coverageIds": [
+      "gear-presets"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Character & equipment",
+        "why": "Hero stage and seven slots sit beside stock and item detail.",
+        "tradeoff": "Clear ownership; lower information density."
+      },
+      {
+        "id": "journey",
+        "title": "Loadout-led workbench",
+        "why": "Global presets and set effects lead; slot stock follows the selected setup.",
+        "tradeoff": "Supports repeated builds; a longer initial scan."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory & comparison",
+        "why": "Stock leads and a sticky inspector compares selected and equipped records.",
+        "tradeoff": "Fast management; comparison is proposed presentation polish."
+      }
+    ],
+    "states": [
+      "locked",
+      "empty preset",
+      "saved preset",
+      "unavailable saved pieces",
+      "applied"
+    ]
+  },
+  {
+    "id": "memory-equip",
+    "title": "Choose a Memory",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "memory-equip",
+    "kind": "interaction",
+    "parent": "roster-memory",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Select a free example route Memory; equipment ownership changes on confirmation.",
+    "coverageIds": [
+      "memory-equip"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "empty no Memory",
+      "empty available Memory",
+      "equipped Memory",
+      "no free Memory"
+    ]
+  },
+  {
+    "id": "imprint-equip",
+    "title": "Choose a skill Imprint",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "imprint-equip",
+    "kind": "interaction",
+    "parent": "roster-memory",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Select an activated slot and a free saved Imprint; enforce the two-Imprint limit.",
+    "coverageIds": [
+      "imprint-equip"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "locked",
+      "empty",
+      "free Imprint available",
+      "two equipped cap",
+      "equipped slot",
+      "passive excluded"
+    ]
+  },
+  {
+    "id": "imprint-extraction-picker",
+    "title": "Choose a portable reward",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "imprint-extraction-picker",
+    "kind": "interaction",
+    "parent": "storage-imprints",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Choose an eligible sample activated skill; exclude run-only modifiers and handle capacity.",
+    "coverageIds": [
+      "imprint-extraction-picker"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "eligible portable modifiers",
+      "unmodified skill unavailable",
+      "run-only modifiers excluded"
+    ]
+  },
+  {
+    "id": "imprint-library-management",
+    "title": "Protected Imprint library",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "imprint-library-management",
+    "kind": "interaction",
+    "parent": "storage-imprints",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Favorite protection, equipped protection, selection and explicit permanent discard.",
+    "coverageIds": [
+      "imprint-library-management"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "empty/list",
+      "favorite",
+      "equipped protection",
+      "discard candidate",
+      "confirm/cancel",
+      "protected cannot discard"
+    ]
+  },
+  {
+    "id": "imprint-capacity-replacement",
+    "title": "Waiting extraction reward",
+    "domain": "memories-imprints",
+    "module": "collection",
+    "view": "imprint-capacity-replacement",
+    "kind": "interaction",
+    "parent": "storage-imprints",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Replace one unprotected record or keep the reward waiting; extraction finalizes only once.",
+    "coverageIds": [
+      "imprint-capacity-replacement"
+    ],
+    "notes": [
+      "Authored hero, skill, support, slot and set identities. Gear/Memory/Imprint records and ownership are illustrative sample account data.",
+      "Review actions change sample state only. No account or native operations.",
+      "Growth uses source-backed costs and named progression; shown attributes are authored base stats."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Hero attachments",
+        "why": "Character context and equipment-style sockets put attachment choices first.",
+        "tradeoff": "Easy attribution; long libraries need scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Reward archive",
+        "why": "Memories and portable Imprints form separate shelves with expedition context.",
+        "tradeoff": "Better browsing; hero slots become a secondary destination."
+      },
+      {
+        "id": "focus",
+        "title": "Protected management",
+        "why": "Skill/record matrix and explicit ownership/protection summaries lead.",
+        "tradeoff": "Good for deliberate changes; less illustration."
+      }
+    ],
+    "states": [
+      "capacity available/full",
+      "replaceable selection",
+      "protected excluded",
+      "confirm replacement",
+      "keep reward waiting"
+    ]
+  },
+  {
+    "id": "proposal-gear-library-tools",
+    "title": "Proposed gear library tools",
+    "domain": "equipment",
+    "module": "collection",
+    "view": "proposal-gear-library-tools",
+    "kind": "proposal",
+    "parent": "storage-equipment",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Explicit proposal for rarity filters, comparisons and gear protection; gear locks are not current native controls.",
+    "coverageIds": [],
+    "notes": [
+      "Gear filters/locks and comparison workbench are proposed; no claim of native implementation."
+    ],
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Character & equipment",
+        "why": "Hero stage and seven slots sit beside stock and item detail.",
+        "tradeoff": "Clear ownership; lower information density."
+      },
+      {
+        "id": "journey",
+        "title": "Loadout-led workbench",
+        "why": "Global presets and set effects lead; slot stock follows the selected setup.",
+        "tradeoff": "Supports repeated builds; a longer initial scan."
+      },
+      {
+        "id": "focus",
+        "title": "Inventory & comparison",
+        "why": "Stock leads and a sticky inspector compares selected and equipped records.",
+        "tradeoff": "Fast management; comparison is proposed presentation polish."
+      }
+    ],
+    "states": [
+      "proposal visible",
+      "filter state",
+      "selected record",
+      "protection toggled"
+    ]
+  },
+  {
+    "id": "pulls",
+    "title": "Recruit contracts",
+    "domain": "recruit",
+    "view": "pulls",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Four authored contracts, visible rates, ticket-first costs, SSR guarantee and separate hero/support pools.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "pulls"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "pull-odds",
+    "title": "Rates & eligible pool",
+    "domain": "recruit",
+    "view": "pull-odds",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep contract identity, real eligibility and explicit guarantees visible while reviewing this flow.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "pull-odds"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "pull-action",
+    "title": "Recruit confirmation",
+    "domain": "recruit",
+    "view": "pull-action",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep contract identity, real eligibility and explicit guarantees visible while reviewing this flow.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "pull-action"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "pull-results",
+    "title": "Recruit results",
+    "domain": "recruit",
+    "view": "pull-results",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "New/duplicate result cards and a stateful newest-first contract history subview; returns to the active contract.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "pull-results"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "pull-history",
+    "title": "Recruitment history",
+    "domain": "recruit",
+    "view": "pull-history",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current native newest-first history overlay, including banner, result rarity and duplicate state; supplemental to the audited results flow.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [],
+    "supplementalTo": "pull-results",
+    "module": "activities"
+  },
+  {
+    "id": "newbie-selector",
+    "title": "Welcome SSR selector",
+    "domain": "recruit",
+    "view": "newbie-selector",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep contract identity, real eligibility and explicit guarantees visible while reviewing this flow.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "newbie-selector"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "mileage-selector",
+    "title": "Hero mileage selector",
+    "domain": "recruit",
+    "view": "mileage-selector",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep contract identity, real eligibility and explicit guarantees visible while reviewing this flow.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "mileage-selector"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "support-mileage-selector",
+    "title": "Support mileage selector",
+    "domain": "recruit",
+    "view": "support-mileage-selector",
+    "kind": "interaction",
+    "parent": "pulls",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Keep contract identity, real eligibility and explicit guarantees visible while reviewing this flow.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Banner & ledger",
+        "why": "Large hero showcase, banner rail and persistent guarantees beside recruitment.",
+        "tradeoff": "Fast banner browsing; less space for individual result details."
+      },
+      {
+        "id": "journey",
+        "title": "Contract desk",
+        "why": "Featured pool is the setting; a paper contract floats alongside the cast.",
+        "tradeoff": "Stronger character presence; a smaller pool can be seen at once."
+      },
+      {
+        "id": "focus",
+        "title": "Contract archive",
+        "why": "Guarantees and spending lead; a compact cast archive provides context.",
+        "tradeoff": "Easier cost comparison; quieter character presentation."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Reveal results are scripted examples, not an implementation of roll weights. Authored rarity rates and service mileage cost remain visible."
+    ],
+    "coverageIds": [
+      "support-mileage-selector"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-all",
+    "title": "All supplies",
+    "domain": "supplies",
+    "view": "shop-all",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current authored stock with currency, quantities, limits and honest refresh periods. Test grants never show real-money prices.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "shop-all"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-gold",
+    "title": "Gold shop",
+    "domain": "supplies",
+    "view": "shop-gold",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current authored stock with currency, quantities, limits and honest refresh periods. Test grants never show real-money prices.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "shop-gold"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-medal",
+    "title": "Medal exchange",
+    "domain": "supplies",
+    "view": "shop-medal",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current authored stock with currency, quantities, limits and honest refresh periods. Test grants never show real-money prices.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "shop-medal"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-guild",
+    "title": "Guild stock",
+    "domain": "supplies",
+    "view": "shop-guild",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current authored stock with currency, quantities, limits and honest refresh periods. Test grants never show real-money prices.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "shop-guild"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-test",
+    "title": "Free test grants",
+    "domain": "supplies",
+    "view": "shop-test",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Current authored stock with currency, quantities, limits and honest refresh periods. Test grants never show real-money prices.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "shop-test"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-currency-exchange",
+    "title": "Currency exchange",
+    "domain": "supplies",
+    "view": "shop-currency-exchange",
+    "kind": "interaction",
+    "parent": "shop-all",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Review exact earned-currency cost, item quantity, affordability and stock before an exchange.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Confirmation/receipt presentation is a proposed refinement of the existing native action; no real checkout."
+    ],
+    "coverageIds": [
+      "shop-currency-exchange"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-test-claim",
+    "title": "Free test grant",
+    "domain": "supplies",
+    "view": "shop-test-claim",
+    "kind": "interaction",
+    "parent": "shop-test",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "One-time local prototype grant. No real currency, checkout or payment.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Confirmation/receipt presentation is a proposed refinement of the existing native action; no real checkout."
+    ],
+    "coverageIds": [
+      "shop-test-claim"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "shop-receipt",
+    "title": "Exchange receipt",
+    "domain": "supplies",
+    "view": "shop-receipt",
+    "kind": "interaction",
+    "parent": "shop-all",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Specific received resources, item quantity and remaining stock after a review exchange.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Quartermaster shelves",
+        "why": "Categorized original item emblems, visible stock and one exchange per card.",
+        "tradeoff": "Easy browsing; larger inventories require more scrolling."
+      },
+      {
+        "id": "journey",
+        "title": "Asterwatch provisioner",
+        "why": "A heroine and scenic supply counter frame a smaller stock shelf.",
+        "tradeoff": "A stronger RPG destination; fewer stock cards visible at once."
+      },
+      {
+        "id": "focus",
+        "title": "Supply ledger",
+        "why": "Category rail, compact item rows and wallet ledger support repeat exchanges.",
+        "tradeoff": "Fast currency comparison; less space for character art."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [],
+    "module": "activities"
+  },
+  {
+    "id": "missions-daily",
+    "title": "Daily assignments",
+    "domain": "missions",
+    "view": "missions-daily",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Four canonical missions across three tracks; progress, ready/incomplete/claimed state and UTC reset schedule.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Assignment checklist",
+        "why": "Clear tabs, task progress and a single summary for ready claims.",
+        "tradeoff": "Efficient daily work; flatter sense of journey."
+      },
+      {
+        "id": "journey",
+        "title": "Commander goal board",
+        "why": "Astra frames progress while a focused assignment ledger occupies the other side.",
+        "tradeoff": "Stronger company identity; the task list is narrower."
+      },
+      {
+        "id": "focus",
+        "title": "Reward ledger",
+        "why": "Tasks lead with a separate persistent claim summary.",
+        "tradeoff": "Clear reward accounting; fewer large visual landmarks."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "missions-daily"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "missions-weekly",
+    "title": "Weekly assignments",
+    "domain": "missions",
+    "view": "missions-weekly",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Four canonical missions across three tracks; progress, ready/incomplete/claimed state and UTC reset schedule.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Assignment checklist",
+        "why": "Clear tabs, task progress and a single summary for ready claims.",
+        "tradeoff": "Efficient daily work; flatter sense of journey."
+      },
+      {
+        "id": "journey",
+        "title": "Commander goal board",
+        "why": "Astra frames progress while a focused assignment ledger occupies the other side.",
+        "tradeoff": "Stronger company identity; the task list is narrower."
+      },
+      {
+        "id": "focus",
+        "title": "Reward ledger",
+        "why": "Tasks lead with a separate persistent claim summary.",
+        "tradeoff": "Clear reward accounting; fewer large visual landmarks."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "missions-weekly"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "missions-achievement",
+    "title": "Company achievements",
+    "domain": "missions",
+    "view": "missions-achievement",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Four canonical missions across three tracks; progress, ready/incomplete/claimed state and UTC reset schedule.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Assignment checklist",
+        "why": "Clear tabs, task progress and a single summary for ready claims.",
+        "tradeoff": "Efficient daily work; flatter sense of journey."
+      },
+      {
+        "id": "journey",
+        "title": "Commander goal board",
+        "why": "Astra frames progress while a focused assignment ledger occupies the other side.",
+        "tradeoff": "Stronger company identity; the task list is narrower."
+      },
+      {
+        "id": "focus",
+        "title": "Reward ledger",
+        "why": "Tasks lead with a separate persistent claim summary.",
+        "tradeoff": "Clear reward accounting; fewer large visual landmarks."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "missions-achievement"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "mission-claim",
+    "title": "Mission reward claim",
+    "domain": "missions",
+    "view": "mission-claim",
+    "kind": "interaction",
+    "parent": "missions-daily",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Individual and bulk claims update the example wallet once, show exact canonical rewards and preserve claimed state.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Assignment checklist",
+        "why": "Clear tabs, task progress and a single summary for ready claims.",
+        "tradeoff": "Efficient daily work; flatter sense of journey."
+      },
+      {
+        "id": "journey",
+        "title": "Commander goal board",
+        "why": "Astra frames progress while a focused assignment ledger occupies the other side.",
+        "tradeoff": "Stronger company identity; the task list is narrower."
+      },
+      {
+        "id": "focus",
+        "title": "Reward ledger",
+        "why": "Tasks lead with a separate persistent claim summary.",
+        "tradeoff": "Clear reward accounting; fewer large visual landmarks."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments."
+    ],
+    "coverageIds": [
+      "mission-claim"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "guild-raid",
+    "title": "Guild raid",
+    "domain": "social",
+    "view": "guild-raid",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Current local/mock guild functionality, with persistent identity/check-in and four native destinations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "guild-raid"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "guild-friends",
+    "title": "Friends & support",
+    "domain": "social",
+    "view": "guild-friends",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Current local/mock guild functionality, with persistent identity/check-in and four native destinations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "guild-friends"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "guild-members",
+    "title": "Guild members",
+    "domain": "social",
+    "view": "guild-members",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Current local/mock guild functionality, with persistent identity/check-in and four native destinations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "guild-members"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "guild-shop",
+    "title": "Guild exchange",
+    "domain": "social",
+    "view": "guild-shop",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Current local/mock guild functionality, with persistent identity/check-in and four native destinations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "guild-shop"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "friend-support-borrow",
+    "title": "Borrow friend support",
+    "domain": "social",
+    "view": "friend-support-borrow",
+    "kind": "interaction",
+    "parent": "guild-friends",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Specific selected/cleared/claimed state with honest example data; no live social backend implied.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "friend-support-borrow"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "friend-add",
+    "title": "Add an ally",
+    "domain": "social",
+    "view": "friend-add",
+    "kind": "interaction",
+    "parent": "guild-friends",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Specific selected/cleared/claimed state with honest example data; no live social backend implied.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "friend-add"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "guild-claims",
+    "title": "Guild check-in & raid chest",
+    "domain": "social",
+    "view": "guild-claims",
+    "kind": "interaction",
+    "parent": "guild-raid",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Specific selected/cleared/claimed state with honest example data; no live social backend implied.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Company hall",
+        "why": "Guild identity, check-in and a large raid briefing lead the workspace.",
+        "tradeoff": "A strong shared destination; detail is split across tabs."
+      },
+      {
+        "id": "journey",
+        "title": "Accord banner",
+        "why": "A persistent guild banner serves as a destination rail beside focused activity content.",
+        "tradeoff": "Clear separation of activities; less horizontal space for each detail."
+      },
+      {
+        "id": "focus",
+        "title": "Contribution desk",
+        "why": "A compact identity and task rail support member/support management.",
+        "tradeoff": "Better repeat management; a less scenic first impression."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "Existing native social flow is local/mock; displayed commanders and raid progress are example state, not remote presence."
+    ],
+    "coverageIds": [
+      "guild-claims"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "tower",
+    "title": "Tower of First Light",
+    "domain": "operations",
+    "view": "tower",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "A 120-floor authored ascent. First-clear currency and wave counts follow native content formulas; locked floors may be inspected but never entered.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Encounter dossier",
+        "why": "Named activities and a focused selected encounter clarify rewards and entry.",
+        "tradeoff": "Direct entry; less geographic continuity."
+      },
+      {
+        "id": "journey",
+        "title": "Landmark progression",
+        "why": "A scenic ascent or mode compass leads into a short progression workspace.",
+        "tradeoff": "Stronger sense of place; smaller details need a second selection."
+      },
+      {
+        "id": "focus",
+        "title": "Pursuit ledger",
+        "why": "Compact encounter comparisons and an explicit floor dossier prioritize goals.",
+        "tradeoff": "Fast stat/reward comparison; less dramatic environment."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "No combat resolution or repeat reward is fabricated. Prepare links into the shared prebattle preview."
+    ],
+    "coverageIds": [
+      "tower"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "challenges",
+    "title": "Challenges & material farms",
+    "domain": "operations",
+    "view": "challenges",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Five canonical challenges, exact rewards and daily attempts. Only Material stages display a 10-farm-energy entry cost.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Encounter dossier",
+        "why": "Named activities and a focused selected encounter clarify rewards and entry.",
+        "tradeoff": "Direct entry; less geographic continuity."
+      },
+      {
+        "id": "journey",
+        "title": "Landmark progression",
+        "why": "A scenic ascent or mode compass leads into a short progression workspace.",
+        "tradeoff": "Stronger sense of place; smaller details need a second selection."
+      },
+      {
+        "id": "focus",
+        "title": "Pursuit ledger",
+        "why": "Compact encounter comparisons and an explicit floor dossier prioritize goals.",
+        "tradeoff": "Fast stat/reward comparison; less dramatic environment."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "No combat resolution or repeat reward is fabricated. Prepare links into the shared prebattle preview."
+    ],
+    "coverageIds": [
+      "challenges"
+    ],
+    "module": "activities"
+  },
+  {
+    "id": "challenge-detail",
+    "title": "Encounter briefing",
+    "domain": "operations",
+    "view": "challenge-detail",
+    "kind": "interaction",
+    "parent": "challenges",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Selected challenge rewards, enemy identity, power, attempts and correct farming-only stamina rule; handoff to prebattle.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Encounter dossier",
+        "why": "Named activities and a focused selected encounter clarify rewards and entry.",
+        "tradeoff": "Direct entry; less geographic continuity."
+      },
+      {
+        "id": "journey",
+        "title": "Landmark progression",
+        "why": "A scenic ascent or mode compass leads into a short progression workspace.",
+        "tradeoff": "Stronger sense of place; smaller details need a second selection."
+      },
+      {
+        "id": "focus",
+        "title": "Pursuit ledger",
+        "why": "Compact encounter comparisons and an explicit floor dossier prioritize goals.",
+        "tradeoff": "Fast stat/reward comparison; less dramatic environment."
+      }
+    ],
+    "reviewOnly": [
+      "All changes affect the example review state; no account writes or payments.",
+      "No combat resolution or repeat reward is fabricated. Prepare links into the shared prebattle preview."
+    ],
+    "coverageIds": [],
+    "module": "activities"
+  },
+  {
+    "id": "reminiscence-setup",
+    "title": "Reminiscence · Setup",
+    "domain": "training-setup",
+    "module": "adventures",
+    "view": "reminiscence-setup",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Show hero, supports and run commitment together.",
+    "coverageIds": [
+      "reminiscence-setup"
+    ],
+    "states": [
+      "owned hero choice",
+      "support/deck choice",
+      "bond summary",
+      "start readiness"
+    ],
+    "notes": "Current .45 native setup fixes trainee Astra and the five starter supports. Six support definitions do not imply six slots. General deck editing is not claimed as implemented.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Trainee & deck",
+        "why": "Astra and the five starter supports lead beside the route choice.",
+        "tradeoff": "Hero identity is strongest; advanced support facts take more space."
+      },
+      {
+        "id": "journey",
+        "title": "Route brief",
+        "why": "Difficulty and run commitment lead; support facts sit in an adjacent brief.",
+        "tradeoff": "Makes the route legible before starting, with less art prominence."
+      },
+      {
+        "id": "focus",
+        "title": "Preparation steps",
+        "why": "Route, support inspection and final summary are separate reversible steps.",
+        "tradeoff": "More guided preparation requires an extra step."
+      }
+    ]
+  },
+  {
+    "id": "reminiscence-run",
+    "title": "Reminiscence · Active Route",
+    "domain": "training-run",
+    "module": "adventures",
+    "view": "reminiscence-run",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Make action, internal energy and consequences readable.",
+    "coverageIds": [
+      "reminiscence-run"
+    ],
+    "states": [
+      "action",
+      "route choice",
+      "internal energy low",
+      "gate result",
+      "restored run",
+      "discard confirm"
+    ],
+    "notes": "48 turns; internal energy, run coins and Potential Points are separate from account farming energy. Four gates occur after turns 12/24/36/48. Example outcomes are review state, not a native balancing test.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Action board",
+        "why": "Trainee, action choices and bond strip lead together.",
+        "tradeoff": "Rich context uses more vertical space on phones."
+      },
+      {
+        "id": "journey",
+        "title": "48-turn calendar",
+        "why": "The calendar and gate sequence lead, followed by training and run resources.",
+        "tradeoff": "Progress is explicit, but the calendar competes with actions."
+      },
+      {
+        "id": "focus",
+        "title": "Training journal",
+        "why": "Current state and prior consequences sit beside a focused two-column action list.",
+        "tradeoff": "Efficient planning leaves less room for character art."
+      }
+    ]
+  },
+  {
+    "id": "reminiscence-completion",
+    "title": "Reminiscence · Create Memory",
+    "domain": "training-run",
+    "module": "adventures",
+    "view": "reminiscence-completion",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Make action, internal energy and consequences readable.",
+    "coverageIds": [
+      "reminiscence-completion"
+    ],
+    "states": [
+      "summary",
+      "Memory create",
+      "created",
+      "discard"
+    ],
+    "notes": "48 turns; internal energy, run coins and Potential Points are separate from account farming energy. Four gates occur after turns 12/24/36/48. Example outcomes are review state, not a native balancing test.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Action board",
+        "why": "Trainee, action choices and bond strip lead together.",
+        "tradeoff": "Rich context uses more vertical space on phones."
+      },
+      {
+        "id": "journey",
+        "title": "48-turn calendar",
+        "why": "The calendar and gate sequence lead, followed by training and run resources.",
+        "tradeoff": "Progress is explicit, but the calendar competes with actions."
+      },
+      {
+        "id": "focus",
+        "title": "Training journal",
+        "why": "Current state and prior consequences sit beside a focused two-column action list.",
+        "tradeoff": "Efficient planning leaves less room for character art."
+      }
+    ]
+  },
+  {
+    "id": "reminiscence-action",
+    "title": "Reminiscence drill preview and outcome",
+    "domain": "training-run",
+    "module": "adventures",
+    "view": "reminiscence-action",
+    "kind": "interaction",
+    "parent": "reminiscence-run",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Make action, internal energy and consequences readable.",
+    "coverageIds": [
+      "reminiscence-action"
+    ],
+    "states": [
+      "affordable drill",
+      "risky drill",
+      "rest",
+      "success",
+      "failure"
+    ],
+    "notes": "48 turns; internal energy, run coins and Potential Points are separate from account farming energy. Four gates occur after turns 12/24/36/48. Example outcomes are review state, not a native balancing test.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Action board",
+        "why": "Trainee, action choices and bond strip lead together.",
+        "tradeoff": "Rich context uses more vertical space on phones."
+      },
+      {
+        "id": "journey",
+        "title": "48-turn calendar",
+        "why": "The calendar and gate sequence lead, followed by training and run resources.",
+        "tradeoff": "Progress is explicit, but the calendar competes with actions."
+      },
+      {
+        "id": "focus",
+        "title": "Training journal",
+        "why": "Current state and prior consequences sit beside a focused two-column action list.",
+        "tradeoff": "Efficient planning leaves less room for character art."
+      }
+    ]
+  },
+  {
+    "id": "reminiscence-route-choice",
+    "title": "Reminiscence camp shop and hunt",
+    "domain": "training-run",
+    "module": "adventures",
+    "view": "reminiscence-route-choice",
+    "kind": "interaction",
+    "parent": "reminiscence-run",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Make action, internal energy and consequences readable.",
+    "coverageIds": [
+      "reminiscence-route-choice"
+    ],
+    "states": [
+      "camp",
+      "shop",
+      "hunt",
+      "insufficient resource"
+    ],
+    "notes": "48 turns; internal energy, run coins and Potential Points are separate from account farming energy. Four gates occur after turns 12/24/36/48. Example outcomes are review state, not a native balancing test.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Action board",
+        "why": "Trainee, action choices and bond strip lead together.",
+        "tradeoff": "Rich context uses more vertical space on phones."
+      },
+      {
+        "id": "journey",
+        "title": "48-turn calendar",
+        "why": "The calendar and gate sequence lead, followed by training and run resources.",
+        "tradeoff": "Progress is explicit, but the calendar competes with actions."
+      },
+      {
+        "id": "focus",
+        "title": "Training journal",
+        "why": "Current state and prior consequences sit beside a focused two-column action list.",
+        "tradeoff": "Efficient planning leaves less room for character art."
+      }
+    ]
+  },
+  {
+    "id": "reminiscence-memory-create",
+    "title": "Reminiscence completion and Memory creation",
+    "domain": "training-run",
+    "module": "adventures",
+    "view": "reminiscence-memory-create",
+    "kind": "interaction",
+    "parent": "reminiscence-completion",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Make action, internal energy and consequences readable.",
+    "coverageIds": [
+      "reminiscence-memory-create"
+    ],
+    "states": [
+      "completed",
+      "Memory created",
+      "discarded"
+    ],
+    "notes": "48 turns; internal energy, run coins and Potential Points are separate from account farming energy. Four gates occur after turns 12/24/36/48. Example outcomes are review state, not a native balancing test.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Action board",
+        "why": "Trainee, action choices and bond strip lead together.",
+        "tradeoff": "Rich context uses more vertical space on phones."
+      },
+      {
+        "id": "journey",
+        "title": "48-turn calendar",
+        "why": "The calendar and gate sequence lead, followed by training and run resources.",
+        "tradeoff": "Progress is explicit, but the calendar competes with actions."
+      },
+      {
+        "id": "focus",
+        "title": "Training journal",
+        "why": "Current state and prior consequences sit beside a focused two-column action list.",
+        "tradeoff": "Efficient planning leaves less room for character art."
+      }
+    ]
+  },
+  {
+    "id": "reminiscence-discard-confirmation",
+    "title": "Discard current training run",
+    "domain": "training-run",
+    "module": "adventures",
+    "view": "reminiscence-discard-confirmation",
+    "kind": "interaction",
+    "parent": "reminiscence-run",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Make action, internal energy and consequences readable.",
+    "coverageIds": [
+      "reminiscence-discard-confirmation"
+    ],
+    "states": [
+      "unclaimed progress warning",
+      "cancel",
+      "discard",
+      "existing Memories preserved"
+    ],
+    "notes": "48 turns; internal energy, run coins and Potential Points are separate from account farming energy. Four gates occur after turns 12/24/36/48. Example outcomes are review state, not a native balancing test.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Action board",
+        "why": "Trainee, action choices and bond strip lead together.",
+        "tradeoff": "Rich context uses more vertical space on phones."
+      },
+      {
+        "id": "journey",
+        "title": "48-turn calendar",
+        "why": "The calendar and gate sequence lead, followed by training and run resources.",
+        "tradeoff": "Progress is explicit, but the calendar competes with actions."
+      },
+      {
+        "id": "focus",
+        "title": "Training journal",
+        "why": "Current state and prior consequences sit beside a focused two-column action list.",
+        "tradeoff": "Efficient planning leaves less room for character art."
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-hub",
+    "title": "Labyrinth · Difficulty Selection",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-hub",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-hub"
+    ],
+    "states": [
+      "difficulty/key locked",
+      "entry ready",
+      "active run continue"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-map",
+    "title": "Labyrinth · Expedition Map",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-map",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-map"
+    ],
+    "states": [
+      "available/current/cleared/skipped",
+      "pending choice",
+      "injured/defeated heroes",
+      "Endless"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-skills",
+    "title": "Labyrinth · Skill Builds",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-skills",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-skills"
+    ],
+    "states": [
+      "learned skills/modifiers",
+      "eligible tuning",
+      "empty/at cap"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-effects",
+    "title": "Labyrinth · Run Effects",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-effects",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-effects"
+    ],
+    "states": [
+      "boons",
+      "sickness",
+      "alignment",
+      "empty"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-rankings",
+    "title": "Labyrinth · Endless Rankings",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-rankings",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-rankings"
+    ],
+    "states": [
+      "local/personal progress",
+      "difficulty/rank rows",
+      "empty"
+    ],
+    "notes": "Personal example records only. Server-authoritative placement rewards are unavailable and not fabricated.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-extraction",
+    "title": "Labyrinth · Imprint Extraction",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-extraction",
+    "kind": "page",
+    "parent": null,
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-extraction"
+    ],
+    "states": [
+      "portable eligible",
+      "run-only excluded",
+      "capacity available/full",
+      "protected replacement unavailable"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-entry",
+    "title": "Labyrinth difficulty and key entry",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-entry",
+    "kind": "interaction",
+    "parent": "labyrinth-hub",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-entry"
+    ],
+    "states": [
+      "unlocked with key",
+      "no key",
+      "difficulty locked",
+      "personal best"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-node-choice",
+    "title": "Labyrinth path node selection",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-node-choice",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-node-choice"
+    ],
+    "states": [
+      "available",
+      "current",
+      "cleared",
+      "locked",
+      "skipped"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-encounter-ready",
+    "title": "Labyrinth encounter ready",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-encounter-ready",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-encounter-ready"
+    ],
+    "states": [
+      "pending combat"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-fractured-event",
+    "title": "Fractured signal event choice",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-fractured-event",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-fractured-event"
+    ],
+    "states": [
+      "safe option",
+      "risky option",
+      "fight option"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-sanctuary",
+    "title": "Sanctuary heal or revive",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-sanctuary",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-sanctuary"
+    ],
+    "states": [
+      "living injured heroes",
+      "one or more fallen heroes",
+      "no fallen hero: unavailable",
+      "sickness changes healing"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-alignment",
+    "title": "Angel and Demon alignment offer",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-alignment",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-alignment"
+    ],
+    "states": [
+      "Angel",
+      "Demon",
+      "eligible skills",
+      "no alignment locked",
+      "opposite alignment routes replaced"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-monster-reward",
+    "title": "Monster spoils reward choice",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-monster-reward",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-monster-reward"
+    ],
+    "states": [
+      "squad boon",
+      "echo cache"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-elite-reward",
+    "title": "Elite resonance reward choice",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-elite-reward",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-elite-reward"
+    ],
+    "states": [
+      "eligible tuning",
+      "major boon",
+      "skill cap"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-boss-transform",
+    "title": "Boss core transformation choice",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-boss-transform",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-boss-transform"
+    ],
+    "states": [
+      "portable transform",
+      "Endless run-only overcap"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-sickness",
+    "title": "Permanent sickness selection",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-sickness",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-sickness"
+    ],
+    "states": [
+      "new sickness family",
+      "existing sickness tier increase",
+      "tier cap"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-shop",
+    "title": "Wandering Exchange purchase",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-shop",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-shop"
+    ],
+    "states": [
+      "available",
+      "purchased",
+      "insufficient Echoes"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-completion-choice",
+    "title": "Extract or enter Endless decision",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-completion-choice",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-completion-choice"
+    ],
+    "states": [
+      "extraction eligible",
+      "Endless branch"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-endless-confirm",
+    "title": "Endless irreversible waiver",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-endless-confirm",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-endless-confirm"
+    ],
+    "states": [
+      "pending confirmation",
+      "cancel keeps extraction"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-failed",
+    "title": "Expedition failed result",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-failed",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-failed"
+    ],
+    "states": [
+      "defeated"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "labyrinth-leave-run",
+    "title": "Abandon or retire Labyrinth",
+    "domain": "labyrinth",
+    "module": "adventures",
+    "view": "labyrinth-leave-run",
+    "kind": "interaction",
+    "parent": "labyrinth-map",
+    "assessment": "rebuild",
+    "nativeSupport": "native",
+    "summary": "Preserve route/party model; clarify tradeoffs, injuries and extraction.",
+    "coverageIds": [
+      "labyrinth-leave-run"
+    ],
+    "states": [
+      "normal abandon",
+      "Endless retirement"
+    ],
+    "notes": "One key per expedition; 16 encounters per floor; HP persists; cooldowns/charge reset per encounter. Three portable tunings, one boss transform and one alignment effect per skill. Endless irreversibly excludes extraction. Displayed route and rewards are interactive examples, not native game operations.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Route & party",
+        "why": "Connected rooms lead with a fixed party-health sidebar; decisions use clear option cards.",
+        "tradeoff": "Strong spatial route context; denser on narrow screens."
+      },
+      {
+        "id": "journey",
+        "title": "Expedition journey",
+        "why": "Progress leads; route occupies the full width and party health sits in a bottom tray. Decisions use a context-to-choice flow.",
+        "tradeoff": "Gives the route more space, but party facts are farther from the next room."
+      },
+      {
+        "id": "focus",
+        "title": "Decision chamber",
+        "why": "Next decision and inspectable consequences lead; compact context stays in a side rail.",
+        "tradeoff": "Makes tradeoffs easier to compare, with less route shown at once."
+      }
+    ],
+    "previewStates": [
+      {
+        "id": "fresh-expedition",
+        "label": "Fresh expedition",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "restored-expedition",
+        "label": "Restored run · injuries",
+        "action": "adventures:fixture"
+      },
+      {
+        "id": "completed-expedition",
+        "label": "After three floors",
+        "action": "adventures:fixture"
+      }
+    ]
+  },
+  {
+    "id": "account",
+    "title": "Account · Player Card",
+    "domain": "account",
+    "module": "adventures",
+    "view": "account",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Protect local progress; separate developer preview from ordinary navigation.",
+    "coverageIds": [
+      "account"
+    ],
+    "states": [
+      "local editing",
+      "blank/default/length limit",
+      "saved"
+    ],
+    "notes": "Profile limits are 18/28/120 characters. Only Azure/Aurora frames and Astra/Mika icons are current controls. Native preference implementation and recovery operations are not performed by this review.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "battle-preview",
+    "title": "2D Battle Art Review",
+    "domain": "account",
+    "module": "adventures",
+    "view": "battle-preview",
+    "kind": "page",
+    "parent": null,
+    "assessment": "refine",
+    "nativeSupport": "developer",
+    "summary": "Protect local progress; separate developer preview from ordinary navigation.",
+    "coverageIds": [
+      "battle-preview"
+    ],
+    "states": [
+      "developer hero selection",
+      "basic/active/ultimate art preview"
+    ],
+    "notes": "Developer art review, separate from ordinary player navigation. Static selected skill context and presentation samples; no acceptance or real combat is implied.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "account-profile-form",
+    "title": "Player card editing and appearance",
+    "domain": "account",
+    "module": "adventures",
+    "view": "account-profile-form",
+    "kind": "interaction",
+    "parent": "account",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Protect local progress; separate developer preview from ordinary navigation.",
+    "coverageIds": [
+      "account-profile-form"
+    ],
+    "states": [
+      "editing",
+      "saved",
+      "blank values defaulted",
+      "length limited"
+    ],
+    "notes": "Profile limits are 18/28/120 characters. Only Azure/Aurora frames and Astra/Mika icons are current controls. Native preference implementation and recovery operations are not performed by this review.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "save-recovery",
+    "title": "Local save recovery",
+    "domain": "account",
+    "module": "adventures",
+    "view": "save-recovery",
+    "kind": "interaction",
+    "parent": "account",
+    "assessment": "refine",
+    "nativeSupport": "native",
+    "summary": "Protect local progress; separate developer preview from ordinary navigation.",
+    "coverageIds": [
+      "save-recovery"
+    ],
+    "states": [
+      "recovered continue",
+      "unreadable/newer blocked",
+      "exit",
+      "explicit permitted new-local-account action"
+    ],
+    "notes": "Three fixtures expose recovered, unreadable and newer-format states. Only the unreadable fixture permits an explicit new-local-account choice; review actions preserve all native files. This is not a cloud-save implementation.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "ui-settings",
+    "title": "Preferences proposal",
+    "domain": "account",
+    "module": "adventures",
+    "view": "ui-settings",
+    "kind": "proposal",
+    "parent": "account",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Audio and presentation controls grouped into named sections. Only review samples change.",
+    "coverageIds": [],
+    "states": [
+      "initial",
+      "selection changed",
+      "return"
+    ],
+    "notes": "Design proposal only. Does not claim native parity, device settings changes, account storage operations, authored story additions or reward changes.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "ui-accessibility",
+    "title": "Accessibility proposal",
+    "domain": "account",
+    "module": "adventures",
+    "view": "ui-accessibility",
+    "kind": "proposal",
+    "parent": "account",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Readable text, contrast and reduced-motion samples; native implementation is proposed.",
+    "coverageIds": [],
+    "states": [
+      "initial",
+      "selection changed",
+      "return"
+    ],
+    "notes": "Design proposal only. Does not claim native parity, device settings changes, account storage operations, authored story additions or reward changes.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "ui-onboarding",
+    "title": "First steps proposal",
+    "domain": "account",
+    "module": "adventures",
+    "view": "ui-onboarding",
+    "kind": "proposal",
+    "parent": "account",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Three short steps explain roster, frozen prebattle formation and permanent run rewards.",
+    "coverageIds": [],
+    "states": [
+      "initial",
+      "selection changed",
+      "return"
+    ],
+    "notes": "Design proposal only. Does not claim native parity, device settings changes, account storage operations, authored story additions or reward changes.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  },
+  {
+    "id": "story-archive-proposal",
+    "title": "Story archive proposal",
+    "domain": "account",
+    "module": "adventures",
+    "view": "story-archive-proposal",
+    "kind": "proposal",
+    "parent": "account",
+    "assessment": "missing",
+    "nativeSupport": "proposed",
+    "summary": "Illustrative read/unread/locked navigation; chapter names and reading controls are proposed.",
+    "coverageIds": [],
+    "states": [
+      "initial",
+      "selection changed",
+      "return"
+    ],
+    "notes": "Design proposal only. Does not claim native parity, device settings changes, account storage operations, authored story additions or reward changes.",
+    "variants": [
+      {
+        "id": "stage",
+        "title": "Player card",
+        "why": "Commander identity and the current profile anchor editing and recovery decisions.",
+        "tradeoff": "Clear ownership; large identity art occupies space."
+      },
+      {
+        "id": "journey",
+        "title": "Account desk",
+        "why": "Profile, current state and grouped preferences use a progression-first desk.",
+        "tradeoff": "More information is visible but personal identity is quieter."
+      },
+      {
+        "id": "focus",
+        "title": "Focused controls",
+        "why": "Editing, comparisons and blocking recovery use dedicated decision panes.",
+        "tradeoff": "Good for precise changes, with less atmosphere."
+      }
+    ]
+  }
+]

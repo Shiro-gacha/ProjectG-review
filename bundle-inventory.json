@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "purpose": "Sanitized static ProjectG phone review; no repository source or private draft notes.",
   "sourceVersion": "2026-10-26-v4",
   "acceptedSpriteCount": 11,
@@ -927,6 +927,493 @@
       }
     ]
   },
+  "wholeGameUiStudy": {
+    "page": "interfaces.html",
+    "catalog": "interface-designs/catalog.json",
+    "data": "interface-designs/data.json",
+    "research": "interface-designs/research.json",
+    "nativeCoverageCount": 108,
+    "surfaceCount": 116,
+    "proposalCount": 7,
+    "candidateCount": 348,
+    "domainCount": 20,
+    "variantIds": [
+      "stage",
+      "journey",
+      "focus"
+    ],
+    "variantsPerSurface": 3,
+    "moduleIds": [
+      "home-combat",
+      "collection",
+      "activities",
+      "adventures"
+    ],
+    "assetCount": 89,
+    "existingHeroCount": 29,
+    "heroSkillCount": 145,
+    "currentEnemyCount": 31,
+    "partyHeroCount": 5,
+    "pixelSpriteCount": 29,
+    "reviewOnly": true,
+    "accepted": false,
+    "runtimeIntegrated": false,
+    "nativeRollout": false,
+    "accountMutation": false,
+    "realPayments": false,
+    "campaignEntry": {
+      "normalEnergyCost": 0,
+      "hardEnergyCost": 0,
+      "requiresEnergy": false
+    },
+    "assets": [
+      {
+        "file": "interface-assets/enemy-aegis-construct.png",
+        "sha256": "6bd168c71df9234c65eb6065b7107f059814d485e77473fb1b09a9c237466cf7",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-archivist-nul.png",
+        "sha256": "8f4cffec967b3b0ad0e19c923f7ed48f26234ece834825d2f33526d64e75027c",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-ashfang-stalker.png",
+        "sha256": "6382752909c1f7aa48d363f90083286b23c2ae8d49230961efb7917b88b937bf",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-bastion-kheiron.png",
+        "sha256": "7fa9658412f428001d5ee4a9be836e94784274190dcbfb3c0a8dd0e460c75f6c",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-brine-slime.png",
+        "sha256": "9b96b5608fa90729b795260f07d32d2b8bfcbb36d0bb27644c0a4c0b95bcae65",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-chrome-scout.png",
+        "sha256": "1c50888bbd68126d7d3e8b38791bbbd7b5bccd02cf9b9e45aa563c732c6feb6d",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-crystal-core.png",
+        "sha256": "5a7fad3927baf868227e4aa2e6d91d94992e4b74c7854989561693bd0b9b69ed",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-drowned-regent.png",
+        "sha256": "aef2e5a088fddd95d4acf8d731c32f338eda6eac6e8875886412409021e20065",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-drowned-sentinel.png",
+        "sha256": "e4d8b0e449d7aeba28344813df654835c4fac6dbe9aa91721163a654b9fee100",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-ember-beast.png",
+        "sha256": "0efc66dd6441f6d55809b4832c6ce222193f47943bf90cd955e0cf4894be2bce",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-exarch-vesper.png",
+        "sha256": "9eb5f804e18161a38786e330db6275b65db44f7adea27faba2818149e632825c",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-gale-harpy.png",
+        "sha256": "bdf33226600344a1c5844857f28ac0e5a97069dad9592afcc374165520d8b3c3",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-galeclaw-matriarch.png",
+        "sha256": "28c232c3d1a2ecd6cedc16c62c17b1a5f5261dc1c2d40462327c88d6040271f3",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-helix-lancer.png",
+        "sha256": "8678e22ec052f525757e5a7e11c295ca6064564f014e482ac75080d2453de6d0",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-legate-orrix.png",
+        "sha256": "da52e092000f7ff6e69ede286d99c083caa5d342ad8349fc86e5f422360455ae",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-lumen-guardian.png",
+        "sha256": "ac405d26ced3e94adbaed9bdfb7b70b2e1dbe9de5ab7e7f2366bbd4b48cbb431",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-nul-diver-leviathan.png",
+        "sha256": "e8e8945c42878e83e4186e59fd960e6d8d03c62b58d8c06161f1b4a6c650aa11",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-null-diver.png",
+        "sha256": "f871d68b3336b2c47a41b24cb65f681b0ebbc9e3591e695309eaa770493428a2",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-oracle-myr.png",
+        "sha256": "649a39612a309bdd54f67da4306df66d7d81ef3b24622eaeefe885a13d3498cd",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-prefect-caelus.png",
+        "sha256": "bbb39c17181d522809571dcd5aef6cd92a754e0613318dc260c0385766364e95",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-rift-drone.png",
+        "sha256": "1b670412598e22b25f0ccc65ed090888be601daabc1e9894bcb5fdb8faf9e8e8",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-seraph-engine.png",
+        "sha256": "d3eaffd2d323f71e6f7ccf9f8fab71453159b2087c82ecd613e1a71795b6b6c2",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-shade-reaper.png",
+        "sha256": "5fb5171656c76dbcd79d9516b2425b8df2ad1e60a714991d7db2a123ec852e4a",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-skyfang-drake.png",
+        "sha256": "8bb5255880771e0fe15552695c01c425af3289322de1a956df1130a7e23cfeeb",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-thorn-duchess.png",
+        "sha256": "5598c0a4ef3a6e50e80bd70d3112ddd03706c3e9e03aaf5e1357e55e9d8f978f",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-thornmaw-matriarch.png",
+        "sha256": "af17430ff42819217f3696fb63efe18ebf2c19ea0ad636867f2e59b4770db82c",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-tide-wraith.png",
+        "sha256": "a3b32ae17ea24794cc3ea587b65be5c453dce01239753d059acedc17359f1324",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-umbra-legate.png",
+        "sha256": "6a0f15eaf02fafd01a7faa2a3c940b9738e6f7d29d0ec7fdaa4ef74716beb12e",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-verdant-brute.png",
+        "sha256": "8c6bc6c17ad13721acae79190cc2cc932bbe674e541e4a4782c8dd4e225704bb",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-void-archon.png",
+        "sha256": "0dd94db8bc41371ae4f38e8056793e81ecd84a29b1c73312a5440d3974aafd91",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/enemy-warden-kaelos.png",
+        "sha256": "3f7057a3e95fc23d421a954aa0cdb6bff484d48d9f80abadfdb4caf270981a56",
+        "role": "existing-native-enemy-pixel"
+      },
+      {
+        "file": "interface-assets/hero-adela.png",
+        "sha256": "16e95f21678fa524a16cd8588a21db0b65360625ac7c0a4d3fe1be089c34cd98",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-astra.png",
+        "sha256": "0c24f50296916e8f9027c8b942e7515a85fbae070d0e50dd0239c498dff134dc",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-aveline.png",
+        "sha256": "d5f9bffe0b5770a64812f56e6a7651be264d0b72adf0431d7ba12aff11ad8d3b",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-brann.png",
+        "sha256": "3058ae383f825974278be1e2e00174e98b16f40e493e319e0473a7132705b58e",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-caelia.png",
+        "sha256": "860c2c3cddb6c550109da79763ad06aa7468dd602d9f93a2dbcb302ec5678558",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-cerys.png",
+        "sha256": "ae01f84951e79280ed3d70030650189580663df65e52ed8e34446994f863e604",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-dax.png",
+        "sha256": "a6c2a8ca2746f0ea5c7c9679db8d6ff2f1a0d9ec347c8f21879aef35d396cdc0",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-iori.png",
+        "sha256": "b25a598e66371620ecd28b37e73a507a19e352c8c66faed12963c2cadc5d9d52",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-jianne.png",
+        "sha256": "b9e7301ae84dcc88923a5c2ffe79f8de4ca49b39801fda46fc79527f942678ed",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-kael.png",
+        "sha256": "de619c3514140a1df4b9241d63a65b8df09e6ce9a3c2ffea0c4154449b16c3e1",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-luna.png",
+        "sha256": "2d6e45f503d653f663bd4b4543f0575764384516b9062425a16bb8c30b713c05",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-maelin.png",
+        "sha256": "293a974d6c56c675570b712a96755a25b0191b1f3f42c4a2e8c9cb0ec609a51e",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-maelis.png",
+        "sha256": "a0580a00338e025a9d77e61ff6c6f24511de9eb6384a74e4b5bb4cc54543ba61",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-mika.png",
+        "sha256": "25b30593a7feed56034054d6c891865960aa0c472f0ab84e8669e97f083be6a0",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-nemea.png",
+        "sha256": "065f1708c77378ef6bde834712a1def26f367963d1f5db192b5a692b62fe7cdb",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-nerisse.png",
+        "sha256": "db7dbdfa0a4d776f8750de20fd19e139322a8000cf8c3484d6e93939dd224a7c",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-nyx.png",
+        "sha256": "2854a2daa983b477fa1a9f43864238268a34c10b7be7dc046f20cf1482e1ddcb",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-rhea.png",
+        "sha256": "0607123e75d119f5b7d485123582d8274f564800209a50622e813a8ed14a86d7",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-selene.png",
+        "sha256": "823c7016e80c0c36638e38dfb66958f3363d5cbfb61c668557cd81b85d59f5a8",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-sevrin.png",
+        "sha256": "e2e8aa4dcb998af4869bb51ec2a715c44593ea3a9b3011397776d8fd61e87520",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-sivra.png",
+        "sha256": "05c9eddae1434d0540bc7164c2416d59c680615f3828e1a6baa4aac8921f5f2b",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-soryn.png",
+        "sha256": "a98c694efc1554a60c83187876ec1f926af2c17d7e4b20a44fdc107f857c108a",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-tamsin.png",
+        "sha256": "961e2575187f858b7b4cb170553243a827931d282de0e122018d61e967ec0bbe",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-thessa.png",
+        "sha256": "92e9dd4d24397edbcae5c5615ccfad25d1db2f681649283e86f867c1e9d756a2",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-veloura.png",
+        "sha256": "672434e8939de2b1636a55bb42e842b1c7b59ab0c36bb7b13e29b44280631655",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-veyra-wick.png",
+        "sha256": "9221c25f3b9ef9b951a068aaeca4abf26509f8891e924349689abb3e35af6ed9",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-veyra.png",
+        "sha256": "4ac0d5d396b3374f7fb95ccf27be1aa71d5804290703c43016a47ed6b244c707",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-yselle.png",
+        "sha256": "7c67bf15d177b74ffcc1eaf84549c162a91e4b13f05cb27db469c070bbff909e",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/hero-zahra.png",
+        "sha256": "6054e850a530deb057935d8ad5012a2f2d49fca6c177055bbd925a05d55ca0f7",
+        "role": "existing-character-illustration"
+      },
+      {
+        "file": "interface-assets/pixel-adela.png",
+        "sha256": "2e832bf25719ad25249949e3dc0c75ca52e44b86894868e23f75a4fb50485be5",
+        "role": "pixel"
+      },
+      {
+        "file": "interface-assets/pixel-astra.png",
+        "sha256": "f10a1aa9414eb6df7aef4f318e813ee523223ad14388cc5ec880187579d7ee4f",
+        "role": "pixel"
+      },
+      {
+        "file": "interface-assets/pixel-aveline.png",
+        "sha256": "093c4f92e52ef0767a6060f5648fdacdd1e003cde772dd5d23d401a9e2309690",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-brann.png",
+        "sha256": "65c62e29eb8eddb76c8e9c81a1a2f75bff1d3b59283de381a3968afb99559551",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-caelia.png",
+        "sha256": "e5be1abc14d01dfde38697387059b67ad243a5d5cf8cb599dfac3a6fbfb8d865",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-cerys.png",
+        "sha256": "2cbc77b7570b7f41d8bcff87a90af41b54db96da79020d6e18ecadc959ff37a1",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-dax.png",
+        "sha256": "7048118e2f37288d29832fc7b0254d76ba12d5c6c72c1d3380280f183fd20292",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-iori.png",
+        "sha256": "faff247e9ba59ce786d77b2e110153fa1514db398feb3282e4b0d8aadb9ea230",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-jianne.png",
+        "sha256": "3ae0f5e94970c128380f6159c5baf196811024f13ca5562949ce3106fad2cc56",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-kael.png",
+        "sha256": "25085c23e4e729ea5c709c1ef8adf2648372622d8b4d348cec537ea21cabd88c",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-luna.png",
+        "sha256": "2c44fac3e4fc548d35c8f179a1a4119b8d0540b5567df787247985f55e4c4b7b",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-maelin.png",
+        "sha256": "db6c842a6f64b161e7c0ae1777b0def98454b08de4d4a5c6928c1858802d44cc",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-maelis.png",
+        "sha256": "b40631cb2c309880c0083460418e7d041b5a9ef8960960e6edb502cbfa7f6c65",
+        "role": "pixel"
+      },
+      {
+        "file": "interface-assets/pixel-mika.png",
+        "sha256": "27c9ecfb267ce7298af58cb0c370ecb656667d2e04678cf7c7003370e7313107",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-nemea.png",
+        "sha256": "1d3a2631f82bc64ab5b5973438b39211cce41937736f24729cbf41bebd6a341a",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-nerisse.png",
+        "sha256": "d0b8dd554d07fe0d779a0d210524a36efbf332fd4c9e92553d8fbe696de8ff51",
+        "role": "pixel"
+      },
+      {
+        "file": "interface-assets/pixel-nyx.png",
+        "sha256": "43d9556e6fff7edd64ff2c45485cc949bb3240e3b380101f22b92ce86f341ec7",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-rhea.png",
+        "sha256": "b0948cdc55ec291f286a616f75b064fdfb2e2e22a6c87b3284613e699b9b3d31",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-selene.png",
+        "sha256": "2b856e96a7039b69bd42d45bb501443a3469371c0404112a9eed80c2a88e8979",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-sevrin.png",
+        "sha256": "8db4ee3034291e89d55d574e9fa186cdf17b62dac6c32bb783c5c196954bb037",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-sivra.png",
+        "sha256": "d7ca8b6a094374c5d8bd602e5974757428a0969be4b775c24ba4cada0085aa6c",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-soryn.png",
+        "sha256": "a6ae18386ba2dd1662903974a224ef451e14a2a19871544fd183569473a3fd9f",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-tamsin.png",
+        "sha256": "265daf3128577685ba2646b0926c134f058caf41ddc6e30c01b71978a0a7b340",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-thessa.png",
+        "sha256": "98c101533528ca717b9e0fb47c347ade4623a5e15244e2851ea07d0849948129",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-veloura.png",
+        "sha256": "5c30c9aa8ee9205a6a9c995ed4e168c5735e95e64879cd9f82dca1accf8c1bd9",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-veyra-wick.png",
+        "sha256": "01956a1608b83db08a3f11b166b8350bd747ee800cec02c0ae2dc3f4a5024f4e",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-veyra.png",
+        "sha256": "3dff302a079dde4ffa271fd8f96a50d099584b2256fe3958a1e4b50262c70d63",
+        "role": "existing-native-hero-pixel"
+      },
+      {
+        "file": "interface-assets/pixel-yselle.png",
+        "sha256": "d6e13f335c3ad88a99e8fa9872eeca9898d04626e416dd26fcbc4cb1bcb6f776",
+        "role": "pixel"
+      },
+      {
+        "file": "interface-assets/pixel-zahra.png",
+        "sha256": "d6b68b0f96951c5b2684853fba0e93a05df167d61fe45744049546d75b3cc60c",
+        "role": "existing-native-hero-pixel"
+      }
+    ]
+  },
   "illustratedPortraits": {
     "heroCount": 40,
     "existingIdentityCount": 29,
@@ -1276,8 +1763,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 146,
-  "totalBytes": 190505582,
+  "fileCount": 249,
+  "totalBytes": 329138110,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1312,8 +1799,8 @@
     },
     {
       "path": "campaign-designs.html",
-      "bytes": 5483,
-      "sha256": "a63730c2c8b53fc4ab951980deb0c09efe7d3642b7e2450678c4da0598bd7377"
+      "bytes": 5534,
+      "sha256": "b97cefc27a241f87a025a20f5d9fc6001e28bc1d1505df679d173335ac2fcfc7"
     },
     {
       "path": "campaign-designs/app.js",
@@ -1452,13 +1939,13 @@
     },
     {
       "path": "combat.html",
-      "bytes": 60654,
-      "sha256": "3a22c739981eb3eb5f3de8fe9abb67323274273ec4563a9b2902e0ad125fa471"
+      "bytes": 60705,
+      "sha256": "e244044d63530b3f9e42aa5b1f62b74a61acc4aaa64a54824ef5ebf5c5d1d7ca"
     },
     {
       "path": "content-balance.html",
-      "bytes": 84923,
-      "sha256": "356a8ef6144c3e6829d2c0cdb88cdc244e69abad4c75e3b571bd14f82fb3f43c"
+      "bytes": 84974,
+      "sha256": "e2c4374b09a6a2c3fef621014923e964922c47e335f06a47aa7143c662a6d27f"
     },
     {
       "path": "content-balance/review-data.json",
@@ -1467,8 +1954,8 @@
     },
     {
       "path": "enemies.html",
-      "bytes": 76281,
-      "sha256": "1dec5a984bd5c64fdb75df79abf1321bf9b56f55d1fd5f16751f32432b08bbd1"
+      "bytes": 76332,
+      "sha256": "cc81baaa2ccc3781b8e15608dfa7c051b845c49771fd12191213a1f8d9ff63b6"
     },
     {
       "path": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -1697,8 +2184,523 @@
     },
     {
       "path": "index.html",
-      "bytes": 938,
-      "sha256": "324598e493d1c2cb03a26ac33b1049593a69865fa31f3ec1999482e24fed9af6"
+      "bytes": 993,
+      "sha256": "3490854eb2c048a4ee266639df912ccd2452334e3e3b2f65cebd1320c40b06fa"
+    },
+    {
+      "path": "interface-assets/enemy-aegis-construct.png",
+      "bytes": 1914699,
+      "sha256": "6bd168c71df9234c65eb6065b7107f059814d485e77473fb1b09a9c237466cf7"
+    },
+    {
+      "path": "interface-assets/enemy-archivist-nul.png",
+      "bytes": 2410986,
+      "sha256": "8f4cffec967b3b0ad0e19c923f7ed48f26234ece834825d2f33526d64e75027c"
+    },
+    {
+      "path": "interface-assets/enemy-ashfang-stalker.png",
+      "bytes": 1420445,
+      "sha256": "6382752909c1f7aa48d363f90083286b23c2ae8d49230961efb7917b88b937bf"
+    },
+    {
+      "path": "interface-assets/enemy-bastion-kheiron.png",
+      "bytes": 2084770,
+      "sha256": "7fa9658412f428001d5ee4a9be836e94784274190dcbfb3c0a8dd0e460c75f6c"
+    },
+    {
+      "path": "interface-assets/enemy-brine-slime.png",
+      "bytes": 1353645,
+      "sha256": "9b96b5608fa90729b795260f07d32d2b8bfcbb36d0bb27644c0a4c0b95bcae65"
+    },
+    {
+      "path": "interface-assets/enemy-chrome-scout.png",
+      "bytes": 1642718,
+      "sha256": "1c50888bbd68126d7d3e8b38791bbbd7b5bccd02cf9b9e45aa563c732c6feb6d"
+    },
+    {
+      "path": "interface-assets/enemy-crystal-core.png",
+      "bytes": 954212,
+      "sha256": "5a7fad3927baf868227e4aa2e6d91d94992e4b74c7854989561693bd0b9b69ed"
+    },
+    {
+      "path": "interface-assets/enemy-drowned-regent.png",
+      "bytes": 2396176,
+      "sha256": "aef2e5a088fddd95d4acf8d731c32f338eda6eac6e8875886412409021e20065"
+    },
+    {
+      "path": "interface-assets/enemy-drowned-sentinel.png",
+      "bytes": 2189763,
+      "sha256": "e4d8b0e449d7aeba28344813df654835c4fac6dbe9aa91721163a654b9fee100"
+    },
+    {
+      "path": "interface-assets/enemy-ember-beast.png",
+      "bytes": 2042182,
+      "sha256": "0efc66dd6441f6d55809b4832c6ce222193f47943bf90cd955e0cf4894be2bce"
+    },
+    {
+      "path": "interface-assets/enemy-exarch-vesper.png",
+      "bytes": 1905218,
+      "sha256": "9eb5f804e18161a38786e330db6275b65db44f7adea27faba2818149e632825c"
+    },
+    {
+      "path": "interface-assets/enemy-gale-harpy.png",
+      "bytes": 1965152,
+      "sha256": "bdf33226600344a1c5844857f28ac0e5a97069dad9592afcc374165520d8b3c3"
+    },
+    {
+      "path": "interface-assets/enemy-galeclaw-matriarch.png",
+      "bytes": 2167000,
+      "sha256": "28c232c3d1a2ecd6cedc16c62c17b1a5f5261dc1c2d40462327c88d6040271f3"
+    },
+    {
+      "path": "interface-assets/enemy-helix-lancer.png",
+      "bytes": 1755382,
+      "sha256": "8678e22ec052f525757e5a7e11c295ca6064564f014e482ac75080d2453de6d0"
+    },
+    {
+      "path": "interface-assets/enemy-legate-orrix.png",
+      "bytes": 2195001,
+      "sha256": "da52e092000f7ff6e69ede286d99c083caa5d342ad8349fc86e5f422360455ae"
+    },
+    {
+      "path": "interface-assets/enemy-lumen-guardian.png",
+      "bytes": 2026242,
+      "sha256": "ac405d26ced3e94adbaed9bdfb7b70b2e1dbe9de5ab7e7f2366bbd4b48cbb431"
+    },
+    {
+      "path": "interface-assets/enemy-nul-diver-leviathan.png",
+      "bytes": 2280694,
+      "sha256": "e8e8945c42878e83e4186e59fd960e6d8d03c62b58d8c06161f1b4a6c650aa11"
+    },
+    {
+      "path": "interface-assets/enemy-null-diver.png",
+      "bytes": 1675630,
+      "sha256": "f871d68b3336b2c47a41b24cb65f681b0ebbc9e3591e695309eaa770493428a2"
+    },
+    {
+      "path": "interface-assets/enemy-oracle-myr.png",
+      "bytes": 2221707,
+      "sha256": "649a39612a309bdd54f67da4306df66d7d81ef3b24622eaeefe885a13d3498cd"
+    },
+    {
+      "path": "interface-assets/enemy-prefect-caelus.png",
+      "bytes": 2137752,
+      "sha256": "bbb39c17181d522809571dcd5aef6cd92a754e0613318dc260c0385766364e95"
+    },
+    {
+      "path": "interface-assets/enemy-rift-drone.png",
+      "bytes": 1644597,
+      "sha256": "1b670412598e22b25f0ccc65ed090888be601daabc1e9894bcb5fdb8faf9e8e8"
+    },
+    {
+      "path": "interface-assets/enemy-seraph-engine.png",
+      "bytes": 2353767,
+      "sha256": "d3eaffd2d323f71e6f7ccf9f8fab71453159b2087c82ecd613e1a71795b6b6c2"
+    },
+    {
+      "path": "interface-assets/enemy-shade-reaper.png",
+      "bytes": 1724232,
+      "sha256": "5fb5171656c76dbcd79d9516b2425b8df2ad1e60a714991d7db2a123ec852e4a"
+    },
+    {
+      "path": "interface-assets/enemy-skyfang-drake.png",
+      "bytes": 2199734,
+      "sha256": "8bb5255880771e0fe15552695c01c425af3289322de1a956df1130a7e23cfeeb"
+    },
+    {
+      "path": "interface-assets/enemy-thorn-duchess.png",
+      "bytes": 2273958,
+      "sha256": "5598c0a4ef3a6e50e80bd70d3112ddd03706c3e9e03aaf5e1357e55e9d8f978f"
+    },
+    {
+      "path": "interface-assets/enemy-thornmaw-matriarch.png",
+      "bytes": 2428569,
+      "sha256": "af17430ff42819217f3696fb63efe18ebf2c19ea0ad636867f2e59b4770db82c"
+    },
+    {
+      "path": "interface-assets/enemy-tide-wraith.png",
+      "bytes": 2062315,
+      "sha256": "a3b32ae17ea24794cc3ea587b65be5c453dce01239753d059acedc17359f1324"
+    },
+    {
+      "path": "interface-assets/enemy-umbra-legate.png",
+      "bytes": 2276837,
+      "sha256": "6a0f15eaf02fafd01a7faa2a3c940b9738e6f7d29d0ec7fdaa4ef74716beb12e"
+    },
+    {
+      "path": "interface-assets/enemy-verdant-brute.png",
+      "bytes": 1808635,
+      "sha256": "8c6bc6c17ad13721acae79190cc2cc932bbe674e541e4a4782c8dd4e225704bb"
+    },
+    {
+      "path": "interface-assets/enemy-void-archon.png",
+      "bytes": 2312042,
+      "sha256": "0dd94db8bc41371ae4f38e8056793e81ecd84a29b1c73312a5440d3974aafd91"
+    },
+    {
+      "path": "interface-assets/enemy-warden-kaelos.png",
+      "bytes": 1842952,
+      "sha256": "3f7057a3e95fc23d421a954aa0cdb6bff484d48d9f80abadfdb4caf270981a56"
+    },
+    {
+      "path": "interface-assets/hero-adela.png",
+      "bytes": 1268961,
+      "sha256": "16e95f21678fa524a16cd8588a21db0b65360625ac7c0a4d3fe1be089c34cd98"
+    },
+    {
+      "path": "interface-assets/hero-astra.png",
+      "bytes": 585055,
+      "sha256": "0c24f50296916e8f9027c8b942e7515a85fbae070d0e50dd0239c498dff134dc"
+    },
+    {
+      "path": "interface-assets/hero-aveline.png",
+      "bytes": 1250692,
+      "sha256": "d5f9bffe0b5770a64812f56e6a7651be264d0b72adf0431d7ba12aff11ad8d3b"
+    },
+    {
+      "path": "interface-assets/hero-brann.png",
+      "bytes": 951319,
+      "sha256": "3058ae383f825974278be1e2e00174e98b16f40e493e319e0473a7132705b58e"
+    },
+    {
+      "path": "interface-assets/hero-caelia.png",
+      "bytes": 1345114,
+      "sha256": "860c2c3cddb6c550109da79763ad06aa7468dd602d9f93a2dbcb302ec5678558"
+    },
+    {
+      "path": "interface-assets/hero-cerys.png",
+      "bytes": 898409,
+      "sha256": "ae01f84951e79280ed3d70030650189580663df65e52ed8e34446994f863e604"
+    },
+    {
+      "path": "interface-assets/hero-dax.png",
+      "bytes": 656367,
+      "sha256": "a6c2a8ca2746f0ea5c7c9679db8d6ff2f1a0d9ec347c8f21879aef35d396cdc0"
+    },
+    {
+      "path": "interface-assets/hero-iori.png",
+      "bytes": 613597,
+      "sha256": "b25a598e66371620ecd28b37e73a507a19e352c8c66faed12963c2cadc5d9d52"
+    },
+    {
+      "path": "interface-assets/hero-jianne.png",
+      "bytes": 987849,
+      "sha256": "b9e7301ae84dcc88923a5c2ffe79f8de4ca49b39801fda46fc79527f942678ed"
+    },
+    {
+      "path": "interface-assets/hero-kael.png",
+      "bytes": 865947,
+      "sha256": "de619c3514140a1df4b9241d63a65b8df09e6ce9a3c2ffea0c4154449b16c3e1"
+    },
+    {
+      "path": "interface-assets/hero-luna.png",
+      "bytes": 667276,
+      "sha256": "2d6e45f503d653f663bd4b4543f0575764384516b9062425a16bb8c30b713c05"
+    },
+    {
+      "path": "interface-assets/hero-maelin.png",
+      "bytes": 1271762,
+      "sha256": "293a974d6c56c675570b712a96755a25b0191b1f3f42c4a2e8c9cb0ec609a51e"
+    },
+    {
+      "path": "interface-assets/hero-maelis.png",
+      "bytes": 1082266,
+      "sha256": "a0580a00338e025a9d77e61ff6c6f24511de9eb6384a74e4b5bb4cc54543ba61"
+    },
+    {
+      "path": "interface-assets/hero-mika.png",
+      "bytes": 557037,
+      "sha256": "25b30593a7feed56034054d6c891865960aa0c472f0ab84e8669e97f083be6a0"
+    },
+    {
+      "path": "interface-assets/hero-nemea.png",
+      "bytes": 754000,
+      "sha256": "065f1708c77378ef6bde834712a1def26f367963d1f5db192b5a692b62fe7cdb"
+    },
+    {
+      "path": "interface-assets/hero-nerisse.png",
+      "bytes": 1355167,
+      "sha256": "db7dbdfa0a4d776f8750de20fd19e139322a8000cf8c3484d6e93939dd224a7c"
+    },
+    {
+      "path": "interface-assets/hero-nyx.png",
+      "bytes": 631380,
+      "sha256": "2854a2daa983b477fa1a9f43864238268a34c10b7be7dc046f20cf1482e1ddcb"
+    },
+    {
+      "path": "interface-assets/hero-rhea.png",
+      "bytes": 649296,
+      "sha256": "0607123e75d119f5b7d485123582d8274f564800209a50622e813a8ed14a86d7"
+    },
+    {
+      "path": "interface-assets/hero-selene.png",
+      "bytes": 626255,
+      "sha256": "823c7016e80c0c36638e38dfb66958f3363d5cbfb61c668557cd81b85d59f5a8"
+    },
+    {
+      "path": "interface-assets/hero-sevrin.png",
+      "bytes": 670223,
+      "sha256": "e2e8aa4dcb998af4869bb51ec2a715c44593ea3a9b3011397776d8fd61e87520"
+    },
+    {
+      "path": "interface-assets/hero-sivra.png",
+      "bytes": 1472134,
+      "sha256": "05c9eddae1434d0540bc7164c2416d59c680615f3828e1a6baa4aac8921f5f2b"
+    },
+    {
+      "path": "interface-assets/hero-soryn.png",
+      "bytes": 1223610,
+      "sha256": "a98c694efc1554a60c83187876ec1f926af2c17d7e4b20a44fdc107f857c108a"
+    },
+    {
+      "path": "interface-assets/hero-tamsin.png",
+      "bytes": 650617,
+      "sha256": "961e2575187f858b7b4cb170553243a827931d282de0e122018d61e967ec0bbe"
+    },
+    {
+      "path": "interface-assets/hero-thessa.png",
+      "bytes": 1114247,
+      "sha256": "92e9dd4d24397edbcae5c5615ccfad25d1db2f681649283e86f867c1e9d756a2"
+    },
+    {
+      "path": "interface-assets/hero-veloura.png",
+      "bytes": 787981,
+      "sha256": "672434e8939de2b1636a55bb42e842b1c7b59ab0c36bb7b13e29b44280631655"
+    },
+    {
+      "path": "interface-assets/hero-veyra-wick.png",
+      "bytes": 1245372,
+      "sha256": "9221c25f3b9ef9b951a068aaeca4abf26509f8891e924349689abb3e35af6ed9"
+    },
+    {
+      "path": "interface-assets/hero-veyra.png",
+      "bytes": 994573,
+      "sha256": "4ac0d5d396b3374f7fb95ccf27be1aa71d5804290703c43016a47ed6b244c707"
+    },
+    {
+      "path": "interface-assets/hero-yselle.png",
+      "bytes": 852552,
+      "sha256": "7c67bf15d177b74ffcc1eaf84549c162a91e4b13f05cb27db469c070bbff909e"
+    },
+    {
+      "path": "interface-assets/hero-zahra.png",
+      "bytes": 1021132,
+      "sha256": "6054e850a530deb057935d8ad5012a2f2d49fca6c177055bbd925a05d55ca0f7"
+    },
+    {
+      "path": "interface-assets/pixel-adela.png",
+      "bytes": 1735092,
+      "sha256": "2e832bf25719ad25249949e3dc0c75ca52e44b86894868e23f75a4fb50485be5"
+    },
+    {
+      "path": "interface-assets/pixel-astra.png",
+      "bytes": 1567427,
+      "sha256": "f10a1aa9414eb6df7aef4f318e813ee523223ad14388cc5ec880187579d7ee4f"
+    },
+    {
+      "path": "interface-assets/pixel-aveline.png",
+      "bytes": 1752582,
+      "sha256": "093c4f92e52ef0767a6060f5648fdacdd1e003cde772dd5d23d401a9e2309690"
+    },
+    {
+      "path": "interface-assets/pixel-brann.png",
+      "bytes": 1559298,
+      "sha256": "65c62e29eb8eddb76c8e9c81a1a2f75bff1d3b59283de381a3968afb99559551"
+    },
+    {
+      "path": "interface-assets/pixel-caelia.png",
+      "bytes": 1682025,
+      "sha256": "e5be1abc14d01dfde38697387059b67ad243a5d5cf8cb599dfac3a6fbfb8d865"
+    },
+    {
+      "path": "interface-assets/pixel-cerys.png",
+      "bytes": 1507899,
+      "sha256": "2cbc77b7570b7f41d8bcff87a90af41b54db96da79020d6e18ecadc959ff37a1"
+    },
+    {
+      "path": "interface-assets/pixel-dax.png",
+      "bytes": 1360722,
+      "sha256": "7048118e2f37288d29832fc7b0254d76ba12d5c6c72c1d3380280f183fd20292"
+    },
+    {
+      "path": "interface-assets/pixel-iori.png",
+      "bytes": 1468938,
+      "sha256": "faff247e9ba59ce786d77b2e110153fa1514db398feb3282e4b0d8aadb9ea230"
+    },
+    {
+      "path": "interface-assets/pixel-jianne.png",
+      "bytes": 1766663,
+      "sha256": "3ae0f5e94970c128380f6159c5baf196811024f13ca5562949ce3106fad2cc56"
+    },
+    {
+      "path": "interface-assets/pixel-kael.png",
+      "bytes": 1580695,
+      "sha256": "25085c23e4e729ea5c709c1ef8adf2648372622d8b4d348cec537ea21cabd88c"
+    },
+    {
+      "path": "interface-assets/pixel-luna.png",
+      "bytes": 1577622,
+      "sha256": "2c44fac3e4fc548d35c8f179a1a4119b8d0540b5567df787247985f55e4c4b7b"
+    },
+    {
+      "path": "interface-assets/pixel-maelin.png",
+      "bytes": 1885007,
+      "sha256": "db6c842a6f64b161e7c0ae1777b0def98454b08de4d4a5c6928c1858802d44cc"
+    },
+    {
+      "path": "interface-assets/pixel-maelis.png",
+      "bytes": 1841397,
+      "sha256": "b40631cb2c309880c0083460418e7d041b5a9ef8960960e6edb502cbfa7f6c65"
+    },
+    {
+      "path": "interface-assets/pixel-mika.png",
+      "bytes": 1424691,
+      "sha256": "27c9ecfb267ce7298af58cb0c370ecb656667d2e04678cf7c7003370e7313107"
+    },
+    {
+      "path": "interface-assets/pixel-nemea.png",
+      "bytes": 1552495,
+      "sha256": "1d3a2631f82bc64ab5b5973438b39211cce41937736f24729cbf41bebd6a341a"
+    },
+    {
+      "path": "interface-assets/pixel-nerisse.png",
+      "bytes": 1890895,
+      "sha256": "d0b8dd554d07fe0d779a0d210524a36efbf332fd4c9e92553d8fbe696de8ff51"
+    },
+    {
+      "path": "interface-assets/pixel-nyx.png",
+      "bytes": 1465512,
+      "sha256": "43d9556e6fff7edd64ff2c45485cc949bb3240e3b380101f22b92ce86f341ec7"
+    },
+    {
+      "path": "interface-assets/pixel-rhea.png",
+      "bytes": 1528115,
+      "sha256": "b0948cdc55ec291f286a616f75b064fdfb2e2e22a6c87b3284613e699b9b3d31"
+    },
+    {
+      "path": "interface-assets/pixel-selene.png",
+      "bytes": 1534264,
+      "sha256": "2b856e96a7039b69bd42d45bb501443a3469371c0404112a9eed80c2a88e8979"
+    },
+    {
+      "path": "interface-assets/pixel-sevrin.png",
+      "bytes": 1424440,
+      "sha256": "8db4ee3034291e89d55d574e9fa186cdf17b62dac6c32bb783c5c196954bb037"
+    },
+    {
+      "path": "interface-assets/pixel-sivra.png",
+      "bytes": 1961826,
+      "sha256": "d7ca8b6a094374c5d8bd602e5974757428a0969be4b775c24ba4cada0085aa6c"
+    },
+    {
+      "path": "interface-assets/pixel-soryn.png",
+      "bytes": 1836584,
+      "sha256": "a6ae18386ba2dd1662903974a224ef451e14a2a19871544fd183569473a3fd9f"
+    },
+    {
+      "path": "interface-assets/pixel-tamsin.png",
+      "bytes": 1480076,
+      "sha256": "265daf3128577685ba2646b0926c134f058caf41ddc6e30c01b71978a0a7b340"
+    },
+    {
+      "path": "interface-assets/pixel-thessa.png",
+      "bytes": 1831337,
+      "sha256": "98c101533528ca717b9e0fb47c347ade4623a5e15244e2851ea07d0849948129"
+    },
+    {
+      "path": "interface-assets/pixel-veloura.png",
+      "bytes": 1726265,
+      "sha256": "5c30c9aa8ee9205a6a9c995ed4e168c5735e95e64879cd9f82dca1accf8c1bd9"
+    },
+    {
+      "path": "interface-assets/pixel-veyra-wick.png",
+      "bytes": 1965306,
+      "sha256": "01956a1608b83db08a3f11b166b8350bd747ee800cec02c0ae2dc3f4a5024f4e"
+    },
+    {
+      "path": "interface-assets/pixel-veyra.png",
+      "bytes": 1744670,
+      "sha256": "3dff302a079dde4ffa271fd8f96a50d099584b2256fe3958a1e4b50262c70d63"
+    },
+    {
+      "path": "interface-assets/pixel-yselle.png",
+      "bytes": 1540110,
+      "sha256": "d6e13f335c3ad88a99e8fa9872eeca9898d04626e416dd26fcbc4cb1bcb6f776"
+    },
+    {
+      "path": "interface-assets/pixel-zahra.png",
+      "bytes": 1396309,
+      "sha256": "d6b68b0f96951c5b2684853fba0e93a05df167d61fe45744049546d75b3cc60c"
+    },
+    {
+      "path": "interface-designs/activities.css",
+      "bytes": 44382,
+      "sha256": "0fc655a071d50952a9b060fef632cedb2ab6d45f2c98f6c8f6b3f06e2d3067f3"
+    },
+    {
+      "path": "interface-designs/activities.js",
+      "bytes": 38183,
+      "sha256": "1df33e48799e6821aaf5e19d2054acf6010d29e33c4e6b40dc528d839a414e86"
+    },
+    {
+      "path": "interface-designs/adventures.css",
+      "bytes": 55904,
+      "sha256": "88753c4d678ef2871070f48518cdbc94cfa1fef205822701c7a28e3b55271273"
+    },
+    {
+      "path": "interface-designs/adventures.js",
+      "bytes": 86423,
+      "sha256": "74b11c61bfbfd5da9d8cc7782ec647cfc55e6d4d15f6dab6cbed80e9f1c2e455"
+    },
+    {
+      "path": "interface-designs/app.js",
+      "bytes": 23252,
+      "sha256": "0e9dd0e80d7158b9357f37159427d884e7b5a31b9390a6b1e0d5b61c1fece454"
+    },
+    {
+      "path": "interface-designs/catalog.json",
+      "bytes": 191917,
+      "sha256": "a82fa137243b7f7529f6a256107e105ab3148e3b7fffbe7235481d0260b4b07f"
+    },
+    {
+      "path": "interface-designs/collection.css",
+      "bytes": 50442,
+      "sha256": "26f5f48464fb8fbfb8dc0614b2e3a88f6de2702f524346d3fb07ddfa552e9eb6"
+    },
+    {
+      "path": "interface-designs/collection.js",
+      "bytes": 68337,
+      "sha256": "10b7e98344a1bf42b65e36d02e53e4a35e80eb04442dab04413dc85b4a090cbf"
+    },
+    {
+      "path": "interface-designs/common.css",
+      "bytes": 21620,
+      "sha256": "809f83293f378b5ee6349a283af155f4afa281453ce55221ffdc5076cb55c88e"
+    },
+    {
+      "path": "interface-designs/data.json",
+      "bytes": 1577675,
+      "sha256": "6dbdaab7c1c94c51f1943e821e81f942cb1577821a14434c497a43a3a405bb9c"
+    },
+    {
+      "path": "interface-designs/home-combat.css",
+      "bytes": 87477,
+      "sha256": "89310758440581a05ac82c4d915bbddd56f38b2fd9dc616d8d950ccf54310838"
+    },
+    {
+      "path": "interface-designs/home-combat.js",
+      "bytes": 63807,
+      "sha256": "412e6d3a58d4c91dbbf5615e58cd4cc977ee27168d98763bec986cc22f41ccff"
+    },
+    {
+      "path": "interface-designs/research.json",
+      "bytes": 11237,
+      "sha256": "246ef0ffe6bd62906b266454456eebf16709030935f975340b1f486d6f01dc3f"
+    },
+    {
+      "path": "interfaces.html",
+      "bytes": 6047,
+      "sha256": "02dca9ce60b01f59040f6e973c300a161fb0813e57431736101cc2bd84e3fd82"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -1737,8 +2739,8 @@
     },
     {
       "path": "kits.html",
-      "bytes": 342393,
-      "sha256": "00e342e8a734d39f8b2a8050f786ee799ec304b95a69da9d4793ad5c8c8a380c"
+      "bytes": 342444,
+      "sha256": "d947c687f59950a6f8989dc48a8de08124fddf43996463a0cc4077294ccfdbaa"
     },
     {
       "path": "portrait-assets/portrait-adela-illustrated-v1.png",
@@ -1942,8 +2944,8 @@
     },
     {
       "path": "portraits.html",
-      "bytes": 38470,
-      "sha256": "61c940a9138bf6dc7d7effada53585ebcd2955cd4ab92d612428d83c3280feb4"
+      "bytes": 38521,
+      "sha256": "1a3136f73b687d2688281803fd771624dfe8655f7ac700570daa1d46ef58b572"
     },
     {
       "path": "review.html",
@@ -2035,6 +3037,7 @@
       "combat.html",
       "content-balance.html",
       "enemies.html",
+      "interfaces.html",
       "kit-options/ALL_KITS.md",
       "kit-options/all-kits.json",
       "kit-options/workshop.css",
@@ -2118,6 +3121,7 @@
       "enemy-sprites/enemy-verdant-brute-pixel-v1.png",
       "enemy-sprites/enemy-void-archon-pixel-v1.png",
       "enemy-sprites/enemy-warden-kaelos-pixel-v1.png",
+      "interfaces.html",
       "kits.html",
       "review.html",
       "roselle.html"
@@ -2140,6 +3144,7 @@
       "combat-draft-assets/draft-velkara-moonfang-coarse-v1.png",
       "enemies.html",
       "formation-grids.html",
+      "interfaces.html",
       "kits.html",
       "portrait-assets/portrait-adela-illustrated-v1.png",
       "portrait-assets/portrait-astra-illustrated-v1.png",
@@ -2189,6 +3194,7 @@
       "campaign-designs.html",
       "combat.html",
       "enemies.html",
+      "interfaces.html",
       "kits.html",
       "portrait-assets/portrait-adela-illustrated-v1.png",
       "portrait-assets/portrait-astra-illustrated-v1.png",
@@ -2271,6 +3277,7 @@
       "enemy-expansion-sprites/enemy-velkara-moonfang-pixel-v1.png",
       "enemy-expansion-sprites/enemy-vespyria-moonweaver-pixel-v1.png",
       "formation-grids.html",
+      "interfaces.html",
       "kits.html",
       "review.html",
       "roselle.html",
@@ -2305,6 +3312,26 @@
       "combat.html",
       "enemies.html",
       "formation-grids.html",
+      "interfaces.html",
+      "review.html"
+    ],
+    "interfaces.html": [
+      "campaign-designs.html",
+      "combat.html",
+      "interface-designs/activities.css",
+      "interface-designs/activities.js",
+      "interface-designs/adventures.css",
+      "interface-designs/adventures.js",
+      "interface-designs/app.js",
+      "interface-designs/catalog.json",
+      "interface-designs/collection.css",
+      "interface-designs/collection.js",
+      "interface-designs/common.css",
+      "interface-designs/data.json",
+      "interface-designs/home-combat.css",
+      "interface-designs/home-combat.js",
+      "interface-designs/research.json",
+      "interfaces.html",
       "review.html"
     ],
     "kit-options/workshop.css": [],
@@ -2345,6 +3372,151 @@
     ],
     "campaign-designs/layout-e.js": [],
     "campaign-designs/layout-e.css": [],
+    "interface-designs/common.css": [],
+    "interface-designs/app.js": [
+      "interface-designs/catalog.json",
+      "interface-designs/data.json",
+      "interface-designs/research.json",
+      "interfaces.html"
+    ],
+    "interface-designs/data.json": [
+      "interface-assets/enemy-aegis-construct.png",
+      "interface-assets/enemy-archivist-nul.png",
+      "interface-assets/enemy-ashfang-stalker.png",
+      "interface-assets/enemy-bastion-kheiron.png",
+      "interface-assets/enemy-brine-slime.png",
+      "interface-assets/enemy-chrome-scout.png",
+      "interface-assets/enemy-crystal-core.png",
+      "interface-assets/enemy-drowned-regent.png",
+      "interface-assets/enemy-drowned-sentinel.png",
+      "interface-assets/enemy-ember-beast.png",
+      "interface-assets/enemy-exarch-vesper.png",
+      "interface-assets/enemy-gale-harpy.png",
+      "interface-assets/enemy-galeclaw-matriarch.png",
+      "interface-assets/enemy-helix-lancer.png",
+      "interface-assets/enemy-legate-orrix.png",
+      "interface-assets/enemy-lumen-guardian.png",
+      "interface-assets/enemy-nul-diver-leviathan.png",
+      "interface-assets/enemy-null-diver.png",
+      "interface-assets/enemy-oracle-myr.png",
+      "interface-assets/enemy-prefect-caelus.png",
+      "interface-assets/enemy-rift-drone.png",
+      "interface-assets/enemy-seraph-engine.png",
+      "interface-assets/enemy-shade-reaper.png",
+      "interface-assets/enemy-skyfang-drake.png",
+      "interface-assets/enemy-thorn-duchess.png",
+      "interface-assets/enemy-thornmaw-matriarch.png",
+      "interface-assets/enemy-tide-wraith.png",
+      "interface-assets/enemy-umbra-legate.png",
+      "interface-assets/enemy-verdant-brute.png",
+      "interface-assets/enemy-void-archon.png",
+      "interface-assets/enemy-warden-kaelos.png",
+      "interface-assets/hero-adela.png",
+      "interface-assets/hero-astra.png",
+      "interface-assets/hero-aveline.png",
+      "interface-assets/hero-brann.png",
+      "interface-assets/hero-caelia.png",
+      "interface-assets/hero-cerys.png",
+      "interface-assets/hero-dax.png",
+      "interface-assets/hero-iori.png",
+      "interface-assets/hero-jianne.png",
+      "interface-assets/hero-kael.png",
+      "interface-assets/hero-luna.png",
+      "interface-assets/hero-maelin.png",
+      "interface-assets/hero-maelis.png",
+      "interface-assets/hero-mika.png",
+      "interface-assets/hero-nemea.png",
+      "interface-assets/hero-nerisse.png",
+      "interface-assets/hero-nyx.png",
+      "interface-assets/hero-rhea.png",
+      "interface-assets/hero-selene.png",
+      "interface-assets/hero-sevrin.png",
+      "interface-assets/hero-sivra.png",
+      "interface-assets/hero-soryn.png",
+      "interface-assets/hero-tamsin.png",
+      "interface-assets/hero-thessa.png",
+      "interface-assets/hero-veloura.png",
+      "interface-assets/hero-veyra-wick.png",
+      "interface-assets/hero-veyra.png",
+      "interface-assets/hero-yselle.png",
+      "interface-assets/hero-zahra.png",
+      "interface-assets/pixel-adela.png",
+      "interface-assets/pixel-astra.png",
+      "interface-assets/pixel-aveline.png",
+      "interface-assets/pixel-brann.png",
+      "interface-assets/pixel-caelia.png",
+      "interface-assets/pixel-cerys.png",
+      "interface-assets/pixel-dax.png",
+      "interface-assets/pixel-iori.png",
+      "interface-assets/pixel-jianne.png",
+      "interface-assets/pixel-kael.png",
+      "interface-assets/pixel-luna.png",
+      "interface-assets/pixel-maelin.png",
+      "interface-assets/pixel-maelis.png",
+      "interface-assets/pixel-mika.png",
+      "interface-assets/pixel-nemea.png",
+      "interface-assets/pixel-nerisse.png",
+      "interface-assets/pixel-nyx.png",
+      "interface-assets/pixel-rhea.png",
+      "interface-assets/pixel-selene.png",
+      "interface-assets/pixel-sevrin.png",
+      "interface-assets/pixel-sivra.png",
+      "interface-assets/pixel-soryn.png",
+      "interface-assets/pixel-tamsin.png",
+      "interface-assets/pixel-thessa.png",
+      "interface-assets/pixel-veloura.png",
+      "interface-assets/pixel-veyra-wick.png",
+      "interface-assets/pixel-veyra.png",
+      "interface-assets/pixel-yselle.png",
+      "interface-assets/pixel-zahra.png",
+      "portrait-assets/portrait-adela-illustrated-v1.png",
+      "portrait-assets/portrait-astra-illustrated-v1.png",
+      "portrait-assets/portrait-aveline-illustrated-v1.png",
+      "portrait-assets/portrait-brann-illustrated-v1.png",
+      "portrait-assets/portrait-caelia-illustrated-v1.png",
+      "portrait-assets/portrait-cerys-illustrated-v1.png",
+      "portrait-assets/portrait-dax-illustrated-v1.png",
+      "portrait-assets/portrait-iori-illustrated-v1.png",
+      "portrait-assets/portrait-jianne-illustrated-v1.png",
+      "portrait-assets/portrait-kael-illustrated-v1.png",
+      "portrait-assets/portrait-luna-illustrated-v1.png",
+      "portrait-assets/portrait-maelin-illustrated-v1.png",
+      "portrait-assets/portrait-maelis-illustrated-v1.png",
+      "portrait-assets/portrait-mika-illustrated-v1.png",
+      "portrait-assets/portrait-nemea-illustrated-v1.png",
+      "portrait-assets/portrait-nerisse-illustrated-v2.png",
+      "portrait-assets/portrait-nyx-illustrated-v1.png",
+      "portrait-assets/portrait-rhea-illustrated-v1.png",
+      "portrait-assets/portrait-selene-illustrated-v1.png",
+      "portrait-assets/portrait-sevrin-illustrated-v1.png",
+      "portrait-assets/portrait-sivra-illustrated-v1.png",
+      "portrait-assets/portrait-soryn-illustrated-v1.png",
+      "portrait-assets/portrait-tamsin-illustrated-v1.png",
+      "portrait-assets/portrait-thessa-illustrated-v1.png",
+      "portrait-assets/portrait-veloura-illustrated-v1.png",
+      "portrait-assets/portrait-veyra-illustrated-v1.png",
+      "portrait-assets/portrait-veyra-wick-illustrated-v1.png",
+      "portrait-assets/portrait-yselle-illustrated-v1.png",
+      "portrait-assets/portrait-zahra-illustrated-v1.png"
+    ],
+    "interface-designs/catalog.json": [],
+    "interface-designs/research.json": [],
+    "interface-designs/home-combat.js": [],
+    "interface-designs/home-combat.css": [
+      "campaign-assets/regalia-day.png",
+      "combat-draft-assets/asterwatch-court-pixel-v1.png"
+    ],
+    "interface-designs/collection.js": [],
+    "interface-designs/collection.css": [],
+    "interface-designs/activities.js": [],
+    "interface-designs/activities.css": [
+      "campaign-assets/regalia-day.png"
+    ],
+    "interface-designs/adventures.js": [],
+    "interface-designs/adventures.css": [
+      "campaign-assets/regalia-day.png",
+      "combat-draft-assets/asterwatch-court-pixel-v1.png"
+    ],
     "sprites/candidate-roselle-vey-pixel-v5.png": [],
     "sprites/candidate-liora-fernveil-pixel-v3.png": [],
     "sprites/candidate-nyssara-silksong-pixel-v4.png": [],
@@ -2456,6 +3628,95 @@
     "campaign-assets/regalia-day.png": [],
     "campaign-assets/regalia-night.png": [],
     "campaign-assets/asterra-atlas.svg": [],
+    "interface-assets/enemy-aegis-construct.png": [],
+    "interface-assets/enemy-archivist-nul.png": [],
+    "interface-assets/enemy-ashfang-stalker.png": [],
+    "interface-assets/enemy-bastion-kheiron.png": [],
+    "interface-assets/enemy-brine-slime.png": [],
+    "interface-assets/enemy-chrome-scout.png": [],
+    "interface-assets/enemy-crystal-core.png": [],
+    "interface-assets/enemy-drowned-regent.png": [],
+    "interface-assets/enemy-drowned-sentinel.png": [],
+    "interface-assets/enemy-ember-beast.png": [],
+    "interface-assets/enemy-exarch-vesper.png": [],
+    "interface-assets/enemy-gale-harpy.png": [],
+    "interface-assets/enemy-galeclaw-matriarch.png": [],
+    "interface-assets/enemy-helix-lancer.png": [],
+    "interface-assets/enemy-legate-orrix.png": [],
+    "interface-assets/enemy-lumen-guardian.png": [],
+    "interface-assets/enemy-nul-diver-leviathan.png": [],
+    "interface-assets/enemy-null-diver.png": [],
+    "interface-assets/enemy-oracle-myr.png": [],
+    "interface-assets/enemy-prefect-caelus.png": [],
+    "interface-assets/enemy-rift-drone.png": [],
+    "interface-assets/enemy-seraph-engine.png": [],
+    "interface-assets/enemy-shade-reaper.png": [],
+    "interface-assets/enemy-skyfang-drake.png": [],
+    "interface-assets/enemy-thorn-duchess.png": [],
+    "interface-assets/enemy-thornmaw-matriarch.png": [],
+    "interface-assets/enemy-tide-wraith.png": [],
+    "interface-assets/enemy-umbra-legate.png": [],
+    "interface-assets/enemy-verdant-brute.png": [],
+    "interface-assets/enemy-void-archon.png": [],
+    "interface-assets/enemy-warden-kaelos.png": [],
+    "interface-assets/hero-adela.png": [],
+    "interface-assets/hero-astra.png": [],
+    "interface-assets/hero-aveline.png": [],
+    "interface-assets/hero-brann.png": [],
+    "interface-assets/hero-caelia.png": [],
+    "interface-assets/hero-cerys.png": [],
+    "interface-assets/hero-dax.png": [],
+    "interface-assets/hero-iori.png": [],
+    "interface-assets/hero-jianne.png": [],
+    "interface-assets/hero-kael.png": [],
+    "interface-assets/hero-luna.png": [],
+    "interface-assets/hero-maelin.png": [],
+    "interface-assets/hero-maelis.png": [],
+    "interface-assets/hero-mika.png": [],
+    "interface-assets/hero-nemea.png": [],
+    "interface-assets/hero-nerisse.png": [],
+    "interface-assets/hero-nyx.png": [],
+    "interface-assets/hero-rhea.png": [],
+    "interface-assets/hero-selene.png": [],
+    "interface-assets/hero-sevrin.png": [],
+    "interface-assets/hero-sivra.png": [],
+    "interface-assets/hero-soryn.png": [],
+    "interface-assets/hero-tamsin.png": [],
+    "interface-assets/hero-thessa.png": [],
+    "interface-assets/hero-veloura.png": [],
+    "interface-assets/hero-veyra-wick.png": [],
+    "interface-assets/hero-veyra.png": [],
+    "interface-assets/hero-yselle.png": [],
+    "interface-assets/hero-zahra.png": [],
+    "interface-assets/pixel-adela.png": [],
+    "interface-assets/pixel-astra.png": [],
+    "interface-assets/pixel-aveline.png": [],
+    "interface-assets/pixel-brann.png": [],
+    "interface-assets/pixel-caelia.png": [],
+    "interface-assets/pixel-cerys.png": [],
+    "interface-assets/pixel-dax.png": [],
+    "interface-assets/pixel-iori.png": [],
+    "interface-assets/pixel-jianne.png": [],
+    "interface-assets/pixel-kael.png": [],
+    "interface-assets/pixel-luna.png": [],
+    "interface-assets/pixel-maelin.png": [],
+    "interface-assets/pixel-maelis.png": [],
+    "interface-assets/pixel-mika.png": [],
+    "interface-assets/pixel-nemea.png": [],
+    "interface-assets/pixel-nerisse.png": [],
+    "interface-assets/pixel-nyx.png": [],
+    "interface-assets/pixel-rhea.png": [],
+    "interface-assets/pixel-selene.png": [],
+    "interface-assets/pixel-sevrin.png": [],
+    "interface-assets/pixel-sivra.png": [],
+    "interface-assets/pixel-soryn.png": [],
+    "interface-assets/pixel-tamsin.png": [],
+    "interface-assets/pixel-thessa.png": [],
+    "interface-assets/pixel-veloura.png": [],
+    "interface-assets/pixel-veyra-wick.png": [],
+    "interface-assets/pixel-veyra.png": [],
+    "interface-assets/pixel-yselle.png": [],
+    "interface-assets/pixel-zahra.png": [],
     "index.html": [
       "abilities.html",
       "campaign-designs.html",
@@ -2463,6 +3724,7 @@
       "content-balance.html",
       "enemies.html",
       "formation-grids.html",
+      "interfaces.html",
       "kit-options/workshop.css",
       "kits.html",
       "portraits.html",
@@ -2480,6 +3742,7 @@
     "The selected 3x3 Cartesian grid has nine fixed slots for five heroes; 3x2 is excluded, and prebattle-only editing preserves the selected HUD and crest controls",
     "Content and balance review contains eleven unselected hero recommendations, twelve unintegrated encounter proposals and a future test plan; explicit public fields only, no source hashes or authoring records",
     "Five campaign layout candidates share three sample chapters and72 public stage records; expanded B/C navigation preserves selection and prebattle-only formation, with 21 story-bearing stages and30 exact authored scene metadata records but no dialogue, source files or private receipt data",
+    "Whole-game interface review covers all108 audited native cells with three structural layouts per surface, four exact renderer modules and89 byte-identical existing ProjectG assets, including all29 existing native hero pixel sprites; contributor catalogs, private audit/projection receipts and competitor images remain excluded",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
