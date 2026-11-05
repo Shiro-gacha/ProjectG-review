@@ -1434,6 +1434,21 @@
       }
     ]
   },
+  "modernUiStudy": {
+    "page": "modern-ui.html",
+    "script": "modern-ui/app.js",
+    "stylesheet": "modern-ui/styles.css",
+    "views": [
+      "home",
+      "campaign",
+      "heroes"
+    ],
+    "reviewOnly": true,
+    "nativeIntegrated": false,
+    "accepted": false,
+    "realPayments": false,
+    "campaignRequiresEnergy": false
+  },
   "reviewPalettes": {
     "paletteIds": [
       "regalia",
@@ -1822,8 +1837,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 253,
-  "totalBytes": 329191532,
+  "fileCount": 256,
+  "totalBytes": 329255287,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1833,8 +1848,8 @@
     },
     {
       "path": "abilities.html",
-      "bytes": 837700,
-      "sha256": "7223d931e585d11aca8713ff10caf470a8ce9adea5139c09cda818897285ef1f"
+      "bytes": 837765,
+      "sha256": "9ed9360eb01dc83f63022169cbed6f8ea2a5616c7fa4e6e5980c6cc5759fc026"
     },
     {
       "path": "acceptance.json",
@@ -1858,8 +1873,8 @@
     },
     {
       "path": "campaign-designs.html",
-      "bytes": 5861,
-      "sha256": "df0d0bbeae5d8833bbdb050becd430cbaf02aef794594ca390a87028f407d533"
+      "bytes": 5898,
+      "sha256": "96fb351453d65a17584b8c18992c4b0ac1fd522d9120f94435fece5b46435834"
     },
     {
       "path": "campaign-designs/app.js",
@@ -2003,13 +2018,13 @@
     },
     {
       "path": "combat.html",
-      "bytes": 60705,
-      "sha256": "e244044d63530b3f9e42aa5b1f62b74a61acc4aaa64a54824ef5ebf5c5d1d7ca"
+      "bytes": 60742,
+      "sha256": "f674c354de2e797fdca6690b24d9fe4ed4d2520d1394c9d753c6322032e18a2f"
     },
     {
       "path": "content-balance.html",
-      "bytes": 84974,
-      "sha256": "e2c4374b09a6a2c3fef621014923e964922c47e335f06a47aa7143c662a6d27f"
+      "bytes": 85011,
+      "sha256": "088056bc1b2d4e5e1b4813836cf4e9c6b6e4a33401819b76404c2ad8aef09191"
     },
     {
       "path": "content-balance/review-data.json",
@@ -2018,8 +2033,8 @@
     },
     {
       "path": "enemies.html",
-      "bytes": 76332,
-      "sha256": "cc81baaa2ccc3781b8e15608dfa7c051b845c49771fd12191213a1f8d9ff63b6"
+      "bytes": 76369,
+      "sha256": "a38ee2aa0701f1ae4b3969a92eff31379929a431070815abfc545364de0d0063"
     },
     {
       "path": "enemy-expansion-sprites/enemy-frostglass-scorpion-pixel-v1.png",
@@ -2243,13 +2258,13 @@
     },
     {
       "path": "formation-grids.html",
-      "bytes": 52709,
-      "sha256": "e16fcb627b84280ed7baa2699c08fed675c9d2b18c08cc17f5dee051fdb7d760"
+      "bytes": 52746,
+      "sha256": "327718b32587487142c1638f1c7d8ce8b599bee0c1d70f0d8128fec39924fb93"
     },
     {
       "path": "index.html",
-      "bytes": 993,
-      "sha256": "3490854eb2c048a4ee266639df912ccd2452334e3e3b2f65cebd1320c40b06fa"
+      "bytes": 1034,
+      "sha256": "bc475d08bf7ab146013673155a8c67fa7eb33e919e092a98063bc09621c1c9be"
     },
     {
       "path": "interface-assets/enemy-aegis-construct.png",
@@ -2768,8 +2783,8 @@
     },
     {
       "path": "interfaces.html",
-      "bytes": 6399,
-      "sha256": "60bfae678a0a15f2e443ab520e0fb9e398838bc789276f033671a748afa90a99"
+      "bytes": 6436,
+      "sha256": "1d6808a86a29551757322329945f517c252e3ee329932495936bb4d6007139d9"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -2808,8 +2823,23 @@
     },
     {
       "path": "kits.html",
-      "bytes": 342444,
-      "sha256": "d947c687f59950a6f8989dc48a8de08124fddf43996463a0cc4077294ccfdbaa"
+      "bytes": 342481,
+      "sha256": "63d5dbac3f33deccb927a42a463c522e19b66bf6a1c4621e3f638ddb20419ce0"
+    },
+    {
+      "path": "modern-ui.html",
+      "bytes": 2744,
+      "sha256": "fbe20a1692db4b0f7e76053901d09f58eff7d0fb327015620f458d90224ebf91"
+    },
+    {
+      "path": "modern-ui/app.js",
+      "bytes": 21959,
+      "sha256": "87e863332da4f30eece323a35d318237bb5b1bfbc8dadadacb48e6b78839a901"
+    },
+    {
+      "path": "modern-ui/styles.css",
+      "bytes": 38520,
+      "sha256": "324ef47895eee9076aa8bf5867b569f00fc206dc54bd70421a28cbc838b9466c"
     },
     {
       "path": "portrait-assets/portrait-adela-illustrated-v1.png",
@@ -3013,8 +3043,8 @@
     },
     {
       "path": "portraits.html",
-      "bytes": 38521,
-      "sha256": "1a3136f73b687d2688281803fd771624dfe8655f7ac700570daa1d46ef58b572"
+      "bytes": 38558,
+      "sha256": "565b5ac1029bbbc232537fee6daa105da490cd79891fb0cded7dc8c9adcabc0a"
     },
     {
       "path": "review-palettes.css",
@@ -3028,13 +3058,13 @@
     },
     {
       "path": "review.html",
-      "bytes": 31109,
-      "sha256": "b43af1949453a7a9252f982390fe58bd541e3829a0f82a8113a99bc1d2fe4d83"
+      "bytes": 31174,
+      "sha256": "a1aa78e965cf13d711475e782f79613bc379fa5cff301cdaea4c3468d3ad24a9"
     },
     {
       "path": "roselle.html",
-      "bytes": 20273,
-      "sha256": "73103d9058358f38cf4eec88e497df767aa860f1df9abb52f5f7779059cbbd64"
+      "bytes": 20338,
+      "sha256": "8cb0d7e0d864c43f844786dc1ed135c82e2776f8f2771762062e1887f5335095"
     },
     {
       "path": "sprites/candidate-elowyn-rosemere-pixel-v3.png",
@@ -3097,6 +3127,7 @@
       "combat.html",
       "enemies.html",
       "kits.html",
+      "modern-ui.html",
       "sprites/candidate-elowyn-rosemere-pixel-v3.png",
       "sprites/candidate-isavelle-frostmere-pixel-v2.png",
       "sprites/candidate-liora-fernveil-pixel-v3.png",
@@ -3121,6 +3152,7 @@
       "kit-options/all-kits.json",
       "kit-options/workshop.css",
       "kit-options/workshop.js",
+      "modern-ui.html",
       "review.html",
       "roselle.html",
       "sprites/candidate-elowyn-rosemere-pixel-v3.png",
@@ -3142,6 +3174,7 @@
       "kit-options/roselle-assembled-kit.json",
       "kit-options/workshop.css",
       "kits.html",
+      "modern-ui.html",
       "sprites/candidate-roselle-vey-pixel-v5.png"
     ],
     "abilities.html": [
@@ -3150,7 +3183,8 @@
       "kit-options/ABILITY_CATALOGUE.md",
       "kit-options/ability-catalogue.json",
       "kit-options/workshop.css",
-      "kits.html"
+      "kits.html",
+      "modern-ui.html"
     ],
     "enemies.html": [
       "abilities.html",
@@ -3202,6 +3236,7 @@
       "enemy-sprites/enemy-warden-kaelos-pixel-v1.png",
       "interfaces.html",
       "kits.html",
+      "modern-ui.html",
       "review.html",
       "roselle.html"
     ],
@@ -3225,6 +3260,7 @@
       "formation-grids.html",
       "interfaces.html",
       "kits.html",
+      "modern-ui.html",
       "portrait-assets/portrait-adela-illustrated-v1.png",
       "portrait-assets/portrait-astra-illustrated-v1.png",
       "portrait-assets/portrait-aveline-illustrated-v1.png",
@@ -3275,6 +3311,7 @@
       "enemies.html",
       "interfaces.html",
       "kits.html",
+      "modern-ui.html",
       "portrait-assets/portrait-adela-illustrated-v1.png",
       "portrait-assets/portrait-astra-illustrated-v1.png",
       "portrait-assets/portrait-aveline-illustrated-v1.png",
@@ -3330,6 +3367,7 @@
       "combat.html",
       "enemies.html",
       "formation-grid-assets/design-a-3x3.png",
+      "modern-ui.html",
       "portrait-assets/portrait-isavelle-frostmere-illustrated-v1.png",
       "portrait-assets/portrait-liora-fernveil-illustrated-v1.png",
       "portrait-assets/portrait-nerielle-wavecrest-illustrated-v1.png",
@@ -3358,6 +3396,7 @@
       "formation-grids.html",
       "interfaces.html",
       "kits.html",
+      "modern-ui.html",
       "review.html",
       "roselle.html",
       "sprites/candidate-elowyn-rosemere-pixel-v3.png",
@@ -3393,6 +3432,7 @@
       "enemies.html",
       "formation-grids.html",
       "interfaces.html",
+      "modern-ui.html",
       "review-palettes.css",
       "review-palettes.js",
       "review.html"
@@ -3415,9 +3455,16 @@
       "interface-designs/palettes.css",
       "interface-designs/research.json",
       "interfaces.html",
+      "modern-ui.html",
       "review-palettes.css",
       "review-palettes.js",
       "review.html"
+    ],
+    "modern-ui.html": [
+      "campaign-designs.html",
+      "interfaces.html",
+      "modern-ui/app.js",
+      "modern-ui/styles.css"
     ],
     "kit-options/workshop.css": [],
     "kit-options/workshop.js": [],
@@ -3609,6 +3656,12 @@
     ],
     "review-palettes.js": [],
     "review-palettes.css": [],
+    "modern-ui/app.js": [
+      "campaign-assets/regalia-day.png",
+      "campaign-designs.html",
+      "interface-designs/data.json"
+    ],
+    "modern-ui/styles.css": [],
     "sprites/candidate-roselle-vey-pixel-v5.png": [],
     "sprites/candidate-liora-fernveil-pixel-v3.png": [],
     "sprites/candidate-nyssara-silksong-pixel-v4.png": [],
@@ -3819,6 +3872,7 @@
       "interfaces.html",
       "kit-options/workshop.css",
       "kits.html",
+      "modern-ui.html",
       "portraits.html",
       "review.html",
       "roselle.html"
@@ -3836,6 +3890,7 @@
     "Five campaign layout candidates share three sample chapters and72 public stage records; expanded B/C navigation preserves selection and prebattle-only formation, with 21 story-bearing stages and30 exact authored scene metadata records but no dialogue, source files or private receipt data",
     "Whole-game interface review covers all108 audited native cells with three structural layouts per surface, four exact renderer modules and89 byte-identical existing ProjectG assets, including all29 existing native hero pixel sprites; contributor catalogs, private audit/projection receipts and competitor images remain excluded",
     "Six finite browser-local color studies reuse the existing layouts and art; only the shared palette controller/styles and two exact module styles are added, without native rollout or acceptance",
+    "Sleek UI is a three-view Home/Campaign/Heroes direction comparison over the existing29-hero/360-stage projection and current artwork; no new data, competitor assets, native selection or rollout",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
