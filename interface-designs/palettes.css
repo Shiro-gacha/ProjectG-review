@@ -1,0 +1,381 @@
+/* Product-only skins. Shared review-palettes.css owns the five token sets.
+   Regalia deliberately matches none of these overrides. Do not map --teal,
+   --wine or the collection positive/error tokens: meters and outcome semantics
+   retain their existing colors. Artwork, actor anchors and review tools stay
+   outside this skin's selectors. */
+html:is([data-review-palette="sapphire"], [data-review-palette="amethyst"], [data-review-palette="crimson"], [data-review-palette="verdant"], [data-review-palette="rose"]) .game-view {
+  --paper: var(--pg-paper);
+  --paper-deep: var(--pg-paper-deep);
+  --ink: var(--pg-ink);
+  --muted: var(--pg-muted);
+  --gold: var(--pg-gold);
+  --line: var(--pg-line);
+  --shadow: 0 12px 30px color-mix(in srgb, var(--pg-strong) 18%, transparent);
+  --cx-line: var(--pg-line);
+  --cx-soft: var(--pg-paper-deep);
+  --act-night: var(--pg-strong);
+  --act-glass: var(--pg-paper);
+  background-color: var(--pg-bg);
+  color: var(--pg-ink);
+  accent-color: var(--pg-accent);
+}
+html:is([data-review-palette="sapphire"], [data-review-palette="amethyst"]) .game-view { color-scheme: dark; }
+html:is([data-review-palette="crimson"], [data-review-palette="verdant"], [data-review-palette="rose"]) .game-view { color-scheme: light; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ui-domain-collection { --cx-line: var(--pg-line); --cx-soft: var(--pg-paper-deep); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ui-domain-activities { --act-night: var(--pg-strong); --act-glass: var(--pg-paper); }
+
+/* Shared surfaces, chrome and readable controls. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-screen, .hc-screen, .hc-campaign, .ui-domain-activities, .cx-screen) {
+  background: linear-gradient(135deg, var(--pg-bg), var(--pg-paper-deep));
+  color: var(--pg-ink);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-screen {
+  background: linear-gradient(145deg, color-mix(in srgb, var(--pg-bg) 96%, transparent), color-mix(in srgb, var(--pg-paper-deep) 93%, transparent)), url('../campaign-assets/regalia-day.png') center / cover;
+  color: var(--pg-ink);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-header, .ux-nav) {
+  background: var(--pg-paper);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-header .ux-back, .ux-header .ux-menu) {
+  background: var(--pg-paper-deep);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-nav button { color: var(--pg-muted); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-nav button.is-active {
+  background: var(--pg-wash);
+  color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-panel, .ux-paper, .ux-card, .ux-overlay) {
+  background: var(--pg-paper);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-overlay > :is(header, footer) {
+  background: var(--pg-paper-deep);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-overlay-shade {
+  background: color-mix(in srgb, var(--pg-strong) 72%, transparent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-button, .ux-icon-button, .ux-tabs .ux-button) {
+  background: var(--pg-paper);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-button, .ux-icon-button):hover:not(:disabled) {
+  background: var(--pg-wash);
+  border-color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-primary, .ux-tabs .ux-button.is-active, .ux-tabs .ux-primary) {
+  background: var(--pg-accent);
+  color: var(--pg-accent-ink);
+  border-color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--pg-accent) 88%, var(--pg-accent-ink));
+  color: var(--pg-accent-ink);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-primary :is(small, .ux-eyebrow, .act-mark) { color: var(--pg-accent-ink); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(button, input, textarea, select, a):focus-visible {
+  outline-color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view button[aria-pressed="true"] {
+  box-shadow: inset 0 0 0 2px var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(input, textarea, select) {
+  background-color: var(--pg-paper);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-stat, .ux-empty) {
+  background: var(--pg-paper-deep);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-tag:not(.good):not(.warn):not(.dark) {
+  background: var(--pg-wash);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .ux-portrait { background: var(--pg-paper-deep); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.ux-eyebrow, .ux-wallet svg) { color: var(--pg-gold); }
+
+/* Solid contextual panels contrast with each scheme's ordinary paper. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .ux-ink, .ux-tag.dark, .hc-modal-context, .hc-hero-caption,
+  .hc-secondary-card, .hc-loot-card, .hc-story-focus > aside,
+  .hc-boss-bar, .hc-turn-order, .hc-last-action, .hc-companion-journal,
+  .cx-supply-banner, .cx-progress-track, .cx-decision-route,
+  .act-pagination, .act-raid-stage, .act-guild-banner,
+  .act-challenge-compass, .act-encounter-banner, .adv-route-board
+) {
+  background: var(--pg-strong);
+  color: var(--pg-on-strong);
+  border-color: color-mix(in srgb, var(--pg-on-strong) 28%, var(--pg-strong));
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-secondary-card, .hc-loot-card, .hc-modal-context,
+  .hc-story-focus > aside, .hc-companion-journal, .cx-supply-banner,
+  .act-raid-stage, .act-guild-banner, .act-challenge-compass,
+  .act-encounter-banner, .adv-route-board
+) :is(p, small) { color: color-mix(in srgb, var(--pg-on-strong) 82%, var(--pg-strong)); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-hero-caption, .hc-secondary-card, .hc-modal-context,
+  .hc-story-focus > aside, .hc-companion-journal, .act-guild-banner,
+  .act-challenge-compass, .act-encounter-banner, .adv-route-board
+) :is(.ux-eyebrow, h2, h3) { color: var(--pg-on-strong); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-hero-caption > span, .hc-loot-card > svg, .hc-boss-bar > small,
+  .hc-turn-order > span, .cx-progress-track, .act-guild-banner > svg,
+  .act-encounter-banner > svg
+) { color: var(--pg-gold); }
+
+/* Home, destination selection, campaign dossier and story furniture. Scenic
+   lobby/battle/result/route art is explicitly restored below the base skin. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.hc-lobby, .hc-story, .hc-result, .hc-battle) { background-color: var(--pg-bg); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-lobby { background-image: url('../campaign-assets/regalia-day.png'); background-position: center; background-size: cover; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-story { background-image: url('../campaign-assets/regalia-day.png'); background-position: center; background-size: cover; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-result { background-image: url('../campaign-assets/regalia-day.png'); background-position: center; background-size: cover; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-battle { background-image: url('../combat-draft-assets/asterwatch-court-pixel-v1.png'); background-position: center; background-size: cover; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-battle { color: var(--pg-on-strong); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-destinations > button, .hc-menu-operation, .hc-unlock-list article,
+  .hc-recovery-grid section, .hc-lobby-quick > button, .hc-chapter-card,
+  .hc-welcome, .hc-chapter-desk, .hc-today, .hc-hero-picker > button,
+  .hc-chapter-rail > button, .hc-stage-row, .hc-dossier, .hc-route-node,
+  .hc-dialogue, .hc-reading-room, .hc-formation-roster .ux-button,
+  .hc-cell, .hc-wave-count, .hc-selected-hero, .hc-skill,
+  .hc-battle-log > article, .hc-skill-inspector .hc-fact,
+  .hc-wave-timeline > article, .hc-result-party > div,
+  .hc-result-rewards, .hc-result-footer
+) {
+  background: var(--pg-paper);
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-lobby-focus, .hc-result > .hc-body
+) { background: color-mix(in srgb, var(--pg-bg) 88%, transparent); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-destination-icon, .hc-menu-operation > .hc-destination-icon,
+  .hc-route-node > b, .hc-episode-board > section, .hc-formation-grid,
+  .hc-large-crest
+) { background: var(--pg-paper-deep); color: var(--pg-gold); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-formation > .hc-body {
+  background: radial-gradient(ellipse at center, var(--pg-wash), var(--pg-bg));
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-stage-row.is-selected, .hc-route-node.current,
+  .hc-transcript article.current, .hc-cell.is-selected,
+  .hc-hero-picker > button[aria-pressed="true"],
+  .hc-formation-roster .ux-primary, .hc-skill.is-selected
+) { background: var(--pg-wash); color: var(--pg-ink); border-color: var(--pg-accent); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-chapter-rail > button[aria-pressed="true"],
+  .hc-difficulty .ux-button, .hc-chapter-card > .ux-button,
+  .hc-battle-command .ux-primary
+) { background: var(--pg-accent); color: var(--pg-accent-ink); border-color: var(--pg-accent); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-fact small, .hc-destinations small, .hc-menu-operation small,
+  .hc-chapter-card p, .hc-welcome p, .hc-campaign-title p,
+  .hc-stage-row small, .hc-dossier > p, .hc-dossier-heading > div > span,
+  .hc-dialogue > p, .hc-cell > small, .hc-cell > span:not(.hc-empty-cell)
+) { color: var(--pg-muted); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .hc-seal, .hc-chapter-meta, .hc-stage-number, .hc-chapter-rail b,
+  .hc-transcript article strong, .hc-grid-depth, .hc-skill-label,
+  .hc-wave-count > span, .hc-battle-log article > span,
+  .hc-compact-skills article > small
+) { color: var(--pg-gold); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-chapter-rail > button[aria-pressed="true"] b { color: var(--pg-accent-ink); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.hc-enemy-portrait, .hc-reward-grid > .hc-fact) {
+  background: var(--pg-paper-deep);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-skill-crest { color: var(--pg-accent); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .hc-skill.is-ultimate {
+  background: color-mix(in srgb, var(--pg-paper) 84%, var(--pg-accent));
+  color: var(--pg-ink);
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.hc-skill.is-ultimate .hc-skill-crest, .hc-skill.is-ultimate .hc-skill-label) { color: var(--pg-gold); }
+
+/* Collection, equipment and permanent rewards. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .cx-roster, .cx-search, .cx-filters .ux-button, .cx-skill,
+  .cx-slot, .cx-slot.has-gear, .cx-equipment-mannequin .cx-slot,
+  .cx-gear-tile, .cx-memory-socket, .cx-skill-sockets > article,
+  .cx-memory-card, .cx-imprint-card, .cx-resource-ledger > button,
+  .cx-forge-callout, .cx-library-intro, .cx-imprint-intro,
+  .cx-support-card, .cx-transactions, .cx-craft-options > article,
+  .cx-extraction-options > article, .cx-ledger-empty-stage,
+  .cx-ledger-empty-focus, .cx-proposed-table > article,
+  .cx-decision-context
+) { background: var(--pg-paper); color: var(--pg-ink); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .cx-rarity, .cx-upgrade-symbol, .cx-cd, .cx-set-summary,
+  .cx-set-summary strong b, .cx-compare-line, .cx-memory-cover,
+  .cx-memory-cover > span, .cx-resource-ledger > button > span,
+  .cx-ledger-journey > aside, .cx-forge-intro, .cx-picker-context,
+  .cx-library-guidance, .cx-extraction-options > .cx-run-only,
+  .cx-proposal-banner, .cx-skill-emblem
+) { background: var(--pg-paper-deep); color: var(--pg-ink); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .cx-hero-card {
+  background: linear-gradient(155deg, var(--pg-wash), var(--pg-paper));
+  color: var(--pg-ink);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .cx-gear-tile.rarity-ssr {
+  background: linear-gradient(135deg, var(--pg-paper), color-mix(in srgb, var(--pg-paper) 80%, var(--pg-gold)));
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.cx-gear-glyph, .cx-large-glyph) {
+  background: var(--pg-wash);
+  color: var(--pg-gold);
+  border-color: var(--pg-line);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .cx-gear-glyph svg, .cx-gear-rarity, .cx-preset-number,
+  .cx-forge-callout > svg, .cx-forge-crest > svg
+) { color: var(--pg-gold); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .cx-set-summary span, .cx-library-count small,
+  .cx-gear-tile > span:not(.cx-gear-glyph):not(.cx-gear-rarity)
+) { color: var(--pg-muted); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.cx-imprint-seal, .cx-support-illustration) {
+  background: linear-gradient(135deg, var(--pg-strong), color-mix(in srgb, var(--pg-strong) 75%, var(--pg-accent)));
+  color: var(--pg-on-strong);
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .cx-support-illustration b { color: var(--pg-on-strong); }
+
+/* Recruitment, supplies, assignments and mode briefings. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .act-contract, .act-contract-dock .act-contract, .act-stock-card,
+  .act-support-card, .act-mission-row, .act-guild-identity,
+  .act-member-row, .act-friend-card, .act-pool-row,
+  .act-disclosure > section, .act-reward-tier-list > div,
+  .act-tower-paging
+) { background: var(--pg-paper); color: var(--pg-ink); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .act-sigil, .act-confirm-seal, .act-challenge-emblem,
+  .act-tower-symbol, .act-rewards .act-mark
+) { background: var(--pg-wash); color: var(--pg-accent); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .act-mission-summary {
+  background: linear-gradient(100deg, var(--pg-wash), transparent);
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .act-assignment-art .act-mission-summary { background: var(--pg-paper); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .act-mission-row.is-claimed { background: var(--pg-paper-deep); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .act-wallet, .act-wallet .act-mark, .act-dialog-focus .act-result-card > div:last-child
+) { color: var(--pg-ink); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.act-wallet .act-mark svg, .act-row-index) { color: var(--pg-gold); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .act-result-card {
+  background: linear-gradient(145deg, var(--pg-wash), var(--pg-paper-deep));
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .act-recruit-focus .act-featured-hero > div, .act-result-card > div:last-child
+) { background: var(--pg-strong); color: var(--pg-on-strong); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .act-recruit-focus .act-featured-hero :is(h3, p, .ux-eyebrow) { color: var(--pg-on-strong); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.act-quartermaster .act-shop-caption, .act-dialog-illustration > span) {
+  background: linear-gradient(transparent, color-mix(in srgb, var(--pg-strong) 94%, transparent) 55%);
+  color: var(--pg-on-strong);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.act-quartermaster p, .act-showcase .act-pagination > span) { color: var(--pg-on-strong); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .act-ascent-track .act-button.ux-primary :is(.act-floor-number, strong, small, svg) { color: var(--pg-accent-ink); }
+
+/* Reminiscence, expedition choices, player forms and proposed settings. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .adv-focus-context, .adv-panel, .adv-difficulty, .adv-support,
+  .adv-training-status, .adv-drill, .adv-lab-difficulty,
+  .adv-next-room, .adv-party-member:not(.is-fallen),
+  .adv-hero-tabs > button, .adv-skill-row, .adv-record-row,
+  .adv-choice-card, .adv-profile-form, .adv-profile-icons > button,
+  .adv-art-roster button, .adv-art-controls, .adv-access-sample:not(.is-high),
+  .adv-story-row, .adv-art-sequence > button, .adv-art-caption,
+  .adv-art-cast, .adv-art-skill-ledger, .adv-category-rail,
+  .adv-preferences-controls, .adv-preferences-choices fieldset,
+  .adv-onboarding-focus > aside, .adv-lesson-progress > button,
+  .adv-roster-lesson, .adv-formation-lesson, .adv-reward-lesson > article,
+  .adv-archive-chapters > button, .adv-archive-detail,
+  .adv-archive-focus > aside
+) { background: var(--pg-paper); color: var(--pg-ink); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .adv-stat, .adv-modifier, .adv-decision-breadcrumb,
+  .adv-preferences-context, .adv-preferences-focus > aside,
+  .adv-accessibility-journey .adv-live-sample,
+  .adv-lesson-grid > div, .adv-archive-journey main > header,
+  .adv-archive-seal
+) { background: var(--pg-paper-deep); color: var(--pg-ink); border-color: var(--pg-line); }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-hero-caption {
+  background: linear-gradient(transparent, var(--pg-paper) 58%);
+  color: var(--pg-ink);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-profile-card {
+  background: linear-gradient(var(--pg-wash), var(--pg-paper));
+  color: var(--pg-ink);
+  border-color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-profile-card.frame-aurora {
+  background: linear-gradient(color-mix(in srgb, var(--pg-paper) 80%, var(--pg-gold)), var(--pg-paper));
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(
+  .adv-difficulty.is-selected, .adv-story-row.is-selected,
+  .ui-domain-adventures .is-selected,
+  .adv-art-roster > button[aria-pressed="true"],
+  .adv-art-sequence > button[aria-pressed="true"],
+  .adv-lesson-progress > button[aria-current="step"]
+) {
+  background: var(--pg-wash) !important;
+  color: var(--pg-ink);
+  border-color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.adv-tabs button[aria-current], .adv-hero-tabs > button[aria-pressed="true"]) {
+  background: var(--pg-accent);
+  color: var(--pg-accent-ink);
+  border-color: var(--pg-accent);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-route-node:not(.is-cleared) {
+  background: color-mix(in srgb, var(--pg-strong) 85%, var(--pg-paper));
+  color: var(--pg-on-strong);
+  border-color: color-mix(in srgb, var(--pg-on-strong) 28%, var(--pg-strong));
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view :is(.adv-route-node.is-available, .adv-route-track.is-mini .adv-route-node:not(.is-cleared)) {
+  background: var(--pg-paper);
+  color: var(--pg-ink);
+  border-color: var(--pg-gold);
+}
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-route-node.is-selected { color: var(--pg-ink); border-color: var(--pg-accent); }
+
+/* Preserve semantic success/danger surfaces when their surrounding paper turns
+   dark. These are the existing outcome colors, not palette accent replacements. */
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .cx-receipt { color: #24584b; --muted: #476b5d; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .cx-consequence { color: #713d38; --muted: #7b4a42; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-party-member.is-fallen { color: #713d38; }
+html[data-review-palette]:not([data-review-palette="regalia"]) .game-view .adv-calendar .is-complete { color: #fff7e4; }
+html:is([data-review-palette="sapphire"], [data-review-palette="amethyst"]) .game-view .hc-result-banner h2 { color: #9ed6b8; }
+
+/* Positive text on dark collection paper needs a lighter green. Keep the
+   underlying semantic token unchanged: pale success receipts, icons and meter
+   fills retain their original colors. Every target below uses themed dark
+   paper/paper-deep, rather than a pale success/danger surface. */
+html:is([data-review-palette="sapphire"], [data-review-palette="amethyst"]) .game-view .ui-domain-collection :is(
+  .cx-aspect,
+  .cx-level-pair strong:last-child,
+  .cx-item-mainstat > strong,
+  .cx-compare-line b,
+  .cx-library-count strong,
+  .cx-ownership,
+  .cx-resource-total,
+  .cx-wallet-inline,
+  .cx-protection-key,
+  .cx-proposed-table span:last-child,
+  .cx-set-summary span.is-live
+) { color: #8ed5bc; }

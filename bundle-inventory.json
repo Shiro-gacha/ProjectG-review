@@ -909,6 +909,16 @@
       "reviewOnly": true,
       "nativeIntegrated": false
     },
+    "paletteIds": [
+      "regalia",
+      "sapphire",
+      "amethyst",
+      "crimson",
+      "verdant",
+      "rose"
+    ],
+    "paletteCount": 6,
+    "defaultPalette": "regalia",
     "assets": [
       {
         "file": "campaign-assets/regalia-day.png",
@@ -966,6 +976,16 @@
       "hardEnergyCost": 0,
       "requiresEnergy": false
     },
+    "paletteIds": [
+      "regalia",
+      "sapphire",
+      "amethyst",
+      "crimson",
+      "verdant",
+      "rose"
+    ],
+    "paletteCount": 6,
+    "defaultPalette": "regalia",
     "assets": [
       {
         "file": "interface-assets/enemy-aegis-construct.png",
@@ -1414,6 +1434,45 @@
       }
     ]
   },
+  "reviewPalettes": {
+    "paletteIds": [
+      "regalia",
+      "sapphire",
+      "amethyst",
+      "crimson",
+      "verdant",
+      "rose"
+    ],
+    "paletteCount": 6,
+    "defaultPalette": "regalia",
+    "tokenCount": 12,
+    "pages": [
+      "campaign-designs.html",
+      "interfaces.html"
+    ],
+    "urlParameter": "palette",
+    "browserLocal": true,
+    "reviewOnly": true,
+    "nativeIntegrated": false,
+    "assets": [
+      {
+        "file": "review-palettes.js",
+        "sha256": "a26a5e7c65c1daabc8211cd913d783c2cd915a5eff348b9474be4b321c46a229"
+      },
+      {
+        "file": "review-palettes.css",
+        "sha256": "6a2b495b1c0d808258fa8a14d1c9179e218e171699851d8bfffec067460bbed1"
+      },
+      {
+        "file": "campaign-designs/palettes.css",
+        "sha256": "54c17124699a57cecda8edb07469d5b05b270ad4d85ff7b1edb97b3ec8b28bd3"
+      },
+      {
+        "file": "interface-designs/palettes.css",
+        "sha256": "d5cf2be486fc4c9f67a32aaab6c7a83434e2f66d5bee86ed77781b3f34189925"
+      }
+    ]
+  },
   "illustratedPortraits": {
     "heroCount": 40,
     "existingIdentityCount": 29,
@@ -1763,8 +1822,8 @@
       "extraTop": 48
     }
   },
-  "fileCount": 249,
-  "totalBytes": 329138110,
+  "fileCount": 253,
+  "totalBytes": 329191532,
   "unresolvedReferences": [],
   "files": [
     {
@@ -1799,13 +1858,13 @@
     },
     {
       "path": "campaign-designs.html",
-      "bytes": 5534,
-      "sha256": "b97cefc27a241f87a025a20f5d9fc6001e28bc1d1505df679d173335ac2fcfc7"
+      "bytes": 5861,
+      "sha256": "df0d0bbeae5d8833bbdb050becd430cbaf02aef794594ca390a87028f407d533"
     },
     {
       "path": "campaign-designs/app.js",
-      "bytes": 26172,
-      "sha256": "09ec49af9d3d80eb3f0f06e0e8f3b5b77739d70fdb7ebd2c207a8ed38833f7f3"
+      "bytes": 26389,
+      "sha256": "ecd58899b799bbe20a110919cd5f6fce39db9c42018fbfab97bb555f632dccb7"
     },
     {
       "path": "campaign-designs/common.css",
@@ -1866,6 +1925,11 @@
       "path": "campaign-designs/layout-e.js",
       "bytes": 3051,
       "sha256": "2a8905272287306008fa517c5cad3e3c552a90f0612c6fa7d358cb5a04aa305b"
+    },
+    {
+      "path": "campaign-designs/palettes.css",
+      "bytes": 20754,
+      "sha256": "54c17124699a57cecda8edb07469d5b05b270ad4d85ff7b1edb97b3ec8b28bd3"
     },
     {
       "path": "campaign-designs/story-index.json",
@@ -2654,8 +2718,8 @@
     },
     {
       "path": "interface-designs/app.js",
-      "bytes": 23252,
-      "sha256": "0e9dd0e80d7158b9357f37159427d884e7b5a31b9390a6b1e0d5b61c1fece454"
+      "bytes": 23378,
+      "sha256": "331726a6c0a3c5e785e7a117a7b32cd25ab1a41a149ceb6c7090ce0bda448b72"
     },
     {
       "path": "interface-designs/catalog.json",
@@ -2693,14 +2757,19 @@
       "sha256": "412e6d3a58d4c91dbbf5615e58cd4cc977ee27168d98763bec986cc22f41ccff"
     },
     {
+      "path": "interface-designs/palettes.css",
+      "bytes": 23056,
+      "sha256": "d5cf2be486fc4c9f67a32aaab6c7a83434e2f66d5bee86ed77781b3f34189925"
+    },
+    {
       "path": "interface-designs/research.json",
       "bytes": 11237,
       "sha256": "246ef0ffe6bd62906b266454456eebf16709030935f975340b1f486d6f01dc3f"
     },
     {
       "path": "interfaces.html",
-      "bytes": 6047,
-      "sha256": "02dca9ce60b01f59040f6e973c300a161fb0813e57431736101cc2bd84e3fd82"
+      "bytes": 6399,
+      "sha256": "60bfae678a0a15f2e443ab520e0fb9e398838bc789276f033671a748afa90a99"
     },
     {
       "path": "kit-options/ABILITY_CATALOGUE.md",
@@ -2946,6 +3015,16 @@
       "path": "portraits.html",
       "bytes": 38521,
       "sha256": "1a3136f73b687d2688281803fd771624dfe8655f7ac700570daa1d46ef58b572"
+    },
+    {
+      "path": "review-palettes.css",
+      "bytes": 4218,
+      "sha256": "6a2b495b1c0d808258fa8a14d1c9179e218e171699851d8bfffec067460bbed1"
+    },
+    {
+      "path": "review-palettes.js",
+      "bytes": 4372,
+      "sha256": "a26a5e7c65c1daabc8211cd913d783c2cd915a5eff348b9474be4b321c46a229"
     },
     {
       "path": "review.html",
@@ -3308,11 +3387,14 @@
       "campaign-designs/layout-d.js",
       "campaign-designs/layout-e.css",
       "campaign-designs/layout-e.js",
+      "campaign-designs/palettes.css",
       "campaign-designs/story-index.json",
       "combat.html",
       "enemies.html",
       "formation-grids.html",
       "interfaces.html",
+      "review-palettes.css",
+      "review-palettes.js",
       "review.html"
     ],
     "interfaces.html": [
@@ -3330,8 +3412,11 @@
       "interface-designs/data.json",
       "interface-designs/home-combat.css",
       "interface-designs/home-combat.js",
+      "interface-designs/palettes.css",
       "interface-designs/research.json",
       "interfaces.html",
+      "review-palettes.css",
+      "review-palettes.js",
       "review.html"
     ],
     "kit-options/workshop.css": [],
@@ -3350,6 +3435,7 @@
     "campaign-designs/app.js": [
       "combat-draft-assets/draft-seraxis-chrome-empress-coarse-v1.png"
     ],
+    "campaign-designs/palettes.css": [],
     "campaign-designs/data.json": [],
     "campaign-designs/story-index.json": [],
     "campaign-designs/layout-a.js": [],
@@ -3378,6 +3464,10 @@
       "interface-designs/data.json",
       "interface-designs/research.json",
       "interfaces.html"
+    ],
+    "interface-designs/palettes.css": [
+      "campaign-assets/regalia-day.png",
+      "combat-draft-assets/asterwatch-court-pixel-v1.png"
     ],
     "interface-designs/data.json": [
       "interface-assets/enemy-aegis-construct.png",
@@ -3517,6 +3607,8 @@
       "campaign-assets/regalia-day.png",
       "combat-draft-assets/asterwatch-court-pixel-v1.png"
     ],
+    "review-palettes.js": [],
+    "review-palettes.css": [],
     "sprites/candidate-roselle-vey-pixel-v5.png": [],
     "sprites/candidate-liora-fernveil-pixel-v3.png": [],
     "sprites/candidate-nyssara-silksong-pixel-v4.png": [],
@@ -3743,6 +3835,7 @@
     "Content and balance review contains eleven unselected hero recommendations, twelve unintegrated encounter proposals and a future test plan; explicit public fields only, no source hashes or authoring records",
     "Five campaign layout candidates share three sample chapters and72 public stage records; expanded B/C navigation preserves selection and prebattle-only formation, with 21 story-bearing stages and30 exact authored scene metadata records but no dialogue, source files or private receipt data",
     "Whole-game interface review covers all108 audited native cells with three structural layouts per surface, four exact renderer modules and89 byte-identical existing ProjectG assets, including all29 existing native hero pixel sprites; contributor catalogs, private audit/projection receipts and competitor images remain excluded",
+    "Six finite browser-local color studies reuse the existing layouts and art; only the shared palette controller/styles and two exact module styles are added, without native rollout or acceptance",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",

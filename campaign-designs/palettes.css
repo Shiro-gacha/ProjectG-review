@@ -1,0 +1,191 @@
+/* Alternate Campaign palettes. Shared review-palettes.css owns all six token sets.
+   Regalia deliberately matches no rule below: its accepted presentation is unchanged.
+   Scope is limited to the game canvas, its dialogs and the mobile deployment dock.
+   Pixel/illustrated art and semantic boss/clear markers receive no color filters. */
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy){--ivory:var(--pg-on-strong);--ink:var(--pg-ink);--muted:var(--pg-muted);--gold:var(--pg-gold);--gold-bright:var(--pg-accent);--teal:var(--pg-accent);--line:var(--pg-line);--campaign-success:#326852;--campaign-boss:#843c50;--campaign-boss-wash:#f0dce1;color:var(--pg-ink);border-color:var(--pg-line);scrollbar-color:var(--pg-line) transparent}
+
+html:is([data-review-palette="sapphire"],[data-review-palette="amethyst"]):not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy){color-scheme:dark;--campaign-success:#a9d7bd;--campaign-boss:#f3bfcb;--campaign-boss-wash:#4f2d3b}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen{background-color:var(--pg-bg)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .game-hud{background:linear-gradient(110deg,var(--pg-paper),var(--pg-paper-deep));color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.hud-title span,.currencies b){color:var(--pg-gold)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .hud-divider{background:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .hud-chapter{color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .currencies>span{background:var(--pg-paper);border-color:var(--pg-line);color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.eyebrow,.reward-list svg){color:var(--pg-gold)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.game-button,.icon-button){background:var(--pg-paper-deep);color:var(--pg-ink);border-color:var(--pg-line);box-shadow:none}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) .game-button.ghost{background:transparent;color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.paper-panel,.reward-list li,.chapter-card,.comparison-card,.story-scene-list article){background:var(--pg-paper);color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) .ink-panel{background:var(--pg-strong);color:var(--pg-on-strong);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.muted,.first-clear,.reward-list small,.comparison-card small,.story-scene-list small,.flow-steps){color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.stage-facts span,.pill,.story-scene-list article>span,.research-footer){border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) .story-scene-list article>span{color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) .flow-steps i{background:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.flow-steps .active,.flow-steps .complete,.formation-selection){color:var(--pg-accent);border-color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) .progress-track{background:color-mix(in srgb,var(--pg-line) 65%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) .progress-track i{background:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.game-button.primary,.a-deploy,.a-claim,.b-deploy-button,.bx-deploy-button,.c-enter,.cx-deploy){background:var(--pg-accent);color:var(--pg-accent-ink);border-color:var(--pg-accent);box-shadow:inset 0 1px 0 #ffffff20,0 2px 5px #00000020}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.game-button.primary,.a-deploy,.a-claim,.b-deploy-button,.bx-deploy-button,.c-enter,.cx-deploy) :is(svg,small){color:inherit}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.game-button.primary,.a-deploy,.a-claim,.b-deploy-button,.bx-deploy-button,.c-enter,.cx-deploy):disabled{background:var(--pg-paper-deep);color:var(--pg-muted);border-color:var(--pg-line);box-shadow:none}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :is(.game-button.primary,.a-deploy,.a-claim,.b-deploy-button,.bx-deploy-button,.c-enter,.cx-deploy):disabled svg{color:inherit}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) :is(#campaign-screen,#study-dialog,#mobile-deploy) :focus-visible{outline-color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.design-a,.design-e,.e-chronicle){background:var(--pg-bg);color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-cache,.a-current-stage,.a-route-panel,.b-stage-panel,.b-dossier,.bx-stage-panel,.bx-dossier,.bx-deployment,.cx-dock,.d-dock,.e-mission){background:linear-gradient(120deg,var(--pg-paper),var(--pg-paper-deep));color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-cache-icon,.a-stage-emblem,.b-chapter-glyph,.b-mission-crest,.d-dock-emblem,.cx-stage-crest:not(.boss)){background:var(--pg-wash);color:var(--pg-accent);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-stage-emblem svg,.a-stage-facts svg,.b-chapter-picker>svg,.bx-chapter-picker>svg){color:var(--pg-accent);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-cache-copy .a-chapter-kicker,.a-stage-eyebrow,.a-stage-eyebrow>span:first-child,.a-route-heading-title,.b-chapter-picker small,.bx-chapter-picker small,.b-section-heading h3,.bx-section-heading h3,.b-mission-heading p,.bx-mission-overline,.e-mission .eyebrow){color:var(--pg-gold)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-stage-copy h2,.a-stage-facts b,.b-chapter-picker,.bx-chapter-picker,.b-mission-heading h2,.bx-mission-heading h2,.b-mission-stats strong,.bx-mission-stats strong,.b-enemy-peek strong,.b-location,.bx-location,.bx-deployment-summary strong,.cx-selected-copy h3,.e-mission h3){color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-stage-facts,.a-progress-copy,.a-route-footnote,.b-progress-area,.b-route-footer small,.b-mission-stats small,.b-section-heading>span,.b-section-heading button,.b-briefing,.b-enemy-peek small,.bx-mission-traits,.bx-mission-traits>button,.bx-mission-stats small,.bx-section-heading>span,.bx-section-heading>button,.bx-briefing,.bx-reward-note,.bx-deployment-summary>span,.bx-deployment-summary small,.bx-placement-note,.bx-segment-label,.bx-list-legend,.cx-selected-state,.cx-selected-state i,.cx-selected-copy h3>span,.cx-selected-copy p,.d-selected>span:last-child,.e-mission>p,.e-mission-meta,.e-episode-footer>span i){color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-stage-eyebrow>span:nth-child(2),.b-chapter-picker,.b-route-footer,.b-mission-heading,.b-mission-stats,.b-mission-stats span,.b-deployment,.bx-chapter-picker>svg:first-child,.bx-mission-heading,.bx-mission-stats,.bx-mission-stats span,.bx-list-legend,.bx-deployment,.bx-detail-toggle){border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-current-note,.a-cleared-note,.b-stage-tag:not(.is-locked),.bx-selected-status:not(.is-locked)){color:var(--campaign-success)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-locked-note,.b-stage-tag.is-locked,.bx-selected-status.is-locked){color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-details,.a-world-map,.a-route-arrow,.b-route-arrow,.b-story-button,.e-header .game-button){background:var(--pg-paper-deep);border-color:var(--pg-line);color:var(--pg-ink);box-shadow:none}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-route-line,.bx-segment-label i){background:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-difficulty,.b-difficulties,.bx-difficulties,.c-difficulty,.cx-difficulty,.d-difficulty,.e-difficulty){background:var(--pg-paper-deep);color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-difficulty,.b-difficulties,.bx-difficulties,.c-difficulty,.cx-difficulty,.d-difficulty,.e-difficulty)>button{color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-difficulty .is-active,.b-difficulties .is-selected,.bx-difficulties .is-selected,.c-difficulty .active,.cx-difficulty .active,.d-difficulty .active,.e-difficulty .active){background:var(--pg-accent);color:var(--pg-accent-ink);box-shadow:none}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .a-stage-button:not(.selected) :is(.stage-code,.stage-state){color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .a-stage-button:not(.cleared):not(.current):not(.selected) .stage-seal{background:var(--pg-paper);color:var(--pg-muted);border-color:var(--pg-line);box-shadow:inset 0 0 0 3px var(--pg-paper-deep)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .a-stage-button.selected .stage-seal{background:var(--pg-accent);color:var(--pg-accent-ink);border-color:var(--pg-accent);box-shadow:0 0 0 3px var(--pg-wash)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .a-stage-button.selected :is(.stage-code,.stage-state){color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row){background:var(--pg-paper-deep);color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row) :is(.stage-title,.stage-code){color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row) :is(.stage-state,.bx-mark){color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row).locked :is(.stage-title,.stage-code,.stage-seal){color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row).selected{background:var(--pg-wash);color:var(--pg-ink);border-color:var(--pg-accent);box-shadow:inset 3px 0 var(--pg-accent),0 2px 7px #00000015}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row).selected :is(.stage-title,.stage-code){color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row).selected :is(.stage-seal,.stage-state,.bx-mark){color:var(--pg-accent);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-stage-row,.bx-stage-row).selected .bx-boss-mark{color:var(--campaign-boss)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-enemy-peek,.bx-locked-note){background:var(--pg-paper-deep);border-color:var(--pg-line);color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-reward-shelf,.bx-reward-section) .reward-list li{background:var(--pg-paper-deep);border-color:var(--pg-line);color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-reward-shelf,.bx-reward-section) .reward-list small{color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.b-reward-shelf,.bx-reward-section) .reward-list svg{color:var(--pg-gold)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .bx-mission-traits .bx-boss-trait{background:var(--campaign-boss-wash);color:var(--campaign-boss);border-color:var(--campaign-boss)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .bx-detail-toggle{color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .bx-route-progress>button{color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-map-medallion,.b-formation-button,.bx-formation-button,.bx-route-button,.c-route-pagination .icon-button,.cx-pagination .icon-button,.cx-campaign-link,.cx-region-link,.d-heading .game-button,.d-pagination){background:var(--pg-strong);color:var(--pg-on-strong);border-color:color-mix(in srgb,var(--pg-on-strong) 40%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.a-map-medallion svg,.a-chapter-kicker,.b-scenic-title p,.b-formation-button strong,.bx-scene-heading .eyebrow,.bx-route-button>svg,.bx-formation-button strong,.bx-formation-button>svg,.c-chapter-copy .eyebrow,.c-heading-separator,.c-selected-kicker,.cx-heading .eyebrow){color:var(--pg-on-strong)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-expedition,.cx-expedition){background-color:var(--pg-strong);color:var(--pg-on-strong)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-chapter-copy h2,.c-chapter-copy p,.c-chapter-picker,.c-route-label,.c-route-pagination,.c-party-caption,.c-party-caption span,.c-progress-block>.eyebrow,.c-progress-block .progress-block,.c-stage-summary strong,.c-selected-meta,.c-brief-button,.cx-heading h2,.cx-segment>span,.cx-segment strong,.cx-current-button,.cx-current-button svg,.cx-pagination>span,.cx-route-legend,.cx-company-label,.cx-chapter-progress,.cx-chapter-progress>span:last-child){color:var(--pg-on-strong)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-journey-footer,.cx-route-toolbar,.cx-chapter-progress){border-color:color-mix(in srgb,var(--pg-on-strong) 30%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .c-journey-footer{background:color-mix(in srgb,var(--pg-strong) 94%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-node,.cx-node){background:color-mix(in srgb,var(--pg-strong) 76%,transparent);color:var(--pg-on-strong);border-color:color-mix(in srgb,var(--pg-on-strong) 24%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-node,.cx-node) :is(.c-node-code,.c-node-title,.cx-node-code,.cx-node-title){color:var(--pg-on-strong)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-node-state,.cx-node-state){color:color-mix(in srgb,var(--pg-on-strong) 86%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-node,.cx-node).selected:not(.boss){background:color-mix(in srgb,var(--pg-strong) 90%,transparent);border-color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.c-node.selected .c-node-marker,.cx-node.selected .cx-node-marker){outline-color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .cx-stage-crest.boss{background:var(--campaign-boss-wash);color:var(--campaign-boss);border-color:var(--campaign-boss)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.cx-mission-button,.d-progress button){color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.cx-chapter-progress,.b-progress-area,.bx-route-progress) .progress-track{background:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen :is(.cx-chapter-progress,.b-progress-area,.bx-route-progress) .progress-track i{background:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .e-episode{background:var(--pg-paper);color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .e-episode .stage-seal{color:var(--pg-muted)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .e-episode.locked{background:var(--pg-paper-deep);color:var(--pg-muted);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .e-episode.selected{background:var(--pg-strong);color:var(--pg-on-strong);border-color:var(--pg-accent);box-shadow:inset 0 0 0 2px var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #campaign-screen .e-episode.selected .stage-seal{background:none;color:var(--pg-on-strong)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog{background:var(--pg-paper);color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog::backdrop{background:color-mix(in srgb,var(--pg-strong) 78%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .dialog-header{background:var(--pg-paper-deep);color:var(--pg-ink);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .dialog-header .icon-button{background:var(--pg-paper);color:var(--pg-ink)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .research-grid article{background:var(--pg-paper-deep);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .research-grid a{color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .locked-message{background:var(--pg-paper-deep);color:var(--pg-muted);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog :is(.rank-labels,.formation-cell){color:var(--pg-on-strong)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .formation-cell{background:color-mix(in srgb,var(--pg-strong) 70%,transparent);border-color:color-mix(in srgb,var(--pg-on-strong) 40%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .formation-cell.chosen{background:color-mix(in srgb,var(--pg-accent) 28%,var(--pg-strong));outline-color:var(--pg-accent);border-color:var(--pg-accent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .formation-cell.empty:after{color:color-mix(in srgb,var(--pg-on-strong) 60%,transparent)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #study-dialog .battle-banner{background:var(--pg-strong);color:var(--pg-on-strong);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #mobile-deploy[data-visible="true"]{background:var(--pg-strong);color:var(--pg-on-strong);border-color:var(--pg-line)}
+
+html[data-review-palette]:not([data-review-palette="regalia"]) #mobile-deploy :is(small,div>span){color:color-mix(in srgb,var(--pg-on-strong) 84%,transparent)}
+

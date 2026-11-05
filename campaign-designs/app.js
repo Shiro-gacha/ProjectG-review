@@ -81,8 +81,10 @@
     document.getElementById('study-mode').textContent=state.expanded?'Initial five studies':'Expanded B + C';
     document.getElementById('caption-id').textContent=state.design.toUpperCase();document.getElementById('caption-title').textContent=state.expanded?(state.design==='b'?'The scenic expedition · expanded':'The chapter route · expanded'):designs[state.design].name;document.getElementById('caption-copy').textContent=state.expanded?(state.design==='b'?'All 24 missions, authored story and boss markers, a compact briefing and battle entry. Open Chapter route to explore the same selection.':'The connected regional route keeps your selected mission and party. Return to Campaign to see its dossier, or prepare directly.'):designs[state.design].copy;
     let saved=null;try{saved=JSON.parse(localStorage.getItem(state.expanded?expandedPrefKey:prefKey));}catch{}
-    document.getElementById('saved-status').textContent=saved?.design?`Saved on this browser: ${saved.design.toUpperCase()} · ${designs[saved.design]?.short||''}`:'';
-    document.getElementById('favorite-button').textContent=saved?.design===state.design?'Preference saved ✓':'Save preference';
+    const palette=window.ProjectGPalettes?.get()||'regalia';
+    const savedPalette=window.ProjectGPalettes?.list().find(p=>p.id===(saved?.palette||'regalia'))?.name||'Asterra Regalia';
+    document.getElementById('saved-status').textContent=saved?.design?`Saved on this browser: ${saved.design.toUpperCase()} · ${designs[saved.design]?.short||''} · ${savedPalette}`:'';
+    document.getElementById('favorite-button').textContent=saved?.design===state.design&&(saved.palette||'regalia')===palette?'Preference saved ✓':'Save preference';
     document.getElementById('sample-progress').value=String(state.reached);
     const url=new URL(location.href);url.searchParams.set('design',state.design);url.searchParams.set('difficulty',state.difficulty);url.searchParams.set('progress',state.reached);url.searchParams.set('expanded',state.expanded?'1':'0');url.searchParams.set('details',state.detailsOpen?'1':'0');url.searchParams.set('stage',state.stage);history.replaceState(null,'',url);
   }
@@ -134,12 +136,13 @@
     else if(action==='enter')enter();
     else if(action==='loot')open('Your expedition cache',`<p class="eyebrow">IDLE REWARDS · PRESENTATION PREVIEW</p><h3 class="brief-title">The expedition continues</h3><p class="brief-text">Keep the existing idle cache close at hand while your party advances through the campaign.</p><p class="first-clear">This layout demonstrates the entry point only. Existing idle reward timing, caps and amounts are unchanged; this preview does not collect account rewards.</p><button class="game-button primary" data-action="cache-demo">Preview collection ${icon('chest')}</button>`);
     else if(action==='cache-demo'){close();toast('Cache collection previewed. No account rewards changed.');}
-    else if(action==='favorite'){try{localStorage.setItem(state.expanded?expandedPrefKey:prefKey,JSON.stringify({design:state.design,date:new Date().toISOString()}));render();toast(`Saved ${state.design.toUpperCase()} on this browser. The URL shares the design across devices.`);}catch{toast('Browser storage unavailable. Keep the design URL to save your preference.');}}
+    else if(action==='favorite'){try{localStorage.setItem(state.expanded?expandedPrefKey:prefKey,JSON.stringify({design:state.design,palette:window.ProjectGPalettes?.get()||'regalia',date:new Date().toISOString()}));render();toast(`Saved ${state.design.toUpperCase()} on this browser. The URL shares the design across devices.`);}catch{toast('Browser storage unavailable. Keep the design URL to save your preference.');}}
   });
   document.getElementById('sample-progress').addEventListener('change',event=>{state.reached=Number(event.target.value);state.stage=state.reached;state.page=Math.floor((stage().number-1)/8);render();});
   dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close();}});
   dialog.addEventListener('close',()=>document.body.classList.remove('dialog-open'));
   const entryObserver=new IntersectionObserver(entries=>{document.getElementById('mobile-deploy').dataset.visible=String(entries[0].isIntersecting);},{threshold:0});
   entryObserver.observe(document.getElementById('campaign-screen'));
+  document.addEventListener('projectg-palette-change',()=>render());
   render();
 }());
