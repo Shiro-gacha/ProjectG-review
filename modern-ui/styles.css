@@ -186,7 +186,7 @@ p { line-height: 1.55; }
 .mission-secondary { display: flex; gap: 8px; margin-top: 11px; }
 .mission-secondary button { font-size: 11px; padding-inline: 10px; }
 
-/* Heroes: browse eight portraits, then inspect one selected profile. */
+/* Heroes: scroll the archive independently, then inspect one selected profile. */
 .heroes-screen { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(350px, .8fr); height: 100%; min-height: 0; }
 .hero-library { display: flex; flex-direction: column; gap: 16px; padding: 24px; min-width: 0; min-height: 0; border-right: 1px solid var(--line); background: #fafcfd; }
 .library-header { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
@@ -275,6 +275,7 @@ p { line-height: 1.55; }
   .hero-card .unit-portrait { height: 115px; }
   .hero-profile { padding: 20px; }
 }
+
 @media (max-width: 800px) {
   #modern-app.modern-shell { width: calc(100% - 24px); height: auto; min-height: 700px; margin: 12px auto; }
   #screen-content { overflow: visible; }
@@ -521,4 +522,122 @@ p { line-height: 1.55; }
   .story-line { font-size: 16px; line-height: 1.75; }
   .home-screen { grid-template-rows: auto 340px auto auto; }
   .home-art { height: 340px; }
+}
+
+/* The archive keeps its own native scroll area on every screen size. The
+   filters stay above it; wheel, touch and keyboard scrolling remain native. */
+.hero-library { height: 100%; overflow: hidden; }
+.hero-grid { min-height: 0; max-height: none; grid-auto-rows: 210px; align-content: start; overflow-x: hidden; overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none; overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; touch-action: pan-y pinch-zoom; }
+.hero-grid::-webkit-scrollbar { display: none; width: 0; height: 0; }
+.hero-grid:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.hero-grid .hero-card { min-height: 210px; }
+.hero-grid .hero-card .unit-portrait { flex: 0 0 130px; }
+.hero-grid .hero-card > :is(small, strong) { flex: none; }
+.hero-profile { scrollbar-width: none; -ms-overflow-style: none; -webkit-overflow-scrolling: touch; }
+.hero-profile::-webkit-scrollbar { display: none; width: 0; height: 0; }
+.hero-library-heading { flex-shrink: 0; }
+@media (max-width: 1100px) {
+  .hero-grid { grid-auto-rows: 196px; }
+  .hero-grid .hero-card { min-height: 196px; }
+  .hero-grid .hero-card .unit-portrait { flex-basis: 115px; }
+}
+@media (max-width: 800px) {
+  .hero-library { height: min(660px, calc(100dvh - 96px)); min-height: 360px; }
+  .hero-profile { max-height: min(740px, calc(100dvh - 96px)); overflow-y: auto; }
+}
+@media (max-width: 600px) {
+  .hero-library { height: min(620px, calc(100dvh - 96px)); min-height: 360px; }
+  .hero-grid { grid-auto-rows: 180px; max-height: none; overflow-y: auto; overflow-x: hidden; }
+  .hero-grid .hero-card { min-height: 180px; }
+  .hero-grid .hero-card .unit-portrait { flex-basis: 95px; }
+  .hero-profile { max-height: min(720px, calc(100dvh - 96px)); overflow-y: auto; }
+}
+
+/* Palette selectors deliberately live on the product roots. Review controls,
+   artwork, and the unchanged Original direction keep their original colors. */
+html[data-modern-palette="sapphire"] :is(#modern-app, #modern-dialog) {
+  --bg: #0b1423; --paper: #15243a; --paper-deep: #1d3049;
+  --ink: #eef4ff; --muted: #b0c2dc; --line: #465f80;
+  --accent: #99c8f2; --accent-ink: #10243a;
+  --selected: #233b57; --selected-line: #99c8f2; --soft: #1d3049;
+  --strong: #0a172a; --on-strong: #eef4ff; --positive: #8ed5bc;
+  color-scheme: dark;
+}
+html[data-modern-palette="amethyst"] :is(#modern-app, #modern-dialog) {
+  --bg: #17121f; --paper: #272034; --paper-deep: #342a43;
+  --ink: #f5effc; --muted: #c4b7d6; --line: #675574;
+  --accent: #cfb0f1; --accent-ink: #29133c;
+  --selected: #43334f; --selected-line: #cfb0f1; --soft: #342a43;
+  --strong: #20152e; --on-strong: #fbf4ff; --positive: #8ed5bc;
+  color-scheme: dark;
+}
+html[data-modern-palette="crimson"] :is(#modern-app, #modern-dialog) {
+  --bg: #ede4df; --paper: #fbf4ea; --paper-deep: #eee0d6;
+  --ink: #442c33; --muted: #70555a; --line: #cbb5b1;
+  --accent: #812e47; --accent-ink: #fff7f3;
+  --selected: #ecd4d5; --selected-line: #812e47; --soft: #eee0d6;
+  --strong: #4c2332; --on-strong: #fff6ed; --positive: #386d5b;
+  color-scheme: light;
+}
+html[data-modern-palette="verdant"] :is(#modern-app, #modern-dialog) {
+  --bg: #e5ece5; --paper: #f5f6ea; --paper-deep: #e3e9d6;
+  --ink: #263f35; --muted: #536657; --line: #bdcbb8;
+  --accent: #376951; --accent-ink: #fff9eb;
+  --selected: #d7e6d6; --selected-line: #376951; --soft: #e3e9d6;
+  --strong: #233e33; --on-strong: #f4f3dc; --positive: #386d5b;
+  color-scheme: light;
+}
+html[data-modern-palette="rose"] :is(#modern-app, #modern-dialog) {
+  --bg: #f1e7e7; --paper: #fff5f1; --paper-deep: #f1dfdf;
+  --ink: #513744; --muted: #745461; --line: #d8b9c1;
+  --accent: #97556c; --accent-ink: #fff8f1;
+  --selected: #efd4df; --selected-line: #97556c; --soft: #f1dfdf;
+  --strong: #593447; --on-strong: #fff5ed; --positive: #386d5b;
+  color-scheme: light;
+}
+
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) { color: var(--ink); background: var(--paper); border-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) :is(input, select, textarea) { color: var(--ink); background: var(--paper); border-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) :is(input, textarea)::placeholder { color: var(--muted); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) button:hover:not(:disabled) { border-color: var(--selected-line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.home-screen, .hero-library) { background: var(--bg); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) :is(.profile-art, .profile-passive, .skill-detail, .hero-card .unit-portrait) { background: var(--paper-deep); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) :is(.hero-search, .home-hero-name, .scene-heading, .scene-title) { background: var(--paper); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.mission-card, .home-next, .hero-card, .home-shortcuts button) { border-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.hero-card.is-selected, .stage-row.is-selected) { background: var(--selected); border-color: var(--selected-line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.hero-card:hover:not(:disabled), .stage-row:hover:not(:disabled)) { background: var(--selected); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.stage-row, .mission-row) { border-bottom-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.stage-row .stage-state, .stage-row.locked, .app-balance svg) { color: var(--muted); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app .stage-row.cleared .stage-state { color: var(--positive); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app :is(.home-next-progress > i, .chapter-completion > i) { background: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app .home-next-cover { background: var(--paper-deep); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-app .home-next-cover > span { background: var(--strong); color: var(--on-strong); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) :is(.profile-passive p, .skill-detail p, .skill-description, .approach-copy p) { color: var(--muted); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) :is(#modern-app, #modern-dialog) :is(.primary-button, .primary, .button-primary):hover:not(:disabled) { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-dialog { border-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-dialog .dialog-footer { background: var(--paper-deep); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-dialog .formation-grid { background: var(--paper-deep); border-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-dialog :is(.formation-cell, .formation-grid > button) { background: var(--paper); border-color: var(--line); }
+:where(html[data-modern-palette]:not([data-modern-palette="original"])) #modern-dialog :is(.formation-cell.is-selected, .formation-grid > button[aria-pressed="true"]) { background: var(--selected); border-color: var(--selected-line); outline-color: var(--selected-line); }
+
+/* Finite scheme choices are review tools, not a second in-game navigation. */
+.modern-palette-controls { margin: 20px; padding: 18px; border: 1px solid #dce3e9; border-radius: 6px; background: #ffffff; color: #172a3d; scroll-margin-top: 16px; }
+.modern-palette-controls h2 { font-size: 18px; font-weight: 650; }
+.modern-palette-controls p { margin-top: 7px; color: #657381; font-size: 12px; }
+.modern-palette-options { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 9px; margin-top: 14px; }
+.modern-palette-option { display: flex; flex-direction: column; align-items: stretch; gap: 8px; min-width: 0; min-height: 84px; padding: 10px; border-color: #dce3e9; background: #ffffff; color: #172a3d; text-align: left; }
+.modern-palette-option strong { font-size: 12px; font-weight: 600; }
+.modern-palette-option small { color: #657381; font-size: 10px; line-height: 1.4; }
+.modern-palette-option[aria-pressed="true"] { border-color: #137e80; background: #edf7f6; box-shadow: inset 0 0 0 1px #137e80; }
+.modern-palette-option:hover:not(:disabled) { border-color: #8296bf; background: #f3f6f8; }
+.modern-palette-swatches, .modern-palette-option > span:first-child { display: flex; width: 100%; height: 24px; border-radius: 3px; overflow: hidden; border: 1px solid #172a3d20; }
+.modern-palette-swatches > *, .modern-palette-option > span:first-child > * { flex: 1; min-width: 0; height: 100%; }
+.modern-palette-footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 10px; }
+.modern-palette-footer p { margin: 0; }
+.modern-palette-footer a { display: inline-flex; align-items: center; min-height: 44px; color: #137e80; font-size: 12px; white-space: nowrap; }
+@media (max-width: 900px) { .modern-palette-options { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 600px) {
+  .modern-palette-controls { margin: 16px 14px; padding: 14px; }
+  .modern-palette-options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .modern-palette-footer { align-items: flex-start; flex-direction: column; gap: 0; }
 }

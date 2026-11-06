@@ -1447,7 +1447,19 @@
     "nativeIntegrated": false,
     "accepted": false,
     "realPayments": false,
-    "campaignRequiresEnergy": false
+    "campaignRequiresEnergy": false,
+    "palettes": [
+      "original",
+      "sapphire",
+      "amethyst",
+      "crimson",
+      "verdant",
+      "rose"
+    ],
+    "defaultPalette": "original",
+    "heroBrowsing": "vertical-scroll",
+    "heroScrollbarVisible": false,
+    "noPagination": true
   },
   "reviewPalettes": {
     "paletteIds": [
@@ -1838,7 +1850,7 @@
     }
   },
   "fileCount": 256,
-  "totalBytes": 329255287,
+  "totalBytes": 329269365,
   "unresolvedReferences": [],
   "files": [
     {
@@ -2828,18 +2840,18 @@
     },
     {
       "path": "modern-ui.html",
-      "bytes": 2744,
-      "sha256": "fbe20a1692db4b0f7e76053901d09f58eff7d0fb327015620f458d90224ebf91"
+      "bytes": 2895,
+      "sha256": "7432c0f9a8d825a6c3b66b6edfa61ab9743f463074f828fbcff03f68d6632188"
     },
     {
       "path": "modern-ui/app.js",
-      "bytes": 21959,
-      "sha256": "87e863332da4f30eece323a35d318237bb5b1bfbc8dadadacb48e6b78839a901"
+      "bytes": 25772,
+      "sha256": "cff57f87be579ed21daab783fe6a7af34ee6de1e2368d838745b91b2da99b42b"
     },
     {
       "path": "modern-ui/styles.css",
-      "bytes": 38520,
-      "sha256": "324ef47895eee9076aa8bf5867b569f00fc206dc54bd70421a28cbc838b9466c"
+      "bytes": 48634,
+      "sha256": "a17a9e685accc2dd158354f5ac2fb5752cba61136a0e6431e5395f65cb3888d4"
     },
     {
       "path": "portrait-assets/portrait-adela-illustrated-v1.png",
@@ -3890,7 +3902,7 @@
     "Five campaign layout candidates share three sample chapters and72 public stage records; expanded B/C navigation preserves selection and prebattle-only formation, with 21 story-bearing stages and30 exact authored scene metadata records but no dialogue, source files or private receipt data",
     "Whole-game interface review covers all108 audited native cells with three structural layouts per surface, four exact renderer modules and89 byte-identical existing ProjectG assets, including all29 existing native hero pixel sprites; contributor catalogs, private audit/projection receipts and competitor images remain excluded",
     "Six finite browser-local color studies reuse the existing layouts and art; only the shared palette controller/styles and two exact module styles are added, without native rollout or acceptance",
-    "Sleek UI is a three-view Home/Campaign/Heroes direction comparison over the existing29-hero/360-stage projection and current artwork; no new data, competitor assets, native selection or rollout",
+    "Sleek UI retains three review-only views, six independent finite color schemes and an unpaginated focusable hero scroll region with hidden track, over the existing29-hero/360-stage projection and art; no new data, competitor assets, native selection or rollout",
     "Forty dedicated illustrated busts match the exact29 existing/11 new identity allowlist and current canonical/gallery hashes; portrait acceptance remains pending",
     "Forty portrait faces share audited scale and alignment in the gallery and combat panel; private landmark audits remain excluded",
     "No earlier/rejected sprites, reference photos or archived candidate images",
